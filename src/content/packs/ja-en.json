@@ -1,0 +1,5511 @@
+{
+  "id": "ja-en",
+  "version": 1,
+  "targetLanguage": "Japanese",
+  "targetCode": "ja",
+  "nativeLanguage": "English",
+  "nativeCode": "en",
+  "flag": "🇯🇵",
+  "sections": [
+    {
+      "id": "ja-en:section-1",
+      "title": "Section 1: Beginner",
+      "units": [
+        {
+          "id": "ja-en:unit-1",
+          "title": "Basics 1",
+          "description": "Learn your very first Japanese words and simple sentences using です (to be), たべます (to eat), and のみます (to drink).",
+          "guidebook": "Welcome to Japanese! 🎌\n\n**People & things**\n- 男の人 (おとこのひと) means \"man\" and 女の人 (おんなのひと) means \"woman.\" For kids, use 男の子 (おとこのこ, boy) and 女の子 (おんなのこ, girl).\n- りんご (apple) and パン (bread) are written in hiragana and katakana — Japanese uses both!\n- みず (water) and ぎゅうにゅう (milk) are everyday drinks.\n\n**The verb です (desu)**\nです is like \"am/is/are.\" Attach it to a noun: りんご**です** = \"It is an apple.\" To say \"I am a student,\" use わたしは がくせいです.\n\n**Eating & drinking**\n- たべます (tabemasu) = \"eat\" → りんごを たべます = \"I eat an apple.\"\n- のみます (nomimasu) = \"drink\" → みずを のみます = \"I drink water.\"\n\n**Particles**\n- は marks the topic (\"as for me…\").\n- を marks the object of an action.\n\nTry reading each phrase out loud! がんばって!",
+          "words": [
+            {
+              "target": "男の人",
+              "native": "the man",
+              "emoji": "👨",
+              "romanization": "otoko no hito"
+            },
+            {
+              "target": "女の人",
+              "native": "the woman",
+              "emoji": "👩",
+              "romanization": "onna no hito"
+            },
+            {
+              "target": "男の子",
+              "native": "the boy",
+              "emoji": "👦",
+              "romanization": "otoko no ko"
+            },
+            {
+              "target": "女の子",
+              "native": "the girl",
+              "emoji": "👧",
+              "romanization": "onna no ko"
+            },
+            {
+              "target": "りんご",
+              "native": "the apple",
+              "emoji": "🍎",
+              "romanization": "ringo"
+            },
+            {
+              "target": "パン",
+              "native": "the bread",
+              "emoji": "🍞",
+              "romanization": "pan"
+            },
+            {
+              "target": "みず",
+              "native": "the water",
+              "emoji": "💧",
+              "romanization": "mizu"
+            },
+            {
+              "target": "ぎゅうにゅう",
+              "native": "the milk",
+              "emoji": "🥛",
+              "romanization": "gyuunyuu"
+            },
+            {
+              "target": "たべます",
+              "native": "to eat",
+              "emoji": "🍽️",
+              "romanization": "tabemasu"
+            },
+            {
+              "target": "のみます",
+              "native": "to drink",
+              "emoji": "🥤",
+              "romanization": "nomimasu"
+            },
+            {
+              "target": "です",
+              "native": "to be (polite)",
+              "emoji": "✅",
+              "romanization": "desu"
+            },
+            {
+              "target": "わたし",
+              "native": "I / me",
+              "emoji": "🙋",
+              "romanization": "watashi"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u0-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "男の人",
+                  "audioTarget": "男の人",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "女の人",
+                  "audioTarget": "女の人",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "男の子",
+                  "audioTarget": "男の子",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the man",
+                  "audioTarget": "男の人",
+                  "options": [
+                    {
+                      "text": "わたし",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "りんご",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "男の人",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "女の人",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the woman",
+                  "audioTarget": "女の人",
+                  "options": [
+                    {
+                      "text": "パン",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "りんご",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "女の人",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "男の人",
+                  "options": [
+                    {
+                      "text": "のみます"
+                    },
+                    {
+                      "text": "女の子"
+                    },
+                    {
+                      "text": "男の人"
+                    },
+                    {
+                      "text": "りんご"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "わたしは がくせいです。",
+                  "audioTarget": "わたしは がくせいです。",
+                  "tokens": [
+                    "I",
+                    "a",
+                    "man",
+                    "am",
+                    "student",
+                    "milk",
+                    "water"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "student"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "あの ひとは 男の 人です。",
+                  "audioTarget": "あの ひとは 男の 人です。",
+                  "tokens": [
+                    "eat",
+                    "is",
+                    "drink",
+                    "a",
+                    "That",
+                    "man",
+                    "an",
+                    "person"
+                  ],
+                  "answer": [
+                    "That",
+                    "person",
+                    "is",
+                    "a",
+                    "man"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u0-l0-e8",
+                  "sentence": "___がくせいです。",
+                  "translation": "I am a student.",
+                  "audioTarget": "わたしは がくせいです。",
+                  "options": [
+                    "わたし",
+                    "男の人",
+                    "わたしは",
+                    "男の子"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u0-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "男の人",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "女の人",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "男の子",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "パン",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "女の子",
+                      "native": "the girl"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u0-l0-e10",
+                  "mode": "translate",
+                  "prompt": "あの ひとは 男の 人です。",
+                  "audioTarget": "あの ひとは 男の 人です。",
+                  "answer": "That person is a man.",
+                  "alternatives": [
+                    "ano hito wa otoko no hito desu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u0-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "女の子",
+                  "audioTarget": "女の子",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "りんご",
+                  "audioTarget": "りんご",
+                  "options": [
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "パン",
+                  "audioTarget": "パン",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the girl",
+                  "audioTarget": "女の子",
+                  "options": [
+                    {
+                      "text": "女の子",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "りんご",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "男の子",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "のみます",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "りんご",
+                  "options": [
+                    {
+                      "text": "りんご",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "パン",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "たべます",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "りんご",
+                  "options": [
+                    {
+                      "text": "女の人"
+                    },
+                    {
+                      "text": "男の子"
+                    },
+                    {
+                      "text": "りんご"
+                    },
+                    {
+                      "text": "わたし"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "あの ひとは 女の 人です。",
+                  "audioTarget": "あの ひとは 女の 人です。",
+                  "tokens": [
+                    "milk",
+                    "person",
+                    "man",
+                    "water",
+                    "a",
+                    "woman",
+                    "is",
+                    "That"
+                  ],
+                  "answer": [
+                    "That",
+                    "person",
+                    "is",
+                    "a",
+                    "woman"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "あの 子は 男の 子です。",
+                  "audioTarget": "あの 子は 男の 子です。",
+                  "tokens": [
+                    "apple",
+                    "child",
+                    "boy",
+                    "is",
+                    "That",
+                    "a",
+                    "an",
+                    "am"
+                  ],
+                  "answer": [
+                    "That",
+                    "child",
+                    "is",
+                    "a",
+                    "boy"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u0-l1-e8",
+                  "sentence": "あのひとは___人です。",
+                  "translation": "That person is a woman.",
+                  "audioTarget": "あの ひとは 女の 人です。",
+                  "options": [
+                    "パン",
+                    "みず",
+                    "女の",
+                    "女の人"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u0-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "女の子",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "りんご",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "パン",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "男の人",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "わたし",
+                      "native": "I / me"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u0-l1-e10",
+                  "mode": "translate",
+                  "prompt": "あの 子は 男の 子です。",
+                  "audioTarget": "あの 子は 男の 子です。",
+                  "answer": "That child is a boy.",
+                  "alternatives": [
+                    "ano ko wa otoko no ko desu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u0-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "みず",
+                  "audioTarget": "みず",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "ぎゅうにゅう",
+                  "audioTarget": "ぎゅうにゅう",
+                  "options": [
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "たべます",
+                  "audioTarget": "たべます",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "みず",
+                  "options": [
+                    {
+                      "text": "女の人",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "わたし",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "たべます",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "ぎゅうにゅう",
+                  "options": [
+                    {
+                      "text": "ぎゅうにゅう",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "たべます",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "男の子",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "たべます",
+                  "options": [
+                    {
+                      "text": "女の人"
+                    },
+                    {
+                      "text": "たべます"
+                    },
+                    {
+                      "text": "みず"
+                    },
+                    {
+                      "text": "女の子"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "あの 子は 女の 子です。",
+                  "audioTarget": "あの 子は 女の 子です。",
+                  "tokens": [
+                    "That",
+                    "is",
+                    "a",
+                    "woman",
+                    "eat",
+                    "an",
+                    "girl",
+                    "child"
+                  ],
+                  "answer": [
+                    "That",
+                    "child",
+                    "is",
+                    "a",
+                    "girl"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "りんごを たべます。",
+                  "audioTarget": "りんごを たべます。",
+                  "tokens": [
+                    "person",
+                    "an",
+                    "eat",
+                    "man",
+                    "I",
+                    "is",
+                    "apple"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "an",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u0-l2-e8",
+                  "sentence": "___子は女の子です。",
+                  "translation": "That child is a girl.",
+                  "audioTarget": "あの 子は 女の 子です。",
+                  "options": [
+                    "です",
+                    "あの",
+                    "たべます",
+                    "りんご"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u0-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "みず",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "ぎゅうにゅう",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "たべます",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "りんご",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "です",
+                      "native": "to be (polite)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u0-l2-e10",
+                  "mode": "translate",
+                  "prompt": "りんごを たべます。",
+                  "audioTarget": "りんごを たべます。",
+                  "answer": "I eat an apple.",
+                  "alternatives": [
+                    "ringo wo tabemasu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u0-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "のみます",
+                  "audioTarget": "のみます",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "です",
+                  "audioTarget": "です",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "わたし",
+                  "audioTarget": "わたし",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to drink",
+                  "audioTarget": "のみます",
+                  "options": [
+                    {
+                      "text": "女の子",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "です",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "パン",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "のみます",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to be (polite)",
+                  "audioTarget": "です",
+                  "options": [
+                    {
+                      "text": "パン",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "わたし",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "りんご",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "です",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u0-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "のみます",
+                  "options": [
+                    {
+                      "text": "りんご"
+                    },
+                    {
+                      "text": "みず"
+                    },
+                    {
+                      "text": "のみます"
+                    },
+                    {
+                      "text": "たべます"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "パンを たべます。",
+                  "audioTarget": "パンを たべます。",
+                  "tokens": [
+                    "milk",
+                    "I",
+                    "eat",
+                    "water",
+                    "bread",
+                    "That"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u0-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "みずを のみます。",
+                  "audioTarget": "みずを のみます。",
+                  "tokens": [
+                    "am",
+                    "I",
+                    "water",
+                    "is",
+                    "drink",
+                    "a"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u0-l3-e8",
+                  "sentence": "パンを___。",
+                  "translation": "I eat bread.",
+                  "audioTarget": "パンを たべます。",
+                  "options": [
+                    "わたし",
+                    "のみます",
+                    "たべます",
+                    "です"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u0-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "のみます",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "です",
+                      "native": "to be (polite)"
+                    },
+                    {
+                      "target": "わたし",
+                      "native": "I / me"
+                    },
+                    {
+                      "target": "パン",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "ぎゅうにゅう",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u0-l3-e10",
+                  "mode": "translate",
+                  "prompt": "みずを のみます。",
+                  "audioTarget": "みずを のみます。",
+                  "answer": "I drink water.",
+                  "alternatives": [
+                    "mizu wo nomimasu"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-2",
+          "title": "Greetings",
+          "description": "Learn essential Japanese greetings and polite expressions for everyday interactions.",
+          "guidebook": "# Greetings in Japanese 🇯🇵\n\nJapanese greetings are deeply tied to **politeness levels**. The most common casual hello is **こんにちは** (konnichiwa), used mainly in the afternoon. In the morning, say **おはようございます** (ohayou gozaimasu), and at night use **こんばんは** (konbanwa).\n\nWhen meeting someone for the first time or in formal settings, use **はじめまして** (hajimemashite), meaning \"Nice to meet you,\" often followed by your name and **よろしくお願いします** (yoroshiku onegaishimasu), a versatile phrase meaning \"Please treat me well.\"\n\n**Politeness matters!** Adding **です** (desu) or **ます** (masu) makes sentences polite. For example, **ありがとう** (arigatou) is casual \"thanks,\" while **ありがとうございます** is the polite form.\n\n**Goodbyes** include **さようなら** (sayounara), often used for longer farewells, and **じゃあね** (jaa ne) for casual \"see you.\" **おやすみなさい** (oyasuminasai) means \"good night.\"\n\nRemember: bowing slightly while greeting shows respect! 🙇",
+          "words": [
+            {
+              "target": "こんにちは",
+              "native": "Hello / Good afternoon",
+              "emoji": "👋",
+              "romanization": "konnichiwa"
+            },
+            {
+              "target": "おはようございます",
+              "native": "Good morning",
+              "emoji": "🌅",
+              "romanization": "ohayou gozaimasu"
+            },
+            {
+              "target": "こんばんは",
+              "native": "Good evening",
+              "emoji": "🌙",
+              "romanization": "konbanwa"
+            },
+            {
+              "target": "おやすみなさい",
+              "native": "Good night",
+              "emoji": "😴",
+              "romanization": "oyasuminasai"
+            },
+            {
+              "target": "さようなら",
+              "native": "Goodbye",
+              "emoji": "👋",
+              "romanization": "sayounara"
+            },
+            {
+              "target": "はじめまして",
+              "native": "Nice to meet you",
+              "emoji": "🤝",
+              "romanization": "hajimemashite"
+            },
+            {
+              "target": "ありがとう",
+              "native": "Thank you",
+              "emoji": "🙏",
+              "romanization": "arigatou"
+            },
+            {
+              "target": "ありがとうございます",
+              "native": "Thank you (polite)",
+              "emoji": "🙇",
+              "romanization": "arigatou gozaimasu"
+            },
+            {
+              "target": "すみません",
+              "native": "Excuse me / Sorry",
+              "emoji": "😅",
+              "romanization": "sumimasen"
+            },
+            {
+              "target": "お願いします",
+              "native": "Please",
+              "emoji": "🙏",
+              "romanization": "onegaishimasu"
+            },
+            {
+              "target": "はい",
+              "native": "Yes",
+              "emoji": "✅",
+              "romanization": "hai"
+            },
+            {
+              "target": "いいえ",
+              "native": "No",
+              "emoji": "❌",
+              "romanization": "iie"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u1-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "こんにちは",
+                  "audioTarget": "こんにちは",
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Hello / Good afternoon",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Excuse me / Sorry",
+                      "emoji": "😅"
+                    },
+                    {
+                      "text": "Goodbye",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "おはようございます",
+                  "audioTarget": "おはようございます",
+                  "options": [
+                    {
+                      "text": "Please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "Goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "Nice to meet you",
+                      "emoji": "🤝"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "こんばんは",
+                  "audioTarget": "こんばんは",
+                  "options": [
+                    {
+                      "text": "Good night",
+                      "emoji": "😴"
+                    },
+                    {
+                      "text": "Please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "Good evening",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "Hello / Good afternoon",
+                  "audioTarget": "こんにちは",
+                  "options": [
+                    {
+                      "text": "ありがとう",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "こんにちは",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "さようなら",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "おはようございます",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Good morning",
+                  "audioTarget": "おはようございます",
+                  "options": [
+                    {
+                      "text": "はじめまして",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "すみません",
+                      "emoji": "😅"
+                    },
+                    {
+                      "text": "こんにちは",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "おはようございます",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "こんにちは",
+                  "options": [
+                    {
+                      "text": "すみません"
+                    },
+                    {
+                      "text": "こんにちは"
+                    },
+                    {
+                      "text": "はい"
+                    },
+                    {
+                      "text": "ありがとうございます"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "はじめまして。よろしくお願いします。",
+                  "audioTarget": "はじめまして。よろしくお願いします。",
+                  "tokens": [
+                    "me",
+                    "treat",
+                    "well",
+                    "Nice",
+                    "Please",
+                    "to",
+                    "morning",
+                    "you",
+                    "meet",
+                    "Hello",
+                    "see"
+                  ],
+                  "answer": [
+                    "Nice",
+                    "to",
+                    "meet",
+                    "you",
+                    "Please",
+                    "treat",
+                    "me",
+                    "well"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "おはようございます。",
+                  "audioTarget": "おはようございます。",
+                  "tokens": [
+                    "treat",
+                    "Thank",
+                    "Good",
+                    "meet",
+                    "morning"
+                  ],
+                  "answer": [
+                    "Good",
+                    "morning"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u1-l0-e8",
+                  "sentence": "はじめまして。よろしくお願いします。",
+                  "translation": "Nice to meet you. Please treat me well.",
+                  "audioTarget": "はじめまして。よろしくお願いします。",
+                  "options": [
+                    "はじめましてよろしくお願いします",
+                    "はい",
+                    "すみません",
+                    "ありがとう"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u1-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "こんにちは",
+                      "native": "Hello / Good afternoon"
+                    },
+                    {
+                      "target": "おはようございます",
+                      "native": "Good morning"
+                    },
+                    {
+                      "target": "こんばんは",
+                      "native": "Good evening"
+                    },
+                    {
+                      "target": "ありがとう",
+                      "native": "Thank you"
+                    },
+                    {
+                      "target": "はい",
+                      "native": "Yes"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u1-l0-e10",
+                  "mode": "translate",
+                  "prompt": "おはようございます。",
+                  "audioTarget": "おはようございます。",
+                  "answer": "Good morning.",
+                  "alternatives": [
+                    "Ohayou gozaimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u1-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "おやすみなさい",
+                  "audioTarget": "おやすみなさい",
+                  "options": [
+                    {
+                      "text": "Good evening",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "Hello / Good afternoon",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Good night",
+                      "emoji": "😴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "さようなら",
+                  "audioTarget": "さようなら",
+                  "options": [
+                    {
+                      "text": "No",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "Goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "はじめまして",
+                  "audioTarget": "はじめまして",
+                  "options": [
+                    {
+                      "text": "Nice to meet you",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Thank you (polite)",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "Good night",
+                  "audioTarget": "おやすみなさい",
+                  "options": [
+                    {
+                      "text": "こんにちは",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "こんばんは",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "はい",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "おやすみなさい",
+                      "emoji": "😴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Goodbye",
+                  "audioTarget": "さようなら",
+                  "options": [
+                    {
+                      "text": "さようなら",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "はい",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "こんにちは",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "ありがとうございます",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "さようなら",
+                  "options": [
+                    {
+                      "text": "すみません"
+                    },
+                    {
+                      "text": "お願いします"
+                    },
+                    {
+                      "text": "いいえ"
+                    },
+                    {
+                      "text": "さようなら"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "こんにちは、お元気ですか？",
+                  "audioTarget": "こんにちは、お元気ですか？",
+                  "tokens": [
+                    "Hello",
+                    "Excuse",
+                    "you",
+                    "are",
+                    "please",
+                    "understand",
+                    "how"
+                  ],
+                  "answer": [
+                    "Hello",
+                    "how",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "元気です、ありがとう。",
+                  "audioTarget": "元気です、ありがとう。",
+                  "tokens": [
+                    "thank",
+                    "Im",
+                    "you",
+                    "dont",
+                    "Goodbye",
+                    "Excuse",
+                    "fine"
+                  ],
+                  "answer": [
+                    "Im",
+                    "fine",
+                    "thank",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u1-l1-e8",
+                  "sentence": "こんにちは、お元気ですか？",
+                  "translation": "Hello, how are you?",
+                  "audioTarget": "こんにちは、お元気ですか？",
+                  "options": [
+                    "こんにちはお元気ですか",
+                    "こんにちは",
+                    "さようなら",
+                    "いいえ"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u1-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "おやすみなさい",
+                      "native": "Good night"
+                    },
+                    {
+                      "target": "さようなら",
+                      "native": "Goodbye"
+                    },
+                    {
+                      "target": "はじめまして",
+                      "native": "Nice to meet you"
+                    },
+                    {
+                      "target": "いいえ",
+                      "native": "No"
+                    },
+                    {
+                      "target": "ありがとうございます",
+                      "native": "Thank you (polite)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u1-l1-e10",
+                  "mode": "translate",
+                  "prompt": "元気です、ありがとう。",
+                  "audioTarget": "元気です、ありがとう。",
+                  "answer": "I'm fine, thank you.",
+                  "alternatives": [
+                    "Genki desu, arigatou."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u1-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "ありがとう",
+                  "audioTarget": "ありがとう",
+                  "options": [
+                    {
+                      "text": "Nice to meet you",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Thank you",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "Good evening",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "ありがとうございます",
+                  "audioTarget": "ありがとうございます",
+                  "options": [
+                    {
+                      "text": "Hello / Good afternoon",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Good evening",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "Thank you (polite)",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Thank you",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "すみません",
+                  "audioTarget": "すみません",
+                  "options": [
+                    {
+                      "text": "Excuse me / Sorry",
+                      "emoji": "😅"
+                    },
+                    {
+                      "text": "Thank you (polite)",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Good night",
+                      "emoji": "😴"
+                    },
+                    {
+                      "text": "Good evening",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "Thank you",
+                  "audioTarget": "ありがとう",
+                  "options": [
+                    {
+                      "text": "ありがとう",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "こんにちは",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "ありがとうございます",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "さようなら",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Thank you (polite)",
+                  "audioTarget": "ありがとうございます",
+                  "options": [
+                    {
+                      "text": "さようなら",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "ありがとうございます",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "すみません",
+                      "emoji": "😅"
+                    },
+                    {
+                      "text": "お願いします",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "すみません",
+                  "options": [
+                    {
+                      "text": "ありがとう"
+                    },
+                    {
+                      "text": "さようなら"
+                    },
+                    {
+                      "text": "すみません"
+                    },
+                    {
+                      "text": "こんばんは"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "ありがとうございます。",
+                  "audioTarget": "ありがとうございます。",
+                  "tokens": [
+                    "say",
+                    "very",
+                    "it",
+                    "morning",
+                    "Thank",
+                    "much",
+                    "you"
+                  ],
+                  "answer": [
+                    "Thank",
+                    "you",
+                    "very",
+                    "much"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "すみません、もう一度お願いします。",
+                  "audioTarget": "すみません、もう一度お願いします。",
+                  "tokens": [
+                    "please",
+                    "say",
+                    "it",
+                    "much",
+                    "Im",
+                    "again",
+                    "Excuse",
+                    "treat",
+                    "me"
+                  ],
+                  "answer": [
+                    "Excuse",
+                    "me",
+                    "please",
+                    "say",
+                    "it",
+                    "again"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u1-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Thank you very much.",
+                  "audioTarget": "ありがとうございます。",
+                  "options": [
+                    "ありがとうございます",
+                    "いいえ",
+                    "こんばんは",
+                    "ありがとう"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u1-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "ありがとう",
+                      "native": "Thank you"
+                    },
+                    {
+                      "target": "ありがとうございます",
+                      "native": "Thank you (polite)"
+                    },
+                    {
+                      "target": "すみません",
+                      "native": "Excuse me / Sorry"
+                    },
+                    {
+                      "target": "こんにちは",
+                      "native": "Hello / Good afternoon"
+                    },
+                    {
+                      "target": "おはようございます",
+                      "native": "Good morning"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u1-l2-e10",
+                  "mode": "translate",
+                  "prompt": "すみません、もう一度お願いします。",
+                  "audioTarget": "すみません、もう一度お願いします。",
+                  "answer": "Excuse me, please say it again.",
+                  "alternatives": [
+                    "Sumimasen, mou ichido onegaishimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u1-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "お願いします",
+                  "audioTarget": "お願いします",
+                  "options": [
+                    {
+                      "text": "Thank you (polite)",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "Please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "Good evening",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "はい",
+                  "audioTarget": "はい",
+                  "options": [
+                    {
+                      "text": "Hello / Good afternoon",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "Goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "いいえ",
+                  "audioTarget": "いいえ",
+                  "options": [
+                    {
+                      "text": "Goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "No",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "Good morning",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "Please",
+                  "audioTarget": "お願いします",
+                  "options": [
+                    {
+                      "text": "おはようございます",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "こんばんは",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "ありがとうございます",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "お願いします",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Yes",
+                  "audioTarget": "はい",
+                  "options": [
+                    {
+                      "text": "おやすみなさい",
+                      "emoji": "😴"
+                    },
+                    {
+                      "text": "はい",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "おはようございます",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "お願いします",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u1-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "お願いします",
+                  "options": [
+                    {
+                      "text": "すみません"
+                    },
+                    {
+                      "text": "お願いします"
+                    },
+                    {
+                      "text": "こんにちは"
+                    },
+                    {
+                      "text": "いいえ"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "おやすみなさい。",
+                  "audioTarget": "おやすみなさい。",
+                  "tokens": [
+                    "night",
+                    "please",
+                    "I",
+                    "Good",
+                    "Excuse"
+                  ],
+                  "answer": [
+                    "Good",
+                    "night"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u1-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "さようなら、また明日。",
+                  "audioTarget": "さようなら、また明日。",
+                  "tokens": [
+                    "Hello",
+                    "you",
+                    "tomorrow",
+                    "dont",
+                    "No",
+                    "see",
+                    "Goodbye"
+                  ],
+                  "answer": [
+                    "Goodbye",
+                    "see",
+                    "you",
+                    "tomorrow"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u1-l3-e8",
+                  "sentence": "___。",
+                  "translation": "Good night.",
+                  "audioTarget": "おやすみなさい。",
+                  "options": [
+                    "おやすみなさい",
+                    "さようなら",
+                    "ありがとうございます",
+                    "お願いします"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u1-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "お願いします",
+                      "native": "Please"
+                    },
+                    {
+                      "target": "はい",
+                      "native": "Yes"
+                    },
+                    {
+                      "target": "いいえ",
+                      "native": "No"
+                    },
+                    {
+                      "target": "ありがとうございます",
+                      "native": "Thank you (polite)"
+                    },
+                    {
+                      "target": "はじめまして",
+                      "native": "Nice to meet you"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u1-l3-e10",
+                  "mode": "translate",
+                  "prompt": "さようなら、また明日。",
+                  "audioTarget": "さようなら、また明日。",
+                  "answer": "Goodbye, see you tomorrow.",
+                  "alternatives": [
+                    "Sayounara, mata ashita."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-3",
+          "title": "Food",
+          "description": "Learn essential Japanese words for common foods and drinks, plus how to say you want to eat and drink them.",
+          "guidebook": "Welcome to the Food unit! 🍱\n\nIn this unit, you'll learn common food and drink vocabulary. Japanese nouns don't have articles like \"a\" or \"the,\" so コーヒー means both \"coffee\" and \"the coffee.\"\n\n**Wanting things** uses the verb ほしい (hoshii). To say \"I want coffee,\" say コーヒーがほしい (kōhī ga hoshii). The particle **が (ga)** marks what you want.\n\n**Eating and drinking** use 食べる (taberu, \"to eat\") and 飲む (nomu, \"to drink\"). To say \"I eat rice,\" use ごはんをたべる (gohan o taberu). The particle **を (o)** marks the direct object.\n\n**Polite form**: Adding ます (masu) makes sentences polite. のみます (nomimasu) = \"drink (polite).\"\n\n**Word order** is Subject + Object + Verb: わたしはパンをたべます (Watashi wa pan o tabemasu) = \"I eat bread.\"\n\nEnjoy your meal — itadakimasu! 🍣",
+          "words": [
+            {
+              "target": "コーヒー",
+              "native": "the coffee",
+              "emoji": "☕",
+              "romanization": "kōhī"
+            },
+            {
+              "target": "おちゃ",
+              "native": "the tea",
+              "emoji": "🍵",
+              "romanization": "ocha"
+            },
+            {
+              "target": "ジュース",
+              "native": "the juice",
+              "emoji": "🧃",
+              "romanization": "jūsu"
+            },
+            {
+              "target": "みず",
+              "native": "the water",
+              "emoji": "💧",
+              "romanization": "mizu"
+            },
+            {
+              "target": "ごはん",
+              "native": "the rice",
+              "emoji": "🍚",
+              "romanization": "gohan"
+            },
+            {
+              "target": "パン",
+              "native": "the bread",
+              "emoji": "🍞",
+              "romanization": "pan"
+            },
+            {
+              "target": "たまご",
+              "native": "the egg",
+              "emoji": "🥚",
+              "romanization": "tamago"
+            },
+            {
+              "target": "チーズ",
+              "native": "the cheese",
+              "emoji": "🧀",
+              "romanization": "chīzu"
+            },
+            {
+              "target": "くだもの",
+              "native": "the fruit",
+              "emoji": "🍎",
+              "romanization": "kudamono"
+            },
+            {
+              "target": "さかな",
+              "native": "the fish",
+              "emoji": "🐟",
+              "romanization": "sakana"
+            },
+            {
+              "target": "にく",
+              "native": "the meat",
+              "emoji": "🥩",
+              "romanization": "niku"
+            },
+            {
+              "target": "ケーキ",
+              "native": "the cake",
+              "emoji": "🍰",
+              "romanization": "kēki"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u2-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "コーヒー",
+                  "audioTarget": "コーヒー",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "おちゃ",
+                  "audioTarget": "おちゃ",
+                  "options": [
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "ジュース",
+                  "audioTarget": "ジュース",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the coffee",
+                  "audioTarget": "コーヒー",
+                  "options": [
+                    {
+                      "text": "くだもの",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "チーズ",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "コーヒー",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "ジュース",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the tea",
+                  "audioTarget": "おちゃ",
+                  "options": [
+                    {
+                      "text": "おちゃ",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "くだもの",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "にく",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "コーヒー",
+                  "options": [
+                    {
+                      "text": "ごはん"
+                    },
+                    {
+                      "text": "にく"
+                    },
+                    {
+                      "text": "コーヒー"
+                    },
+                    {
+                      "text": "たまご"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "コーヒーがのみたいです。",
+                  "audioTarget": "コーヒーがのみたいです。",
+                  "tokens": [
+                    "tea",
+                    "fruit",
+                    "rice",
+                    "coffee",
+                    "drink",
+                    "want",
+                    "to",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "drink",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "ごはんをたべます。",
+                  "audioTarget": "ごはんをたべます。",
+                  "tokens": [
+                    "eat",
+                    "delicious",
+                    "rice",
+                    "to",
+                    "I",
+                    "like"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "rice"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u2-l0-e8",
+                  "sentence": "___。",
+                  "translation": "I want to drink coffee.",
+                  "audioTarget": "コーヒーがのみたいです。",
+                  "options": [
+                    "コーヒーがのみたいです",
+                    "コーヒー",
+                    "おちゃ",
+                    "くだもの"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u2-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "コーヒー",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "おちゃ",
+                      "native": "the tea"
+                    },
+                    {
+                      "target": "ジュース",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "さかな",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "くだもの",
+                      "native": "the fruit"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u2-l0-e10",
+                  "mode": "translate",
+                  "prompt": "ごはんをたべます。",
+                  "audioTarget": "ごはんをたべます。",
+                  "answer": "I eat rice.",
+                  "alternatives": [
+                    "Gohan o tabemasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u2-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "みず",
+                  "audioTarget": "みず",
+                  "options": [
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "ごはん",
+                  "audioTarget": "ごはん",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "パン",
+                  "audioTarget": "パン",
+                  "options": [
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "みず",
+                  "options": [
+                    {
+                      "text": "チーズ",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "ごはん",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "にく",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rice",
+                  "audioTarget": "ごはん",
+                  "options": [
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "くだもの",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "ごはん",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "ケーキ",
+                      "emoji": "🍰"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "ごはん",
+                  "options": [
+                    {
+                      "text": "みず"
+                    },
+                    {
+                      "text": "さかな"
+                    },
+                    {
+                      "text": "チーズ"
+                    },
+                    {
+                      "text": "ごはん"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "みずをください。",
+                  "audioTarget": "みずをください。",
+                  "tokens": [
+                    "please",
+                    "delicious",
+                    "eat",
+                    "The",
+                    "Water"
+                  ],
+                  "answer": [
+                    "Water",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "たまごがすきです。",
+                  "audioTarget": "たまごがすきです。",
+                  "tokens": [
+                    "like",
+                    "eggs",
+                    "I",
+                    "juice",
+                    "coffee",
+                    "rice"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "eggs"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u2-l1-e8",
+                  "sentence": "___。",
+                  "translation": "Water, please.",
+                  "audioTarget": "みずをください。",
+                  "options": [
+                    "くだもの",
+                    "にく",
+                    "ごはん",
+                    "みずをください"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u2-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "みず",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "ごはん",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "パン",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "さかな",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "にく",
+                      "native": "the meat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u2-l1-e10",
+                  "mode": "translate",
+                  "prompt": "たまごがすきです。",
+                  "audioTarget": "たまごがすきです。",
+                  "answer": "I like eggs.",
+                  "alternatives": [
+                    "Tamago ga suki desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u2-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "たまご",
+                  "audioTarget": "たまご",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "チーズ",
+                  "audioTarget": "チーズ",
+                  "options": [
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "くだもの",
+                  "audioTarget": "くだもの",
+                  "options": [
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the egg",
+                  "audioTarget": "たまご",
+                  "options": [
+                    {
+                      "text": "おちゃ",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "ごはん",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "たまご",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "にく",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cheese",
+                  "audioTarget": "チーズ",
+                  "options": [
+                    {
+                      "text": "パン",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "ジュース",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "チーズ",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "にく",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "くだもの",
+                  "options": [
+                    {
+                      "text": "みず"
+                    },
+                    {
+                      "text": "くだもの"
+                    },
+                    {
+                      "text": "パン"
+                    },
+                    {
+                      "text": "チーズ"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "パンをたべました。",
+                  "audioTarget": "パンをたべました。",
+                  "tokens": [
+                    "delicious",
+                    "bread",
+                    "I",
+                    "ate",
+                    "drink",
+                    "The"
+                  ],
+                  "answer": [
+                    "I",
+                    "ate",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "ジュースをのみます。",
+                  "audioTarget": "ジュースをのみます。",
+                  "tokens": [
+                    "want",
+                    "I",
+                    "like",
+                    "drink",
+                    "fruit",
+                    "juice"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "juice"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u2-l2-e8",
+                  "sentence": "___。",
+                  "translation": "I ate bread.",
+                  "audioTarget": "パンをたべました。",
+                  "options": [
+                    "たまご",
+                    "にく",
+                    "パンをたべました",
+                    "パン"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u2-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "たまご",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "チーズ",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "くだもの",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "ごはん",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "パン",
+                      "native": "the bread"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u2-l2-e10",
+                  "mode": "translate",
+                  "prompt": "ジュースをのみます。",
+                  "audioTarget": "ジュースをのみます。",
+                  "answer": "I drink juice.",
+                  "alternatives": [
+                    "Jūsu o nomimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u2-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "さかな",
+                  "audioTarget": "さかな",
+                  "options": [
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "にく",
+                  "audioTarget": "にく",
+                  "options": [
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "ケーキ",
+                  "audioTarget": "ケーキ",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "さかな",
+                  "options": [
+                    {
+                      "text": "たまご",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "おちゃ",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "さかな",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "にく",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the meat",
+                  "audioTarget": "にく",
+                  "options": [
+                    {
+                      "text": "おちゃ",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "たまご",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "みず",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "にく",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u2-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "さかな",
+                  "options": [
+                    {
+                      "text": "さかな"
+                    },
+                    {
+                      "text": "ケーキ"
+                    },
+                    {
+                      "text": "くだもの"
+                    },
+                    {
+                      "text": "おちゃ"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "くだものがほしいです。",
+                  "audioTarget": "くだものがほしいです。",
+                  "tokens": [
+                    "to",
+                    "eat",
+                    "fruit",
+                    "want",
+                    "I",
+                    "breakfast"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "fruit"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u2-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "おちゃをのみませんか。",
+                  "audioTarget": "おちゃをのみませんか。",
+                  "tokens": [
+                    "breakfast",
+                    "Would",
+                    "tea",
+                    "you",
+                    "like",
+                    "fish",
+                    "drink"
+                  ],
+                  "answer": [
+                    "Would",
+                    "you",
+                    "like",
+                    "tea"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u2-l3-e8",
+                  "sentence": "___。",
+                  "translation": "I want fruit.",
+                  "audioTarget": "くだものがほしいです。",
+                  "options": [
+                    "くだものがほしいです",
+                    "ケーキ",
+                    "コーヒー",
+                    "たまご"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u2-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "さかな",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "にく",
+                      "native": "the meat"
+                    },
+                    {
+                      "target": "ケーキ",
+                      "native": "the cake"
+                    },
+                    {
+                      "target": "ごはん",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "チーズ",
+                      "native": "the cheese"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u2-l3-e10",
+                  "mode": "translate",
+                  "prompt": "おちゃをのみませんか。",
+                  "audioTarget": "おちゃをのみませんか。",
+                  "answer": "Would you like tea?",
+                  "alternatives": [
+                    "Ocha o nomimasen ka."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-4",
+          "title": "Animals",
+          "description": "Learn the names of common animals in Japanese and how to describe them with simple sentences.",
+          "guidebook": "## Animals in Japanese 🐾\n\nWelcome to the animal unit! In Japanese, animal names are written in **katakana** when borrowed from other languages, and in **kanji** or **hiragana** for native Japanese words.\n\n### Key Patterns\n\n**Saying \"It is a ___\":**\nUse the plain form: **犬です** (inu desu) — \"It is a dog.\"\n\n**Describing animals with adjectives:**\n- **大きい** (ookii) — big\n- **小さい** (chiisai) — small\n- **可愛い** (kawaii) — cute\n\nExample: **猫は可愛いです** (neko wa kawaii desu) — \"The cat is cute.\"\n\n### Useful Particles\n\n- **は** (wa) — topic marker: \"as for the ___...\"\n- **が** (ga) — subject marker, often used with descriptive sentences\n\n### Animal Sounds 🐶\nJapanese has fun onomatopoeia for animal sounds:\n- Dogs: **ワンワン** (wan wan)\n- Cats: **ニャーニャー** (nyaa nyaa)\n- Birds: **ピーピー** (pii pii)\n\nTry combining what you know: **鳥は小さいです** (tori wa chiisai desu) — \"The bird is small.\" Happy learning!",
+          "words": [
+            {
+              "target": "犬",
+              "native": "dog",
+              "emoji": "🐕",
+              "romanization": "inu"
+            },
+            {
+              "target": "猫",
+              "native": "cat",
+              "emoji": "🐈",
+              "romanization": "neko"
+            },
+            {
+              "target": "馬",
+              "native": "horse",
+              "emoji": "🐴",
+              "romanization": "uma"
+            },
+            {
+              "target": "鳥",
+              "native": "bird",
+              "emoji": "🐦",
+              "romanization": "tori"
+            },
+            {
+              "target": "魚",
+              "native": "fish",
+              "emoji": "🐟",
+              "romanization": "sakana"
+            },
+            {
+              "target": "牛",
+              "native": "cow",
+              "emoji": "🐄",
+              "romanization": "ushi"
+            },
+            {
+              "target": "豚",
+              "native": "pig",
+              "emoji": "🐖",
+              "romanization": "buta"
+            },
+            {
+              "target": "兎",
+              "native": "rabbit",
+              "emoji": "🐇",
+              "romanization": "usagi"
+            },
+            {
+              "target": "象",
+              "native": "elephant",
+              "emoji": "🐘",
+              "romanization": "zou"
+            },
+            {
+              "target": "猿",
+              "native": "monkey",
+              "emoji": "🐒",
+              "romanization": "saru"
+            },
+            {
+              "target": "ライオン",
+              "native": "lion",
+              "emoji": "🦁",
+              "romanization": "raion"
+            },
+            {
+              "target": "パンダ",
+              "native": "panda",
+              "emoji": "🐼",
+              "romanization": "panda"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u3-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "犬",
+                  "audioTarget": "犬",
+                  "options": [
+                    {
+                      "text": "rabbit",
+                      "emoji": "🐇"
+                    },
+                    {
+                      "text": "dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "monkey",
+                      "emoji": "🐒"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "猫",
+                  "audioTarget": "猫",
+                  "options": [
+                    {
+                      "text": "dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "lion",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "馬",
+                  "audioTarget": "馬",
+                  "options": [
+                    {
+                      "text": "cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "panda",
+                      "emoji": "🐼"
+                    },
+                    {
+                      "text": "bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "horse",
+                      "emoji": "🐴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "dog",
+                  "audioTarget": "犬",
+                  "options": [
+                    {
+                      "text": "ライオン",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "象",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "犬",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "cat",
+                  "audioTarget": "猫",
+                  "options": [
+                    {
+                      "text": "ライオン",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "兎",
+                      "emoji": "🐇"
+                    },
+                    {
+                      "text": "象",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "犬",
+                  "options": [
+                    {
+                      "text": "犬"
+                    },
+                    {
+                      "text": "鳥"
+                    },
+                    {
+                      "text": "魚"
+                    },
+                    {
+                      "text": "パンダ"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "犬は大きいです。",
+                  "audioTarget": "犬は大きいです。",
+                  "tokens": [
+                    "small",
+                    "big",
+                    "Pandas",
+                    "The",
+                    "bird",
+                    "is",
+                    "dog"
+                  ],
+                  "answer": [
+                    "The",
+                    "dog",
+                    "is",
+                    "big"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "猫は可愛いです。",
+                  "audioTarget": "猫は可愛いです。",
+                  "tokens": [
+                    "cat",
+                    "fast",
+                    "water",
+                    "fish",
+                    "is",
+                    "The",
+                    "cute"
+                  ],
+                  "answer": [
+                    "The",
+                    "cat",
+                    "is",
+                    "cute"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u3-l0-e8",
+                  "sentence": "___。",
+                  "translation": "The dog is big.",
+                  "audioTarget": "犬は大きいです。",
+                  "options": [
+                    "豚",
+                    "猫",
+                    "鳥",
+                    "犬は大きいです"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u3-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "犬",
+                      "native": "dog"
+                    },
+                    {
+                      "target": "猫",
+                      "native": "cat"
+                    },
+                    {
+                      "target": "馬",
+                      "native": "horse"
+                    },
+                    {
+                      "target": "牛",
+                      "native": "cow"
+                    },
+                    {
+                      "target": "パンダ",
+                      "native": "panda"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u3-l0-e10",
+                  "mode": "translate",
+                  "prompt": "猫は可愛いです。",
+                  "audioTarget": "猫は可愛いです。",
+                  "answer": "The cat is cute.",
+                  "alternatives": [
+                    "neko wa kawaii desu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u3-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "鳥",
+                  "audioTarget": "鳥",
+                  "options": [
+                    {
+                      "text": "elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "monkey",
+                      "emoji": "🐒"
+                    },
+                    {
+                      "text": "dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "魚",
+                  "audioTarget": "魚",
+                  "options": [
+                    {
+                      "text": "fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "牛",
+                  "audioTarget": "牛",
+                  "options": [
+                    {
+                      "text": "pig",
+                      "emoji": "🐖"
+                    },
+                    {
+                      "text": "cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "rabbit",
+                      "emoji": "🐇"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "bird",
+                  "audioTarget": "鳥",
+                  "options": [
+                    {
+                      "text": "鳥",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "ライオン",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "猿",
+                      "emoji": "🐒"
+                    },
+                    {
+                      "text": "魚",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "fish",
+                  "audioTarget": "魚",
+                  "options": [
+                    {
+                      "text": "犬",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "馬",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "魚",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "魚",
+                  "options": [
+                    {
+                      "text": "猫"
+                    },
+                    {
+                      "text": "魚"
+                    },
+                    {
+                      "text": "馬"
+                    },
+                    {
+                      "text": "パンダ"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "馬は速いです。",
+                  "audioTarget": "馬は速いです。",
+                  "tokens": [
+                    "The",
+                    "horse",
+                    "fast",
+                    "like",
+                    "cow",
+                    "come",
+                    "is"
+                  ],
+                  "answer": [
+                    "The",
+                    "horse",
+                    "is",
+                    "fast"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "鳥は小さいです。",
+                  "audioTarget": "鳥は小さいです。",
+                  "tokens": [
+                    "on",
+                    "from",
+                    "bird",
+                    "small",
+                    "is",
+                    "in",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "bird",
+                    "is",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u3-l1-e8",
+                  "sentence": "___。",
+                  "translation": "The horse is fast.",
+                  "audioTarget": "馬は速いです。",
+                  "options": [
+                    "豚",
+                    "馬は速いです",
+                    "馬",
+                    "猿"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u3-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "鳥",
+                      "native": "bird"
+                    },
+                    {
+                      "target": "魚",
+                      "native": "fish"
+                    },
+                    {
+                      "target": "牛",
+                      "native": "cow"
+                    },
+                    {
+                      "target": "パンダ",
+                      "native": "panda"
+                    },
+                    {
+                      "target": "猿",
+                      "native": "monkey"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u3-l1-e10",
+                  "mode": "translate",
+                  "prompt": "鳥は小さいです。",
+                  "audioTarget": "鳥は小さいです。",
+                  "answer": "The bird is small.",
+                  "alternatives": [
+                    "tori wa chiisai desu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u3-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "豚",
+                  "audioTarget": "豚",
+                  "options": [
+                    {
+                      "text": "cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "pig",
+                      "emoji": "🐖"
+                    },
+                    {
+                      "text": "dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "panda",
+                      "emoji": "🐼"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "兎",
+                  "audioTarget": "兎",
+                  "options": [
+                    {
+                      "text": "bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "rabbit",
+                      "emoji": "🐇"
+                    },
+                    {
+                      "text": "pig",
+                      "emoji": "🐖"
+                    },
+                    {
+                      "text": "monkey",
+                      "emoji": "🐒"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "象",
+                  "audioTarget": "象",
+                  "options": [
+                    {
+                      "text": "elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "cow",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "pig",
+                  "audioTarget": "豚",
+                  "options": [
+                    {
+                      "text": "鳥",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "魚",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "豚",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "rabbit",
+                  "audioTarget": "兎",
+                  "options": [
+                    {
+                      "text": "魚",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "馬",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "兎",
+                      "emoji": "🐇"
+                    },
+                    {
+                      "text": "豚",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "象",
+                  "options": [
+                    {
+                      "text": "兎"
+                    },
+                    {
+                      "text": "猫"
+                    },
+                    {
+                      "text": "ライオン"
+                    },
+                    {
+                      "text": "象"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "魚は水の中にいます。",
+                  "audioTarget": "魚は水の中にいます。",
+                  "tokens": [
+                    "water",
+                    "is",
+                    "The",
+                    "the",
+                    "farm",
+                    "fish",
+                    "in",
+                    "like",
+                    "elephant"
+                  ],
+                  "answer": [
+                    "The",
+                    "fish",
+                    "is",
+                    "in",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "牛は農場にいます。",
+                  "audioTarget": "牛は農場にいます。",
+                  "tokens": [
+                    "is",
+                    "The",
+                    "the",
+                    "I",
+                    "farm",
+                    "cow",
+                    "on",
+                    "big",
+                    "water"
+                  ],
+                  "answer": [
+                    "The",
+                    "cow",
+                    "is",
+                    "on",
+                    "the",
+                    "farm"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u3-l2-e8",
+                  "sentence": "___。",
+                  "translation": "The fish is in the water.",
+                  "audioTarget": "魚は水の中にいます。",
+                  "options": [
+                    "兎",
+                    "ライオン",
+                    "馬",
+                    "魚は水の中にいます"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u3-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "豚",
+                      "native": "pig"
+                    },
+                    {
+                      "target": "兎",
+                      "native": "rabbit"
+                    },
+                    {
+                      "target": "象",
+                      "native": "elephant"
+                    },
+                    {
+                      "target": "犬",
+                      "native": "dog"
+                    },
+                    {
+                      "target": "鳥",
+                      "native": "bird"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u3-l2-e10",
+                  "mode": "translate",
+                  "prompt": "牛は農場にいます。",
+                  "audioTarget": "牛は農場にいます。",
+                  "answer": "The cow is on the farm.",
+                  "alternatives": [
+                    "ushi wa noujou ni imasu"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u3-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "猿",
+                  "audioTarget": "猿",
+                  "options": [
+                    {
+                      "text": "elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "panda",
+                      "emoji": "🐼"
+                    },
+                    {
+                      "text": "monkey",
+                      "emoji": "🐒"
+                    },
+                    {
+                      "text": "cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "ライオン",
+                  "audioTarget": "ライオン",
+                  "options": [
+                    {
+                      "text": "rabbit",
+                      "emoji": "🐇"
+                    },
+                    {
+                      "text": "dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "lion",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "パンダ",
+                  "audioTarget": "パンダ",
+                  "options": [
+                    {
+                      "text": "pig",
+                      "emoji": "🐖"
+                    },
+                    {
+                      "text": "horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "panda",
+                      "emoji": "🐼"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "monkey",
+                  "audioTarget": "猿",
+                  "options": [
+                    {
+                      "text": "パンダ",
+                      "emoji": "🐼"
+                    },
+                    {
+                      "text": "鳥",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "猿",
+                      "emoji": "🐒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "lion",
+                  "audioTarget": "ライオン",
+                  "options": [
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "象",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "ライオン",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "豚",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u3-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "猿",
+                  "options": [
+                    {
+                      "text": "兎"
+                    },
+                    {
+                      "text": "猿"
+                    },
+                    {
+                      "text": "パンダ"
+                    },
+                    {
+                      "text": "象"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "私は犬が好きです。",
+                  "audioTarget": "私は犬が好きです。",
+                  "tokens": [
+                    "China",
+                    "in",
+                    "dogs",
+                    "like",
+                    "elephant",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "dogs"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u3-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "パンダは中国から来ます。",
+                  "audioTarget": "パンダは中国から来ます。",
+                  "tokens": [
+                    "from",
+                    "Pandas",
+                    "the",
+                    "small",
+                    "China",
+                    "come",
+                    "fish"
+                  ],
+                  "answer": [
+                    "Pandas",
+                    "come",
+                    "from",
+                    "China"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u3-l3-e8",
+                  "sentence": "___。",
+                  "translation": "I like dogs.",
+                  "audioTarget": "私は犬が好きです。",
+                  "options": [
+                    "ライオン",
+                    "私は犬が好きです",
+                    "猿",
+                    "兎"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u3-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "猿",
+                      "native": "monkey"
+                    },
+                    {
+                      "target": "ライオン",
+                      "native": "lion"
+                    },
+                    {
+                      "target": "パンダ",
+                      "native": "panda"
+                    },
+                    {
+                      "target": "豚",
+                      "native": "pig"
+                    },
+                    {
+                      "target": "犬",
+                      "native": "dog"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u3-l3-e10",
+                  "mode": "translate",
+                  "prompt": "パンダは中国から来ます。",
+                  "audioTarget": "パンダは中国から来ます。",
+                  "answer": "Pandas come from China.",
+                  "alternatives": [
+                    "panda wa chuugoku kara kimasu"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-5",
+          "title": "Travel",
+          "description": "Learn essential Japanese vocabulary and phrases for navigating cities, trains, hotels, airports, and asking for directions.",
+          "guidebook": "## Travel in Japanese 🚆\n\nThis unit covers the basics of getting around Japan. You'll learn vocabulary for transportation, places, and asking for help.\n\n### Key Grammar Points\n\n**は (wa) - Topic marker:** Marks the topic of a sentence. Example: 駅はどこですか (Eki wa doko desu ka) - \"Where is the station?\"\n\n**を (wo) - Object marker:** Used with motion verbs. Example: バスに乗ります (Basu ni norimasu) - \"I ride the bus.\"\n\n**に (ni) - Direction/Destination:** Indicates where you're going. Example: ホテルに行きます (Hoteru ni ikimasu) - \"I go to the hotel.\"\n\n**どこ (doko) - Where:** Combine with desu ka to ask \"where is ___?\"\n\n### Useful Patterns\n\n- ___はどこですか? - \"Where is ___?\"\n- ___に行きます - \"I'm going to ___.\"\n- ___をください - \"Please give me ___\" (when ordering)\n\n### Travel Tips 🗾\n\nJapan has an incredible train system. When asking for directions, politeness goes a long way. Adding すみません (sumimasen) before a question is the standard way to get attention.",
+          "words": [
+            {
+              "target": "駅",
+              "native": "the train station",
+              "emoji": "🚉",
+              "romanization": "eki"
+            },
+            {
+              "target": "空港",
+              "native": "the airport",
+              "emoji": "✈️",
+              "romanization": "kuukou"
+            },
+            {
+              "target": "ホテル",
+              "native": "the hotel",
+              "emoji": "🏨",
+              "romanization": "hoteru"
+            },
+            {
+              "target": "町",
+              "native": "the city",
+              "emoji": "🏙️",
+              "romanization": "machi"
+            },
+            {
+              "target": "道",
+              "native": "the street",
+              "emoji": "🛣️",
+              "romanization": "michi"
+            },
+            {
+              "target": "博物館",
+              "native": "the museum",
+              "emoji": "🏛️",
+              "romanization": "hakubutsukan"
+            },
+            {
+              "target": "地図",
+              "native": "the map",
+              "emoji": "🗺️",
+              "romanization": "chizu"
+            },
+            {
+              "target": "切符",
+              "native": "the ticket",
+              "emoji": "🎫",
+              "romanization": "kippu"
+            },
+            {
+              "target": "電車",
+              "native": "the train",
+              "emoji": "🚆",
+              "romanization": "densha"
+            },
+            {
+              "target": "バス",
+              "native": "the bus",
+              "emoji": "🚌",
+              "romanization": "basu"
+            },
+            {
+              "target": "タクシー",
+              "native": "the taxi",
+              "emoji": "🚕",
+              "romanization": "takushii"
+            },
+            {
+              "target": "荷物",
+              "native": "the luggage",
+              "emoji": "🧳",
+              "romanization": "nimotsu"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u4-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "駅",
+                  "audioTarget": "駅",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "空港",
+                  "audioTarget": "空港",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "ホテル",
+                  "audioTarget": "ホテル",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the train station",
+                  "audioTarget": "駅",
+                  "options": [
+                    {
+                      "text": "地図",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "駅",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "博物館",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "町",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the airport",
+                  "audioTarget": "空港",
+                  "options": [
+                    {
+                      "text": "空港",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "道",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "切符",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "電車",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "駅",
+                  "options": [
+                    {
+                      "text": "バス"
+                    },
+                    {
+                      "text": "駅"
+                    },
+                    {
+                      "text": "道"
+                    },
+                    {
+                      "text": "地図"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "駅はどこですか。",
+                  "audioTarget": "駅はどこですか。",
+                  "tokens": [
+                    "museum",
+                    "train",
+                    "Where",
+                    "is",
+                    "station",
+                    "Excuse",
+                    "the",
+                    "give"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "train",
+                    "station"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "空港に行きます。",
+                  "audioTarget": "空港に行きます。",
+                  "tokens": [
+                    "go",
+                    "airport",
+                    "am",
+                    "call",
+                    "to",
+                    "going",
+                    "the",
+                    "I",
+                    "station"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "going",
+                    "to",
+                    "the",
+                    "airport"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u4-l0-e8",
+                  "sentence": "___。",
+                  "translation": "Where is the train station?",
+                  "audioTarget": "駅はどこですか。",
+                  "options": [
+                    "町",
+                    "バス",
+                    "駅はどこですか",
+                    "電車"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u4-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "駅",
+                      "native": "the train station"
+                    },
+                    {
+                      "target": "空港",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "ホテル",
+                      "native": "the hotel"
+                    },
+                    {
+                      "target": "道",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "町",
+                      "native": "the city"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u4-l0-e10",
+                  "mode": "translate",
+                  "prompt": "空港に行きます。",
+                  "audioTarget": "空港に行きます。",
+                  "answer": "I am going to the airport.",
+                  "alternatives": [
+                    "Kuukou ni ikimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u4-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "町",
+                  "audioTarget": "町",
+                  "options": [
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "道",
+                  "audioTarget": "道",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "博物館",
+                  "audioTarget": "博物館",
+                  "options": [
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the city",
+                  "audioTarget": "町",
+                  "options": [
+                    {
+                      "text": "ホテル",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "駅",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "町",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "切符",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the street",
+                  "audioTarget": "道",
+                  "options": [
+                    {
+                      "text": "バス",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "ホテル",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "道",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "荷物",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "道",
+                  "options": [
+                    {
+                      "text": "荷物"
+                    },
+                    {
+                      "text": "道"
+                    },
+                    {
+                      "text": "町"
+                    },
+                    {
+                      "text": "空港"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "ホテルに泊まります。",
+                  "audioTarget": "ホテルに泊まります。",
+                  "tokens": [
+                    "at",
+                    "I",
+                    "a",
+                    "will",
+                    "please",
+                    "staying",
+                    "hotel",
+                    "am",
+                    "ticket"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "staying",
+                    "at",
+                    "a",
+                    "hotel"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "切符をください。",
+                  "audioTarget": "切符をください。",
+                  "tokens": [
+                    "give",
+                    "train",
+                    "at",
+                    "staying",
+                    "ticket",
+                    "Please",
+                    "a",
+                    "me"
+                  ],
+                  "answer": [
+                    "Please",
+                    "give",
+                    "me",
+                    "a",
+                    "ticket"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u4-l1-e8",
+                  "sentence": "___。",
+                  "translation": "I am staying at a hotel.",
+                  "audioTarget": "ホテルに泊まります。",
+                  "options": [
+                    "博物館",
+                    "道",
+                    "町",
+                    "ホテルに泊まります"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u4-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "町",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "道",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "博物館",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "切符",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "荷物",
+                      "native": "the luggage"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u4-l1-e10",
+                  "mode": "translate",
+                  "prompt": "切符をください。",
+                  "audioTarget": "切符をください。",
+                  "answer": "Please give me a ticket.",
+                  "alternatives": [
+                    "Kippu wo kudasai."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u4-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "地図",
+                  "audioTarget": "地図",
+                  "options": [
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the luggage",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "切符",
+                  "audioTarget": "切符",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "電車",
+                  "audioTarget": "電車",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the luggage",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the map",
+                  "audioTarget": "地図",
+                  "options": [
+                    {
+                      "text": "ホテル",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "駅",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "地図",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "タクシー",
+                      "emoji": "🚕"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the ticket",
+                  "audioTarget": "切符",
+                  "options": [
+                    {
+                      "text": "博物館",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "タクシー",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "駅",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "切符",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "電車",
+                  "options": [
+                    {
+                      "text": "切符"
+                    },
+                    {
+                      "text": "空港"
+                    },
+                    {
+                      "text": "電車"
+                    },
+                    {
+                      "text": "道"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "電車で町に行きます。",
+                  "audioTarget": "電車で町に行きます。",
+                  "tokens": [
+                    "go",
+                    "I",
+                    "the",
+                    "city",
+                    "staying",
+                    "to",
+                    "by",
+                    "train",
+                    "Please",
+                    "call"
+                  ],
+                  "answer": [
+                    "I",
+                    "go",
+                    "to",
+                    "the",
+                    "city",
+                    "by",
+                    "train"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "博物館はどこですか。",
+                  "audioTarget": "博物館はどこですか。",
+                  "tokens": [
+                    "is",
+                    "museum",
+                    "the",
+                    "please",
+                    "Where",
+                    "keep",
+                    "Please"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "museum"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u4-l2-e8",
+                  "sentence": "___。",
+                  "translation": "I go to the city by train.",
+                  "audioTarget": "電車で町に行きます。",
+                  "options": [
+                    "電車で町に行きます",
+                    "空港",
+                    "町",
+                    "電車"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u4-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "地図",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "切符",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "電車",
+                      "native": "the train"
+                    },
+                    {
+                      "target": "町",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "道",
+                      "native": "the street"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u4-l2-e10",
+                  "mode": "translate",
+                  "prompt": "博物館はどこですか。",
+                  "audioTarget": "博物館はどこですか。",
+                  "answer": "Where is the museum?",
+                  "alternatives": [
+                    "Hakubutsukan wa doko desu ka."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u4-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "バス",
+                  "audioTarget": "バス",
+                  "options": [
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "タクシー",
+                  "audioTarget": "タクシー",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "荷物",
+                  "audioTarget": "荷物",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the luggage",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bus",
+                  "audioTarget": "バス",
+                  "options": [
+                    {
+                      "text": "バス",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "町",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "タクシー",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "地図",
+                      "emoji": "🗺️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the taxi",
+                  "audioTarget": "タクシー",
+                  "options": [
+                    {
+                      "text": "タクシー",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "駅",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "バス",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "電車",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u4-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "バス",
+                  "options": [
+                    {
+                      "text": "バス"
+                    },
+                    {
+                      "text": "タクシー"
+                    },
+                    {
+                      "text": "博物館"
+                    },
+                    {
+                      "text": "電車"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "地図を見てもいいですか。",
+                  "audioTarget": "地図を見てもいいですか。",
+                  "tokens": [
+                    "I",
+                    "see",
+                    "the",
+                    "ticket",
+                    "May",
+                    "will",
+                    "map",
+                    "Excuse"
+                  ],
+                  "answer": [
+                    "May",
+                    "I",
+                    "see",
+                    "the",
+                    "map"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u4-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "タクシーを呼びます。",
+                  "audioTarget": "タクシーを呼びます。",
+                  "tokens": [
+                    "taxi",
+                    "a",
+                    "will",
+                    "by",
+                    "go",
+                    "I",
+                    "Excuse",
+                    "call"
+                  ],
+                  "answer": [
+                    "I",
+                    "will",
+                    "call",
+                    "a",
+                    "taxi"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u4-l3-e8",
+                  "sentence": "___。",
+                  "translation": "May I see the map?",
+                  "audioTarget": "地図を見てもいいですか。",
+                  "options": [
+                    "町",
+                    "博物館",
+                    "地図を見てもいいですか",
+                    "地図"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u4-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "バス",
+                      "native": "the bus"
+                    },
+                    {
+                      "target": "タクシー",
+                      "native": "the taxi"
+                    },
+                    {
+                      "target": "荷物",
+                      "native": "the luggage"
+                    },
+                    {
+                      "target": "地図",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "電車",
+                      "native": "the train"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u4-l3-e10",
+                  "mode": "translate",
+                  "prompt": "タクシーを呼びます。",
+                  "audioTarget": "タクシーを呼びます。",
+                  "answer": "I will call a taxi.",
+                  "alternatives": [
+                    "Takushii wo yobimasu."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

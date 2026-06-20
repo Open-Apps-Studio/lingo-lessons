@@ -1,0 +1,5427 @@
+{
+  "id": "it-en",
+  "version": 1,
+  "targetLanguage": "Italian",
+  "targetCode": "it",
+  "nativeLanguage": "English",
+  "nativeCode": "en",
+  "flag": "🇮🇹",
+  "sections": [
+    {
+      "id": "it-en:section-1",
+      "title": "Section 1: Beginner",
+      "units": [
+        {
+          "id": "it-en:unit-1",
+          "title": "Basics 1",
+          "description": "Your very first Italian words and sentences. Learn people, food, drinks, and how to say what you are and what you eat or drink.",
+          "guidebook": "Welcome to Italian! 🇮🇹\n\n**Nouns & gender:** Every Italian noun has a gender. Masculine words usually end in **-o** (e.g., *il ragazzo* = the boy), feminine words usually end in **-a** (e.g., *la ragazza* = the girl). The article must match: **il** (masc.) or **la** (fem.).\n\n**Essere (to be):** The most common verb. Conjugate it like this:\n- *Io sono* (I am)\n- *Tu sei* (You are)\n- *Lui/Lei è* (He/She is)\n\n**Mangiare & Bere:** *Mangio* means \"I eat\" and *Bevo* means \"I drink.\" They follow the regular **-are** and **-ere** patterns.\n\n**Word order:** Italian often drops the subject because the verb ending tells you who's doing the action. *Sono un uomo* = \"I am a man.\"\n\n**Tip:** Always learn nouns with their article — *il pane*, not just *pane*!",
+          "words": [
+            {
+              "target": "l'uomo",
+              "native": "the man",
+              "emoji": "👨"
+            },
+            {
+              "target": "la donna",
+              "native": "the woman",
+              "emoji": "👩"
+            },
+            {
+              "target": "il ragazzo",
+              "native": "the boy",
+              "emoji": "👦"
+            },
+            {
+              "target": "la ragazza",
+              "native": "the girl",
+              "emoji": "👧"
+            },
+            {
+              "target": "la mela",
+              "native": "the apple",
+              "emoji": "🍎"
+            },
+            {
+              "target": "il pane",
+              "native": "the bread",
+              "emoji": "🍞"
+            },
+            {
+              "target": "l'acqua",
+              "native": "the water",
+              "emoji": "💧"
+            },
+            {
+              "target": "il latte",
+              "native": "the milk",
+              "emoji": "🥛"
+            },
+            {
+              "target": "il bambino",
+              "native": "the child",
+              "emoji": "🧒"
+            },
+            {
+              "target": "il cibo",
+              "native": "the food",
+              "emoji": "🍽️"
+            },
+            {
+              "target": "mangiare",
+              "native": "to eat",
+              "emoji": "🍴"
+            },
+            {
+              "target": "bere",
+              "native": "to drink",
+              "emoji": "🥤"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "it-en:u0-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'uomo",
+                  "audioTarget": "l'uomo",
+                  "options": [
+                    {
+                      "text": "the food",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la donna",
+                  "audioTarget": "la donna",
+                  "options": [
+                    {
+                      "text": "the child",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il ragazzo",
+                  "audioTarget": "il ragazzo",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the food",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the man",
+                  "audioTarget": "l'uomo",
+                  "options": [
+                    {
+                      "text": "l'uomo",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "la donna",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "la mela",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the woman",
+                  "audioTarget": "la donna",
+                  "options": [
+                    {
+                      "text": "la donna",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "il pane",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "l'acqua",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'uomo",
+                  "options": [
+                    {
+                      "text": "la donna"
+                    },
+                    {
+                      "text": "la mela"
+                    },
+                    {
+                      "text": "l'acqua"
+                    },
+                    {
+                      "text": "l'uomo"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Io sono un uomo.",
+                  "audioTarget": "Io sono un uomo.",
+                  "tokens": [
+                    "am",
+                    "bread",
+                    "man",
+                    "boy",
+                    "I",
+                    "woman",
+                    "a"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "man"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Io sono una donna.",
+                  "audioTarget": "Io sono una donna.",
+                  "tokens": [
+                    "man",
+                    "a",
+                    "an",
+                    "drink",
+                    "I",
+                    "woman",
+                    "am"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "woman"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u0-l0-e8",
+                  "sentence": "Io sono un ___.",
+                  "translation": "I am a man.",
+                  "audioTarget": "Io sono un uomo.",
+                  "options": [
+                    "bambino",
+                    "pane",
+                    "uomo",
+                    "ragazza"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u0-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "l'uomo",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "la donna",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "il ragazzo",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "la ragazza",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "il latte",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u0-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Io sono una donna.",
+                  "audioTarget": "Io sono una donna.",
+                  "answer": "I am a woman.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u0-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la ragazza",
+                  "audioTarget": "la ragazza",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la mela",
+                  "audioTarget": "la mela",
+                  "options": [
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il pane",
+                  "audioTarget": "il pane",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the girl",
+                  "audioTarget": "la ragazza",
+                  "options": [
+                    {
+                      "text": "la ragazza",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "l'uomo",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "il pane",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "la mela",
+                  "options": [
+                    {
+                      "text": "la mela",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "l'acqua",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "la ragazza",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "il latte",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la mela",
+                  "options": [
+                    {
+                      "text": "mangiare"
+                    },
+                    {
+                      "text": "la mela"
+                    },
+                    {
+                      "text": "l'acqua"
+                    },
+                    {
+                      "text": "il cibo"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Lui è un ragazzo.",
+                  "audioTarget": "Lui è un ragazzo.",
+                  "tokens": [
+                    "drinks",
+                    "is",
+                    "a",
+                    "man",
+                    "boy",
+                    "girl",
+                    "He"
+                  ],
+                  "answer": [
+                    "He",
+                    "is",
+                    "a",
+                    "boy"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Lei è una ragazza.",
+                  "audioTarget": "Lei è una ragazza.",
+                  "tokens": [
+                    "is",
+                    "girl",
+                    "an",
+                    "The",
+                    "a",
+                    "She",
+                    "I"
+                  ],
+                  "answer": [
+                    "She",
+                    "is",
+                    "a",
+                    "girl"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u0-l1-e8",
+                  "sentence": "Lui è un ___.",
+                  "translation": "He is a boy.",
+                  "audioTarget": "Lui è un ragazzo.",
+                  "options": [
+                    "ragazzo",
+                    "l'uomo",
+                    "pane",
+                    "mela"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u0-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "la ragazza",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "la mela",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "il pane",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "il bambino",
+                      "native": "the child"
+                    },
+                    {
+                      "target": "l'uomo",
+                      "native": "the man"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u0-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Lei è una ragazza.",
+                  "audioTarget": "Lei è una ragazza.",
+                  "answer": "She is a girl.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u0-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'acqua",
+                  "audioTarget": "l'acqua",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il latte",
+                  "audioTarget": "il latte",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the food",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il bambino",
+                  "audioTarget": "il bambino",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the child",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "l'acqua",
+                  "options": [
+                    {
+                      "text": "il cibo",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "il latte",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "l'acqua",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "la donna",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "il latte",
+                  "options": [
+                    {
+                      "text": "l'uomo",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "il latte",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "il bambino",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il bambino",
+                  "options": [
+                    {
+                      "text": "la mela"
+                    },
+                    {
+                      "text": "la donna"
+                    },
+                    {
+                      "text": "il bambino"
+                    },
+                    {
+                      "text": "l'uomo"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Mangio il pane.",
+                  "audioTarget": "Mangio il pane.",
+                  "tokens": [
+                    "girl",
+                    "I",
+                    "She",
+                    "bread",
+                    "the",
+                    "milk",
+                    "eat"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "the",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Mangio una mela.",
+                  "audioTarget": "Mangio una mela.",
+                  "tokens": [
+                    "an",
+                    "drinks",
+                    "The",
+                    "I",
+                    "eat",
+                    "girl",
+                    "apple"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "an",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u0-l2-e8",
+                  "sentence": "Mangio il ___.",
+                  "translation": "I eat the bread.",
+                  "audioTarget": "Mangio il pane.",
+                  "options": [
+                    "pane",
+                    "latte",
+                    "donna",
+                    "mangiare"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u0-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "l'acqua",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "il latte",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "il bambino",
+                      "native": "the child"
+                    },
+                    {
+                      "target": "la ragazza",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "l'uomo",
+                      "native": "the man"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u0-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Mangio una mela.",
+                  "audioTarget": "Mangio una mela.",
+                  "answer": "I eat an apple.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u0-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il cibo",
+                  "audioTarget": "il cibo",
+                  "options": [
+                    {
+                      "text": "the food",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "mangiare",
+                  "audioTarget": "mangiare",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "bere",
+                  "audioTarget": "bere",
+                  "options": [
+                    {
+                      "text": "the child",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the food",
+                  "audioTarget": "il cibo",
+                  "options": [
+                    {
+                      "text": "il cibo",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "il bambino",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "la donna",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to eat",
+                  "audioTarget": "mangiare",
+                  "options": [
+                    {
+                      "text": "mangiare",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "l'uomo",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "la donna",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "la mela",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u0-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il cibo",
+                  "options": [
+                    {
+                      "text": "l'acqua"
+                    },
+                    {
+                      "text": "il cibo"
+                    },
+                    {
+                      "text": "la donna"
+                    },
+                    {
+                      "text": "il bambino"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Bevo l'acqua.",
+                  "audioTarget": "Bevo l'acqua.",
+                  "tokens": [
+                    "drinks",
+                    "the",
+                    "drink",
+                    "I",
+                    "water",
+                    "girl",
+                    "a"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u0-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Bevo il latte.",
+                  "audioTarget": "Bevo il latte.",
+                  "tokens": [
+                    "the",
+                    "milk",
+                    "bread",
+                    "am",
+                    "drink",
+                    "I",
+                    "woman"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "the",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u0-l3-e8",
+                  "sentence": "Bevo l'acqua.",
+                  "translation": "I drink the water.",
+                  "audioTarget": "Bevo l'acqua.",
+                  "options": [
+                    "bere",
+                    "latte",
+                    "bambino",
+                    "lacqua"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u0-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "il cibo",
+                      "native": "the food"
+                    },
+                    {
+                      "target": "mangiare",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "bere",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "il latte",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "l'acqua",
+                      "native": "the water"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u0-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Bevo il latte.",
+                  "audioTarget": "Bevo il latte.",
+                  "answer": "I drink the milk.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-en:unit-2",
+          "title": "Greetings",
+          "description": "Learn essential Italian greetings and polite expressions to start any conversation.",
+          "guidebook": "## Greetings & Politeness in Italian 🇮🇹\n\nItalian greetings change with the time of day and the level of formality.\n\n**Formal vs. informal:** Use *Lei* (formal \"you\") with strangers, elders, or in professional settings. Use *tu* (informal) with friends and family.\n\n**Common greetings:**\n- *Buongiorno* (good morning / good day) — used until late afternoon.\n- *Buonasera* (good evening) — used from late afternoon onward.\n- *Buonanotte* (good night) — only when going to bed or saying goodbye at night.\n- *Ciao* — informal hello/goodbye, used with friends.\n\n**Asking how someone is:** *Come stai?* (informal) or *Come sta?* (formal). A typical reply is *Sto bene, grazie* (I'm fine, thanks).\n\n**Politeness:**\n- *Per favore* = please\n- *Grazie* = thank you\n- *Prego* = you're welcome / please (offering something)\n- *Scusa* (informal) / *Scusi* (formal) = excuse me\n\nRemember: Italians value warmth, so a smile goes a long way! 😊",
+          "words": [
+            {
+              "target": "ciao",
+              "native": "hello / goodbye (informal)",
+              "emoji": "👋"
+            },
+            {
+              "target": "buongiorno",
+              "native": "good morning",
+              "emoji": "🌅"
+            },
+            {
+              "target": "buonasera",
+              "native": "good evening",
+              "emoji": "🌆"
+            },
+            {
+              "target": "buonanotte",
+              "native": "good night",
+              "emoji": "🌙"
+            },
+            {
+              "target": "arrivederci",
+              "native": "goodbye (formal)",
+              "emoji": "🤝"
+            },
+            {
+              "target": "per favore",
+              "native": "please",
+              "emoji": "🙏"
+            },
+            {
+              "target": "grazie",
+              "native": "thank you",
+              "emoji": "💚"
+            },
+            {
+              "target": "prego",
+              "native": "you're welcome",
+              "emoji": "😊"
+            },
+            {
+              "target": "sì",
+              "native": "yes",
+              "emoji": "✅"
+            },
+            {
+              "target": "no",
+              "native": "no",
+              "emoji": "❌"
+            },
+            {
+              "target": "il signore",
+              "native": "the gentleman",
+              "emoji": "👨"
+            },
+            {
+              "target": "la signora",
+              "native": "the lady",
+              "emoji": "👩"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "it-en:u1-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "ciao",
+                  "audioTarget": "ciao",
+                  "options": [
+                    {
+                      "text": "hello / goodbye (informal)",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "goodbye (formal)",
+                      "emoji": "🤝"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "buongiorno",
+                  "audioTarget": "buongiorno",
+                  "options": [
+                    {
+                      "text": "hello / goodbye (informal)",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the lady",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "buonasera",
+                  "audioTarget": "buonasera",
+                  "options": [
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "hello / goodbye (informal)",
+                  "audioTarget": "ciao",
+                  "options": [
+                    {
+                      "text": "ciao",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "il signore",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "buongiorno",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "good morning",
+                  "audioTarget": "buongiorno",
+                  "options": [
+                    {
+                      "text": "buonasera",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "grazie",
+                      "emoji": "💚"
+                    },
+                    {
+                      "text": "buongiorno",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "il signore",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "ciao",
+                  "options": [
+                    {
+                      "text": "prego"
+                    },
+                    {
+                      "text": "ciao"
+                    },
+                    {
+                      "text": "grazie"
+                    },
+                    {
+                      "text": "buongiorno"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ciao, come stai?",
+                  "audioTarget": "Ciao, come stai?",
+                  "tokens": [
+                    "how",
+                    "Hi",
+                    "you",
+                    "everyone",
+                    "are",
+                    "am",
+                    "Goodbye"
+                  ],
+                  "answer": [
+                    "Hi",
+                    "how",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Buongiorno, come sta?",
+                  "audioTarget": "Buongiorno, come sta?",
+                  "tokens": [
+                    "morning",
+                    "how",
+                    "evening",
+                    "are",
+                    "you",
+                    "sit",
+                    "Good",
+                    "much"
+                  ],
+                  "answer": [
+                    "Good",
+                    "morning",
+                    "how",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u1-l0-e8",
+                  "sentence": "Ciao, ___ stai?",
+                  "translation": "Hi, how are you?",
+                  "audioTarget": "Ciao, come stai?",
+                  "options": [
+                    "come",
+                    "buonanotte",
+                    "sì",
+                    "buonasera"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u1-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "ciao",
+                      "native": "hello / goodbye (informal)"
+                    },
+                    {
+                      "target": "buongiorno",
+                      "native": "good morning"
+                    },
+                    {
+                      "target": "buonasera",
+                      "native": "good evening"
+                    },
+                    {
+                      "target": "il signore",
+                      "native": "the gentleman"
+                    },
+                    {
+                      "target": "arrivederci",
+                      "native": "goodbye (formal)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u1-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Buongiorno, come sta?",
+                  "audioTarget": "Buongiorno, come sta?",
+                  "answer": "Good morning, how are you?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u1-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "buonanotte",
+                  "audioTarget": "buonanotte",
+                  "options": [
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "arrivederci",
+                  "audioTarget": "arrivederci",
+                  "options": [
+                    {
+                      "text": "goodbye (formal)",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "thank you",
+                      "emoji": "💚"
+                    },
+                    {
+                      "text": "the lady",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "per favore",
+                  "audioTarget": "per favore",
+                  "options": [
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "goodbye (formal)",
+                      "emoji": "🤝"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "good night",
+                  "audioTarget": "buonanotte",
+                  "options": [
+                    {
+                      "text": "la signora",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "buonanotte",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "buonasera",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "goodbye (formal)",
+                  "audioTarget": "arrivederci",
+                  "options": [
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "per favore",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "il signore",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "arrivederci",
+                  "options": [
+                    {
+                      "text": "la signora"
+                    },
+                    {
+                      "text": "il signore"
+                    },
+                    {
+                      "text": "ciao"
+                    },
+                    {
+                      "text": "arrivederci"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Sto bene, grazie.",
+                  "audioTarget": "Sto bene, grazie.",
+                  "tokens": [
+                    "I",
+                    "Good",
+                    "am",
+                    "thank",
+                    "you",
+                    "Youre",
+                    "evening",
+                    "fine"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "fine",
+                    "thank",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Buona sera a tutti.",
+                  "audioTarget": "Buona sera a tutti.",
+                  "tokens": [
+                    "night",
+                    "thank",
+                    "evening",
+                    "sit",
+                    "everyone",
+                    "Good"
+                  ],
+                  "answer": [
+                    "Good",
+                    "evening",
+                    "everyone"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u1-l1-e8",
+                  "sentence": "Sto ___, grazie.",
+                  "translation": "I am fine, thank you.",
+                  "audioTarget": "Sto bene, grazie.",
+                  "options": [
+                    "signore",
+                    "favore",
+                    "no",
+                    "bene"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u1-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "buonanotte",
+                      "native": "good night"
+                    },
+                    {
+                      "target": "arrivederci",
+                      "native": "goodbye (formal)"
+                    },
+                    {
+                      "target": "per favore",
+                      "native": "please"
+                    },
+                    {
+                      "target": "il signore",
+                      "native": "the gentleman"
+                    },
+                    {
+                      "target": "prego",
+                      "native": "you're welcome"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u1-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Buona sera a tutti.",
+                  "audioTarget": "Buona sera a tutti.",
+                  "answer": "Good evening, everyone.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u1-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "grazie",
+                  "audioTarget": "grazie",
+                  "options": [
+                    {
+                      "text": "goodbye (formal)",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "thank you",
+                      "emoji": "💚"
+                    },
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "prego",
+                  "audioTarget": "prego",
+                  "options": [
+                    {
+                      "text": "the gentleman",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "goodbye (formal)",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "sì",
+                  "audioTarget": "sì",
+                  "options": [
+                    {
+                      "text": "yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "hello / goodbye (informal)",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "thank you",
+                  "audioTarget": "grazie",
+                  "options": [
+                    {
+                      "text": "buonanotte",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "la signora",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "grazie",
+                      "emoji": "💚"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "you're welcome",
+                  "audioTarget": "prego",
+                  "options": [
+                    {
+                      "text": "grazie",
+                      "emoji": "💚"
+                    },
+                    {
+                      "text": "buongiorno",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "prego",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "sì",
+                  "options": [
+                    {
+                      "text": "la signora"
+                    },
+                    {
+                      "text": "sì"
+                    },
+                    {
+                      "text": "buonasera"
+                    },
+                    {
+                      "text": "no"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Buonanotte e sogni d'oro.",
+                  "audioTarget": "Buonanotte e sogni d'oro.",
+                  "tokens": [
+                    "night",
+                    "are",
+                    "and",
+                    "everyone",
+                    "dreams",
+                    "Good",
+                    "fine",
+                    "sweet"
+                  ],
+                  "answer": [
+                    "Good",
+                    "night",
+                    "and",
+                    "sweet",
+                    "dreams"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Arrivederci, a presto!",
+                  "audioTarget": "Arrivederci, a presto!",
+                  "tokens": [
+                    "My",
+                    "I",
+                    "soon",
+                    "Goodbye",
+                    "you",
+                    "Marco",
+                    "see"
+                  ],
+                  "answer": [
+                    "Goodbye",
+                    "see",
+                    "you",
+                    "soon"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u1-l2-e8",
+                  "sentence": "___ e sogni d'oro.",
+                  "translation": "Good night and sweet dreams.",
+                  "audioTarget": "Buonanotte e sogni d'oro.",
+                  "options": [
+                    "buonasera",
+                    "Buonanotte",
+                    "sì",
+                    "ciao"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u1-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "grazie",
+                      "native": "thank you"
+                    },
+                    {
+                      "target": "prego",
+                      "native": "you're welcome"
+                    },
+                    {
+                      "target": "sì",
+                      "native": "yes"
+                    },
+                    {
+                      "target": "per favore",
+                      "native": "please"
+                    },
+                    {
+                      "target": "arrivederci",
+                      "native": "goodbye (formal)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u1-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Arrivederci, a presto!",
+                  "audioTarget": "Arrivederci, a presto!",
+                  "answer": "Goodbye, see you soon!",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u1-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "no",
+                  "audioTarget": "no",
+                  "options": [
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "the lady",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il signore",
+                  "audioTarget": "il signore",
+                  "options": [
+                    {
+                      "text": "the lady",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "the gentleman",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "yes",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la signora",
+                  "audioTarget": "la signora",
+                  "options": [
+                    {
+                      "text": "hello / goodbye (informal)",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the lady",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "no",
+                  "audioTarget": "no",
+                  "options": [
+                    {
+                      "text": "il signore",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "grazie",
+                      "emoji": "💚"
+                    },
+                    {
+                      "text": "no",
+                      "emoji": "❌"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the gentleman",
+                  "audioTarget": "il signore",
+                  "options": [
+                    {
+                      "text": "prego",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "il signore",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "buonasera",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "arrivederci",
+                      "emoji": "🤝"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u1-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "no",
+                  "options": [
+                    {
+                      "text": "buonasera"
+                    },
+                    {
+                      "text": "prego"
+                    },
+                    {
+                      "text": "no"
+                    },
+                    {
+                      "text": "il signore"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Un caffè, per favore.",
+                  "audioTarget": "Un caffè, per favore.",
+                  "tokens": [
+                    "sit",
+                    "night",
+                    "please",
+                    "A",
+                    "coffee",
+                    "down"
+                  ],
+                  "answer": [
+                    "A",
+                    "coffee",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u1-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Grazie mille!",
+                  "audioTarget": "Grazie mille!",
+                  "tokens": [
+                    "very",
+                    "much",
+                    "you",
+                    "coffee",
+                    "are",
+                    "please",
+                    "Thank"
+                  ],
+                  "answer": [
+                    "Thank",
+                    "you",
+                    "very",
+                    "much"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u1-l3-e8",
+                  "sentence": "Un caffè, per ___.",
+                  "translation": "A coffee, please.",
+                  "audioTarget": "Un caffè, per favore.",
+                  "options": [
+                    "buonanotte",
+                    "buongiorno",
+                    "arrivederci",
+                    "favore"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u1-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "no",
+                      "native": "no"
+                    },
+                    {
+                      "target": "il signore",
+                      "native": "the gentleman"
+                    },
+                    {
+                      "target": "la signora",
+                      "native": "the lady"
+                    },
+                    {
+                      "target": "arrivederci",
+                      "native": "goodbye (formal)"
+                    },
+                    {
+                      "target": "buongiorno",
+                      "native": "good morning"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u1-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Grazie mille!",
+                  "audioTarget": "Grazie mille!",
+                  "answer": "Thank you very much!",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-en:unit-3",
+          "title": "Food",
+          "description": "Learn essential Italian food and drink vocabulary, plus how to say you want, eat, and drink.",
+          "guidebook": "Welcome to Italian food basics! 🍝\n\n**Articles matter!** Italian nouns have gender. Masculine words typically end in *-o* (use *il/un*), feminine in *-a* (use *la/una*). For example, *il caffè* (the coffee), *la mela* (the apple).\n\n**Verbs you'll use a lot:**\n- *volere* (to want): *voglio* (I want), *vuoi* (you want)\n- *mangiare* (to eat): *mangio* (I eat), *mangi* (you eat)\n- *bere* (to drink): *bevo* (I drink), *bevi* (you drink)\n\n**Word order:** Italian often drops the subject pronoun since the verb ending tells you who's acting. *Voglio il caffè* = \"I want the coffee.\"\n\n**Useful pattern:** *Voglio + noun* or *Voglio + infinitive* (e.g., *Voglio mangiare* = \"I want to eat\").\n\nEnjoy your meal — *Buon appetito!*",
+          "words": [
+            {
+              "target": "il caffè",
+              "native": "the coffee",
+              "emoji": "☕"
+            },
+            {
+              "target": "il riso",
+              "native": "the rice",
+              "emoji": "🍚"
+            },
+            {
+              "target": "l'uovo",
+              "native": "the egg",
+              "emoji": "🥚"
+            },
+            {
+              "target": "il formaggio",
+              "native": "the cheese",
+              "emoji": "🧀"
+            },
+            {
+              "target": "la frutta",
+              "native": "the fruit",
+              "emoji": "🍎"
+            },
+            {
+              "target": "il succo",
+              "native": "the juice",
+              "emoji": "🧃"
+            },
+            {
+              "target": "l'acqua",
+              "native": "the water",
+              "emoji": "💧"
+            },
+            {
+              "target": "il pane",
+              "native": "the bread",
+              "emoji": "🍞"
+            },
+            {
+              "target": "la pasta",
+              "native": "the pasta",
+              "emoji": "🍝"
+            },
+            {
+              "target": "il vino",
+              "native": "the wine",
+              "emoji": "🍷"
+            },
+            {
+              "target": "mangiare",
+              "native": "to eat",
+              "emoji": "🍴"
+            },
+            {
+              "target": "bere",
+              "native": "to drink",
+              "emoji": "🥤"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "it-en:u2-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il caffè",
+                  "audioTarget": "il caffè",
+                  "options": [
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the pasta",
+                      "emoji": "🍝"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il riso",
+                  "audioTarget": "il riso",
+                  "options": [
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the pasta",
+                      "emoji": "🍝"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'uovo",
+                  "audioTarget": "l'uovo",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the wine",
+                      "emoji": "🍷"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the coffee",
+                  "audioTarget": "il caffè",
+                  "options": [
+                    {
+                      "text": "il caffè",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "l'uovo",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "la pasta",
+                      "emoji": "🍝"
+                    },
+                    {
+                      "text": "il formaggio",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rice",
+                  "audioTarget": "il riso",
+                  "options": [
+                    {
+                      "text": "il riso",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "l'acqua",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "la pasta",
+                      "emoji": "🍝"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il caffè",
+                  "options": [
+                    {
+                      "text": "il riso"
+                    },
+                    {
+                      "text": "il caffè"
+                    },
+                    {
+                      "text": "bere"
+                    },
+                    {
+                      "text": "il vino"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Voglio il caffè.",
+                  "audioTarget": "Voglio il caffè.",
+                  "tokens": [
+                    "drink",
+                    "egg",
+                    "juice",
+                    "the",
+                    "I",
+                    "coffee",
+                    "want"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "the",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Mangi il pane.",
+                  "audioTarget": "Mangi il pane.",
+                  "tokens": [
+                    "the",
+                    "You",
+                    "eat",
+                    "bread",
+                    "drink",
+                    "egg",
+                    "fruit"
+                  ],
+                  "answer": [
+                    "You",
+                    "eat",
+                    "the",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u2-l0-e8",
+                  "sentence": "Voglio il ___.",
+                  "translation": "I want the coffee.",
+                  "audioTarget": "Voglio il caffè.",
+                  "options": [
+                    "bere",
+                    "caffè",
+                    "pane",
+                    "riso"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u2-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "il caffè",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "il riso",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "l'uovo",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "il formaggio",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "mangiare",
+                      "native": "to eat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u2-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Mangi il pane.",
+                  "audioTarget": "Mangi il pane.",
+                  "answer": "You eat the bread.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u2-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il formaggio",
+                  "audioTarget": "il formaggio",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la frutta",
+                  "audioTarget": "la frutta",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il succo",
+                  "audioTarget": "il succo",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cheese",
+                  "audioTarget": "il formaggio",
+                  "options": [
+                    {
+                      "text": "il succo",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "il formaggio",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "il riso",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "il vino",
+                      "emoji": "🍷"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fruit",
+                  "audioTarget": "la frutta",
+                  "options": [
+                    {
+                      "text": "la frutta",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "il riso",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "mangiare",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "il formaggio",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la frutta",
+                  "options": [
+                    {
+                      "text": "il formaggio"
+                    },
+                    {
+                      "text": "il vino"
+                    },
+                    {
+                      "text": "il succo"
+                    },
+                    {
+                      "text": "la frutta"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Bevo l'acqua.",
+                  "audioTarget": "Bevo l'acqua.",
+                  "tokens": [
+                    "is",
+                    "egg",
+                    "want",
+                    "the",
+                    "I",
+                    "drink",
+                    "water"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Voglio mangiare la pasta.",
+                  "audioTarget": "Voglio mangiare la pasta.",
+                  "tokens": [
+                    "eat",
+                    "the",
+                    "is",
+                    "like",
+                    "an",
+                    "I",
+                    "pasta",
+                    "want",
+                    "to"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "eat",
+                    "the",
+                    "pasta"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u2-l1-e8",
+                  "sentence": "Bevo l'acqua.",
+                  "translation": "I drink the water.",
+                  "audioTarget": "Bevo l'acqua.",
+                  "options": [
+                    "l'uovo",
+                    "mangiare",
+                    "lacqua",
+                    "formaggio"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u2-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "il formaggio",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "la frutta",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "il succo",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "il riso",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "il vino",
+                      "native": "the wine"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u2-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Voglio mangiare la pasta.",
+                  "audioTarget": "Voglio mangiare la pasta.",
+                  "answer": "I want to eat the pasta.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u2-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'acqua",
+                  "audioTarget": "l'acqua",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il pane",
+                  "audioTarget": "il pane",
+                  "options": [
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la pasta",
+                  "audioTarget": "la pasta",
+                  "options": [
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the pasta",
+                      "emoji": "🍝"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "l'acqua",
+                  "options": [
+                    {
+                      "text": "la pasta",
+                      "emoji": "🍝"
+                    },
+                    {
+                      "text": "l'acqua",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "il pane",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "il caffè",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bread",
+                  "audioTarget": "il pane",
+                  "options": [
+                    {
+                      "text": "il pane",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "il vino",
+                      "emoji": "🍷"
+                    },
+                    {
+                      "text": "il caffè",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "il succo",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la pasta",
+                  "options": [
+                    {
+                      "text": "la pasta"
+                    },
+                    {
+                      "text": "bere"
+                    },
+                    {
+                      "text": "il vino"
+                    },
+                    {
+                      "text": "il pane"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Mi piace il formaggio.",
+                  "audioTarget": "Mi piace il formaggio.",
+                  "tokens": [
+                    "egg",
+                    "I",
+                    "the",
+                    "eat",
+                    "We",
+                    "cheese",
+                    "like"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "the",
+                    "cheese"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Bevi il succo.",
+                  "audioTarget": "Bevi il succo.",
+                  "tokens": [
+                    "drink",
+                    "fruit",
+                    "cheese",
+                    "juice",
+                    "You",
+                    "the",
+                    "an"
+                  ],
+                  "answer": [
+                    "You",
+                    "drink",
+                    "the",
+                    "juice"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u2-l2-e8",
+                  "sentence": "Mi piace il ___.",
+                  "translation": "I like the cheese.",
+                  "audioTarget": "Mi piace il formaggio.",
+                  "options": [
+                    "pane",
+                    "succo",
+                    "mangiare",
+                    "formaggio"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u2-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "l'acqua",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "il pane",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "la pasta",
+                      "native": "the pasta"
+                    },
+                    {
+                      "target": "il succo",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "mangiare",
+                      "native": "to eat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u2-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Bevi il succo.",
+                  "audioTarget": "Bevi il succo.",
+                  "answer": "You drink the juice.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u2-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il vino",
+                  "audioTarget": "il vino",
+                  "options": [
+                    {
+                      "text": "the wine",
+                      "emoji": "🍷"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "mangiare",
+                  "audioTarget": "mangiare",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "bere",
+                  "audioTarget": "bere",
+                  "options": [
+                    {
+                      "text": "the wine",
+                      "emoji": "🍷"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the wine",
+                  "audioTarget": "il vino",
+                  "options": [
+                    {
+                      "text": "il vino",
+                      "emoji": "🍷"
+                    },
+                    {
+                      "text": "mangiare",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "bere",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "la pasta",
+                      "emoji": "🍝"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to eat",
+                  "audioTarget": "mangiare",
+                  "options": [
+                    {
+                      "text": "mangiare",
+                      "emoji": "🍴"
+                    },
+                    {
+                      "text": "l'acqua",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "il vino",
+                      "emoji": "🍷"
+                    },
+                    {
+                      "text": "la frutta",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u2-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il vino",
+                  "options": [
+                    {
+                      "text": "bere"
+                    },
+                    {
+                      "text": "il vino"
+                    },
+                    {
+                      "text": "il riso"
+                    },
+                    {
+                      "text": "l'uovo"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Voglio un uovo.",
+                  "audioTarget": "Voglio un uovo.",
+                  "tokens": [
+                    "I",
+                    "fruit",
+                    "want",
+                    "an",
+                    "water",
+                    "egg",
+                    "wine"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "an",
+                    "egg"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u2-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Mangiamo la frutta.",
+                  "audioTarget": "Mangiamo la frutta.",
+                  "tokens": [
+                    "egg",
+                    "fruit",
+                    "eat",
+                    "juice",
+                    "the",
+                    "cheese",
+                    "We"
+                  ],
+                  "answer": [
+                    "We",
+                    "eat",
+                    "the",
+                    "fruit"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u2-l3-e8",
+                  "sentence": "Voglio un ___.",
+                  "translation": "I want an egg.",
+                  "audioTarget": "Voglio un uovo.",
+                  "options": [
+                    "l'uovo",
+                    "riso",
+                    "uovo",
+                    "formaggio"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u2-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "il vino",
+                      "native": "the wine"
+                    },
+                    {
+                      "target": "mangiare",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "bere",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "la pasta",
+                      "native": "the pasta"
+                    },
+                    {
+                      "target": "il formaggio",
+                      "native": "the cheese"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u2-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Mangiamo la frutta.",
+                  "audioTarget": "Mangiamo la frutta.",
+                  "answer": "We eat the fruit.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-en:unit-4",
+          "title": "Animals",
+          "description": "Learn the names of common animals in Italian and how to describe them simply.",
+          "guidebook": "Welcome to Animals! 🐾\n\nIn Italian, every noun has a gender. Most animal names follow the pattern: **il** (masculine) or **la** (feminine). For example, *il cane* (the dog) is masculine, while *la mucca* (the cow) is feminine.\n\nTo say \"a\" or \"an\" (indefinite article), use **un** for masculine and **una** for feminine: *un gatto* (a cat), *una mucca* (a cow).\n\nTo make a noun plural, masculine words ending in **-o** usually change to **-i** (*il cane → i cani*), and feminine words ending in **-a** change to **-e** (*la mucca → le mucche*).\n\nTo describe an animal, use **è** (is) + an adjective. Adjectives must agree in gender and number with the noun. For example: *Il gatto è piccolo* (The cat is small). Notice how *piccolo* matches the masculine *gatto*.\n\nEnjoy meeting your new animal friends!",
+          "words": [
+            {
+              "target": "il cane",
+              "native": "the dog",
+              "emoji": "🐕"
+            },
+            {
+              "target": "il gatto",
+              "native": "the cat",
+              "emoji": "🐈"
+            },
+            {
+              "target": "il cavallo",
+              "native": "the horse",
+              "emoji": "🐴"
+            },
+            {
+              "target": "l'uccello",
+              "native": "the bird",
+              "emoji": "🐦"
+            },
+            {
+              "target": "il pesce",
+              "native": "the fish",
+              "emoji": "🐟"
+            },
+            {
+              "target": "la mucca",
+              "native": "the cow",
+              "emoji": "🐄"
+            },
+            {
+              "target": "il coniglio",
+              "native": "the rabbit",
+              "emoji": "🐰"
+            },
+            {
+              "target": "la pecora",
+              "native": "the sheep",
+              "emoji": "🐑"
+            },
+            {
+              "target": "il topo",
+              "native": "the mouse",
+              "emoji": "🐭"
+            },
+            {
+              "target": "l'elefante",
+              "native": "the elephant",
+              "emoji": "🐘"
+            },
+            {
+              "target": "la tigre",
+              "native": "the tiger",
+              "emoji": "🐅"
+            },
+            {
+              "target": "l'orso",
+              "native": "the bear",
+              "emoji": "🐻"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "it-en:u3-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il cane",
+                  "audioTarget": "il cane",
+                  "options": [
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il gatto",
+                  "audioTarget": "il gatto",
+                  "options": [
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il cavallo",
+                  "audioTarget": "il cavallo",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the dog",
+                  "audioTarget": "il cane",
+                  "options": [
+                    {
+                      "text": "l'elefante",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "l'orso",
+                      "emoji": "🐻"
+                    },
+                    {
+                      "text": "il cane",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "la mucca",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cat",
+                  "audioTarget": "il gatto",
+                  "options": [
+                    {
+                      "text": "il gatto",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "l'elefante",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "la tigre",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "il cavallo",
+                      "emoji": "🐴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il cane",
+                  "options": [
+                    {
+                      "text": "l'elefante"
+                    },
+                    {
+                      "text": "la mucca"
+                    },
+                    {
+                      "text": "la tigre"
+                    },
+                    {
+                      "text": "il cane"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il cane è grande.",
+                  "audioTarget": "Il cane è grande.",
+                  "tokens": [
+                    "in",
+                    "on",
+                    "big",
+                    "dog",
+                    "is",
+                    "small",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "dog",
+                    "is",
+                    "big"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Il gatto è piccolo.",
+                  "audioTarget": "Il gatto è piccolo.",
+                  "tokens": [
+                    "small",
+                    "is",
+                    "cow",
+                    "The",
+                    "sheep",
+                    "fast",
+                    "cat"
+                  ],
+                  "answer": [
+                    "The",
+                    "cat",
+                    "is",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u3-l0-e8",
+                  "sentence": "Il ___ è grande.",
+                  "translation": "The dog is big.",
+                  "audioTarget": "Il cane è grande.",
+                  "options": [
+                    "l'elefante",
+                    "l'uccello",
+                    "gatto",
+                    "cane"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u3-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "il cane",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "il gatto",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "il cavallo",
+                      "native": "the horse"
+                    },
+                    {
+                      "target": "l'elefante",
+                      "native": "the elephant"
+                    },
+                    {
+                      "target": "l'uccello",
+                      "native": "the bird"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u3-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Il gatto è piccolo.",
+                  "audioTarget": "Il gatto è piccolo.",
+                  "answer": "The cat is small.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u3-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'uccello",
+                  "audioTarget": "l'uccello",
+                  "options": [
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il pesce",
+                  "audioTarget": "il pesce",
+                  "options": [
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la mucca",
+                  "audioTarget": "la mucca",
+                  "options": [
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bird",
+                  "audioTarget": "l'uccello",
+                  "options": [
+                    {
+                      "text": "l'uccello",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "il cavallo",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "la tigre",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "la mucca",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "il pesce",
+                  "options": [
+                    {
+                      "text": "il cavallo",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "il cane",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "l'elefante",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "il pesce",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il pesce",
+                  "options": [
+                    {
+                      "text": "la tigre"
+                    },
+                    {
+                      "text": "l'orso"
+                    },
+                    {
+                      "text": "il pesce"
+                    },
+                    {
+                      "text": "il coniglio"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il cavallo è veloce.",
+                  "audioTarget": "Il cavallo è veloce.",
+                  "tokens": [
+                    "fast",
+                    "cat",
+                    "forest",
+                    "is",
+                    "horse",
+                    "rabbit",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "horse",
+                    "is",
+                    "fast"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "L'uccello è nel cielo.",
+                  "audioTarget": "L'uccello è nel cielo.",
+                  "tokens": [
+                    "very",
+                    "the",
+                    "sky",
+                    "in",
+                    "dog",
+                    "farm",
+                    "bird",
+                    "The",
+                    "is"
+                  ],
+                  "answer": [
+                    "The",
+                    "bird",
+                    "is",
+                    "in",
+                    "the",
+                    "sky"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u3-l1-e8",
+                  "sentence": "Il cavallo è ___.",
+                  "translation": "The horse is fast.",
+                  "audioTarget": "Il cavallo è veloce.",
+                  "options": [
+                    "tigre",
+                    "l'uccello",
+                    "gatto",
+                    "veloce"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u3-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "l'uccello",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "il pesce",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "la mucca",
+                      "native": "the cow"
+                    },
+                    {
+                      "target": "il cane",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "il gatto",
+                      "native": "the cat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u3-l1-e10",
+                  "mode": "translate",
+                  "prompt": "L'uccello è nel cielo.",
+                  "audioTarget": "L'uccello è nel cielo.",
+                  "answer": "The bird is in the sky.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u3-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il coniglio",
+                  "audioTarget": "il coniglio",
+                  "options": [
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la pecora",
+                  "audioTarget": "la pecora",
+                  "options": [
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il topo",
+                  "audioTarget": "il topo",
+                  "options": [
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rabbit",
+                  "audioTarget": "il coniglio",
+                  "options": [
+                    {
+                      "text": "l'uccello",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "la pecora",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "il coniglio",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "l'orso",
+                      "emoji": "🐻"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sheep",
+                  "audioTarget": "la pecora",
+                  "options": [
+                    {
+                      "text": "la pecora",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "l'elefante",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "l'orso",
+                      "emoji": "🐻"
+                    },
+                    {
+                      "text": "il topo",
+                      "emoji": "🐭"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il topo",
+                  "options": [
+                    {
+                      "text": "il gatto"
+                    },
+                    {
+                      "text": "l'orso"
+                    },
+                    {
+                      "text": "il topo"
+                    },
+                    {
+                      "text": "il pesce"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il pesce è nell'acqua.",
+                  "audioTarget": "Il pesce è nell'acqua.",
+                  "tokens": [
+                    "The",
+                    "is",
+                    "in",
+                    "fish",
+                    "water",
+                    "white",
+                    "elephant",
+                    "the",
+                    "on"
+                  ],
+                  "answer": [
+                    "The",
+                    "fish",
+                    "is",
+                    "in",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "La mucca è nella fattoria.",
+                  "audioTarget": "La mucca è nella fattoria.",
+                  "tokens": [
+                    "the",
+                    "big",
+                    "very",
+                    "fast",
+                    "The",
+                    "on",
+                    "is",
+                    "farm",
+                    "cow"
+                  ],
+                  "answer": [
+                    "The",
+                    "cow",
+                    "is",
+                    "on",
+                    "the",
+                    "farm"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u3-l2-e8",
+                  "sentence": "Il ___ è nell'acqua.",
+                  "translation": "The fish is in the water.",
+                  "audioTarget": "Il pesce è nell'acqua.",
+                  "options": [
+                    "gatto",
+                    "pesce",
+                    "coniglio",
+                    "l'uccello"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u3-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "il coniglio",
+                      "native": "the rabbit"
+                    },
+                    {
+                      "target": "la pecora",
+                      "native": "the sheep"
+                    },
+                    {
+                      "target": "il topo",
+                      "native": "the mouse"
+                    },
+                    {
+                      "target": "la tigre",
+                      "native": "the tiger"
+                    },
+                    {
+                      "target": "il cane",
+                      "native": "the dog"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u3-l2-e10",
+                  "mode": "translate",
+                  "prompt": "La mucca è nella fattoria.",
+                  "audioTarget": "La mucca è nella fattoria.",
+                  "answer": "The cow is on the farm.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u3-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'elefante",
+                  "audioTarget": "l'elefante",
+                  "options": [
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la tigre",
+                  "audioTarget": "la tigre",
+                  "options": [
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'orso",
+                  "audioTarget": "l'orso",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the bear",
+                      "emoji": "🐻"
+                    },
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the elephant",
+                  "audioTarget": "l'elefante",
+                  "options": [
+                    {
+                      "text": "l'uccello",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "il topo",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "il cavallo",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "l'elefante",
+                      "emoji": "🐘"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the tiger",
+                  "audioTarget": "la tigre",
+                  "options": [
+                    {
+                      "text": "la tigre",
+                      "emoji": "🐅"
+                    },
+                    {
+                      "text": "il cavallo",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "il pesce",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "il topo",
+                      "emoji": "🐭"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u3-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'elefante",
+                  "options": [
+                    {
+                      "text": "l'orso"
+                    },
+                    {
+                      "text": "il topo"
+                    },
+                    {
+                      "text": "il coniglio"
+                    },
+                    {
+                      "text": "l'elefante"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il coniglio è bianco.",
+                  "audioTarget": "Il coniglio è bianco.",
+                  "tokens": [
+                    "rabbit",
+                    "white",
+                    "is",
+                    "The",
+                    "small",
+                    "fish",
+                    "farm"
+                  ],
+                  "answer": [
+                    "The",
+                    "rabbit",
+                    "is",
+                    "white"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u3-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "La pecora è morbida.",
+                  "audioTarget": "La pecora è morbida.",
+                  "tokens": [
+                    "soft",
+                    "is",
+                    "sheep",
+                    "The",
+                    "on",
+                    "horse",
+                    "water"
+                  ],
+                  "answer": [
+                    "The",
+                    "sheep",
+                    "is",
+                    "soft"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u3-l3-e8",
+                  "sentence": "Il ___ è bianco.",
+                  "translation": "The rabbit is white.",
+                  "audioTarget": "Il coniglio è bianco.",
+                  "options": [
+                    "gatto",
+                    "coniglio",
+                    "l'uccello",
+                    "tigre"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u3-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "l'elefante",
+                      "native": "the elephant"
+                    },
+                    {
+                      "target": "la tigre",
+                      "native": "the tiger"
+                    },
+                    {
+                      "target": "l'orso",
+                      "native": "the bear"
+                    },
+                    {
+                      "target": "il gatto",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "il coniglio",
+                      "native": "the rabbit"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u3-l3-e10",
+                  "mode": "translate",
+                  "prompt": "La pecora è morbida.",
+                  "audioTarget": "La pecora è morbida.",
+                  "answer": "The sheep is soft.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-en:unit-5",
+          "title": "Travel",
+          "description": "Learn essential Italian words and phrases for getting around: in the city, at the train station, hotel, airport, and asking for directions.",
+          "guidebook": "## Getting Around in Italy\n\n**Articles matter!** Italian nouns have gender. Masculine words typically end in **-o** and use *il* (singular) or *i* (plural): *il treno* (the train), *i treni*. Feminine words usually end in **-a** and use *la* or *le*: *la stazione* (the station), *le stazioni*.\n\n**Asking where things are** uses *Dov'è...?* (Where is...?) for singular, or *Dove sono...?* (Where are...?) for plural. You can follow with *qui* (here) or *là* (there).\n\n**Prepositions are key:** *a* (to/at, for cities), *in* (to/in, for countries), *da* (from). Example: *Vado a Roma* (I'm going to Rome), *Vengo da Milano* (I come from Milan).\n\n**Verbs you'll use a lot:** *andare* (to go), *arrivare* (to arrive), *partire* (to leave), *trovare* (to find). Conjugate with the subject: *io vado, tu vai, lui/lei va*.",
+          "words": [
+            {
+              "target": "la città",
+              "native": "the city",
+              "emoji": "🏙️"
+            },
+            {
+              "target": "il treno",
+              "native": "the train",
+              "emoji": "🚆"
+            },
+            {
+              "target": "la stazione",
+              "native": "the station",
+              "emoji": "🚉"
+            },
+            {
+              "target": "l'aeroporto",
+              "native": "the airport",
+              "emoji": "✈️"
+            },
+            {
+              "target": "l'albergo",
+              "native": "the hotel",
+              "emoji": "🏨"
+            },
+            {
+              "target": "la strada",
+              "native": "the street",
+              "emoji": "🛣️"
+            },
+            {
+              "target": "il museo",
+              "native": "the museum",
+              "emoji": "🏛️"
+            },
+            {
+              "target": "la mappa",
+              "native": "the map",
+              "emoji": "🗺️"
+            },
+            {
+              "target": "il biglietto",
+              "native": "the ticket",
+              "emoji": "🎫"
+            },
+            {
+              "target": "la valigia",
+              "native": "the suitcase",
+              "emoji": "🧳"
+            },
+            {
+              "target": "l'autobus",
+              "native": "the bus",
+              "emoji": "🚌"
+            },
+            {
+              "target": "il viaggio",
+              "native": "the trip",
+              "emoji": "🧭"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "it-en:u4-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la città",
+                  "audioTarget": "la città",
+                  "options": [
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "il treno",
+                  "audioTarget": "il treno",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la stazione",
+                  "audioTarget": "la stazione",
+                  "options": [
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the city",
+                  "audioTarget": "la città",
+                  "options": [
+                    {
+                      "text": "il viaggio",
+                      "emoji": "🧭"
+                    },
+                    {
+                      "text": "il biglietto",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "la stazione",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "la città",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the train",
+                  "audioTarget": "il treno",
+                  "options": [
+                    {
+                      "text": "la strada",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "l'autobus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "l'albergo",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "il treno",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la città",
+                  "options": [
+                    {
+                      "text": "il viaggio"
+                    },
+                    {
+                      "text": "il treno"
+                    },
+                    {
+                      "text": "l'albergo"
+                    },
+                    {
+                      "text": "la città"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Dov'è la stazione?",
+                  "audioTarget": "Dov'è la stazione?",
+                  "tokens": [
+                    "leave",
+                    "is",
+                    "station",
+                    "Where",
+                    "the",
+                    "Rome",
+                    "very"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "station"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Vado a Roma in treno.",
+                  "audioTarget": "Vado a Roma in treno.",
+                  "tokens": [
+                    "I",
+                    "going",
+                    "Rome",
+                    "train",
+                    "station",
+                    "to",
+                    "by",
+                    "Im",
+                    "near"
+                  ],
+                  "answer": [
+                    "Im",
+                    "going",
+                    "to",
+                    "Rome",
+                    "by",
+                    "train"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u4-l0-e8",
+                  "sentence": "Dov'è la stazione?",
+                  "translation": "Where is the station?",
+                  "audioTarget": "Dov'è la stazione?",
+                  "options": [
+                    "museo",
+                    "viaggio",
+                    "Dovè",
+                    "l'aeroporto"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u4-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "la città",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "il treno",
+                      "native": "the train"
+                    },
+                    {
+                      "target": "la stazione",
+                      "native": "the station"
+                    },
+                    {
+                      "target": "la strada",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "l'autobus",
+                      "native": "the bus"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u4-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Vado a Roma in treno.",
+                  "audioTarget": "Vado a Roma in treno.",
+                  "answer": "I'm going to Rome by train.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u4-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'aeroporto",
+                  "audioTarget": "l'aeroporto",
+                  "options": [
+                    {
+                      "text": "the trip",
+                      "emoji": "🧭"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "l'albergo",
+                  "audioTarget": "l'albergo",
+                  "options": [
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la strada",
+                  "audioTarget": "la strada",
+                  "options": [
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the airport",
+                  "audioTarget": "l'aeroporto",
+                  "options": [
+                    {
+                      "text": "l'albergo",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "l'aeroporto",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "l'autobus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "il viaggio",
+                      "emoji": "🧭"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hotel",
+                  "audioTarget": "l'albergo",
+                  "options": [
+                    {
+                      "text": "l'aeroporto",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "l'albergo",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "l'autobus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "il treno",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'albergo",
+                  "options": [
+                    {
+                      "text": "la stazione"
+                    },
+                    {
+                      "text": "la mappa"
+                    },
+                    {
+                      "text": "l'albergo"
+                    },
+                    {
+                      "text": "la città"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ho un biglietto per Milano.",
+                  "audioTarget": "Ho un biglietto per Milano.",
+                  "tokens": [
+                    "Milan",
+                    "have",
+                    "I",
+                    "ticket",
+                    "for",
+                    "are",
+                    "What",
+                    "a",
+                    "is"
+                  ],
+                  "answer": [
+                    "I",
+                    "have",
+                    "a",
+                    "ticket",
+                    "for",
+                    "Milan"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "L'albergo è vicino al museo.",
+                  "audioTarget": "L'albergo è vicino al museo.",
+                  "tokens": [
+                    "is",
+                    "hotel",
+                    "museum",
+                    "the",
+                    "of",
+                    "a",
+                    "near",
+                    "The",
+                    "trip"
+                  ],
+                  "answer": [
+                    "The",
+                    "hotel",
+                    "is",
+                    "near",
+                    "the",
+                    "museum"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u4-l1-e8",
+                  "sentence": "Ho un biglietto per ___.",
+                  "translation": "I have a ticket for Milan.",
+                  "audioTarget": "Ho un biglietto per Milano.",
+                  "options": [
+                    "l'albergo",
+                    "Milano",
+                    "strada",
+                    "mappa"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u4-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "l'aeroporto",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "l'albergo",
+                      "native": "the hotel"
+                    },
+                    {
+                      "target": "la strada",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "la valigia",
+                      "native": "the suitcase"
+                    },
+                    {
+                      "target": "la stazione",
+                      "native": "the station"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u4-l1-e10",
+                  "mode": "translate",
+                  "prompt": "L'albergo è vicino al museo.",
+                  "audioTarget": "L'albergo è vicino al museo.",
+                  "answer": "The hotel is near the museum.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u4-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "il museo",
+                  "audioTarget": "il museo",
+                  "options": [
+                    {
+                      "text": "the trip",
+                      "emoji": "🧭"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la mappa",
+                  "audioTarget": "la mappa",
+                  "options": [
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il biglietto",
+                  "audioTarget": "il biglietto",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the museum",
+                  "audioTarget": "il museo",
+                  "options": [
+                    {
+                      "text": "il museo",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "il viaggio",
+                      "emoji": "🧭"
+                    },
+                    {
+                      "text": "il biglietto",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "l'aeroporto",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the map",
+                  "audioTarget": "la mappa",
+                  "options": [
+                    {
+                      "text": "la mappa",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "il biglietto",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "la valigia",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "la stazione",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "il biglietto",
+                  "options": [
+                    {
+                      "text": "il treno"
+                    },
+                    {
+                      "text": "l'aeroporto"
+                    },
+                    {
+                      "text": "il biglietto"
+                    },
+                    {
+                      "text": "l'albergo"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "A che ora parte il treno?",
+                  "audioTarget": "A che ora parte il treno?",
+                  "tokens": [
+                    "does",
+                    "map",
+                    "city",
+                    "leave",
+                    "the",
+                    "need",
+                    "What",
+                    "train",
+                    "time"
+                  ],
+                  "answer": [
+                    "What",
+                    "time",
+                    "does",
+                    "the",
+                    "train",
+                    "leave"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Cerco una valigia.",
+                  "audioTarget": "Cerco una valigia.",
+                  "tokens": [
+                    "Im",
+                    "The",
+                    "suitcase",
+                    "ticket",
+                    "by",
+                    "a",
+                    "looking",
+                    "for"
+                  ],
+                  "answer": [
+                    "Im",
+                    "looking",
+                    "for",
+                    "a",
+                    "suitcase"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u4-l2-e8",
+                  "sentence": "A che ora parte il ___?",
+                  "translation": "What time does the train leave?",
+                  "audioTarget": "A che ora parte il treno?",
+                  "options": [
+                    "museo",
+                    "l'autobus",
+                    "città",
+                    "treno"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u4-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "il museo",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "la mappa",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "il biglietto",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "la città",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "la valigia",
+                      "native": "the suitcase"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u4-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Cerco una valigia.",
+                  "audioTarget": "Cerco una valigia.",
+                  "answer": "I'm looking for a suitcase.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "it-en:u4-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la valigia",
+                  "audioTarget": "la valigia",
+                  "options": [
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "l'autobus",
+                  "audioTarget": "l'autobus",
+                  "options": [
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "il viaggio",
+                  "audioTarget": "il viaggio",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the trip",
+                      "emoji": "🧭"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the suitcase",
+                  "audioTarget": "la valigia",
+                  "options": [
+                    {
+                      "text": "la valigia",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "il viaggio",
+                      "emoji": "🧭"
+                    },
+                    {
+                      "text": "il biglietto",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "il treno",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bus",
+                  "audioTarget": "l'autobus",
+                  "options": [
+                    {
+                      "text": "la valigia",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "l'autobus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "la strada",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "il treno",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "it-en:u4-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la valigia",
+                  "options": [
+                    {
+                      "text": "la valigia"
+                    },
+                    {
+                      "text": "l'autobus"
+                    },
+                    {
+                      "text": "l'albergo"
+                    },
+                    {
+                      "text": "la strada"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Dove sono le strade principali?",
+                  "audioTarget": "Dove sono le strade principali?",
+                  "tokens": [
+                    "near",
+                    "going",
+                    "streets",
+                    "Where",
+                    "away",
+                    "main",
+                    "the",
+                    "are"
+                  ],
+                  "answer": [
+                    "Where",
+                    "are",
+                    "the",
+                    "main",
+                    "streets"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "it-en:u4-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "L'aeroporto è lontano.",
+                  "audioTarget": "L'aeroporto è lontano.",
+                  "tokens": [
+                    "far",
+                    "leave",
+                    "away",
+                    "airport",
+                    "suitcase",
+                    "is",
+                    "The",
+                    "Im"
+                  ],
+                  "answer": [
+                    "The",
+                    "airport",
+                    "is",
+                    "far",
+                    "away"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "it-en:u4-l3-e8",
+                  "sentence": "Dove sono le ___ principali?",
+                  "translation": "Where are the main streets?",
+                  "audioTarget": "Dove sono le strade principali?",
+                  "options": [
+                    "strade",
+                    "strada",
+                    "biglietto",
+                    "mappa"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "it-en:u4-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "la valigia",
+                      "native": "the suitcase"
+                    },
+                    {
+                      "target": "l'autobus",
+                      "native": "the bus"
+                    },
+                    {
+                      "target": "il viaggio",
+                      "native": "the trip"
+                    },
+                    {
+                      "target": "l'aeroporto",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "la città",
+                      "native": "the city"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "it-en:u4-l3-e10",
+                  "mode": "translate",
+                  "prompt": "L'aeroporto è lontano.",
+                  "audioTarget": "L'aeroporto è lontano.",
+                  "answer": "The airport is far away.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

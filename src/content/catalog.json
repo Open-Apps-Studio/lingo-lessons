@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "id": "de-en",
+      "targetLanguage": "German",
+      "targetCode": "de",
+      "nativeLanguage": "English",
+      "flag": "🇩🇪",
+      "unitCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "id": "es-en",
+      "targetLanguage": "Spanish",
+      "targetCode": "es",
+      "nativeLanguage": "English",
+      "flag": "🇪🇸",
+      "unitCount": 10,
+      "lessonCount": 40
+    },
+    {
+      "id": "fr-en",
+      "targetLanguage": "French",
+      "targetCode": "fr",
+      "nativeLanguage": "English",
+      "flag": "🇫🇷",
+      "unitCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "id": "it-en",
+      "targetLanguage": "Italian",
+      "targetCode": "it",
+      "nativeLanguage": "English",
+      "flag": "🇮🇹",
+      "unitCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "id": "ja-en",
+      "targetLanguage": "Japanese",
+      "targetCode": "ja",
+      "nativeLanguage": "English",
+      "flag": "🇯🇵",
+      "unitCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "id": "ko-en",
+      "targetLanguage": "Korean",
+      "targetCode": "ko",
+      "nativeLanguage": "English",
+      "flag": "🇰🇷",
+      "unitCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "id": "pt-en",
+      "targetLanguage": "Portuguese",
+      "targetCode": "pt",
+      "nativeLanguage": "English",
+      "flag": "🇧🇷",
+      "unitCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "id": "zh-en",
+      "targetLanguage": "Chinese",
+      "targetCode": "zh",
+      "nativeLanguage": "English",
+      "flag": "🇨🇳",
+      "unitCount": 5,
+      "lessonCount": 20
+    }
+  ]
+}

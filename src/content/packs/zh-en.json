@@ -1,0 +1,5509 @@
+{
+  "id": "zh-en",
+  "version": 1,
+  "targetLanguage": "Chinese",
+  "targetCode": "zh",
+  "nativeLanguage": "English",
+  "nativeCode": "en",
+  "flag": "🇨🇳",
+  "sections": [
+    {
+      "id": "zh-en:section-1",
+      "title": "Section 1: Beginner",
+      "units": [
+        {
+          "id": "zh-en:unit-1",
+          "title": "Basics 1",
+          "description": "Learn your very first Chinese words and sentences! Meet people, name foods, and start talking about what you eat and drink.",
+          "guidebook": "Welcome to your first Chinese lesson! 🎉\n\n**Nouns have no articles** in Chinese. There is no \"a,\" \"an,\" or \"the\" — 男人 means both \"a man\" and \"the man.\"\n\n**Subject + 是 (shì) + Noun** is the basic \"to be\" sentence. 是 means \"am/is/are.\" Example: 我是女孩 (I am a girl).\n\n**Verbs don't conjugate.** 吃 (chī, to eat) and 喝 (hē, to drink) stay the same no matter who does the action. Just say: 我喝水 (I drink water).\n\n**Word order** is usually Subject + Verb + Object, just like English: 我吃面包 (I eat bread).\n\n**Tones matter!** Mandarin has 4 tones plus a neutral tone. The pinyin shows tones with marks (ā, á, ǎ, à). Practice them out loud — they change meanings!\n\nLet's go! 🚀",
+          "words": [
+            {
+              "target": "男人",
+              "native": "the man",
+              "emoji": "👨",
+              "romanization": "nán rén"
+            },
+            {
+              "target": "女人",
+              "native": "the woman",
+              "emoji": "👩",
+              "romanization": "nǚ rén"
+            },
+            {
+              "target": "男孩",
+              "native": "the boy",
+              "emoji": "👦",
+              "romanization": "nán hái"
+            },
+            {
+              "target": "女孩",
+              "native": "the girl",
+              "emoji": "👧",
+              "romanization": "nǚ hái"
+            },
+            {
+              "target": "苹果",
+              "native": "the apple",
+              "emoji": "🍎",
+              "romanization": "píng guǒ"
+            },
+            {
+              "target": "面包",
+              "native": "the bread",
+              "emoji": "🍞",
+              "romanization": "miàn bāo"
+            },
+            {
+              "target": "水",
+              "native": "the water",
+              "emoji": "💧",
+              "romanization": "shuǐ"
+            },
+            {
+              "target": "牛奶",
+              "native": "the milk",
+              "emoji": "🥛",
+              "romanization": "niú nǎi"
+            },
+            {
+              "target": "我",
+              "native": "I / me",
+              "emoji": "🙋",
+              "romanization": "wǒ"
+            },
+            {
+              "target": "是",
+              "native": "am / is / are",
+              "emoji": "✅",
+              "romanization": "shì"
+            },
+            {
+              "target": "吃",
+              "native": "to eat",
+              "emoji": "🍽️",
+              "romanization": "chī"
+            },
+            {
+              "target": "喝",
+              "native": "to drink",
+              "emoji": "🥤",
+              "romanization": "hē"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u0-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "男人",
+                  "audioTarget": "男人",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "女人",
+                  "audioTarget": "女人",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "男孩",
+                  "audioTarget": "男孩",
+                  "options": [
+                    {
+                      "text": "am / is / are",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the man",
+                  "audioTarget": "男人",
+                  "options": [
+                    {
+                      "text": "是",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "女孩",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "男人",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "我",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the woman",
+                  "audioTarget": "女人",
+                  "options": [
+                    {
+                      "text": "女孩",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "面包",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "女人",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "男孩",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "男人",
+                  "options": [
+                    {
+                      "text": "水"
+                    },
+                    {
+                      "text": "苹果"
+                    },
+                    {
+                      "text": "男孩"
+                    },
+                    {
+                      "text": "男人"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我是女孩。",
+                  "audioTarget": "我是女孩。",
+                  "tokens": [
+                    "a",
+                    "girl",
+                    "am",
+                    "eats",
+                    "bread",
+                    "I",
+                    "boy"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "girl"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "他是男人。",
+                  "audioTarget": "他是男人。",
+                  "tokens": [
+                    "She",
+                    "is",
+                    "He",
+                    "drinks",
+                    "man",
+                    "am",
+                    "a"
+                  ],
+                  "answer": [
+                    "He",
+                    "is",
+                    "a",
+                    "man"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u0-l0-e8",
+                  "sentence": "___。",
+                  "translation": "I am a girl.",
+                  "audioTarget": "我是女孩。",
+                  "options": [
+                    "我",
+                    "面包",
+                    "我是女孩",
+                    "是"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u0-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "男人",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "女人",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "男孩",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "喝",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "牛奶",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u0-l0-e10",
+                  "mode": "translate",
+                  "prompt": "他是男人。",
+                  "audioTarget": "他是男人。",
+                  "answer": "He is a man.",
+                  "alternatives": [
+                    "tā shì nán rén."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u0-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "女孩",
+                  "audioTarget": "女孩",
+                  "options": [
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "苹果",
+                  "audioTarget": "苹果",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "面包",
+                  "audioTarget": "面包",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the girl",
+                  "audioTarget": "女孩",
+                  "options": [
+                    {
+                      "text": "男孩",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "女孩",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "吃",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "男人",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "苹果",
+                  "options": [
+                    {
+                      "text": "女人",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "苹果",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "吃",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "苹果",
+                  "options": [
+                    {
+                      "text": "牛奶"
+                    },
+                    {
+                      "text": "是"
+                    },
+                    {
+                      "text": "苹果"
+                    },
+                    {
+                      "text": "女孩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "她是女人。",
+                  "audioTarget": "她是女人。",
+                  "tokens": [
+                    "water",
+                    "girl",
+                    "She",
+                    "is",
+                    "an",
+                    "woman",
+                    "a"
+                  ],
+                  "answer": [
+                    "She",
+                    "is",
+                    "a",
+                    "woman"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "他是男孩。",
+                  "audioTarget": "他是男孩。",
+                  "tokens": [
+                    "apple",
+                    "boy",
+                    "is",
+                    "He",
+                    "girl",
+                    "a",
+                    "an"
+                  ],
+                  "answer": [
+                    "He",
+                    "is",
+                    "a",
+                    "boy"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u0-l1-e8",
+                  "sentence": "___。",
+                  "translation": "She is a woman.",
+                  "audioTarget": "她是女人。",
+                  "options": [
+                    "她是女人",
+                    "喝",
+                    "面包",
+                    "是"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u0-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "女孩",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "苹果",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "面包",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "水",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "吃",
+                      "native": "to eat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u0-l1-e10",
+                  "mode": "translate",
+                  "prompt": "他是男孩。",
+                  "audioTarget": "他是男孩。",
+                  "answer": "He is a boy.",
+                  "alternatives": [
+                    "tā shì nán hái."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u0-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "水",
+                  "audioTarget": "水",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "am / is / are",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "牛奶",
+                  "audioTarget": "牛奶",
+                  "options": [
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "我",
+                  "audioTarget": "我",
+                  "options": [
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "水",
+                  "options": [
+                    {
+                      "text": "苹果",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "面包",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "是",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "牛奶",
+                  "options": [
+                    {
+                      "text": "苹果",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "男人",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "牛奶",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "我",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "我",
+                  "options": [
+                    {
+                      "text": "吃"
+                    },
+                    {
+                      "text": "我"
+                    },
+                    {
+                      "text": "水"
+                    },
+                    {
+                      "text": "喝"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我吃苹果。",
+                  "audioTarget": "我吃苹果。",
+                  "tokens": [
+                    "apple",
+                    "drink",
+                    "eat",
+                    "girl",
+                    "I",
+                    "an",
+                    "milk"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "an",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我吃面包。",
+                  "audioTarget": "我吃面包。",
+                  "tokens": [
+                    "bread",
+                    "milk",
+                    "I",
+                    "water",
+                    "am",
+                    "eat"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u0-l2-e8",
+                  "sentence": "___。",
+                  "translation": "I eat an apple.",
+                  "audioTarget": "我吃苹果。",
+                  "options": [
+                    "我吃苹果",
+                    "喝",
+                    "男孩",
+                    "面包"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u0-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "水",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "牛奶",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "我",
+                      "native": "I / me"
+                    },
+                    {
+                      "target": "是",
+                      "native": "am / is / are"
+                    },
+                    {
+                      "target": "男孩",
+                      "native": "the boy"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u0-l2-e10",
+                  "mode": "translate",
+                  "prompt": "我吃面包。",
+                  "audioTarget": "我吃面包。",
+                  "answer": "I eat bread.",
+                  "alternatives": [
+                    "wǒ chī miàn bāo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u0-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "是",
+                  "audioTarget": "是",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "am / is / are",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "吃",
+                  "audioTarget": "吃",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "I / me",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "喝",
+                  "audioTarget": "喝",
+                  "options": [
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "am / is / are",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "am / is / are",
+                  "audioTarget": "是",
+                  "options": [
+                    {
+                      "text": "喝",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "女人",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "是",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "女孩",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to eat",
+                  "audioTarget": "吃",
+                  "options": [
+                    {
+                      "text": "我",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "吃",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "男人",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u0-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "是",
+                  "options": [
+                    {
+                      "text": "是"
+                    },
+                    {
+                      "text": "面包"
+                    },
+                    {
+                      "text": "喝"
+                    },
+                    {
+                      "text": "女孩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我喝水。",
+                  "audioTarget": "我喝水。",
+                  "tokens": [
+                    "I",
+                    "drinks",
+                    "girl",
+                    "bread",
+                    "drink",
+                    "water"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u0-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我喝牛奶。",
+                  "audioTarget": "我喝牛奶。",
+                  "tokens": [
+                    "girl",
+                    "milk",
+                    "I",
+                    "He",
+                    "bread",
+                    "drink"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u0-l3-e8",
+                  "sentence": "___。",
+                  "translation": "I drink water.",
+                  "audioTarget": "我喝水。",
+                  "options": [
+                    "我喝水",
+                    "面包",
+                    "男人",
+                    "水"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u0-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "是",
+                      "native": "am / is / are"
+                    },
+                    {
+                      "target": "吃",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "喝",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "女孩",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "男人",
+                      "native": "the man"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u0-l3-e10",
+                  "mode": "translate",
+                  "prompt": "我喝牛奶。",
+                  "audioTarget": "我喝牛奶。",
+                  "answer": "I drink milk.",
+                  "alternatives": [
+                    "wǒ hē niú nǎi."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-2",
+          "title": "Greetings",
+          "description": "Learn essential Chinese greetings and polite expressions to start any conversation with confidence.",
+          "guidebook": "## Greetings in Chinese 🇨🇳\n\nChinese greetings are wonderfully simple! The most common hello is **你好** (nǐ hǎo), used in most situations. For a polite version, use **您好** (nín hǎo) when addressing elders or strangers.\n\n**Good morning** is **早上好** (zǎoshang hǎo), **good evening** is **晚上好** (wǎnshang hǎo), and **good night** is **晚安** (wǎn'ān).\n\n**Goodbye** has several forms: **再见** (zàijiàn) is standard, while **拜拜** (bàibài) is a casual borrowed form from English \"bye-bye.\"\n\n**Politeness matters!** Always say **请** (qǐng) for \"please\" and **谢谢** (xièxie) for \"thank you.\" A polite **不客气** (bú kèqi) means \"you're welcome.\"\n\n**How are you?** is **你好吗？** (nǐ hǎo ma?) — the particle **吗** turns a statement into a yes/no question. A common reply is **我很好** (wǒ hěn hǎo), \"I'm very well.\"\n\n**Tip:** Chinese often drops pronouns, so **好** alone can mean \"okay\" or \"good!\"",
+          "words": [
+            {
+              "target": "你好",
+              "native": "hello",
+              "emoji": "👋",
+              "romanization": "nǐ hǎo"
+            },
+            {
+              "target": "再见",
+              "native": "goodbye",
+              "emoji": "👋",
+              "romanization": "zàijiàn"
+            },
+            {
+              "target": "请",
+              "native": "please",
+              "emoji": "🙏",
+              "romanization": "qǐng"
+            },
+            {
+              "target": "谢谢",
+              "native": "thank you",
+              "emoji": "🙏",
+              "romanization": "xièxie"
+            },
+            {
+              "target": "早上好",
+              "native": "good morning",
+              "emoji": "🌅",
+              "romanization": "zǎoshang hǎo"
+            },
+            {
+              "target": "晚上好",
+              "native": "good evening",
+              "emoji": "🌆",
+              "romanization": "wǎnshang hǎo"
+            },
+            {
+              "target": "晚安",
+              "native": "good night",
+              "emoji": "🌙",
+              "romanization": "wǎn'ān"
+            },
+            {
+              "target": "不客气",
+              "native": "you're welcome",
+              "emoji": "😊",
+              "romanization": "bú kèqi"
+            },
+            {
+              "target": "对不起",
+              "native": "sorry",
+              "emoji": "🙇",
+              "romanization": "duìbùqǐ"
+            },
+            {
+              "target": "没关系",
+              "native": "no problem",
+              "emoji": "👍",
+              "romanization": "méiguānxi"
+            },
+            {
+              "target": "好",
+              "native": "good",
+              "emoji": "✅",
+              "romanization": "hǎo"
+            },
+            {
+              "target": "拜拜",
+              "native": "bye-bye",
+              "emoji": "👋",
+              "romanization": "bàibài"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u1-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "你好",
+                  "audioTarget": "你好",
+                  "options": [
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "thank you",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "再见",
+                  "audioTarget": "再见",
+                  "options": [
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "请",
+                  "audioTarget": "请",
+                  "options": [
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "hello",
+                  "audioTarget": "你好",
+                  "options": [
+                    {
+                      "text": "对不起",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "你好",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "好",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "请",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "goodbye",
+                  "audioTarget": "再见",
+                  "options": [
+                    {
+                      "text": "对不起",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "拜拜",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "再见",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "晚上好",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "你好",
+                  "options": [
+                    {
+                      "text": "再见"
+                    },
+                    {
+                      "text": "对不起"
+                    },
+                    {
+                      "text": "你好"
+                    },
+                    {
+                      "text": "不客气"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "你好吗？",
+                  "audioTarget": "你好吗？",
+                  "tokens": [
+                    "Hello",
+                    "am",
+                    "very",
+                    "you",
+                    "How",
+                    "are"
+                  ],
+                  "answer": [
+                    "How",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我很好。",
+                  "audioTarget": "我很好。",
+                  "tokens": [
+                    "well",
+                    "no",
+                    "very",
+                    "tomorrow",
+                    "I",
+                    "am",
+                    "see"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "very",
+                    "well"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u1-l0-e8",
+                  "sentence": "___？",
+                  "translation": "How are you?",
+                  "audioTarget": "你好吗？",
+                  "options": [
+                    "你好吗",
+                    "请",
+                    "谢谢",
+                    "早上好"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u1-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "你好",
+                      "native": "hello"
+                    },
+                    {
+                      "target": "再见",
+                      "native": "goodbye"
+                    },
+                    {
+                      "target": "请",
+                      "native": "please"
+                    },
+                    {
+                      "target": "谢谢",
+                      "native": "thank you"
+                    },
+                    {
+                      "target": "晚安",
+                      "native": "good night"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u1-l0-e10",
+                  "mode": "translate",
+                  "prompt": "我很好。",
+                  "audioTarget": "我很好。",
+                  "answer": "I am very well.",
+                  "alternatives": [
+                    "Wǒ hěn hǎo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u1-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "谢谢",
+                  "audioTarget": "谢谢",
+                  "options": [
+                    {
+                      "text": "thank you",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "no problem",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "bye-bye",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "早上好",
+                  "audioTarget": "早上好",
+                  "options": [
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "晚上好",
+                  "audioTarget": "晚上好",
+                  "options": [
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "thank you",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "thank you",
+                  "audioTarget": "谢谢",
+                  "options": [
+                    {
+                      "text": "对不起",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "好",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "没关系",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "谢谢",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "good morning",
+                  "audioTarget": "早上好",
+                  "options": [
+                    {
+                      "text": "谢谢",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "你好",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "早上好",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "不客气",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "早上好",
+                  "options": [
+                    {
+                      "text": "谢谢"
+                    },
+                    {
+                      "text": "拜拜"
+                    },
+                    {
+                      "text": "请"
+                    },
+                    {
+                      "text": "早上好"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "你好，很高兴认识你。",
+                  "audioTarget": "你好，很高兴认识你。",
+                  "tokens": [
+                    "very",
+                    "nice",
+                    "you",
+                    "meet",
+                    "to",
+                    "are",
+                    "Hello",
+                    "see"
+                  ],
+                  "answer": [
+                    "Hello",
+                    "nice",
+                    "to",
+                    "meet",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "早上好！",
+                  "audioTarget": "早上好！",
+                  "tokens": [
+                    "Good",
+                    "problem",
+                    "down",
+                    "well",
+                    "morning"
+                  ],
+                  "answer": [
+                    "Good",
+                    "morning"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u1-l1-e8",
+                  "sentence": "___。",
+                  "translation": "Hello, nice to meet you.",
+                  "audioTarget": "你好，很高兴认识你。",
+                  "options": [
+                    "晚上好",
+                    "你好，很高兴认识你",
+                    "拜拜",
+                    "早上好"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u1-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "谢谢",
+                      "native": "thank you"
+                    },
+                    {
+                      "target": "早上好",
+                      "native": "good morning"
+                    },
+                    {
+                      "target": "晚上好",
+                      "native": "good evening"
+                    },
+                    {
+                      "target": "拜拜",
+                      "native": "bye-bye"
+                    },
+                    {
+                      "target": "请",
+                      "native": "please"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u1-l1-e10",
+                  "mode": "translate",
+                  "prompt": "早上好！",
+                  "audioTarget": "早上好！",
+                  "answer": "Good morning!",
+                  "alternatives": [
+                    "Zǎoshang hǎo!"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u1-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "晚安",
+                  "audioTarget": "晚安",
+                  "options": [
+                    {
+                      "text": "bye-bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "不客气",
+                  "audioTarget": "不客气",
+                  "options": [
+                    {
+                      "text": "bye-bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "对不起",
+                  "audioTarget": "对不起",
+                  "options": [
+                    {
+                      "text": "sorry",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "good",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "bye-bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "good night",
+                  "audioTarget": "晚安",
+                  "options": [
+                    {
+                      "text": "拜拜",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "再见",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "早上好",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "晚安",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "you're welcome",
+                  "audioTarget": "不客气",
+                  "options": [
+                    {
+                      "text": "没关系",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "拜拜",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "谢谢",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "不客气",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "对不起",
+                  "options": [
+                    {
+                      "text": "你好"
+                    },
+                    {
+                      "text": "对不起"
+                    },
+                    {
+                      "text": "拜拜"
+                    },
+                    {
+                      "text": "不客气"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "晚安，明天见。",
+                  "audioTarget": "晚安，明天见。",
+                  "tokens": [
+                    "Please",
+                    "see",
+                    "Good",
+                    "are",
+                    "tomorrow",
+                    "you",
+                    "I",
+                    "night"
+                  ],
+                  "answer": [
+                    "Good",
+                    "night",
+                    "see",
+                    "you",
+                    "tomorrow"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "谢谢你！",
+                  "audioTarget": "谢谢你！",
+                  "tokens": [
+                    "Thank",
+                    "well",
+                    "you",
+                    "Youre",
+                    "am"
+                  ],
+                  "answer": [
+                    "Thank",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u1-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Good night, see you tomorrow.",
+                  "audioTarget": "晚安，明天见。",
+                  "options": [
+                    "对不起",
+                    "好",
+                    "请",
+                    "晚安，明天见"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u1-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "晚安",
+                      "native": "good night"
+                    },
+                    {
+                      "target": "不客气",
+                      "native": "you're welcome"
+                    },
+                    {
+                      "target": "对不起",
+                      "native": "sorry"
+                    },
+                    {
+                      "target": "拜拜",
+                      "native": "bye-bye"
+                    },
+                    {
+                      "target": "谢谢",
+                      "native": "thank you"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u1-l2-e10",
+                  "mode": "translate",
+                  "prompt": "谢谢你！",
+                  "audioTarget": "谢谢你！",
+                  "answer": "Thank you!",
+                  "alternatives": [
+                    "Xièxie nǐ!"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u1-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "没关系",
+                  "audioTarget": "没关系",
+                  "options": [
+                    {
+                      "text": "no problem",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "bye-bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "sorry",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "good evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "好",
+                  "audioTarget": "好",
+                  "options": [
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "good",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "no problem",
+                      "emoji": "👍"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "拜拜",
+                  "audioTarget": "拜拜",
+                  "options": [
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "bye-bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "no problem",
+                  "audioTarget": "没关系",
+                  "options": [
+                    {
+                      "text": "谢谢",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "晚安",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "没关系",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "你好",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "good",
+                  "audioTarget": "好",
+                  "options": [
+                    {
+                      "text": "请",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "不客气",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "好",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "晚上好",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u1-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "没关系",
+                  "options": [
+                    {
+                      "text": "好"
+                    },
+                    {
+                      "text": "请"
+                    },
+                    {
+                      "text": "谢谢"
+                    },
+                    {
+                      "text": "没关系"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "不客气。",
+                  "audioTarget": "不客气。",
+                  "tokens": [
+                    "very",
+                    "welcome",
+                    "am",
+                    "are",
+                    "Youre"
+                  ],
+                  "answer": [
+                    "Youre",
+                    "welcome"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u1-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "对不起，没关系。",
+                  "audioTarget": "对不起，没关系。",
+                  "tokens": [
+                    "problem",
+                    "no",
+                    "meet",
+                    "Good",
+                    "Please",
+                    "Sorry"
+                  ],
+                  "answer": [
+                    "Sorry",
+                    "no",
+                    "problem"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u1-l3-e8",
+                  "sentence": "___。",
+                  "translation": "You're welcome.",
+                  "audioTarget": "不客气。",
+                  "options": [
+                    "不客气",
+                    "早上好",
+                    "再见",
+                    "对不起"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u1-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "没关系",
+                      "native": "no problem"
+                    },
+                    {
+                      "target": "好",
+                      "native": "good"
+                    },
+                    {
+                      "target": "拜拜",
+                      "native": "bye-bye"
+                    },
+                    {
+                      "target": "晚安",
+                      "native": "good night"
+                    },
+                    {
+                      "target": "请",
+                      "native": "please"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u1-l3-e10",
+                  "mode": "translate",
+                  "prompt": "对不起，没关系。",
+                  "audioTarget": "对不起，没关系。",
+                  "answer": "Sorry, no problem.",
+                  "alternatives": [
+                    "Duìbùqǐ, méiguānxi."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-3",
+          "title": "Food",
+          "description": "Learn essential food and drink vocabulary, and how to say what you want, eat, and drink in Chinese.",
+          "guidebook": "## Talking About Food in Chinese 🥢\n\nIn this unit, you'll learn the most common food and drink words you'll encounter every day.\n\n**The verb 想 (xiǎng)** means \"to want\" and is super useful when ordering food or expressing cravings. Pair it with a noun: **我想吃苹果** (wǒ xiǎng chī píngguǒ) — \"I want to eat an apple.\"\n\n**Two key verbs to remember:**\n- **吃 (chī)** = \"to eat\" — used for solid food\n- **喝 (hē)** = \"to drink\" — used for liquids like 水, 茶, and 果汁\n\n**Measure words matter!** Chinese uses measure words (量词) when counting nouns. For most food items, use **个 (gè)**: 一个鸡蛋 (yī gè jīdàn) — \"one egg.\"\n\n**Saying \"I want...\":**\n- 我要咖啡 (wǒ yào kāfēi) — \"I want coffee\" (more direct, like ordering)\n- 我想喝水 (wǒ xiǎng hē shuǐ) — \"I want to drink water\" (more polite)\n\n**Tones tip:** 喝 (hē, 1st tone) and 吃 (chī, 1st tone) are both high and flat — easy to remember together!",
+          "words": [
+            {
+              "target": "咖啡",
+              "native": "the coffee",
+              "emoji": "☕",
+              "romanization": "kāfēi"
+            },
+            {
+              "target": "米饭",
+              "native": "the rice",
+              "emoji": "🍚",
+              "romanization": "mǐfàn"
+            },
+            {
+              "target": "鸡蛋",
+              "native": "the egg",
+              "emoji": "🥚",
+              "romanization": "jīdàn"
+            },
+            {
+              "target": "奶酪",
+              "native": "the cheese",
+              "emoji": "🧀",
+              "romanization": "nǎilào"
+            },
+            {
+              "target": "水果",
+              "native": "the fruit",
+              "emoji": "🍎",
+              "romanization": "shuǐguǒ"
+            },
+            {
+              "target": "果汁",
+              "native": "the juice",
+              "emoji": "🧃",
+              "romanization": "guǒzhī"
+            },
+            {
+              "target": "水",
+              "native": "the water",
+              "emoji": "💧",
+              "romanization": "shuǐ"
+            },
+            {
+              "target": "茶",
+              "native": "the tea",
+              "emoji": "🍵",
+              "romanization": "chá"
+            },
+            {
+              "target": "面包",
+              "native": "the bread",
+              "emoji": "🍞",
+              "romanization": "miànbāo"
+            },
+            {
+              "target": "苹果",
+              "native": "the apple",
+              "emoji": "🍏",
+              "romanization": "píngguǒ"
+            },
+            {
+              "target": "牛奶",
+              "native": "the milk",
+              "emoji": "🥛",
+              "romanization": "niúnǎi"
+            },
+            {
+              "target": "面条",
+              "native": "the noodles",
+              "emoji": "🍜",
+              "romanization": "miàntiáo"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u2-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "咖啡",
+                  "audioTarget": "咖啡",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "米饭",
+                  "audioTarget": "米饭",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "鸡蛋",
+                  "audioTarget": "鸡蛋",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the coffee",
+                  "audioTarget": "咖啡",
+                  "options": [
+                    {
+                      "text": "面条",
+                      "emoji": "🍜"
+                    },
+                    {
+                      "text": "咖啡",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "牛奶",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "水果",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rice",
+                  "audioTarget": "米饭",
+                  "options": [
+                    {
+                      "text": "果汁",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "面条",
+                      "emoji": "🍜"
+                    },
+                    {
+                      "text": "米饭",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "水果",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "咖啡",
+                  "options": [
+                    {
+                      "text": "茶"
+                    },
+                    {
+                      "text": "咖啡"
+                    },
+                    {
+                      "text": "水果"
+                    },
+                    {
+                      "text": "奶酪"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我想喝咖啡。",
+                  "audioTarget": "我想喝咖啡。",
+                  "tokens": [
+                    "want",
+                    "I",
+                    "a",
+                    "drink",
+                    "noodles",
+                    "to",
+                    "coffee",
+                    "water"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "drink",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我喜欢吃米饭。",
+                  "audioTarget": "我喜欢吃米饭。",
+                  "tokens": [
+                    "I",
+                    "a",
+                    "to",
+                    "like",
+                    "rice",
+                    "fruit",
+                    "juice",
+                    "eat"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "to",
+                    "eat",
+                    "rice"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u2-l0-e8",
+                  "sentence": "___。",
+                  "translation": "I want to drink coffee.",
+                  "audioTarget": "我想喝咖啡。",
+                  "options": [
+                    "面条",
+                    "牛奶",
+                    "我想喝咖啡",
+                    "水果"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u2-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "咖啡",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "米饭",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "鸡蛋",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "面条",
+                      "native": "the noodles"
+                    },
+                    {
+                      "target": "牛奶",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u2-l0-e10",
+                  "mode": "translate",
+                  "prompt": "我喜欢吃米饭。",
+                  "audioTarget": "我喜欢吃米饭。",
+                  "answer": "I like to eat rice.",
+                  "alternatives": [
+                    "Wǒ xǐhuān chī mǐfàn."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u2-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "奶酪",
+                  "audioTarget": "奶酪",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "水果",
+                  "audioTarget": "水果",
+                  "options": [
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "果汁",
+                  "audioTarget": "果汁",
+                  "options": [
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cheese",
+                  "audioTarget": "奶酪",
+                  "options": [
+                    {
+                      "text": "奶酪",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "面条",
+                      "emoji": "🍜"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "牛奶",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fruit",
+                  "audioTarget": "水果",
+                  "options": [
+                    {
+                      "text": "牛奶",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "水果",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "茶",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "苹果",
+                      "emoji": "🍏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "水果",
+                  "options": [
+                    {
+                      "text": "水"
+                    },
+                    {
+                      "text": "水果"
+                    },
+                    {
+                      "text": "米饭"
+                    },
+                    {
+                      "text": "鸡蛋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "请给我一杯水。",
+                  "audioTarget": "请给我一杯水。",
+                  "tokens": [
+                    "me",
+                    "of",
+                    "give",
+                    "and",
+                    "a",
+                    "eggs",
+                    "want",
+                    "glass",
+                    "Please",
+                    "water"
+                  ],
+                  "answer": [
+                    "Please",
+                    "give",
+                    "me",
+                    "a",
+                    "glass",
+                    "of",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我早餐吃鸡蛋。",
+                  "audioTarget": "我早餐吃鸡蛋。",
+                  "tokens": [
+                    "of",
+                    "drink",
+                    "eggs",
+                    "breakfast",
+                    "eat",
+                    "bread",
+                    "I",
+                    "for"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "eggs",
+                    "for",
+                    "breakfast"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u2-l1-e8",
+                  "sentence": "___。",
+                  "translation": "Please give me a glass of water.",
+                  "audioTarget": "请给我一杯水。",
+                  "options": [
+                    "茶",
+                    "请给我一杯水",
+                    "米饭",
+                    "牛奶"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u2-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "奶酪",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "水果",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "果汁",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "面条",
+                      "native": "the noodles"
+                    },
+                    {
+                      "target": "牛奶",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u2-l1-e10",
+                  "mode": "translate",
+                  "prompt": "我早餐吃鸡蛋。",
+                  "audioTarget": "我早餐吃鸡蛋。",
+                  "answer": "I eat eggs for breakfast.",
+                  "alternatives": [
+                    "Wǒ zǎocān chī jīdàn."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u2-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "水",
+                  "audioTarget": "水",
+                  "options": [
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "茶",
+                  "audioTarget": "茶",
+                  "options": [
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "面包",
+                  "audioTarget": "面包",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "水",
+                  "options": [
+                    {
+                      "text": "奶酪",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "面包",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "米饭",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the tea",
+                  "audioTarget": "茶",
+                  "options": [
+                    {
+                      "text": "茶",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "奶酪",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "水果",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "鸡蛋",
+                      "emoji": "🥚"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "面包",
+                  "options": [
+                    {
+                      "text": "咖啡"
+                    },
+                    {
+                      "text": "面包"
+                    },
+                    {
+                      "text": "果汁"
+                    },
+                    {
+                      "text": "苹果"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我喜欢喝果汁。",
+                  "audioTarget": "我喜欢喝果汁。",
+                  "tokens": [
+                    "like",
+                    "eat",
+                    "juice",
+                    "I",
+                    "rice",
+                    "want",
+                    "drink",
+                    "to"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "to",
+                    "drink",
+                    "juice"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "你想要水果吗？",
+                  "audioTarget": "你想要水果吗？",
+                  "tokens": [
+                    "juice",
+                    "you",
+                    "and",
+                    "tea",
+                    "fruit",
+                    "want",
+                    "Do"
+                  ],
+                  "answer": [
+                    "Do",
+                    "you",
+                    "want",
+                    "fruit"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u2-l2-e8",
+                  "sentence": "___。",
+                  "translation": "I like to drink juice.",
+                  "audioTarget": "我喜欢喝果汁。",
+                  "options": [
+                    "水",
+                    "米饭",
+                    "我喜欢喝果汁",
+                    "水果"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u2-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "水",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "茶",
+                      "native": "the tea"
+                    },
+                    {
+                      "target": "面包",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "鸡蛋",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "面条",
+                      "native": "the noodles"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u2-l2-e10",
+                  "mode": "translate",
+                  "prompt": "你想要水果吗？",
+                  "audioTarget": "你想要水果吗？",
+                  "answer": "Do you want fruit?",
+                  "alternatives": [
+                    "Nǐ xiǎng yào shuǐguǒ ma?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u2-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "苹果",
+                  "audioTarget": "苹果",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "the noodles",
+                      "emoji": "🍜"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "牛奶",
+                  "audioTarget": "牛奶",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "面条",
+                  "audioTarget": "面条",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the noodles",
+                      "emoji": "🍜"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "苹果",
+                  "options": [
+                    {
+                      "text": "苹果",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "牛奶",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "果汁",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "牛奶",
+                  "options": [
+                    {
+                      "text": "水果",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "水",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "牛奶",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "果汁",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u2-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "苹果",
+                  "options": [
+                    {
+                      "text": "米饭"
+                    },
+                    {
+                      "text": "面包"
+                    },
+                    {
+                      "text": "苹果"
+                    },
+                    {
+                      "text": "牛奶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我喜欢喝茶。",
+                  "audioTarget": "我喜欢喝茶。",
+                  "tokens": [
+                    "me",
+                    "like",
+                    "eat",
+                    "drink",
+                    "to",
+                    "tea",
+                    "for",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "to",
+                    "drink",
+                    "tea"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u2-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我吃面包和奶酪。",
+                  "audioTarget": "我吃面包和奶酪。",
+                  "tokens": [
+                    "you",
+                    "eat",
+                    "Please",
+                    "I",
+                    "bread",
+                    "cheese",
+                    "and",
+                    "eggs"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "bread",
+                    "and",
+                    "cheese"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u2-l3-e8",
+                  "sentence": "___。",
+                  "translation": "I like to drink tea.",
+                  "audioTarget": "我喜欢喝茶。",
+                  "options": [
+                    "水",
+                    "咖啡",
+                    "米饭",
+                    "我喜欢喝茶"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u2-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "苹果",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "牛奶",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "面条",
+                      "native": "the noodles"
+                    },
+                    {
+                      "target": "果汁",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "水",
+                      "native": "the water"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u2-l3-e10",
+                  "mode": "translate",
+                  "prompt": "我吃面包和奶酪。",
+                  "audioTarget": "我吃面包和奶酪。",
+                  "answer": "I eat bread and cheese.",
+                  "alternatives": [
+                    "Wǒ chī miànbāo hé nǎilào."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-4",
+          "title": "Animals",
+          "description": "Learn the names of common animals in Chinese and how to describe them with simple sentences.",
+          "guidebook": "## Animals in Chinese 🐾\n\nIn this unit, you'll learn the names of six common animals and how to make simple sentences about them.\n\n### Key Grammar: Using 是 (shì) for \"to be\"\nTo say \"It is a dog,\" use the structure:\n**Subject + 是 + Noun**\n- 这是狗。 (Zhè shì gǒu.) — This is a dog.\n\n### Using 很 (hěn) for descriptions\nTo describe an animal, use:\n**Subject + 很 + Adjective**\n- 猫很小。 (Māo hěn xiǎo.) — The cat is very small.\n\n### Measure word: 只 (zhī)\nWhen counting animals, use the measure word **只**:\n- 一只鸟 (yì zhī niǎo) — one bird\n\n### Negation with 不 (bù)\nTo make a sentence negative, place **不** before the verb or adjective:\n- 鱼不大。 (Yú bù dà.) — The fish is not big.\n\nPractice combining these patterns to build longer sentences!",
+          "words": [
+            {
+              "target": "狗",
+              "native": "the dog",
+              "emoji": "🐕",
+              "romanization": "gǒu"
+            },
+            {
+              "target": "猫",
+              "native": "the cat",
+              "emoji": "🐈",
+              "romanization": "māo"
+            },
+            {
+              "target": "马",
+              "native": "the horse",
+              "emoji": "🐴",
+              "romanization": "mǎ"
+            },
+            {
+              "target": "鸟",
+              "native": "the bird",
+              "emoji": "🐦",
+              "romanization": "niǎo"
+            },
+            {
+              "target": "鱼",
+              "native": "the fish",
+              "emoji": "🐟",
+              "romanization": "yú"
+            },
+            {
+              "target": "牛",
+              "native": "the cow",
+              "emoji": "🐄",
+              "romanization": "niú"
+            },
+            {
+              "target": "大",
+              "native": "big",
+              "emoji": "📏",
+              "romanization": "dà"
+            },
+            {
+              "target": "小",
+              "native": "small",
+              "emoji": "🤏",
+              "romanization": "xiǎo"
+            },
+            {
+              "target": "可爱",
+              "native": "cute",
+              "emoji": "🥰",
+              "romanization": "kě'ài"
+            },
+            {
+              "target": "快",
+              "native": "fast",
+              "emoji": "💨",
+              "romanization": "kuài"
+            },
+            {
+              "target": "只",
+              "native": "measure word for animals",
+              "emoji": "🔢",
+              "romanization": "zhī"
+            },
+            {
+              "target": "动物",
+              "native": "the animal",
+              "emoji": "🦁",
+              "romanization": "dòngwù"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u3-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "狗",
+                  "audioTarget": "狗",
+                  "options": [
+                    {
+                      "text": "fast",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "big",
+                      "emoji": "📏"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "猫",
+                  "audioTarget": "猫",
+                  "options": [
+                    {
+                      "text": "big",
+                      "emoji": "📏"
+                    },
+                    {
+                      "text": "cute",
+                      "emoji": "🥰"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "马",
+                  "audioTarget": "马",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "cute",
+                      "emoji": "🥰"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the dog",
+                  "audioTarget": "狗",
+                  "options": [
+                    {
+                      "text": "牛",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "狗",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "鱼",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "动物",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cat",
+                  "audioTarget": "猫",
+                  "options": [
+                    {
+                      "text": "马",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "快",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "小",
+                      "emoji": "🤏"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "狗",
+                  "options": [
+                    {
+                      "text": "小"
+                    },
+                    {
+                      "text": "大"
+                    },
+                    {
+                      "text": "狗"
+                    },
+                    {
+                      "text": "快"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "这是一只狗。",
+                  "audioTarget": "这是一只狗。",
+                  "tokens": [
+                    "water",
+                    "horse",
+                    "a",
+                    "is",
+                    "This",
+                    "dog",
+                    "small"
+                  ],
+                  "answer": [
+                    "This",
+                    "is",
+                    "a",
+                    "dog"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "猫很小。",
+                  "audioTarget": "猫很小。",
+                  "tokens": [
+                    "small",
+                    "The",
+                    "sky",
+                    "cat",
+                    "dog",
+                    "is",
+                    "dogs"
+                  ],
+                  "answer": [
+                    "The",
+                    "cat",
+                    "is",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u3-l0-e8",
+                  "sentence": "___。",
+                  "translation": "This is a dog.",
+                  "audioTarget": "这是一只狗。",
+                  "options": [
+                    "牛",
+                    "这是一只狗",
+                    "鸟",
+                    "猫"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u3-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "狗",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "猫",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "马",
+                      "native": "the horse"
+                    },
+                    {
+                      "target": "鸟",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "动物",
+                      "native": "the animal"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u3-l0-e10",
+                  "mode": "translate",
+                  "prompt": "猫很小。",
+                  "audioTarget": "猫很小。",
+                  "answer": "The cat is small.",
+                  "alternatives": [
+                    "Māo hěn xiǎo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u3-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "鸟",
+                  "audioTarget": "鸟",
+                  "options": [
+                    {
+                      "text": "cute",
+                      "emoji": "🥰"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "big",
+                      "emoji": "📏"
+                    },
+                    {
+                      "text": "fast",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "鱼",
+                  "audioTarget": "鱼",
+                  "options": [
+                    {
+                      "text": "the animal",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "small",
+                      "emoji": "🤏"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "牛",
+                  "audioTarget": "牛",
+                  "options": [
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bird",
+                  "audioTarget": "鸟",
+                  "options": [
+                    {
+                      "text": "大",
+                      "emoji": "📏"
+                    },
+                    {
+                      "text": "狗",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "快",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "鸟",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "鱼",
+                  "options": [
+                    {
+                      "text": "鱼",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "小",
+                      "emoji": "🤏"
+                    },
+                    {
+                      "text": "马",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "动物",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "鱼",
+                  "options": [
+                    {
+                      "text": "鸟"
+                    },
+                    {
+                      "text": "快"
+                    },
+                    {
+                      "text": "鱼"
+                    },
+                    {
+                      "text": "小"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "马跑得快。",
+                  "audioTarget": "马跑得快。",
+                  "tokens": [
+                    "fast",
+                    "That",
+                    "runs",
+                    "flies",
+                    "The",
+                    "fish",
+                    "horse"
+                  ],
+                  "answer": [
+                    "The",
+                    "horse",
+                    "runs",
+                    "fast"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "鸟在天上飞。",
+                  "audioTarget": "鸟在天上飞。",
+                  "tokens": [
+                    "This",
+                    "the",
+                    "sky",
+                    "The",
+                    "bird",
+                    "big",
+                    "in",
+                    "runs",
+                    "flies"
+                  ],
+                  "answer": [
+                    "The",
+                    "bird",
+                    "flies",
+                    "in",
+                    "the",
+                    "sky"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u3-l1-e8",
+                  "sentence": "___。",
+                  "translation": "The horse runs fast.",
+                  "audioTarget": "马跑得快。",
+                  "options": [
+                    "小",
+                    "动物",
+                    "牛",
+                    "马跑得快"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u3-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "鸟",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "鱼",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "牛",
+                      "native": "the cow"
+                    },
+                    {
+                      "target": "马",
+                      "native": "the horse"
+                    },
+                    {
+                      "target": "动物",
+                      "native": "the animal"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u3-l1-e10",
+                  "mode": "translate",
+                  "prompt": "鸟在天上飞。",
+                  "audioTarget": "鸟在天上飞。",
+                  "answer": "The bird flies in the sky.",
+                  "alternatives": [
+                    "Niǎo zài tiān shàng fēi."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u3-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "大",
+                  "audioTarget": "大",
+                  "options": [
+                    {
+                      "text": "the animal",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "big",
+                      "emoji": "📏"
+                    },
+                    {
+                      "text": "small",
+                      "emoji": "🤏"
+                    },
+                    {
+                      "text": "measure word for animals",
+                      "emoji": "🔢"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "小",
+                  "audioTarget": "小",
+                  "options": [
+                    {
+                      "text": "small",
+                      "emoji": "🤏"
+                    },
+                    {
+                      "text": "the animal",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "fast",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "可爱",
+                  "audioTarget": "可爱",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "cute",
+                      "emoji": "🥰"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "big",
+                  "audioTarget": "大",
+                  "options": [
+                    {
+                      "text": "牛",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "狗",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "大",
+                      "emoji": "📏"
+                    },
+                    {
+                      "text": "动物",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "small",
+                  "audioTarget": "小",
+                  "options": [
+                    {
+                      "text": "狗",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "小",
+                      "emoji": "🤏"
+                    },
+                    {
+                      "text": "马",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "鸟",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "可爱",
+                  "options": [
+                    {
+                      "text": "快"
+                    },
+                    {
+                      "text": "小"
+                    },
+                    {
+                      "text": "猫"
+                    },
+                    {
+                      "text": "可爱"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "鱼在水里。",
+                  "audioTarget": "鱼在水里。",
+                  "tokens": [
+                    "The",
+                    "flies",
+                    "the",
+                    "horse",
+                    "is",
+                    "fish",
+                    "in",
+                    "That",
+                    "water"
+                  ],
+                  "answer": [
+                    "The",
+                    "fish",
+                    "is",
+                    "in",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "牛很大。",
+                  "audioTarget": "牛很大。",
+                  "tokens": [
+                    "The",
+                    "small",
+                    "is",
+                    "cow",
+                    "flies",
+                    "big",
+                    "bird"
+                  ],
+                  "answer": [
+                    "The",
+                    "cow",
+                    "is",
+                    "big"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u3-l2-e8",
+                  "sentence": "___。",
+                  "translation": "The fish is in the water.",
+                  "audioTarget": "鱼在水里。",
+                  "options": [
+                    "小",
+                    "鱼在水里",
+                    "猫",
+                    "鱼"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u3-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "大",
+                      "native": "big"
+                    },
+                    {
+                      "target": "小",
+                      "native": "small"
+                    },
+                    {
+                      "target": "可爱",
+                      "native": "cute"
+                    },
+                    {
+                      "target": "动物",
+                      "native": "the animal"
+                    },
+                    {
+                      "target": "只",
+                      "native": "measure word for animals"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u3-l2-e10",
+                  "mode": "translate",
+                  "prompt": "牛很大。",
+                  "audioTarget": "牛很大。",
+                  "answer": "The cow is big.",
+                  "alternatives": [
+                    "Niú hěn dà."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u3-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "快",
+                  "audioTarget": "快",
+                  "options": [
+                    {
+                      "text": "fast",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "只",
+                  "audioTarget": "只",
+                  "options": [
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "fast",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "measure word for animals",
+                      "emoji": "🔢"
+                    },
+                    {
+                      "text": "the animal",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "动物",
+                  "audioTarget": "动物",
+                  "options": [
+                    {
+                      "text": "cute",
+                      "emoji": "🥰"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the animal",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "fast",
+                  "audioTarget": "快",
+                  "options": [
+                    {
+                      "text": "可爱",
+                      "emoji": "🥰"
+                    },
+                    {
+                      "text": "快",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "鱼",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "measure word for animals",
+                  "audioTarget": "只",
+                  "options": [
+                    {
+                      "text": "只",
+                      "emoji": "🔢"
+                    },
+                    {
+                      "text": "牛",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "狗",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "猫",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u3-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "快",
+                  "options": [
+                    {
+                      "text": "猫"
+                    },
+                    {
+                      "text": "小"
+                    },
+                    {
+                      "text": "快"
+                    },
+                    {
+                      "text": "鸟"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "这只猫很可爱。",
+                  "audioTarget": "这只猫很可爱。",
+                  "tokens": [
+                    "is",
+                    "very",
+                    "cute",
+                    "cat",
+                    "The",
+                    "cow",
+                    "This",
+                    "runs"
+                  ],
+                  "answer": [
+                    "This",
+                    "cat",
+                    "is",
+                    "very",
+                    "cute"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u3-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我喜欢狗。",
+                  "audioTarget": "我喜欢狗。",
+                  "tokens": [
+                    "like",
+                    "in",
+                    "small",
+                    "dogs",
+                    "This",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "dogs"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u3-l3-e8",
+                  "sentence": "___。",
+                  "translation": "This cat is very cute.",
+                  "audioTarget": "这只猫很可爱。",
+                  "options": [
+                    "鸟",
+                    "这只猫很可爱",
+                    "狗",
+                    "牛"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u3-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "快",
+                      "native": "fast"
+                    },
+                    {
+                      "target": "只",
+                      "native": "measure word for animals"
+                    },
+                    {
+                      "target": "动物",
+                      "native": "the animal"
+                    },
+                    {
+                      "target": "狗",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "大",
+                      "native": "big"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u3-l3-e10",
+                  "mode": "translate",
+                  "prompt": "我喜欢狗。",
+                  "audioTarget": "我喜欢狗。",
+                  "answer": "I like dogs.",
+                  "alternatives": [
+                    "Wǒ xǐhuān gǒu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-5",
+          "title": "Travel",
+          "description": "Learn essential Chinese vocabulary and phrases for navigating cities, transportation, hotels, and airports.",
+          "guidebook": "## Getting Around in Chinese 🗺️\n\nThis unit covers the essentials of travel in Chinese-speaking regions. You'll learn how to ask for directions and identify key places.\n\n**Asking \"Where is...?\"**\nThe most useful phrase is **在哪里?** (zài nǎlǐ?), meaning \"Where is it?\" Simply place a noun before it:\n- **酒店在哪里?** (jiǔdiàn zài nǎlǐ?) — Where is the hotel?\n- **机场在哪里?** (jīchǎng zài nǎlǐ?) — Where is the airport?\n\n**Using 在 (zài) for location**\nThe verb **在** means \"to be located at.\" Structure: **Place + 在 + Location**\n- **酒店在城市里** (jiǔdiàn zài chéngshì lǐ) — The hotel is in the city.\n\n**Going places with 去 (qù)**\nTo say you're going somewhere, use **去** (qù, \"to go\"):\n- **我去机场** (wǒ qù jīchǎng) — I go to the airport.\n\n**Tones matter!** Mandarin has four tones that change word meaning entirely. Practice with the pinyin provided. 加油! (jiāyóu!) — Keep it up!",
+          "words": [
+            {
+              "target": "城市",
+              "native": "the city",
+              "emoji": "🏙️",
+              "romanization": "chéngshì"
+            },
+            {
+              "target": "酒店",
+              "native": "the hotel",
+              "emoji": "🏨",
+              "romanization": "jiǔdiàn"
+            },
+            {
+              "target": "机场",
+              "native": "the airport",
+              "emoji": "✈️",
+              "romanization": "jīchǎng"
+            },
+            {
+              "target": "火车站",
+              "native": "the train station",
+              "emoji": "🚉",
+              "romanization": "huǒchē zhàn"
+            },
+            {
+              "target": "地铁",
+              "native": "the subway",
+              "emoji": "🚇",
+              "romanization": "dìtiě"
+            },
+            {
+              "target": "出租车",
+              "native": "the taxi",
+              "emoji": "🚕",
+              "romanization": "chūzū chē"
+            },
+            {
+              "target": "街道",
+              "native": "the street",
+              "emoji": "🛣️",
+              "romanization": "jiēdào"
+            },
+            {
+              "target": "博物馆",
+              "native": "the museum",
+              "emoji": "🏛️",
+              "romanization": "bówùguǎn"
+            },
+            {
+              "target": "公园",
+              "native": "the park",
+              "emoji": "🌳",
+              "romanization": "gōngyuán"
+            },
+            {
+              "target": "地图",
+              "native": "the map",
+              "emoji": "🗺️",
+              "romanization": "dìtú"
+            },
+            {
+              "target": "护照",
+              "native": "the passport",
+              "emoji": "📔",
+              "romanization": "hùzhào"
+            },
+            {
+              "target": "行李",
+              "native": "the luggage",
+              "emoji": "🧳",
+              "romanization": "xínglǐ"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u4-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "城市",
+                  "audioTarget": "城市",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "酒店",
+                  "audioTarget": "酒店",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "机场",
+                  "audioTarget": "机场",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the park",
+                      "emoji": "🌳"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the city",
+                  "audioTarget": "城市",
+                  "options": [
+                    {
+                      "text": "地图",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "火车站",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "机场",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "城市",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hotel",
+                  "audioTarget": "酒店",
+                  "options": [
+                    {
+                      "text": "酒店",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "地铁",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "护照",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "地图",
+                      "emoji": "🗺️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "城市",
+                  "options": [
+                    {
+                      "text": "护照"
+                    },
+                    {
+                      "text": "地铁"
+                    },
+                    {
+                      "text": "城市"
+                    },
+                    {
+                      "text": "行李"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "酒店在哪里?",
+                  "audioTarget": "酒店在哪里?",
+                  "tokens": [
+                    "city",
+                    "is",
+                    "hotel",
+                    "Please",
+                    "Where",
+                    "the",
+                    "map"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "hotel"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "机场在哪里?",
+                  "audioTarget": "机场在哪里?",
+                  "tokens": [
+                    "going",
+                    "street",
+                    "the",
+                    "is",
+                    "Where",
+                    "airport",
+                    "My"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "airport"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u4-l0-e8",
+                  "sentence": "___?",
+                  "translation": "Where is the hotel?",
+                  "audioTarget": "酒店在哪里?",
+                  "options": [
+                    "街道",
+                    "酒店在哪里",
+                    "博物馆",
+                    "火车站"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u4-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "城市",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "酒店",
+                      "native": "the hotel"
+                    },
+                    {
+                      "target": "机场",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "地图",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "火车站",
+                      "native": "the train station"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u4-l0-e10",
+                  "mode": "translate",
+                  "prompt": "机场在哪里?",
+                  "audioTarget": "机场在哪里?",
+                  "answer": "Where is the airport?",
+                  "alternatives": [
+                    "jīchǎng zài nǎlǐ?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u4-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "火车站",
+                  "audioTarget": "火车站",
+                  "options": [
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "the subway",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "地铁",
+                  "audioTarget": "地铁",
+                  "options": [
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "the subway",
+                      "emoji": "🚇"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "出租车",
+                  "audioTarget": "出租车",
+                  "options": [
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the train station",
+                  "audioTarget": "火车站",
+                  "options": [
+                    {
+                      "text": "地铁",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "酒店",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "公园",
+                      "emoji": "🌳"
+                    },
+                    {
+                      "text": "火车站",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the subway",
+                  "audioTarget": "地铁",
+                  "options": [
+                    {
+                      "text": "行李",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "地铁",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "火车站",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "出租车",
+                      "emoji": "🚕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "地铁",
+                  "options": [
+                    {
+                      "text": "机场"
+                    },
+                    {
+                      "text": "护照"
+                    },
+                    {
+                      "text": "博物馆"
+                    },
+                    {
+                      "text": "地铁"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "火车站在哪里?",
+                  "audioTarget": "火车站在哪里?",
+                  "tokens": [
+                    "the",
+                    "map",
+                    "street",
+                    "Where",
+                    "is",
+                    "station",
+                    "My",
+                    "train"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "train",
+                    "station"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "博物馆在哪里?",
+                  "audioTarget": "博物馆在哪里?",
+                  "tokens": [
+                    "me",
+                    "to",
+                    "next",
+                    "museum",
+                    "is",
+                    "Where",
+                    "the"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "museum"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u4-l1-e8",
+                  "sentence": "___?",
+                  "translation": "Where is the train station?",
+                  "audioTarget": "火车站在哪里?",
+                  "options": [
+                    "公园",
+                    "火车站在哪里",
+                    "出租车",
+                    "机场"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u4-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "火车站",
+                      "native": "the train station"
+                    },
+                    {
+                      "target": "地铁",
+                      "native": "the subway"
+                    },
+                    {
+                      "target": "出租车",
+                      "native": "the taxi"
+                    },
+                    {
+                      "target": "博物馆",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "公园",
+                      "native": "the park"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u4-l1-e10",
+                  "mode": "translate",
+                  "prompt": "博物馆在哪里?",
+                  "audioTarget": "博物馆在哪里?",
+                  "answer": "Where is the museum?",
+                  "alternatives": [
+                    "bówùguǎn zài nǎlǐ?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u4-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "街道",
+                  "audioTarget": "街道",
+                  "options": [
+                    {
+                      "text": "the luggage",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the park",
+                      "emoji": "🌳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "博物馆",
+                  "audioTarget": "博物馆",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the subway",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "公园",
+                  "audioTarget": "公园",
+                  "options": [
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the luggage",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the park",
+                      "emoji": "🌳"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the street",
+                  "audioTarget": "街道",
+                  "options": [
+                    {
+                      "text": "公园",
+                      "emoji": "🌳"
+                    },
+                    {
+                      "text": "博物馆",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "街道",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "城市",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the museum",
+                  "audioTarget": "博物馆",
+                  "options": [
+                    {
+                      "text": "街道",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "博物馆",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "地图",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "城市",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "公园",
+                  "options": [
+                    {
+                      "text": "出租车"
+                    },
+                    {
+                      "text": "地铁"
+                    },
+                    {
+                      "text": "公园"
+                    },
+                    {
+                      "text": "博物馆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "地铁站在哪里?",
+                  "audioTarget": "地铁站在哪里?",
+                  "tokens": [
+                    "station",
+                    "Where",
+                    "is",
+                    "give",
+                    "the",
+                    "luggage",
+                    "map",
+                    "subway"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "subway",
+                    "station"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我去机场。",
+                  "audioTarget": "我去机场。",
+                  "tokens": [
+                    "hotel",
+                    "am",
+                    "going",
+                    "I",
+                    "the",
+                    "airport",
+                    "Where",
+                    "park",
+                    "to"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "going",
+                    "to",
+                    "the",
+                    "airport"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u4-l2-e8",
+                  "sentence": "___?",
+                  "translation": "Where is the subway station?",
+                  "audioTarget": "地铁站在哪里?",
+                  "options": [
+                    "地铁站在哪里",
+                    "出租车",
+                    "博物馆",
+                    "街道"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u4-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "街道",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "博物馆",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "公园",
+                      "native": "the park"
+                    },
+                    {
+                      "target": "行李",
+                      "native": "the luggage"
+                    },
+                    {
+                      "target": "出租车",
+                      "native": "the taxi"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u4-l2-e10",
+                  "mode": "translate",
+                  "prompt": "我去机场。",
+                  "audioTarget": "我去机场。",
+                  "answer": "I am going to the airport.",
+                  "alternatives": [
+                    "wǒ qù jīchǎng."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u4-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "地图",
+                  "audioTarget": "地图",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "护照",
+                  "audioTarget": "护照",
+                  "options": [
+                    {
+                      "text": "the park",
+                      "emoji": "🌳"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "📔"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "行李",
+                  "audioTarget": "行李",
+                  "options": [
+                    {
+                      "text": "the luggage",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "the park",
+                      "emoji": "🌳"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the map",
+                  "audioTarget": "地图",
+                  "options": [
+                    {
+                      "text": "护照",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "地图",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "火车站",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "行李",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the passport",
+                  "audioTarget": "护照",
+                  "options": [
+                    {
+                      "text": "地铁",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "街道",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "护照",
+                      "emoji": "📔"
+                    },
+                    {
+                      "text": "城市",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u4-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "地图",
+                  "options": [
+                    {
+                      "text": "地图"
+                    },
+                    {
+                      "text": "行李"
+                    },
+                    {
+                      "text": "护照"
+                    },
+                    {
+                      "text": "火车站"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "请给我一张地图。",
+                  "audioTarget": "请给我一张地图。",
+                  "tokens": [
+                    "station",
+                    "My",
+                    "give",
+                    "me",
+                    "in",
+                    "map",
+                    "a",
+                    "Please"
+                  ],
+                  "answer": [
+                    "Please",
+                    "give",
+                    "me",
+                    "a",
+                    "map"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u4-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "出租车在城市里。",
+                  "audioTarget": "出租车在城市里。",
+                  "tokens": [
+                    "in",
+                    "taxi",
+                    "to",
+                    "the",
+                    "city",
+                    "me",
+                    "is",
+                    "The",
+                    "map"
+                  ],
+                  "answer": [
+                    "The",
+                    "taxi",
+                    "is",
+                    "in",
+                    "the",
+                    "city"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u4-l3-e8",
+                  "sentence": "___。",
+                  "translation": "Please give me a map.",
+                  "audioTarget": "请给我一张地图。",
+                  "options": [
+                    "行李",
+                    "出租车",
+                    "地铁",
+                    "请给我一张地图"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u4-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "地图",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "护照",
+                      "native": "the passport"
+                    },
+                    {
+                      "target": "行李",
+                      "native": "the luggage"
+                    },
+                    {
+                      "target": "博物馆",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "火车站",
+                      "native": "the train station"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u4-l3-e10",
+                  "mode": "translate",
+                  "prompt": "出租车在城市里。",
+                  "audioTarget": "出租车在城市里。",
+                  "answer": "The taxi is in the city.",
+                  "alternatives": [
+                    "chūzū chē zài chéngshì lǐ."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

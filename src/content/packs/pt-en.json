@@ -1,0 +1,5417 @@
+{
+  "id": "pt-en",
+  "version": 1,
+  "targetLanguage": "Portuguese",
+  "targetCode": "pt",
+  "nativeLanguage": "English",
+  "nativeCode": "en",
+  "flag": "🇧🇷",
+  "sections": [
+    {
+      "id": "pt-en:section-1",
+      "title": "Section 1: Beginner",
+      "units": [
+        {
+          "id": "pt-en:unit-1",
+          "title": "Basics 1",
+          "description": "Learn your very first Portuguese words and sentences — people, food, and the verbs to be, to eat, and to drink.",
+          "guidebook": "Welcome to Portuguese! 🇧🇷🇵🇹\n\n**Articles matter!** Every Portuguese noun has a gender. *O* = the (masculine), *a* = the (feminine). For example, *o homem* (the man) and *a mulher* (the woman).\n\n**Ser vs. Estar** — both mean \"to be.\" In this unit we use **ser** for identity: *Eu sou* (I am), *Você é* (You are).\n\n**Verbs ending in -ar:** *comer* (to eat) → *eu como*, *você come*. *Beber* (to drink) → *eu bebo*, *você bebe*.\n\n**Word order** is flexible, but Subject–Verb–Object is most common: *Eu como a maçã* (I eat the apple).\n\n**Tip:** Brazilians often drop the subject pronoun because the verb form already tells you who's acting. So *Como pão* = \"I eat bread.\"\n\nLet's go! 🚀",
+          "words": [
+            {
+              "target": "o homem",
+              "native": "the man",
+              "emoji": "👨"
+            },
+            {
+              "target": "a mulher",
+              "native": "the woman",
+              "emoji": "👩"
+            },
+            {
+              "target": "o menino",
+              "native": "the boy",
+              "emoji": "👦"
+            },
+            {
+              "target": "a menina",
+              "native": "the girl",
+              "emoji": "👧"
+            },
+            {
+              "target": "a maçã",
+              "native": "the apple",
+              "emoji": "🍎"
+            },
+            {
+              "target": "o pão",
+              "native": "the bread",
+              "emoji": "🍞"
+            },
+            {
+              "target": "a água",
+              "native": "the water",
+              "emoji": "💧"
+            },
+            {
+              "target": "o leite",
+              "native": "the milk",
+              "emoji": "🥛"
+            },
+            {
+              "target": "eu sou",
+              "native": "I am",
+              "emoji": "🙋"
+            },
+            {
+              "target": "você é",
+              "native": "you are",
+              "emoji": "👉"
+            },
+            {
+              "target": "comer",
+              "native": "to eat",
+              "emoji": "🍽️"
+            },
+            {
+              "target": "beber",
+              "native": "to drink",
+              "emoji": "🥤"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "pt-en:u0-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o homem",
+                  "audioTarget": "o homem",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a mulher",
+                  "audioTarget": "a mulher",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "you are",
+                      "emoji": "👉"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o menino",
+                  "audioTarget": "o menino",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "I am",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the man",
+                  "audioTarget": "o homem",
+                  "options": [
+                    {
+                      "text": "o homem",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "o pão",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "a mulher",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "a menina",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the woman",
+                  "audioTarget": "a mulher",
+                  "options": [
+                    {
+                      "text": "a menina",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "a mulher",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "você é",
+                      "emoji": "👉"
+                    },
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o homem",
+                  "options": [
+                    {
+                      "text": "o menino"
+                    },
+                    {
+                      "text": "o homem"
+                    },
+                    {
+                      "text": "beber"
+                    },
+                    {
+                      "text": "comer"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu sou um homem.",
+                  "audioTarget": "Eu sou um homem.",
+                  "tokens": [
+                    "man",
+                    "am",
+                    "boy",
+                    "I",
+                    "a",
+                    "You",
+                    "drinks"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "man"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Eu sou uma mulher.",
+                  "audioTarget": "Eu sou uma mulher.",
+                  "tokens": [
+                    "am",
+                    "woman",
+                    "eats",
+                    "I",
+                    "a",
+                    "apple",
+                    "drink"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "woman"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u0-l0-e8",
+                  "sentence": "Eu sou um ___.",
+                  "translation": "I am a man.",
+                  "audioTarget": "Eu sou um homem.",
+                  "options": [
+                    "maçã",
+                    "água",
+                    "sou",
+                    "homem"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u0-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "o homem",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "a mulher",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "o menino",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "eu sou",
+                      "native": "I am"
+                    },
+                    {
+                      "target": "o leite",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u0-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Eu sou uma mulher.",
+                  "audioTarget": "Eu sou uma mulher.",
+                  "answer": "I am a woman.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u0-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "a menina",
+                  "audioTarget": "a menina",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a maçã",
+                  "audioTarget": "a maçã",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "you are",
+                      "emoji": "👉"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o pão",
+                  "audioTarget": "o pão",
+                  "options": [
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the girl",
+                  "audioTarget": "a menina",
+                  "options": [
+                    {
+                      "text": "a menina",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "o menino",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "a maçã",
+                  "options": [
+                    {
+                      "text": "o menino",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "a maçã",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "o pão",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "beber",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "a maçã",
+                  "options": [
+                    {
+                      "text": "a menina"
+                    },
+                    {
+                      "text": "o menino"
+                    },
+                    {
+                      "text": "a maçã"
+                    },
+                    {
+                      "text": "beber"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Você é um menino.",
+                  "audioTarget": "Você é um menino.",
+                  "tokens": [
+                    "are",
+                    "I",
+                    "water",
+                    "a",
+                    "man",
+                    "boy",
+                    "You"
+                  ],
+                  "answer": [
+                    "You",
+                    "are",
+                    "a",
+                    "boy"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Você é uma menina.",
+                  "audioTarget": "Você é uma menina.",
+                  "tokens": [
+                    "man",
+                    "a",
+                    "I",
+                    "drinks",
+                    "are",
+                    "You",
+                    "girl"
+                  ],
+                  "answer": [
+                    "You",
+                    "are",
+                    "a",
+                    "girl"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u0-l1-e8",
+                  "sentence": "Você é um ___.",
+                  "translation": "You are a boy.",
+                  "audioTarget": "Você é um menino.",
+                  "options": [
+                    "pão",
+                    "sou",
+                    "leite",
+                    "menino"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u0-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "a menina",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "a maçã",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "o pão",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "a água",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "o menino",
+                      "native": "the boy"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u0-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Você é uma menina.",
+                  "audioTarget": "Você é uma menina.",
+                  "answer": "You are a girl.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u0-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "a água",
+                  "audioTarget": "a água",
+                  "options": [
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "I am",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o leite",
+                  "audioTarget": "o leite",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "eu sou",
+                  "audioTarget": "eu sou",
+                  "options": [
+                    {
+                      "text": "you are",
+                      "emoji": "👉"
+                    },
+                    {
+                      "text": "I am",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "a água",
+                  "options": [
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "a mulher",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "a maçã",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "o leite",
+                  "options": [
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "você é",
+                      "emoji": "👉"
+                    },
+                    {
+                      "text": "o menino",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "a maçã",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "eu sou",
+                  "options": [
+                    {
+                      "text": "o leite"
+                    },
+                    {
+                      "text": "o menino"
+                    },
+                    {
+                      "text": "beber"
+                    },
+                    {
+                      "text": "eu sou"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu como a maçã.",
+                  "audioTarget": "Eu como a maçã.",
+                  "tokens": [
+                    "am",
+                    "apple",
+                    "eat",
+                    "the",
+                    "woman",
+                    "I",
+                    "bread"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "the",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Eu como o pão.",
+                  "audioTarget": "Eu como o pão.",
+                  "tokens": [
+                    "bread",
+                    "water",
+                    "the",
+                    "I",
+                    "apple",
+                    "eat",
+                    "milk"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "the",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u0-l2-e8",
+                  "sentence": "Eu ___ a maçã.",
+                  "translation": "I eat the apple.",
+                  "audioTarget": "Eu como a maçã.",
+                  "options": [
+                    "maçã",
+                    "como",
+                    "leite",
+                    "menino"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u0-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "a água",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "o leite",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "eu sou",
+                      "native": "I am"
+                    },
+                    {
+                      "target": "o pão",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "a mulher",
+                      "native": "the woman"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u0-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Eu como o pão.",
+                  "audioTarget": "Eu como o pão.",
+                  "answer": "I eat the bread.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u0-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "você é",
+                  "audioTarget": "você é",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "you are",
+                      "emoji": "👉"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "comer",
+                  "audioTarget": "comer",
+                  "options": [
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "beber",
+                  "audioTarget": "beber",
+                  "options": [
+                    {
+                      "text": "you are",
+                      "emoji": "👉"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "you are",
+                  "audioTarget": "você é",
+                  "options": [
+                    {
+                      "text": "a mulher",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "a maçã",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "comer",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "você é",
+                      "emoji": "👉"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to eat",
+                  "audioTarget": "comer",
+                  "options": [
+                    {
+                      "text": "comer",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "a menina",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "beber",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u0-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "você é",
+                  "options": [
+                    {
+                      "text": "você é"
+                    },
+                    {
+                      "text": "a mulher"
+                    },
+                    {
+                      "text": "o leite"
+                    },
+                    {
+                      "text": "a água"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu bebo a água.",
+                  "audioTarget": "Eu bebo a água.",
+                  "tokens": [
+                    "eats",
+                    "are",
+                    "drink",
+                    "boy",
+                    "the",
+                    "water",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u0-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Eu bebo o leite.",
+                  "audioTarget": "Eu bebo o leite.",
+                  "tokens": [
+                    "drink",
+                    "the",
+                    "a",
+                    "drinks",
+                    "I",
+                    "water",
+                    "milk"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "the",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u0-l3-e8",
+                  "sentence": "Eu bebo a ___.",
+                  "translation": "I drink the water.",
+                  "audioTarget": "Eu bebo a água.",
+                  "options": [
+                    "é",
+                    "menino",
+                    "beber",
+                    "água"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u0-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "você é",
+                      "native": "you are"
+                    },
+                    {
+                      "target": "comer",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "beber",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "a menina",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "o leite",
+                      "native": "the milk"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u0-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Eu bebo o leite.",
+                  "audioTarget": "Eu bebo o leite.",
+                  "answer": "I drink the milk.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pt-en:unit-2",
+          "title": "Greetings",
+          "description": "Learn essential Portuguese greetings and polite expressions for everyday conversations.",
+          "guidebook": "## Greetings in Portuguese 🇧🇷🇵🇹\n\nPortuguese greetings change with the time of day and level of formality.\n\n**Hello / Goodbye**\n- **Olá** = Hello (universal, informal)\n- **Bom dia** = Good morning (until ~noon)\n- **Boa tarde** = Good afternoon (until sunset)\n- **Boa noite** = Good evening / Good night\n\n**How are you?**\n- **Como vai?** = How are you? (formal)\n- **Como estás?** = How are you? (informal, Portugal)\n- **Tudo bem?** = Everything good? (very common)\n- Reply: **Bem, obrigado/a** = Fine, thanks (m/f)\n\n**Politeness**\n- **Por favor** = Please\n- **Obrigado** = Thank you (masc. speaker)\n- **Obrigada** = Thank you (fem. speaker)\n- **De nada** = You're welcome\n- **Desculpe** = Excuse me / Sorry (formal)\n\n**Goodbye**\n- **Tchau** = Bye (informal)\n- **Até logo** = See you later\n- **Até amanhã** = See you tomorrow\n\n💡 Tip: Brazilians often use **beijos** (kisses) and **abraços** (hugs) when greeting friends!",
+          "words": [
+            {
+              "target": "olá",
+              "native": "hello",
+              "emoji": "👋"
+            },
+            {
+              "target": "bom dia",
+              "native": "good morning",
+              "emoji": "🌅"
+            },
+            {
+              "target": "boa tarde",
+              "native": "good afternoon",
+              "emoji": "☀️"
+            },
+            {
+              "target": "boa noite",
+              "native": "good night",
+              "emoji": "🌙"
+            },
+            {
+              "target": "tchau",
+              "native": "goodbye",
+              "emoji": "👋"
+            },
+            {
+              "target": "por favor",
+              "native": "please",
+              "emoji": "🙏"
+            },
+            {
+              "target": "obrigado",
+              "native": "thank you",
+              "emoji": "💐"
+            },
+            {
+              "target": "de nada",
+              "native": "you're welcome",
+              "emoji": "😊"
+            },
+            {
+              "target": "tudo bem",
+              "native": "everything is fine",
+              "emoji": "👍"
+            },
+            {
+              "target": "como vai",
+              "native": "how are you",
+              "emoji": "🤔"
+            },
+            {
+              "target": "até logo",
+              "native": "see you later",
+              "emoji": "👀"
+            },
+            {
+              "target": "desculpe",
+              "native": "excuse me",
+              "emoji": "🙇"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "pt-en:u1-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "olá",
+                  "audioTarget": "olá",
+                  "options": [
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "how are you",
+                      "emoji": "🤔"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "bom dia",
+                  "audioTarget": "bom dia",
+                  "options": [
+                    {
+                      "text": "everything is fine",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "boa tarde",
+                  "audioTarget": "boa tarde",
+                  "options": [
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "thank you",
+                      "emoji": "💐"
+                    },
+                    {
+                      "text": "good afternoon",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "everything is fine",
+                      "emoji": "👍"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "hello",
+                  "audioTarget": "olá",
+                  "options": [
+                    {
+                      "text": "obrigado",
+                      "emoji": "💐"
+                    },
+                    {
+                      "text": "olá",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "tchau",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "boa tarde",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "good morning",
+                  "audioTarget": "bom dia",
+                  "options": [
+                    {
+                      "text": "olá",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "boa tarde",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "por favor",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "bom dia",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "olá",
+                  "options": [
+                    {
+                      "text": "como vai"
+                    },
+                    {
+                      "text": "de nada"
+                    },
+                    {
+                      "text": "olá"
+                    },
+                    {
+                      "text": "tchau"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Olá, como vai?",
+                  "audioTarget": "Olá, como vai?",
+                  "tokens": [
+                    "are",
+                    "afternoon",
+                    "bye",
+                    "Hello",
+                    "didnt",
+                    "how",
+                    "you"
+                  ],
+                  "answer": [
+                    "Hello",
+                    "how",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Bom dia, tudo bem?",
+                  "audioTarget": "Bom dia, tudo bem?",
+                  "tokens": [
+                    "later",
+                    "are",
+                    "how",
+                    "Please",
+                    "Sorry",
+                    "Good",
+                    "morning",
+                    "you"
+                  ],
+                  "answer": [
+                    "Good",
+                    "morning",
+                    "how",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u1-l0-e8",
+                  "sentence": "Olá, ___ vai?",
+                  "translation": "Hello, how are you?",
+                  "audioTarget": "Olá, como vai?",
+                  "options": [
+                    "noite",
+                    "dia",
+                    "como",
+                    "nada"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u1-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "olá",
+                      "native": "hello"
+                    },
+                    {
+                      "target": "bom dia",
+                      "native": "good morning"
+                    },
+                    {
+                      "target": "boa tarde",
+                      "native": "good afternoon"
+                    },
+                    {
+                      "target": "como vai",
+                      "native": "how are you"
+                    },
+                    {
+                      "target": "obrigado",
+                      "native": "thank you"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u1-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Bom dia, tudo bem?",
+                  "audioTarget": "Bom dia, tudo bem?",
+                  "answer": "Good morning, how are you?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u1-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "boa noite",
+                  "audioTarget": "boa noite",
+                  "options": [
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "good morning",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "tchau",
+                  "audioTarget": "tchau",
+                  "options": [
+                    {
+                      "text": "good afternoon",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "por favor",
+                  "audioTarget": "por favor",
+                  "options": [
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "good night",
+                  "audioTarget": "boa noite",
+                  "options": [
+                    {
+                      "text": "tudo bem",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "boa noite",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "olá",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "tchau",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "goodbye",
+                  "audioTarget": "tchau",
+                  "options": [
+                    {
+                      "text": "bom dia",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "até logo",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "tchau",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "boa tarde",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "tchau",
+                  "options": [
+                    {
+                      "text": "tchau"
+                    },
+                    {
+                      "text": "de nada"
+                    },
+                    {
+                      "text": "boa tarde"
+                    },
+                    {
+                      "text": "como vai"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Boa tarde, obrigado.",
+                  "audioTarget": "Boa tarde, obrigado.",
+                  "tokens": [
+                    "Please",
+                    "Hello",
+                    "meet",
+                    "you",
+                    "thank",
+                    "afternoon",
+                    "Good"
+                  ],
+                  "answer": [
+                    "Good",
+                    "afternoon",
+                    "thank",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Boa noite, até logo.",
+                  "audioTarget": "Boa noite, até logo.",
+                  "tokens": [
+                    "fine",
+                    "Please",
+                    "later",
+                    "night",
+                    "see",
+                    "you",
+                    "meet",
+                    "Good"
+                  ],
+                  "answer": [
+                    "Good",
+                    "night",
+                    "see",
+                    "you",
+                    "later"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u1-l1-e8",
+                  "sentence": "Boa ___, obrigado.",
+                  "translation": "Good afternoon, thank you.",
+                  "audioTarget": "Boa tarde, obrigado.",
+                  "options": [
+                    "tchau",
+                    "nada",
+                    "tarde",
+                    "vai"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u1-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "boa noite",
+                      "native": "good night"
+                    },
+                    {
+                      "target": "tchau",
+                      "native": "goodbye"
+                    },
+                    {
+                      "target": "por favor",
+                      "native": "please"
+                    },
+                    {
+                      "target": "olá",
+                      "native": "hello"
+                    },
+                    {
+                      "target": "obrigado",
+                      "native": "thank you"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u1-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Boa noite, até logo.",
+                  "audioTarget": "Boa noite, até logo.",
+                  "answer": "Good night, see you later.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u1-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "obrigado",
+                  "audioTarget": "obrigado",
+                  "options": [
+                    {
+                      "text": "thank you",
+                      "emoji": "💐"
+                    },
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "de nada",
+                  "audioTarget": "de nada",
+                  "options": [
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "see you later",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "goodbye",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "tudo bem",
+                  "audioTarget": "tudo bem",
+                  "options": [
+                    {
+                      "text": "everything is fine",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "how are you",
+                      "emoji": "🤔"
+                    },
+                    {
+                      "text": "see you later",
+                      "emoji": "👀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "thank you",
+                  "audioTarget": "obrigado",
+                  "options": [
+                    {
+                      "text": "obrigado",
+                      "emoji": "💐"
+                    },
+                    {
+                      "text": "tchau",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "até logo",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "por favor",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "you're welcome",
+                  "audioTarget": "de nada",
+                  "options": [
+                    {
+                      "text": "obrigado",
+                      "emoji": "💐"
+                    },
+                    {
+                      "text": "olá",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "tudo bem",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "de nada",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "tudo bem",
+                  "options": [
+                    {
+                      "text": "boa noite"
+                    },
+                    {
+                      "text": "bom dia"
+                    },
+                    {
+                      "text": "de nada"
+                    },
+                    {
+                      "text": "tudo bem"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Tudo bem, obrigado.",
+                  "audioTarget": "Tudo bem, obrigado.",
+                  "tokens": [
+                    "you",
+                    "thank",
+                    "Nice",
+                    "Im",
+                    "see",
+                    "fine",
+                    "coffee"
+                  ],
+                  "answer": [
+                    "Im",
+                    "fine",
+                    "thank",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Muito prazer em conhecê-lo.",
+                  "audioTarget": "Muito prazer em conhecê-lo.",
+                  "tokens": [
+                    "morning",
+                    "I",
+                    "Im",
+                    "meet",
+                    "you",
+                    "to",
+                    "Nice"
+                  ],
+                  "answer": [
+                    "Nice",
+                    "to",
+                    "meet",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u1-l2-e8",
+                  "sentence": "Tudo bem, ___.",
+                  "translation": "I'm fine, thank you.",
+                  "audioTarget": "Tudo bem, obrigado.",
+                  "options": [
+                    "dia",
+                    "obrigado",
+                    "desculpe",
+                    "bem"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u1-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "obrigado",
+                      "native": "thank you"
+                    },
+                    {
+                      "target": "de nada",
+                      "native": "you're welcome"
+                    },
+                    {
+                      "target": "tudo bem",
+                      "native": "everything is fine"
+                    },
+                    {
+                      "target": "boa tarde",
+                      "native": "good afternoon"
+                    },
+                    {
+                      "target": "desculpe",
+                      "native": "excuse me"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u1-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Muito prazer em conhecê-lo.",
+                  "audioTarget": "Muito prazer em conhecê-lo.",
+                  "answer": "Nice to meet you.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u1-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "como vai",
+                  "audioTarget": "como vai",
+                  "options": [
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "good night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "how are you",
+                      "emoji": "🤔"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "até logo",
+                  "audioTarget": "até logo",
+                  "options": [
+                    {
+                      "text": "how are you",
+                      "emoji": "🤔"
+                    },
+                    {
+                      "text": "see you later",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "desculpe",
+                  "audioTarget": "desculpe",
+                  "options": [
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "you're welcome",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "how are you",
+                      "emoji": "🤔"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "how are you",
+                  "audioTarget": "como vai",
+                  "options": [
+                    {
+                      "text": "como vai",
+                      "emoji": "🤔"
+                    },
+                    {
+                      "text": "até logo",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "de nada",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "olá",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "see you later",
+                  "audioTarget": "até logo",
+                  "options": [
+                    {
+                      "text": "até logo",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "tudo bem",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "como vai",
+                      "emoji": "🤔"
+                    },
+                    {
+                      "text": "obrigado",
+                      "emoji": "💐"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u1-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "como vai",
+                  "options": [
+                    {
+                      "text": "bom dia"
+                    },
+                    {
+                      "text": "até logo"
+                    },
+                    {
+                      "text": "por favor"
+                    },
+                    {
+                      "text": "como vai"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Por favor, um café.",
+                  "audioTarget": "Por favor, um café.",
+                  "tokens": [
+                    "one",
+                    "Please",
+                    "coffee",
+                    "good",
+                    "welcome",
+                    "afternoon"
+                  ],
+                  "answer": [
+                    "Please",
+                    "one",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u1-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "De nada, boa sorte.",
+                  "audioTarget": "De nada, boa sorte.",
+                  "tokens": [
+                    "welcome",
+                    "Youre",
+                    "luck",
+                    "Sorry",
+                    "bye",
+                    "good",
+                    "see"
+                  ],
+                  "answer": [
+                    "Youre",
+                    "welcome",
+                    "good",
+                    "luck"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u1-l3-e8",
+                  "sentence": "Por ___, um café.",
+                  "translation": "Please, one coffee.",
+                  "audioTarget": "Por favor, um café.",
+                  "options": [
+                    "olá",
+                    "favor",
+                    "desculpe",
+                    "nada"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u1-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "como vai",
+                      "native": "how are you"
+                    },
+                    {
+                      "target": "até logo",
+                      "native": "see you later"
+                    },
+                    {
+                      "target": "desculpe",
+                      "native": "excuse me"
+                    },
+                    {
+                      "target": "bom dia",
+                      "native": "good morning"
+                    },
+                    {
+                      "target": "por favor",
+                      "native": "please"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u1-l3-e10",
+                  "mode": "translate",
+                  "prompt": "De nada, boa sorte.",
+                  "audioTarget": "De nada, boa sorte.",
+                  "answer": "You're welcome, good luck.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pt-en:unit-3",
+          "title": "Food",
+          "description": "Learn essential Portuguese words for common foods and drinks, and how to say you want, eat, or drink them.",
+          "guidebook": "Welcome to the Food unit! 🍽️\n\n**Articles matter!** Portuguese nouns have grammatical gender. Masculine nouns typically use **o** (the) and feminine nouns use **a** (the). For example, *o pão* (the bread) is masculine, while *a água* (the water) is feminine.\n\n**Wanting, eating, and drinking** use very common verbs:\n- **Querer** (to want): *Eu quero café* (I want coffee)\n- **Comer** (to eat): *Eu como arroz* (I eat rice)\n- **Beber** (to drink): *Eu bebo sumo* (I drink juice)\n\n**Word order** is flexible but typically follows Subject-Verb-Object. You can drop the subject pronoun (*eu*, *tu*) since the verb conjugation already tells you who's acting.\n\n**A useful phrase:** *Eu quero um café, por favor* (I want a coffee, please) — perfect for any café in Lisbon! ☕",
+          "words": [
+            {
+              "target": "o café",
+              "native": "the coffee",
+              "emoji": "☕"
+            },
+            {
+              "target": "o arroz",
+              "native": "the rice",
+              "emoji": "🍚"
+            },
+            {
+              "target": "o ovo",
+              "native": "the egg",
+              "emoji": "🥚"
+            },
+            {
+              "target": "o queijo",
+              "native": "the cheese",
+              "emoji": "🧀"
+            },
+            {
+              "target": "a fruta",
+              "native": "the fruit",
+              "emoji": "🍎"
+            },
+            {
+              "target": "o sumo",
+              "native": "the juice",
+              "emoji": "🧃"
+            },
+            {
+              "target": "o pão",
+              "native": "the bread",
+              "emoji": "🍞"
+            },
+            {
+              "target": "a água",
+              "native": "the water",
+              "emoji": "💧"
+            },
+            {
+              "target": "o leite",
+              "native": "the milk",
+              "emoji": "🥛"
+            },
+            {
+              "target": "a carne",
+              "native": "the meat",
+              "emoji": "🥩"
+            },
+            {
+              "target": "o peixe",
+              "native": "the fish",
+              "emoji": "🐟"
+            },
+            {
+              "target": "o bolo",
+              "native": "the cake",
+              "emoji": "🍰"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "pt-en:u2-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o café",
+                  "audioTarget": "o café",
+                  "options": [
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o arroz",
+                  "audioTarget": "o arroz",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o ovo",
+                  "audioTarget": "o ovo",
+                  "options": [
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the coffee",
+                  "audioTarget": "o café",
+                  "options": [
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "o sumo",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "o café",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "o pão",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rice",
+                  "audioTarget": "o arroz",
+                  "options": [
+                    {
+                      "text": "o arroz",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "o pão",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "a fruta",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o café",
+                  "options": [
+                    {
+                      "text": "o café"
+                    },
+                    {
+                      "text": "o leite"
+                    },
+                    {
+                      "text": "o sumo"
+                    },
+                    {
+                      "text": "o arroz"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu quero um café.",
+                  "audioTarget": "Eu quero um café.",
+                  "tokens": [
+                    "coffee",
+                    "drinks",
+                    "fruit",
+                    "a",
+                    "cake",
+                    "want",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "a",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Eu como arroz todos os dias.",
+                  "audioTarget": "Eu como arroz todos os dias.",
+                  "tokens": [
+                    "I",
+                    "every",
+                    "chocolate",
+                    "rice",
+                    "day",
+                    "cake",
+                    "dinner",
+                    "eat"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "rice",
+                    "every",
+                    "day"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u2-l0-e8",
+                  "sentence": "Eu quero um ___.",
+                  "translation": "I want a coffee.",
+                  "audioTarget": "Eu quero um café.",
+                  "options": [
+                    "bolo",
+                    "sumo",
+                    "água",
+                    "café"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u2-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "o café",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "o arroz",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "o ovo",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "o peixe",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "o sumo",
+                      "native": "the juice"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u2-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Eu como arroz todos os dias.",
+                  "audioTarget": "Eu como arroz todos os dias.",
+                  "answer": "I eat rice every day.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u2-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o queijo",
+                  "audioTarget": "o queijo",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a fruta",
+                  "audioTarget": "a fruta",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o sumo",
+                  "audioTarget": "o sumo",
+                  "options": [
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cheese",
+                  "audioTarget": "o queijo",
+                  "options": [
+                    {
+                      "text": "o peixe",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "o queijo",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "o sumo",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fruit",
+                  "audioTarget": "a fruta",
+                  "options": [
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "o sumo",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "a fruta",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "o café",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "a fruta",
+                  "options": [
+                    {
+                      "text": "a fruta"
+                    },
+                    {
+                      "text": "a carne"
+                    },
+                    {
+                      "text": "o pão"
+                    },
+                    {
+                      "text": "o arroz"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ela bebe sumo de laranja.",
+                  "audioTarget": "Ela bebe sumo de laranja.",
+                  "tokens": [
+                    "eat",
+                    "She",
+                    "orange",
+                    "milk",
+                    "drinks",
+                    "fresh",
+                    "juice"
+                  ],
+                  "answer": [
+                    "She",
+                    "drinks",
+                    "orange",
+                    "juice"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "O pão está quente.",
+                  "audioTarget": "O pão está quente.",
+                  "tokens": [
+                    "warm",
+                    "wants",
+                    "chocolate",
+                    "is",
+                    "cold",
+                    "The",
+                    "bread"
+                  ],
+                  "answer": [
+                    "The",
+                    "bread",
+                    "is",
+                    "warm"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u2-l1-e8",
+                  "sentence": "Ela ___ sumo de laranja.",
+                  "translation": "She drinks orange juice.",
+                  "audioTarget": "Ela bebe sumo de laranja.",
+                  "options": [
+                    "sumo",
+                    "café",
+                    "queijo",
+                    "bebe"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u2-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "o queijo",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "a fruta",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "o sumo",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "o peixe",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "o arroz",
+                      "native": "the rice"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u2-l1-e10",
+                  "mode": "translate",
+                  "prompt": "O pão está quente.",
+                  "audioTarget": "O pão está quente.",
+                  "answer": "The bread is warm.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u2-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o pão",
+                  "audioTarget": "o pão",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a água",
+                  "audioTarget": "a água",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o leite",
+                  "audioTarget": "o leite",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bread",
+                  "audioTarget": "o pão",
+                  "options": [
+                    {
+                      "text": "o queijo",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "o bolo",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "o pão",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "a carne",
+                      "emoji": "🥩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "a água",
+                  "options": [
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "o arroz",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "o queijo",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "a água",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o leite",
+                  "options": [
+                    {
+                      "text": "o sumo"
+                    },
+                    {
+                      "text": "o leite"
+                    },
+                    {
+                      "text": "o ovo"
+                    },
+                    {
+                      "text": "o arroz"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu gosto de queijo.",
+                  "audioTarget": "Eu gosto de queijo.",
+                  "tokens": [
+                    "I",
+                    "drink",
+                    "drinks",
+                    "like",
+                    "cheese",
+                    "dinner"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "cheese"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ele quer fruta fresca.",
+                  "audioTarget": "Ele quer fruta fresca.",
+                  "tokens": [
+                    "fresh",
+                    "I",
+                    "He",
+                    "cake",
+                    "dinner",
+                    "fruit",
+                    "wants"
+                  ],
+                  "answer": [
+                    "He",
+                    "wants",
+                    "fresh",
+                    "fruit"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u2-l2-e8",
+                  "sentence": "Eu ___ de queijo.",
+                  "translation": "I like cheese.",
+                  "audioTarget": "Eu gosto de queijo.",
+                  "options": [
+                    "gosto",
+                    "leite",
+                    "sumo",
+                    "peixe"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u2-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "o pão",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "a água",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "o leite",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "a fruta",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "a carne",
+                      "native": "the meat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u2-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Ele quer fruta fresca.",
+                  "audioTarget": "Ele quer fruta fresca.",
+                  "answer": "He wants fresh fruit.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u2-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "a carne",
+                  "audioTarget": "a carne",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o peixe",
+                  "audioTarget": "o peixe",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o bolo",
+                  "audioTarget": "o bolo",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cake",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the meat",
+                  "audioTarget": "a carne",
+                  "options": [
+                    {
+                      "text": "a carne",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "o pão",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "o café",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "o leite",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "o peixe",
+                  "options": [
+                    {
+                      "text": "o bolo",
+                      "emoji": "🍰"
+                    },
+                    {
+                      "text": "o peixe",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "a fruta",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "o café",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u2-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "a carne",
+                  "options": [
+                    {
+                      "text": "a fruta"
+                    },
+                    {
+                      "text": "a carne"
+                    },
+                    {
+                      "text": "o peixe"
+                    },
+                    {
+                      "text": "o sumo"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Nós comemos peixe ao jantar.",
+                  "audioTarget": "Nós comemos peixe ao jantar.",
+                  "tokens": [
+                    "fruit",
+                    "cake",
+                    "for",
+                    "eat",
+                    "We",
+                    "fish",
+                    "dinner",
+                    "every"
+                  ],
+                  "answer": [
+                    "We",
+                    "eat",
+                    "fish",
+                    "for",
+                    "dinner"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u2-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "A água está fria.",
+                  "audioTarget": "A água está fria.",
+                  "tokens": [
+                    "is",
+                    "water",
+                    "cold",
+                    "orange",
+                    "The",
+                    "rice",
+                    "We"
+                  ],
+                  "answer": [
+                    "The",
+                    "water",
+                    "is",
+                    "cold"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u2-l3-e8",
+                  "sentence": "Nós ___ peixe ao jantar.",
+                  "translation": "We eat fish for dinner.",
+                  "audioTarget": "Nós comemos peixe ao jantar.",
+                  "options": [
+                    "pão",
+                    "comemos",
+                    "queijo",
+                    "peixe"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u2-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "a carne",
+                      "native": "the meat"
+                    },
+                    {
+                      "target": "o peixe",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "o bolo",
+                      "native": "the cake"
+                    },
+                    {
+                      "target": "o sumo",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "o café",
+                      "native": "the coffee"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u2-l3-e10",
+                  "mode": "translate",
+                  "prompt": "A água está fria.",
+                  "audioTarget": "A água está fria.",
+                  "answer": "The water is cold.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pt-en:unit-4",
+          "title": "Animals",
+          "description": "Learn the names of common animals in Portuguese and how to describe them simply.",
+          "guidebook": "Welcome to the world of animals in Portuguese! 🐾\n\n**Genders matter!** Animal nouns have grammatical gender:\n- **Masculine:** o gato (the male cat), o cavalo (the horse), o peixe (the fish)\n- **Feminine:** a gata (the female cat), a vaca (the cow), a ave (the bird)\n\n**Articles:** Use **o** for masculine and **a** for feminine singular nouns. Plural uses **os** and **as** (os cães, as vacas).\n\n**Simple descriptions:** Use adjectives after the noun. They must agree in gender:\n- o gato **pequeno** (the small cat)\n- a vaca **grande** (the big cow)\n\n**Useful verbs:**\n- *ser* (to be) for permanent traits: *O cavalo é grande.*\n- *ter* (to have) for possession: *Eu tenho um gato.*\n\n**Fun fact:** *Cão* is the formal word for dog — *cachorro* is more common in everyday Brazilian Portuguese!",
+          "words": [
+            {
+              "target": "o cachorro",
+              "native": "the dog",
+              "emoji": "🐕"
+            },
+            {
+              "target": "o gato",
+              "native": "the cat",
+              "emoji": "🐈"
+            },
+            {
+              "target": "o cavalo",
+              "native": "the horse",
+              "emoji": "🐴"
+            },
+            {
+              "target": "o pássaro",
+              "native": "the bird",
+              "emoji": "🐦"
+            },
+            {
+              "target": "o peixe",
+              "native": "the fish",
+              "emoji": "🐟"
+            },
+            {
+              "target": "a vaca",
+              "native": "the cow",
+              "emoji": "🐄"
+            },
+            {
+              "target": "o porco",
+              "native": "the pig",
+              "emoji": "🐖"
+            },
+            {
+              "target": "a ovelha",
+              "native": "the sheep",
+              "emoji": "🐑"
+            },
+            {
+              "target": "o coelho",
+              "native": "the rabbit",
+              "emoji": "🐰"
+            },
+            {
+              "target": "o pato",
+              "native": "the duck",
+              "emoji": "🦆"
+            },
+            {
+              "target": "o galo",
+              "native": "the rooster",
+              "emoji": "🐓"
+            },
+            {
+              "target": "a galinha",
+              "native": "the hen",
+              "emoji": "🐔"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "pt-en:u3-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o cachorro",
+                  "audioTarget": "o cachorro",
+                  "options": [
+                    {
+                      "text": "the pig",
+                      "emoji": "🐖"
+                    },
+                    {
+                      "text": "the rooster",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o gato",
+                  "audioTarget": "o gato",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o cavalo",
+                  "audioTarget": "o cavalo",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the duck",
+                      "emoji": "🦆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the dog",
+                  "audioTarget": "o cachorro",
+                  "options": [
+                    {
+                      "text": "o cachorro",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "o peixe",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "o pato",
+                      "emoji": "🦆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cat",
+                  "audioTarget": "o gato",
+                  "options": [
+                    {
+                      "text": "o gato",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "o cavalo",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "o coelho",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o cachorro",
+                  "options": [
+                    {
+                      "text": "a ovelha"
+                    },
+                    {
+                      "text": "o cachorro"
+                    },
+                    {
+                      "text": "o coelho"
+                    },
+                    {
+                      "text": "o peixe"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "O cachorro é grande.",
+                  "audioTarget": "O cachorro é grande.",
+                  "tokens": [
+                    "sheep",
+                    "big",
+                    "is",
+                    "pond",
+                    "dog",
+                    "The",
+                    "animals"
+                  ],
+                  "answer": [
+                    "The",
+                    "dog",
+                    "is",
+                    "big"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Eu tenho um gato.",
+                  "audioTarget": "Eu tenho um gato.",
+                  "tokens": [
+                    "have",
+                    "cat",
+                    "is",
+                    "I",
+                    "a",
+                    "love",
+                    "high"
+                  ],
+                  "answer": [
+                    "I",
+                    "have",
+                    "a",
+                    "cat"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u3-l0-e8",
+                  "sentence": "O cachorro é ___.",
+                  "translation": "The dog is big.",
+                  "audioTarget": "O cachorro é grande.",
+                  "options": [
+                    "coelho",
+                    "grande",
+                    "gato",
+                    "peixe"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u3-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "o cachorro",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "o gato",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "o cavalo",
+                      "native": "the horse"
+                    },
+                    {
+                      "target": "o pato",
+                      "native": "the duck"
+                    },
+                    {
+                      "target": "o porco",
+                      "native": "the pig"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u3-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Eu tenho um gato.",
+                  "audioTarget": "Eu tenho um gato.",
+                  "answer": "I have a cat.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u3-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o pássaro",
+                  "audioTarget": "o pássaro",
+                  "options": [
+                    {
+                      "text": "the duck",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the rooster",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o peixe",
+                  "audioTarget": "o peixe",
+                  "options": [
+                    {
+                      "text": "the duck",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the hen",
+                      "emoji": "🐔"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "a vaca",
+                  "audioTarget": "a vaca",
+                  "options": [
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the hen",
+                      "emoji": "🐔"
+                    },
+                    {
+                      "text": "the pig",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bird",
+                  "audioTarget": "o pássaro",
+                  "options": [
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "o pássaro",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "a ovelha",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "o coelho",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "o peixe",
+                  "options": [
+                    {
+                      "text": "o coelho",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "o peixe",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "o pássaro",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o peixe",
+                  "options": [
+                    {
+                      "text": "o peixe"
+                    },
+                    {
+                      "text": "o porco"
+                    },
+                    {
+                      "text": "o galo"
+                    },
+                    {
+                      "text": "o cavalo"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "O cavalo é rápido.",
+                  "audioTarget": "O cavalo é rápido.",
+                  "tokens": [
+                    "horse",
+                    "white",
+                    "have",
+                    "a",
+                    "fast",
+                    "is",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "horse",
+                    "is",
+                    "fast"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "A vaca é branca.",
+                  "audioTarget": "A vaca é branca.",
+                  "tokens": [
+                    "animals",
+                    "small",
+                    "white",
+                    "rabbit",
+                    "The",
+                    "cow",
+                    "is"
+                  ],
+                  "answer": [
+                    "The",
+                    "cow",
+                    "is",
+                    "white"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u3-l1-e8",
+                  "sentence": "O cavalo é ___.",
+                  "translation": "The horse is fast.",
+                  "audioTarget": "O cavalo é rápido.",
+                  "options": [
+                    "porco",
+                    "rápido",
+                    "pássaro",
+                    "gato"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u3-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "o pássaro",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "o peixe",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "a vaca",
+                      "native": "the cow"
+                    },
+                    {
+                      "target": "a galinha",
+                      "native": "the hen"
+                    },
+                    {
+                      "target": "o gato",
+                      "native": "the cat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u3-l1-e10",
+                  "mode": "translate",
+                  "prompt": "A vaca é branca.",
+                  "audioTarget": "A vaca é branca.",
+                  "answer": "The cow is white.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u3-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o porco",
+                  "audioTarget": "o porco",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the hen",
+                      "emoji": "🐔"
+                    },
+                    {
+                      "text": "the pig",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a ovelha",
+                  "audioTarget": "a ovelha",
+                  "options": [
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the rooster",
+                      "emoji": "🐓"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o coelho",
+                  "audioTarget": "o coelho",
+                  "options": [
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the duck",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the pig",
+                  "audioTarget": "o porco",
+                  "options": [
+                    {
+                      "text": "a ovelha",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "o peixe",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "o porco",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sheep",
+                  "audioTarget": "a ovelha",
+                  "options": [
+                    {
+                      "text": "a vaca",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "a ovelha",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "o cachorro",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "o porco",
+                      "emoji": "🐖"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o coelho",
+                  "options": [
+                    {
+                      "text": "o peixe"
+                    },
+                    {
+                      "text": "a ovelha"
+                    },
+                    {
+                      "text": "o cavalo"
+                    },
+                    {
+                      "text": "o coelho"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "O peixe nada no rio.",
+                  "audioTarget": "O peixe nada no rio.",
+                  "tokens": [
+                    "swims",
+                    "cat",
+                    "fish",
+                    "The",
+                    "river",
+                    "in",
+                    "love",
+                    "dog",
+                    "the"
+                  ],
+                  "answer": [
+                    "The",
+                    "fish",
+                    "swims",
+                    "in",
+                    "the",
+                    "river"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "O pássaro voa alto.",
+                  "audioTarget": "O pássaro voa alto.",
+                  "tokens": [
+                    "in",
+                    "bird",
+                    "small",
+                    "flies",
+                    "river",
+                    "high",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "bird",
+                    "flies",
+                    "high"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u3-l2-e8",
+                  "sentence": "O ___ nada no rio.",
+                  "translation": "The fish swims in the river.",
+                  "audioTarget": "O peixe nada no rio.",
+                  "options": [
+                    "peixe",
+                    "coelho",
+                    "gato",
+                    "porco"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u3-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "o porco",
+                      "native": "the pig"
+                    },
+                    {
+                      "target": "a ovelha",
+                      "native": "the sheep"
+                    },
+                    {
+                      "target": "o coelho",
+                      "native": "the rabbit"
+                    },
+                    {
+                      "target": "o pássaro",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "o cavalo",
+                      "native": "the horse"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u3-l2-e10",
+                  "mode": "translate",
+                  "prompt": "O pássaro voa alto.",
+                  "audioTarget": "O pássaro voa alto.",
+                  "answer": "The bird flies high.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u3-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o pato",
+                  "audioTarget": "o pato",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the duck",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o galo",
+                  "audioTarget": "o galo",
+                  "options": [
+                    {
+                      "text": "the pig",
+                      "emoji": "🐖"
+                    },
+                    {
+                      "text": "the hen",
+                      "emoji": "🐔"
+                    },
+                    {
+                      "text": "the duck",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "the rooster",
+                      "emoji": "🐓"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "a galinha",
+                  "audioTarget": "a galinha",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the hen",
+                      "emoji": "🐔"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the rooster",
+                      "emoji": "🐓"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the duck",
+                  "audioTarget": "o pato",
+                  "options": [
+                    {
+                      "text": "o pato",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "o cavalo",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "o gato",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rooster",
+                  "audioTarget": "o galo",
+                  "options": [
+                    {
+                      "text": "o pato",
+                      "emoji": "🦆"
+                    },
+                    {
+                      "text": "o galo",
+                      "emoji": "🐓"
+                    },
+                    {
+                      "text": "o peixe",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "a galinha",
+                      "emoji": "🐔"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u3-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o pato",
+                  "options": [
+                    {
+                      "text": "o porco"
+                    },
+                    {
+                      "text": "o cavalo"
+                    },
+                    {
+                      "text": "o pato"
+                    },
+                    {
+                      "text": "o pássaro"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "O coelho é pequeno.",
+                  "audioTarget": "O coelho é pequeno.",
+                  "tokens": [
+                    "is",
+                    "fish",
+                    "small",
+                    "The",
+                    "big",
+                    "rabbit",
+                    "horse"
+                  ],
+                  "answer": [
+                    "The",
+                    "rabbit",
+                    "is",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u3-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "A ovelha é mansa.",
+                  "audioTarget": "A ovelha é mansa.",
+                  "tokens": [
+                    "gentle",
+                    "The",
+                    "is",
+                    "white",
+                    "I",
+                    "sheep",
+                    "flies"
+                  ],
+                  "answer": [
+                    "The",
+                    "sheep",
+                    "is",
+                    "gentle"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u3-l3-e8",
+                  "sentence": "O ___ é pequeno.",
+                  "translation": "The rabbit is small.",
+                  "audioTarget": "O coelho é pequeno.",
+                  "options": [
+                    "cachorro",
+                    "galo",
+                    "coelho",
+                    "pato"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u3-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "o pato",
+                      "native": "the duck"
+                    },
+                    {
+                      "target": "o galo",
+                      "native": "the rooster"
+                    },
+                    {
+                      "target": "a galinha",
+                      "native": "the hen"
+                    },
+                    {
+                      "target": "a vaca",
+                      "native": "the cow"
+                    },
+                    {
+                      "target": "o porco",
+                      "native": "the pig"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u3-l3-e10",
+                  "mode": "translate",
+                  "prompt": "A ovelha é mansa.",
+                  "audioTarget": "A ovelha é mansa.",
+                  "answer": "The sheep is gentle.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pt-en:unit-5",
+          "title": "Travel",
+          "description": "Learn essential Portuguese vocabulary and phrases for getting around cities, taking trains, staying at hotels, and navigating airports and museums.",
+          "guidebook": "## Getting Around in Portuguese 🇧🇷🇵🇹\n\n**Asking where things are** is one of the most useful travel skills. Use **Onde fica...?** (Where is...?) followed by a place. For example, *Onde fica o hotel?* (Where is the hotel?).\n\n**Articles matter!** Portuguese nouns have grammatical gender. Masculine nouns use **o** (the) and feminine nouns use **a** (the). For example, *o aeroporto* (the airport) is masculine, while *a estação* (the station) is feminine.\n\n**Prepositions of place** help with directions:\n- **perto de** = near\n- **longe de** = far from\n- **em frente a** = in front of\n- **ao lado de** = next to\n\n**Verbs you'll hear often:**\n- **ir** = to go (*Eu vou ao museu.* — I'm going to the museum.)\n- **estar** = to be (location) (*O hotel está perto.* — The hotel is near.)\n- **querer** = to want (*Quero um mapa.* — I want a map.)\n\n**Polite phrases:** Always use **por favor** (please) and **obrigado/obrigada** (thank you, m/f). When asking for help, start with **Com licença** (Excuse me) to get attention politely.\n\n**Pro tip:** Brazilians often use **a gente** instead of *nós* for \"we\" in speech — *A gente vai ao hotel.* (We're going to the hotel.)",
+          "words": [
+            {
+              "target": "o aeroporto",
+              "native": "the airport",
+              "emoji": "✈️"
+            },
+            {
+              "target": "o hotel",
+              "native": "the hotel",
+              "emoji": "🏨"
+            },
+            {
+              "target": "o trem",
+              "native": "the train",
+              "emoji": "🚆"
+            },
+            {
+              "target": "o ônibus",
+              "native": "the bus",
+              "emoji": "🚌"
+            },
+            {
+              "target": "o táxi",
+              "native": "the taxi",
+              "emoji": "🚕"
+            },
+            {
+              "target": "a estação",
+              "native": "the station",
+              "emoji": "🚉"
+            },
+            {
+              "target": "o museu",
+              "native": "the museum",
+              "emoji": "🏛️"
+            },
+            {
+              "target": "a rua",
+              "native": "the street",
+              "emoji": "🛣️"
+            },
+            {
+              "target": "o mapa",
+              "native": "the map",
+              "emoji": "🗺️"
+            },
+            {
+              "target": "a passagem",
+              "native": "the ticket",
+              "emoji": "🎫"
+            },
+            {
+              "target": "a mala",
+              "native": "the suitcase",
+              "emoji": "🧳"
+            },
+            {
+              "target": "o guia",
+              "native": "the guide",
+              "emoji": "📖"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "pt-en:u4-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o aeroporto",
+                  "audioTarget": "o aeroporto",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o hotel",
+                  "audioTarget": "o hotel",
+                  "options": [
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the guide",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o trem",
+                  "audioTarget": "o trem",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the guide",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the airport",
+                  "audioTarget": "o aeroporto",
+                  "options": [
+                    {
+                      "text": "a passagem",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "o museu",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "a estação",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "o aeroporto",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hotel",
+                  "audioTarget": "o hotel",
+                  "options": [
+                    {
+                      "text": "a mala",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "o aeroporto",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "o hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "o museu",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o aeroporto",
+                  "options": [
+                    {
+                      "text": "o trem"
+                    },
+                    {
+                      "text": "o ônibus"
+                    },
+                    {
+                      "text": "o aeroporto"
+                    },
+                    {
+                      "text": "a rua"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Onde fica o hotel?",
+                  "audioTarget": "Onde fica o hotel?",
+                  "tokens": [
+                    "Where",
+                    "is",
+                    "guide",
+                    "a",
+                    "far",
+                    "the",
+                    "hotel"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "hotel"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Eu quero um mapa, por favor.",
+                  "audioTarget": "Eu quero um mapa, por favor.",
+                  "tokens": [
+                    "a",
+                    "going",
+                    "am",
+                    "train",
+                    "please",
+                    "I",
+                    "map",
+                    "want"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "a",
+                    "map",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u4-l0-e8",
+                  "sentence": "Onde fica o ___?",
+                  "translation": "Where is the hotel?",
+                  "audioTarget": "Onde fica o hotel?",
+                  "options": [
+                    "trem",
+                    "rua",
+                    "hotel",
+                    "mapa"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u4-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "o aeroporto",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "o hotel",
+                      "native": "the hotel"
+                    },
+                    {
+                      "target": "o trem",
+                      "native": "the train"
+                    },
+                    {
+                      "target": "a rua",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "o mapa",
+                      "native": "the map"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u4-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Eu quero um mapa, por favor.",
+                  "audioTarget": "Eu quero um mapa, por favor.",
+                  "answer": "I want a map, please.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u4-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o ônibus",
+                  "audioTarget": "o ônibus",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "o táxi",
+                  "audioTarget": "o táxi",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "a estação",
+                  "audioTarget": "a estação",
+                  "options": [
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bus",
+                  "audioTarget": "o ônibus",
+                  "options": [
+                    {
+                      "text": "o táxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "o trem",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "o ônibus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "o museu",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the taxi",
+                  "audioTarget": "o táxi",
+                  "options": [
+                    {
+                      "text": "a estação",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "o trem",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "o táxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "a mala",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o táxi",
+                  "options": [
+                    {
+                      "text": "a mala"
+                    },
+                    {
+                      "text": "o trem"
+                    },
+                    {
+                      "text": "o aeroporto"
+                    },
+                    {
+                      "text": "o táxi"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "O museu está perto daqui.",
+                  "audioTarget": "O museu está perto daqui.",
+                  "tokens": [
+                    "English",
+                    "is",
+                    "The",
+                    "want",
+                    "here",
+                    "museum",
+                    "and",
+                    "near"
+                  ],
+                  "answer": [
+                    "The",
+                    "museum",
+                    "is",
+                    "near",
+                    "here"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "A estação de trem é longe?",
+                  "audioTarget": "A estação de trem é longe?",
+                  "tokens": [
+                    "far",
+                    "Is",
+                    "am",
+                    "the",
+                    "now",
+                    "station",
+                    "bus",
+                    "train"
+                  ],
+                  "answer": [
+                    "Is",
+                    "the",
+                    "train",
+                    "station",
+                    "far"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u4-l1-e8",
+                  "sentence": "O ___ está perto daqui.",
+                  "translation": "The museum is near here.",
+                  "audioTarget": "O museu está perto daqui.",
+                  "options": [
+                    "hotel",
+                    "rua",
+                    "museu",
+                    "aeroporto"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u4-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "o ônibus",
+                      "native": "the bus"
+                    },
+                    {
+                      "target": "o táxi",
+                      "native": "the taxi"
+                    },
+                    {
+                      "target": "a estação",
+                      "native": "the station"
+                    },
+                    {
+                      "target": "a rua",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "a passagem",
+                      "native": "the ticket"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u4-l1-e10",
+                  "mode": "translate",
+                  "prompt": "A estação de trem é longe?",
+                  "audioTarget": "A estação de trem é longe?",
+                  "answer": "Is the train station far?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u4-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "o museu",
+                  "audioTarget": "o museu",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the guide",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a rua",
+                  "audioTarget": "a rua",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o mapa",
+                  "audioTarget": "o mapa",
+                  "options": [
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the guide",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the museum",
+                  "audioTarget": "o museu",
+                  "options": [
+                    {
+                      "text": "a rua",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "o trem",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "o museu",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "o ônibus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the street",
+                  "audioTarget": "a rua",
+                  "options": [
+                    {
+                      "text": "o mapa",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "a rua",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "a mala",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "o museu",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "o mapa",
+                  "options": [
+                    {
+                      "text": "a rua"
+                    },
+                    {
+                      "text": "o táxi"
+                    },
+                    {
+                      "text": "o mapa"
+                    },
+                    {
+                      "text": "o trem"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu vou ao aeroporto agora.",
+                  "audioTarget": "Eu vou ao aeroporto agora.",
+                  "tokens": [
+                    "going",
+                    "I",
+                    "am",
+                    "museum",
+                    "to",
+                    "map",
+                    "now",
+                    "ticket",
+                    "airport",
+                    "the"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "going",
+                    "to",
+                    "the",
+                    "airport",
+                    "now"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Com licença, onde é o museu?",
+                  "audioTarget": "Com licença, onde é o museu?",
+                  "tokens": [
+                    "have",
+                    "the",
+                    "is",
+                    "where",
+                    "me",
+                    "museum",
+                    "on",
+                    "speaks",
+                    "Excuse"
+                  ],
+                  "answer": [
+                    "Excuse",
+                    "me",
+                    "where",
+                    "is",
+                    "the",
+                    "museum"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u4-l2-e8",
+                  "sentence": "Eu vou ao aeroporto ___.",
+                  "translation": "I am going to the airport now.",
+                  "audioTarget": "Eu vou ao aeroporto agora.",
+                  "options": [
+                    "aeroporto",
+                    "passagem",
+                    "agora",
+                    "trem"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u4-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "o museu",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "a rua",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "o mapa",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "a passagem",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "o táxi",
+                      "native": "the taxi"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u4-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Com licença, onde é o museu?",
+                  "audioTarget": "Com licença, onde é o museu?",
+                  "answer": "Excuse me, where is the museum?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "pt-en:u4-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "a passagem",
+                  "audioTarget": "a passagem",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "a mala",
+                  "audioTarget": "a mala",
+                  "options": [
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "o guia",
+                  "audioTarget": "o guia",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the guide",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the ticket",
+                  "audioTarget": "a passagem",
+                  "options": [
+                    {
+                      "text": "a passagem",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "a mala",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "o ônibus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "o hotel",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the suitcase",
+                  "audioTarget": "a mala",
+                  "options": [
+                    {
+                      "text": "a estação",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "o mapa",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "o táxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "a mala",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "pt-en:u4-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "a passagem",
+                  "options": [
+                    {
+                      "text": "a passagem"
+                    },
+                    {
+                      "text": "o trem"
+                    },
+                    {
+                      "text": "a rua"
+                    },
+                    {
+                      "text": "a estação"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Eu tenho uma mala grande.",
+                  "audioTarget": "Eu tenho uma mala grande.",
+                  "tokens": [
+                    "ticket",
+                    "suitcase",
+                    "am",
+                    "big",
+                    "I",
+                    "a",
+                    "have",
+                    "Portuguese"
+                  ],
+                  "answer": [
+                    "I",
+                    "have",
+                    "a",
+                    "big",
+                    "suitcase"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "pt-en:u4-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "O ônibus para na rua.",
+                  "audioTarget": "O ônibus para na rua.",
+                  "tokens": [
+                    "is",
+                    "have",
+                    "stops",
+                    "museum",
+                    "The",
+                    "bus",
+                    "the",
+                    "on",
+                    "street"
+                  ],
+                  "answer": [
+                    "The",
+                    "bus",
+                    "stops",
+                    "on",
+                    "the",
+                    "street"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "pt-en:u4-l3-e8",
+                  "sentence": "Eu ___ uma mala grande.",
+                  "translation": "I have a big suitcase.",
+                  "audioTarget": "Eu tenho uma mala grande.",
+                  "options": [
+                    "museu",
+                    "guia",
+                    "tenho",
+                    "trem"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "pt-en:u4-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "a passagem",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "a mala",
+                      "native": "the suitcase"
+                    },
+                    {
+                      "target": "o guia",
+                      "native": "the guide"
+                    },
+                    {
+                      "target": "o táxi",
+                      "native": "the taxi"
+                    },
+                    {
+                      "target": "a rua",
+                      "native": "the street"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "pt-en:u4-l3-e10",
+                  "mode": "translate",
+                  "prompt": "O ônibus para na rua.",
+                  "audioTarget": "O ônibus para na rua.",
+                  "answer": "The bus stops on the street.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

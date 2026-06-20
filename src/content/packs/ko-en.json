@@ -1,0 +1,5495 @@
+{
+  "id": "ko-en",
+  "version": 1,
+  "targetLanguage": "Korean",
+  "targetCode": "ko",
+  "nativeLanguage": "English",
+  "nativeCode": "en",
+  "flag": "🇰🇷",
+  "sections": [
+    {
+      "id": "ko-en:section-1",
+      "title": "Section 1: Beginner",
+      "units": [
+        {
+          "id": "ko-en:unit-1",
+          "title": "Basics 1",
+          "description": "Learn your very first Korean words and sentences! Meet people, name foods, and start talking about what you eat and drink.",
+          "guidebook": "# Welcome to Basics 1! 🇰🇷\n\nKorean sentences often drop the subject because the verb ending tells you who's doing what. The verb **이다** (to be) is rarely used alone — instead, adjectives and descriptive verbs attach **-이에요/예요** for \"is/am/are.\"\n\n**Particles** are small markers after nouns:\n- **은/는** = topic marker (\"as for…\")\n- **이/가** = subject marker (\"…is the one\")\n\n**To eat** = **먹다** → **먹어요** (eats / I eat)\n**To drink** = **마시다** → **마셔요** (drinks / I drink)\n\n**Word order:** Subject + Object + Verb. Example: \"I eat bread\" → **저는 빵을 먹어요** (jeo-neun ppang-eul meo-geo-yo). The object marker **을/를** marks what is eaten or drunk.\n\n**Politeness:** **-요** endings are polite but friendly — perfect for beginners!",
+          "words": [
+            {
+              "target": "남자",
+              "native": "the man",
+              "emoji": "👨",
+              "romanization": "namja"
+            },
+            {
+              "target": "여자",
+              "native": "the woman",
+              "emoji": "👩",
+              "romanization": "yeoja"
+            },
+            {
+              "target": "소년",
+              "native": "the boy",
+              "emoji": "👦",
+              "romanization": "sonyeon"
+            },
+            {
+              "target": "소녀",
+              "native": "the girl",
+              "emoji": "👧",
+              "romanization": "sonyeo"
+            },
+            {
+              "target": "사과",
+              "native": "the apple",
+              "emoji": "🍎",
+              "romanization": "sagwa"
+            },
+            {
+              "target": "빵",
+              "native": "the bread",
+              "emoji": "🍞",
+              "romanization": "ppang"
+            },
+            {
+              "target": "물",
+              "native": "the water",
+              "emoji": "💧",
+              "romanization": "mul"
+            },
+            {
+              "target": "우유",
+              "native": "the milk",
+              "emoji": "🥛",
+              "romanization": "uyu"
+            },
+            {
+              "target": "먹다",
+              "native": "to eat",
+              "emoji": "🍽️",
+              "romanization": "meokda"
+            },
+            {
+              "target": "마시다",
+              "native": "to drink",
+              "emoji": "🥤",
+              "romanization": "masida"
+            },
+            {
+              "target": "저",
+              "native": "I (humble)",
+              "emoji": "🙋",
+              "romanization": "jeo"
+            },
+            {
+              "target": "예요",
+              "native": "to be (polite)",
+              "emoji": "✨",
+              "romanization": "yeyo"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u0-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "남자",
+                  "audioTarget": "남자",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "여자",
+                  "audioTarget": "여자",
+                  "options": [
+                    {
+                      "text": "I (humble)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "소년",
+                  "audioTarget": "소년",
+                  "options": [
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the man",
+                  "audioTarget": "남자",
+                  "options": [
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "남자",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "여자",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "저",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the woman",
+                  "audioTarget": "여자",
+                  "options": [
+                    {
+                      "text": "여자",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "예요",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "먹다",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "남자",
+                  "options": [
+                    {
+                      "text": "소녀"
+                    },
+                    {
+                      "text": "남자"
+                    },
+                    {
+                      "text": "빵"
+                    },
+                    {
+                      "text": "물"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 남자예요.",
+                  "audioTarget": "저는 남자예요.",
+                  "tokens": [
+                    "I",
+                    "girl",
+                    "man",
+                    "am",
+                    "boy",
+                    "a",
+                    "bread"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "man"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 여자예요.",
+                  "audioTarget": "저는 여자예요.",
+                  "tokens": [
+                    "am",
+                    "woman",
+                    "I",
+                    "eats",
+                    "a",
+                    "girl",
+                    "boy"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "woman"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u0-l0-e8",
+                  "sentence": "저는___.",
+                  "translation": "I am a man.",
+                  "audioTarget": "저는 남자예요.",
+                  "options": [
+                    "먹다",
+                    "여자",
+                    "남자예요",
+                    "물"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u0-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "남자",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "여자",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "소년",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "마시다",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "예요",
+                      "native": "to be (polite)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u0-l0-e10",
+                  "mode": "translate",
+                  "prompt": "저는 여자예요.",
+                  "audioTarget": "저는 여자예요.",
+                  "answer": "I am a woman.",
+                  "alternatives": [
+                    "jeo-neun yeoja-yeyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u0-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "소녀",
+                  "audioTarget": "소녀",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "사과",
+                  "audioTarget": "사과",
+                  "options": [
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "I (humble)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "빵",
+                  "audioTarget": "빵",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the girl",
+                  "audioTarget": "소녀",
+                  "options": [
+                    {
+                      "text": "마시다",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "소녀",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "여자",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "사과",
+                  "options": [
+                    {
+                      "text": "사과",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "저",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "먹다",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "남자",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "사과",
+                  "options": [
+                    {
+                      "text": "사과"
+                    },
+                    {
+                      "text": "남자"
+                    },
+                    {
+                      "text": "빵"
+                    },
+                    {
+                      "text": "먹다"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 소년이에요.",
+                  "audioTarget": "저는 소년이에요.",
+                  "tokens": [
+                    "boy",
+                    "woman",
+                    "a",
+                    "I",
+                    "am",
+                    "drinks",
+                    "man"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "boy"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 소녀예요.",
+                  "audioTarget": "저는 소녀예요.",
+                  "tokens": [
+                    "woman",
+                    "girl",
+                    "I",
+                    "water",
+                    "an",
+                    "am",
+                    "a"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "girl"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u0-l1-e8",
+                  "sentence": "___소년이에요.",
+                  "translation": "I am a boy.",
+                  "audioTarget": "저는 소년이에요.",
+                  "options": [
+                    "우유",
+                    "마시다",
+                    "남자",
+                    "저는"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u0-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "소녀",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "사과",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "빵",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "여자",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "저",
+                      "native": "I (humble)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u0-l1-e10",
+                  "mode": "translate",
+                  "prompt": "저는 소녀예요.",
+                  "audioTarget": "저는 소녀예요.",
+                  "answer": "I am a girl.",
+                  "alternatives": [
+                    "jeo-neun sonyeo-yeyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u0-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "물",
+                  "audioTarget": "물",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "우유",
+                  "audioTarget": "우유",
+                  "options": [
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "먹다",
+                  "audioTarget": "먹다",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "물",
+                  "options": [
+                    {
+                      "text": "사과",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "물",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "소년",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "저",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "우유",
+                  "options": [
+                    {
+                      "text": "마시다",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "소년",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "먹다",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "먹다",
+                  "options": [
+                    {
+                      "text": "소녀"
+                    },
+                    {
+                      "text": "먹다"
+                    },
+                    {
+                      "text": "사과"
+                    },
+                    {
+                      "text": "여자"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 사과를 먹어요.",
+                  "audioTarget": "저는 사과를 먹어요.",
+                  "tokens": [
+                    "an",
+                    "apple",
+                    "am",
+                    "woman",
+                    "I",
+                    "The",
+                    "eat"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "an",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 빵을 먹어요.",
+                  "audioTarget": "저는 빵을 먹어요.",
+                  "tokens": [
+                    "eat",
+                    "bread",
+                    "milk",
+                    "I",
+                    "a",
+                    "drinks"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u0-l2-e8",
+                  "sentence": "저는___먹어요.",
+                  "translation": "I eat an apple.",
+                  "audioTarget": "저는 사과를 먹어요.",
+                  "options": [
+                    "남자",
+                    "우유",
+                    "사과를",
+                    "마시다"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u0-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "물",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "우유",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "먹다",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "소년",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "빵",
+                      "native": "the bread"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u0-l2-e10",
+                  "mode": "translate",
+                  "prompt": "저는 빵을 먹어요.",
+                  "audioTarget": "저는 빵을 먹어요.",
+                  "answer": "I eat bread.",
+                  "alternatives": [
+                    "jeo-neun ppang-eul meo-geo-yo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u0-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "마시다",
+                  "audioTarget": "마시다",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "저",
+                  "audioTarget": "저",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "I (humble)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "예요",
+                  "audioTarget": "예요",
+                  "options": [
+                    {
+                      "text": "to be (polite)",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "I (humble)",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to drink",
+                  "audioTarget": "마시다",
+                  "options": [
+                    {
+                      "text": "남자",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "저",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "마시다",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "소녀",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "I (humble)",
+                  "audioTarget": "저",
+                  "options": [
+                    {
+                      "text": "마시다",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "사과",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "소년",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "저",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u0-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "마시다",
+                  "options": [
+                    {
+                      "text": "저"
+                    },
+                    {
+                      "text": "마시다"
+                    },
+                    {
+                      "text": "여자"
+                    },
+                    {
+                      "text": "물"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 물을 마셔요.",
+                  "audioTarget": "저는 물을 마셔요.",
+                  "tokens": [
+                    "am",
+                    "water",
+                    "I",
+                    "man",
+                    "drink",
+                    "boy"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u0-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 우유를 마셔요.",
+                  "audioTarget": "저는 우유를 마셔요.",
+                  "tokens": [
+                    "drink",
+                    "eat",
+                    "milk",
+                    "apple",
+                    "I",
+                    "woman"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u0-l3-e8",
+                  "sentence": "저는물을___.",
+                  "translation": "I drink water.",
+                  "audioTarget": "저는 물을 마셔요.",
+                  "options": [
+                    "먹다",
+                    "마셔요",
+                    "사과",
+                    "저"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u0-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "마시다",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "저",
+                      "native": "I (humble)"
+                    },
+                    {
+                      "target": "예요",
+                      "native": "to be (polite)"
+                    },
+                    {
+                      "target": "빵",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "남자",
+                      "native": "the man"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u0-l3-e10",
+                  "mode": "translate",
+                  "prompt": "저는 우유를 마셔요.",
+                  "audioTarget": "저는 우유를 마셔요.",
+                  "answer": "I drink milk.",
+                  "alternatives": [
+                    "jeo-neun uyu-reul masyeo-yo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-2",
+          "title": "Greetings",
+          "description": "Learn essential Korean greetings and polite expressions for everyday interactions.",
+          "guidebook": "## Greetings in Korean\n\nKorean greetings often depend on **formality** and **social context**. The most common greeting is **안녕하세요** (annyeonghaseyo), a polite \"hello\" used in most situations.\n\n### Saying Hello & Goodbye\n- **안녕하세요** — the standard polite hello, used any time of day.\n- **안녕** (annyeong) is informal, used with close friends or younger people.\n- **잘 가요** (jal gayo) means \"goodbye\" when *you* are staying.\n- **안녕히 가세요** (annyeonghi gaseyo) is a more respectful \"goodbye\" to someone leaving.\n\n### Morning & Night\n- **좋은 아침입니다** (joeun achimimnida) — \"Good morning\" (formal).\n- **좋은 저녁입니다** — \"Good evening.\"\n- **안녕히 주무세요** — \"Good night\" (to someone going to sleep).\n\n### Politeness Basics\n- **감사합니다** (gamsahamnida) — \"Thank you\" (formal).\n- **고마워요** (gomawoyo) — \"Thank you\" (polite but casual).\n- **죄송합니다** (joesonghamnida) — \"I'm sorry\" (formal).\n- **괜찮아요** (gwaenchanayo) — \"It's okay / I'm fine.\"\n\n### How Are You?\n- **잘 지내세요?** (jal jinaeseyo?) — \"How are you?\" (polite).\n- A common reply: **네, 잘 지내요** (ne, jal jinaeyo) — \"Yes, I'm doing well.\"\n\n💡 **Tip:** When in doubt, use **-요** endings — they're polite but friendly!",
+          "words": [
+            {
+              "target": "안녕하세요",
+              "native": "Hello",
+              "emoji": "👋",
+              "romanization": "annyeonghaseyo"
+            },
+            {
+              "target": "안녕",
+              "native": "Hi (informal)",
+              "emoji": "🙋",
+              "romanization": "annyeong"
+            },
+            {
+              "target": "잘 가요",
+              "native": "Goodbye",
+              "emoji": "👋",
+              "romanization": "jal gayo"
+            },
+            {
+              "target": "감사합니다",
+              "native": "Thank you",
+              "emoji": "🙏",
+              "romanization": "gamsahamnida"
+            },
+            {
+              "target": "고마워요",
+              "native": "Thanks (casual)",
+              "emoji": "😊",
+              "romanization": "gomawoyo"
+            },
+            {
+              "target": "죄송합니다",
+              "native": "I'm sorry",
+              "emoji": "🙇",
+              "romanization": "joesonghamnida"
+            },
+            {
+              "target": "괜찮아요",
+              "native": "It's okay",
+              "emoji": "👍",
+              "romanization": "gwaenchanayo"
+            },
+            {
+              "target": "네",
+              "native": "Yes",
+              "emoji": "✅",
+              "romanization": "ne"
+            },
+            {
+              "target": "아니요",
+              "native": "No",
+              "emoji": "❌",
+              "romanization": "aniyo"
+            },
+            {
+              "target": "아침",
+              "native": "the morning",
+              "emoji": "🌅",
+              "romanization": "achim"
+            },
+            {
+              "target": "저녁",
+              "native": "the evening",
+              "emoji": "🌆",
+              "romanization": "jeonyeok"
+            },
+            {
+              "target": "밤",
+              "native": "the night",
+              "emoji": "🌙",
+              "romanization": "bam"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u1-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "안녕하세요",
+                  "audioTarget": "안녕하세요",
+                  "options": [
+                    {
+                      "text": "Hi (informal)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "Hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "No",
+                      "emoji": "❌"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "안녕",
+                  "audioTarget": "안녕",
+                  "options": [
+                    {
+                      "text": "It's okay",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Hi (informal)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "I'm sorry",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "잘 가요",
+                  "audioTarget": "잘 가요",
+                  "options": [
+                    {
+                      "text": "Goodbye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Thank you",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "I'm sorry",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "Hello",
+                  "audioTarget": "안녕하세요",
+                  "options": [
+                    {
+                      "text": "잘 가요",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "밤",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "아니요",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "안녕하세요",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Hi (informal)",
+                  "audioTarget": "안녕",
+                  "options": [
+                    {
+                      "text": "저녁",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "안녕",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "괜찮아요",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "아침",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "안녕하세요",
+                  "options": [
+                    {
+                      "text": "안녕하세요"
+                    },
+                    {
+                      "text": "죄송합니다"
+                    },
+                    {
+                      "text": "잘 가요"
+                    },
+                    {
+                      "text": "괜찮아요"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "안녕하세요, 잘 지내세요?",
+                  "audioTarget": "안녕하세요, 잘 지내세요?",
+                  "tokens": [
+                    "a",
+                    "night",
+                    "are",
+                    "you",
+                    "Hello",
+                    "morning",
+                    "how"
+                  ],
+                  "answer": [
+                    "Hello",
+                    "how",
+                    "are",
+                    "you"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "네, 잘 지내요.",
+                  "audioTarget": "네, 잘 지내요.",
+                  "tokens": [
+                    "(to",
+                    "I",
+                    "Yes",
+                    "evening",
+                    "Have",
+                    "well",
+                    "am",
+                    "doing"
+                  ],
+                  "answer": [
+                    "Yes",
+                    "I",
+                    "am",
+                    "doing",
+                    "well"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u1-l0-e8",
+                  "sentence": "안녕하세요,잘___?",
+                  "translation": "Hello, how are you?",
+                  "audioTarget": "안녕하세요, 잘 지내세요?",
+                  "options": [
+                    "저녁",
+                    "감사합니다",
+                    "가요",
+                    "지내세요"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u1-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "안녕하세요",
+                      "native": "Hello"
+                    },
+                    {
+                      "target": "안녕",
+                      "native": "Hi (informal)"
+                    },
+                    {
+                      "target": "잘 가요",
+                      "native": "Goodbye"
+                    },
+                    {
+                      "target": "고마워요",
+                      "native": "Thanks (casual)"
+                    },
+                    {
+                      "target": "감사합니다",
+                      "native": "Thank you"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u1-l0-e10",
+                  "mode": "translate",
+                  "prompt": "네, 잘 지내요.",
+                  "audioTarget": "네, 잘 지내요.",
+                  "answer": "Yes, I am doing well.",
+                  "alternatives": [
+                    "ne, jal jinaeyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u1-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "감사합니다",
+                  "audioTarget": "감사합니다",
+                  "options": [
+                    {
+                      "text": "Thank you",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "It's okay",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "I'm sorry",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Hello",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "고마워요",
+                  "audioTarget": "고마워요",
+                  "options": [
+                    {
+                      "text": "Hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Thanks (casual)",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "the morning",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "죄송합니다",
+                  "audioTarget": "죄송합니다",
+                  "options": [
+                    {
+                      "text": "I'm sorry",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "No",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "Hello",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "Thank you",
+                  "audioTarget": "감사합니다",
+                  "options": [
+                    {
+                      "text": "안녕",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "감사합니다",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "안녕하세요",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "저녁",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Thanks (casual)",
+                  "audioTarget": "고마워요",
+                  "options": [
+                    {
+                      "text": "고마워요",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "감사합니다",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "안녕",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "아니요",
+                      "emoji": "❌"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "고마워요",
+                  "options": [
+                    {
+                      "text": "네"
+                    },
+                    {
+                      "text": "괜찮아요"
+                    },
+                    {
+                      "text": "아니요"
+                    },
+                    {
+                      "text": "고마워요"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "안녕히 가세요.",
+                  "audioTarget": "안녕히 가세요.",
+                  "tokens": [
+                    "meet",
+                    "someone",
+                    "(to",
+                    "Goodbye",
+                    "student",
+                    "leaving)",
+                    "evening"
+                  ],
+                  "answer": [
+                    "Goodbye",
+                    "(to",
+                    "someone",
+                    "leaving)"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "좋은 아침입니다.",
+                  "audioTarget": "좋은 아침입니다.",
+                  "tokens": [
+                    "to",
+                    "I",
+                    "Have",
+                    "morning",
+                    "Good"
+                  ],
+                  "answer": [
+                    "Good",
+                    "morning"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u1-l1-e8",
+                  "sentence": "안녕히___.",
+                  "translation": "Goodbye (to someone leaving).",
+                  "audioTarget": "안녕히 가세요.",
+                  "options": [
+                    "가세요",
+                    "감사합니다",
+                    "안녕하세요",
+                    "아침"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u1-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "감사합니다",
+                      "native": "Thank you"
+                    },
+                    {
+                      "target": "고마워요",
+                      "native": "Thanks (casual)"
+                    },
+                    {
+                      "target": "죄송합니다",
+                      "native": "I'm sorry"
+                    },
+                    {
+                      "target": "네",
+                      "native": "Yes"
+                    },
+                    {
+                      "target": "안녕",
+                      "native": "Hi (informal)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u1-l1-e10",
+                  "mode": "translate",
+                  "prompt": "좋은 아침입니다.",
+                  "audioTarget": "좋은 아침입니다.",
+                  "answer": "Good morning.",
+                  "alternatives": [
+                    "joeun achimimnida."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u1-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "괜찮아요",
+                  "audioTarget": "괜찮아요",
+                  "options": [
+                    {
+                      "text": "It's okay",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Thanks (casual)",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "Hi (informal)",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "네",
+                  "audioTarget": "네",
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "I'm sorry",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Thanks (casual)",
+                      "emoji": "😊"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "아니요",
+                  "audioTarget": "아니요",
+                  "options": [
+                    {
+                      "text": "No",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "Thanks (casual)",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "Hi (informal)",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "It's okay",
+                  "audioTarget": "괜찮아요",
+                  "options": [
+                    {
+                      "text": "괜찮아요",
+                      "emoji": "👍"
+                    },
+                    {
+                      "text": "죄송합니다",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "감사합니다",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "안녕",
+                      "emoji": "🙋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "Yes",
+                  "audioTarget": "네",
+                  "options": [
+                    {
+                      "text": "밤",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "안녕",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "안녕하세요",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "네",
+                      "emoji": "✅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "아니요",
+                  "options": [
+                    {
+                      "text": "감사합니다"
+                    },
+                    {
+                      "text": "아침"
+                    },
+                    {
+                      "text": "죄송합니다"
+                    },
+                    {
+                      "text": "아니요"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "좋은 저녁 보내세요.",
+                  "audioTarget": "좋은 저녁 보내세요.",
+                  "tokens": [
+                    "a",
+                    "Yes",
+                    "Have",
+                    "good",
+                    "how",
+                    "evening",
+                    "Nice"
+                  ],
+                  "answer": [
+                    "Have",
+                    "a",
+                    "good",
+                    "evening"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "안녕히 주무세요.",
+                  "audioTarget": "안녕히 주무세요.",
+                  "tokens": [
+                    "night",
+                    "to",
+                    "teacher",
+                    "Good",
+                    "Hello"
+                  ],
+                  "answer": [
+                    "Good",
+                    "night"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u1-l2-e8",
+                  "sentence": "좋은___보내세요.",
+                  "translation": "Have a good evening.",
+                  "audioTarget": "좋은 저녁 보내세요.",
+                  "options": [
+                    "저녁",
+                    "아니요",
+                    "안녕",
+                    "고마워요"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u1-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "괜찮아요",
+                      "native": "It's okay"
+                    },
+                    {
+                      "target": "네",
+                      "native": "Yes"
+                    },
+                    {
+                      "target": "아니요",
+                      "native": "No"
+                    },
+                    {
+                      "target": "밤",
+                      "native": "the night"
+                    },
+                    {
+                      "target": "고마워요",
+                      "native": "Thanks (casual)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u1-l2-e10",
+                  "mode": "translate",
+                  "prompt": "안녕히 주무세요.",
+                  "audioTarget": "안녕히 주무세요.",
+                  "answer": "Good night.",
+                  "alternatives": [
+                    "annyeonghi jumuseyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u1-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "아침",
+                  "audioTarget": "아침",
+                  "options": [
+                    {
+                      "text": "the morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "Hi (informal)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "It's okay",
+                      "emoji": "👍"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "저녁",
+                  "audioTarget": "저녁",
+                  "options": [
+                    {
+                      "text": "Hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Hi (informal)",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "I'm sorry",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "밤",
+                  "audioTarget": "밤",
+                  "options": [
+                    {
+                      "text": "Yes",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "the morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "No",
+                      "emoji": "❌"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the morning",
+                  "audioTarget": "아침",
+                  "options": [
+                    {
+                      "text": "안녕",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "고마워요",
+                      "emoji": "😊"
+                    },
+                    {
+                      "text": "네",
+                      "emoji": "✅"
+                    },
+                    {
+                      "text": "아침",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the evening",
+                  "audioTarget": "저녁",
+                  "options": [
+                    {
+                      "text": "저녁",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "아니요",
+                      "emoji": "❌"
+                    },
+                    {
+                      "text": "감사합니다",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "밤",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u1-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "아침",
+                  "options": [
+                    {
+                      "text": "잘 가요"
+                    },
+                    {
+                      "text": "네"
+                    },
+                    {
+                      "text": "아니요"
+                    },
+                    {
+                      "text": "아침"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "감사합니다, 선생님.",
+                  "audioTarget": "감사합니다, 선생님.",
+                  "tokens": [
+                    "someone",
+                    "sorry",
+                    "you",
+                    "Yes",
+                    "Thank",
+                    "teacher"
+                  ],
+                  "answer": [
+                    "Thank",
+                    "you",
+                    "teacher"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u1-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "죄송합니다, 다시 한 번 말해 주세요.",
+                  "audioTarget": "죄송합니다, 다시 한 번 말해 주세요.",
+                  "tokens": [
+                    "it",
+                    "Have",
+                    "again",
+                    "please",
+                    "Im",
+                    "say",
+                    "Nice",
+                    "sorry",
+                    "night"
+                  ],
+                  "answer": [
+                    "Im",
+                    "sorry",
+                    "please",
+                    "say",
+                    "it",
+                    "again"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u1-l3-e8",
+                  "sentence": "___,선생님.",
+                  "translation": "Thank you, teacher.",
+                  "audioTarget": "감사합니다, 선생님.",
+                  "options": [
+                    "감사합니다",
+                    "저녁",
+                    "밤",
+                    "네"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u1-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "아침",
+                      "native": "the morning"
+                    },
+                    {
+                      "target": "저녁",
+                      "native": "the evening"
+                    },
+                    {
+                      "target": "밤",
+                      "native": "the night"
+                    },
+                    {
+                      "target": "죄송합니다",
+                      "native": "I'm sorry"
+                    },
+                    {
+                      "target": "네",
+                      "native": "Yes"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u1-l3-e10",
+                  "mode": "translate",
+                  "prompt": "죄송합니다, 다시 한 번 말해 주세요.",
+                  "audioTarget": "죄송합니다, 다시 한 번 말해 주세요.",
+                  "answer": "I'm sorry, please say it again.",
+                  "alternatives": [
+                    "joesonghamnida, dasi han beon malhae juseyo."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-3",
+          "title": "Food",
+          "description": "Learn essential food and drink vocabulary in Korean, plus how to say what you want, eat, and drink.",
+          "guidebook": "## Talking About Food in Korean 🍚\n\nKorean has no separate word for \"a\" or \"the\" — context tells you which is meant. So **밥** (*bap*) can mean \"rice,\" \"the rice,\" or just \"a meal.\"\n\n**Saying what you want:** Use **~을/를 주세요** (*~eul/reul juseyo*), meaning \"please give me~\". Pick **을** after a consonant (밥을) and **를** after a vowel (커피를). Example: **커피를 주세요** — \"Coffee, please.\"\n\n**Saying you eat/drink:** Use **먹어요** (*meogeoyo*, \"eat\") and **마셔요** (*masyeoyo*, \"drink\"). Both end in **-어요**, the friendly present tense ending.\n\n- **저는 밥을 먹어요** — \"I eat rice.\"\n- **저는 물을 마셔요** — \"I drink water.\"\n\n**Topic marker:** **저는** (*jeoneun*) means \"as for me / I.\" The **는** highlights the topic of your sentence.\n\n**Quick tip:** 🥚 계란 and 달걀 both mean \"egg\" — 계란 is more common in everyday speech. Practice ordering: \"**저는 ___ 주세요**\" works for almost any food or drink!",
+          "words": [
+            {
+              "target": "밥",
+              "native": "the rice",
+              "emoji": "🍚",
+              "romanization": "bap"
+            },
+            {
+              "target": "빵",
+              "native": "the bread",
+              "emoji": "🍞",
+              "romanization": "ppang"
+            },
+            {
+              "target": "고기",
+              "native": "the meat",
+              "emoji": "🥩",
+              "romanization": "gogi"
+            },
+            {
+              "target": "생선",
+              "native": "the fish",
+              "emoji": "🐟",
+              "romanization": "saengseon"
+            },
+            {
+              "target": "계란",
+              "native": "the egg",
+              "emoji": "🥚",
+              "romanization": "gyeran"
+            },
+            {
+              "target": "치즈",
+              "native": "the cheese",
+              "emoji": "🧀",
+              "romanization": "chijeu"
+            },
+            {
+              "target": "과일",
+              "native": "the fruit",
+              "emoji": "🍎",
+              "romanization": "gwail"
+            },
+            {
+              "target": "커피",
+              "native": "the coffee",
+              "emoji": "☕",
+              "romanization": "keopi"
+            },
+            {
+              "target": "주스",
+              "native": "the juice",
+              "emoji": "🧃",
+              "romanization": "juseu"
+            },
+            {
+              "target": "물",
+              "native": "the water",
+              "emoji": "💧",
+              "romanization": "mul"
+            },
+            {
+              "target": "우유",
+              "native": "the milk",
+              "emoji": "🥛",
+              "romanization": "uyu"
+            },
+            {
+              "target": "차",
+              "native": "the tea",
+              "emoji": "🍵",
+              "romanization": "cha"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u2-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "밥",
+                  "audioTarget": "밥",
+                  "options": [
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "빵",
+                  "audioTarget": "빵",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "고기",
+                  "audioTarget": "고기",
+                  "options": [
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rice",
+                  "audioTarget": "밥",
+                  "options": [
+                    {
+                      "text": "생선",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "계란",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "밥",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "차",
+                      "emoji": "🍵"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bread",
+                  "audioTarget": "빵",
+                  "options": [
+                    {
+                      "text": "빵",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "치즈",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "밥",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "밥",
+                  "options": [
+                    {
+                      "text": "밥"
+                    },
+                    {
+                      "text": "우유"
+                    },
+                    {
+                      "text": "고기"
+                    },
+                    {
+                      "text": "주스"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 밥을 먹어요.",
+                  "audioTarget": "저는 밥을 먹어요.",
+                  "tokens": [
+                    "bread",
+                    "Water",
+                    "eat",
+                    "I",
+                    "rice",
+                    "Coffee"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "rice"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 커피를 마셔요.",
+                  "audioTarget": "저는 커피를 마셔요.",
+                  "tokens": [
+                    "drink",
+                    "like",
+                    "I",
+                    "coffee",
+                    "please",
+                    "rice"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u2-l0-e8",
+                  "sentence": "저는___먹어요.",
+                  "translation": "I eat rice.",
+                  "audioTarget": "저는 밥을 먹어요.",
+                  "options": [
+                    "과일",
+                    "커피",
+                    "밥을",
+                    "밥"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u2-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "밥",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "빵",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "고기",
+                      "native": "the meat"
+                    },
+                    {
+                      "target": "주스",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "물",
+                      "native": "the water"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u2-l0-e10",
+                  "mode": "translate",
+                  "prompt": "저는 커피를 마셔요.",
+                  "audioTarget": "저는 커피를 마셔요.",
+                  "answer": "I drink coffee.",
+                  "alternatives": [
+                    "jeoneun keopireul masyeoyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u2-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "생선",
+                  "audioTarget": "생선",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "계란",
+                  "audioTarget": "계란",
+                  "options": [
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "치즈",
+                  "audioTarget": "치즈",
+                  "options": [
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "생선",
+                  "options": [
+                    {
+                      "text": "생선",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "치즈",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "고기",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "빵",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the egg",
+                  "audioTarget": "계란",
+                  "options": [
+                    {
+                      "text": "계란",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "차",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "고기",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "생선",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "계란",
+                  "options": [
+                    {
+                      "text": "주스"
+                    },
+                    {
+                      "text": "계란"
+                    },
+                    {
+                      "text": "생선"
+                    },
+                    {
+                      "text": "차"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "커피를 주세요.",
+                  "audioTarget": "커피를 주세요.",
+                  "tokens": [
+                    "eggs",
+                    "milk",
+                    "Water",
+                    "Coffee",
+                    "please"
+                  ],
+                  "answer": [
+                    "Coffee",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "물 주세요.",
+                  "audioTarget": "물 주세요.",
+                  "tokens": [
+                    "please",
+                    "milk",
+                    "bread",
+                    "fruit",
+                    "Water"
+                  ],
+                  "answer": [
+                    "Water",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u2-l1-e8",
+                  "sentence": "___주세요.",
+                  "translation": "Coffee, please.",
+                  "audioTarget": "커피를 주세요.",
+                  "options": [
+                    "계란",
+                    "커피를",
+                    "주스",
+                    "물"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u2-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "생선",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "계란",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "치즈",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "커피",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "과일",
+                      "native": "the fruit"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u2-l1-e10",
+                  "mode": "translate",
+                  "prompt": "물 주세요.",
+                  "audioTarget": "물 주세요.",
+                  "answer": "Water, please.",
+                  "alternatives": [
+                    "mul juseyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u2-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "과일",
+                  "audioTarget": "과일",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "커피",
+                  "audioTarget": "커피",
+                  "options": [
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "주스",
+                  "audioTarget": "주스",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fruit",
+                  "audioTarget": "과일",
+                  "options": [
+                    {
+                      "text": "커피",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "빵",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "물",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "과일",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the coffee",
+                  "audioTarget": "커피",
+                  "options": [
+                    {
+                      "text": "커피",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "밥",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "빵",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "주스",
+                  "options": [
+                    {
+                      "text": "밥"
+                    },
+                    {
+                      "text": "우유"
+                    },
+                    {
+                      "text": "주스"
+                    },
+                    {
+                      "text": "과일"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 빵을 먹어요.",
+                  "audioTarget": "저는 빵을 먹어요.",
+                  "tokens": [
+                    "fruit",
+                    "bread",
+                    "please",
+                    "I",
+                    "eat",
+                    "tea"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 차를 마셔요.",
+                  "audioTarget": "저는 차를 마셔요.",
+                  "tokens": [
+                    "I",
+                    "tea",
+                    "bread",
+                    "rice",
+                    "drink",
+                    "eat"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "tea"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u2-l2-e8",
+                  "sentence": "저는___먹어요.",
+                  "translation": "I eat bread.",
+                  "audioTarget": "저는 빵을 먹어요.",
+                  "options": [
+                    "밥",
+                    "과일",
+                    "커피",
+                    "빵을"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u2-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "과일",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "커피",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "주스",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "차",
+                      "native": "the tea"
+                    },
+                    {
+                      "target": "빵",
+                      "native": "the bread"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u2-l2-e10",
+                  "mode": "translate",
+                  "prompt": "저는 차를 마셔요.",
+                  "audioTarget": "저는 차를 마셔요.",
+                  "answer": "I drink tea.",
+                  "alternatives": [
+                    "jeoneun chareul masyeoyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u2-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "물",
+                  "audioTarget": "물",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "우유",
+                  "audioTarget": "우유",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the meat",
+                      "emoji": "🥩"
+                    },
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "차",
+                  "audioTarget": "차",
+                  "options": [
+                    {
+                      "text": "the tea",
+                      "emoji": "🍵"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "물",
+                  "options": [
+                    {
+                      "text": "커피",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "물",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "빵",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "밥",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "우유",
+                  "options": [
+                    {
+                      "text": "커피",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "주스",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "물",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "우유",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u2-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "물",
+                  "options": [
+                    {
+                      "text": "고기"
+                    },
+                    {
+                      "text": "물"
+                    },
+                    {
+                      "text": "밥"
+                    },
+                    {
+                      "text": "빵"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 과일을 좋아해요.",
+                  "audioTarget": "저는 과일을 좋아해요.",
+                  "tokens": [
+                    "milk",
+                    "like",
+                    "Water",
+                    "fruit",
+                    "coffee",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "fruit"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u2-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "저는 우유를 마셔요.",
+                  "audioTarget": "저는 우유를 마셔요.",
+                  "tokens": [
+                    "I",
+                    "drink",
+                    "milk",
+                    "Water",
+                    "bread",
+                    "coffee"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u2-l3-e8",
+                  "sentence": "저는과일을___.",
+                  "translation": "I like fruit.",
+                  "audioTarget": "저는 과일을 좋아해요.",
+                  "options": [
+                    "좋아해요",
+                    "주스",
+                    "고기",
+                    "계란"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u2-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "물",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "우유",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "차",
+                      "native": "the tea"
+                    },
+                    {
+                      "target": "고기",
+                      "native": "the meat"
+                    },
+                    {
+                      "target": "계란",
+                      "native": "the egg"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u2-l3-e10",
+                  "mode": "translate",
+                  "prompt": "저는 우유를 마셔요.",
+                  "audioTarget": "저는 우유를 마셔요.",
+                  "answer": "I drink milk.",
+                  "alternatives": [
+                    "jeoneun uyureul masyeoyo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-4",
+          "title": "Animals",
+          "description": "Learn the names of common animals in Korean and how to describe them with simple sentences.",
+          "guidebook": "# Animals 🐾\n\nWelcome to the Animals unit! In this lesson, you'll learn the names of common animals in Korean and how to make simple sentences about them.\n\n## Topic Marker\n\nIn Korean, the particle **은/는** is used to mark the topic of a sentence. Use **는** after a vowel and **은** after a consonant.\n\n- 개**는** (gae-neun) — *as for the dog*\n- 말**은** (ma-reun) — *as for the horse*\n\n## Descriptive Verb: ~이다 (to be)\n\nTo say \"X is Y,\" use the pattern: **Noun + 은/는 + Noun + 이에요/예요**.\n\n- Use **이에요** after a consonant: 개는 강아지**예요** (The dog is a puppy).\n- Use **예요** after a vowel: 새는 예뻐요 (The bird is pretty).\n\n## Plural Marker\n\nKorean doesn't always mark plurals, but you can add **들** to make a noun plural:\n\n- 물고기 → 물고기**들** (fish → fishes)\n\n## Sentence Endings\n\n**~이에요/예요** is the polite informal ending, perfect for beginners. Try combining animal names with descriptive verbs like **예뻐요** (is pretty), **커요** (is big), and **좋아요** (is good).",
+          "words": [
+            {
+              "target": "개",
+              "native": "the dog",
+              "emoji": "🐶",
+              "romanization": "gae"
+            },
+            {
+              "target": "고양이",
+              "native": "the cat",
+              "emoji": "🐱",
+              "romanization": "goyangi"
+            },
+            {
+              "target": "말",
+              "native": "the horse",
+              "emoji": "🐴",
+              "romanization": "mal"
+            },
+            {
+              "target": "새",
+              "native": "the bird",
+              "emoji": "🐦",
+              "romanization": "sae"
+            },
+            {
+              "target": "물고기",
+              "native": "the fish",
+              "emoji": "🐟",
+              "romanization": "mulgogi"
+            },
+            {
+              "target": "소",
+              "native": "the cow",
+              "emoji": "🐮",
+              "romanization": "so"
+            },
+            {
+              "target": "토끼",
+              "native": "the rabbit",
+              "emoji": "🐰",
+              "romanization": "tokki"
+            },
+            {
+              "target": "호랑이",
+              "native": "the tiger",
+              "emoji": "🐯",
+              "romanization": "horangi"
+            },
+            {
+              "target": "코끼리",
+              "native": "the elephant",
+              "emoji": "🐘",
+              "romanization": "kokkiri"
+            },
+            {
+              "target": "원숭이",
+              "native": "the monkey",
+              "emoji": "🐵",
+              "romanization": "wonsungi"
+            },
+            {
+              "target": "강아지",
+              "native": "the puppy",
+              "emoji": "🐕",
+              "romanization": "gangaji"
+            },
+            {
+              "target": "새끼 고양이",
+              "native": "the kitten",
+              "emoji": "😺",
+              "romanization": "saekki goyangi"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u3-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "개",
+                  "audioTarget": "개",
+                  "options": [
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐶"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "고양이",
+                  "audioTarget": "고양이",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐮"
+                    },
+                    {
+                      "text": "the monkey",
+                      "emoji": "🐵"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐱"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐯"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "말",
+                  "audioTarget": "말",
+                  "options": [
+                    {
+                      "text": "the cat",
+                      "emoji": "🐱"
+                    },
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the dog",
+                  "audioTarget": "개",
+                  "options": [
+                    {
+                      "text": "물고기",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "강아지",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "코끼리",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "개",
+                      "emoji": "🐶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cat",
+                  "audioTarget": "고양이",
+                  "options": [
+                    {
+                      "text": "원숭이",
+                      "emoji": "🐵"
+                    },
+                    {
+                      "text": "고양이",
+                      "emoji": "🐱"
+                    },
+                    {
+                      "text": "호랑이",
+                      "emoji": "🐯"
+                    },
+                    {
+                      "text": "토끼",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "개",
+                  "options": [
+                    {
+                      "text": "개"
+                    },
+                    {
+                      "text": "고양이"
+                    },
+                    {
+                      "text": "물고기"
+                    },
+                    {
+                      "text": "코끼리"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "개는 귀여워요.",
+                  "audioTarget": "개는 귀여워요.",
+                  "tokens": [
+                    "horse",
+                    "small",
+                    "is",
+                    "cute",
+                    "The",
+                    "tiger",
+                    "dog"
+                  ],
+                  "answer": [
+                    "The",
+                    "dog",
+                    "is",
+                    "cute"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "고양이는 작아요.",
+                  "audioTarget": "고양이는 작아요.",
+                  "tokens": [
+                    "small",
+                    "rabbit",
+                    "is",
+                    "bananas",
+                    "big",
+                    "The",
+                    "cat"
+                  ],
+                  "answer": [
+                    "The",
+                    "cat",
+                    "is",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u3-l0-e8",
+                  "sentence": "개는___.",
+                  "translation": "The dog is cute.",
+                  "audioTarget": "개는 귀여워요.",
+                  "options": [
+                    "새",
+                    "귀여워요",
+                    "물고기",
+                    "소"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u3-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "개",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "고양이",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "말",
+                      "native": "the horse"
+                    },
+                    {
+                      "target": "새",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "토끼",
+                      "native": "the rabbit"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u3-l0-e10",
+                  "mode": "translate",
+                  "prompt": "고양이는 작아요.",
+                  "audioTarget": "고양이는 작아요.",
+                  "answer": "The cat is small.",
+                  "alternatives": [
+                    "goyangineun jagayo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u3-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "새",
+                  "audioTarget": "새",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐮"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐯"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the monkey",
+                      "emoji": "🐵"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "물고기",
+                  "audioTarget": "물고기",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "소",
+                  "audioTarget": "소",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐮"
+                    },
+                    {
+                      "text": "the kitten",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bird",
+                  "audioTarget": "새",
+                  "options": [
+                    {
+                      "text": "새끼 고양이",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "새",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "코끼리",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "강아지",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "물고기",
+                  "options": [
+                    {
+                      "text": "개",
+                      "emoji": "🐶"
+                    },
+                    {
+                      "text": "물고기",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "코끼리",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "새끼 고양이",
+                      "emoji": "😺"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "물고기",
+                  "options": [
+                    {
+                      "text": "물고기"
+                    },
+                    {
+                      "text": "개"
+                    },
+                    {
+                      "text": "코끼리"
+                    },
+                    {
+                      "text": "원숭이"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "말은 커요.",
+                  "audioTarget": "말은 커요.",
+                  "tokens": [
+                    "The",
+                    "water",
+                    "big",
+                    "is",
+                    "horse",
+                    "likes",
+                    "bananas"
+                  ],
+                  "answer": [
+                    "The",
+                    "horse",
+                    "is",
+                    "big"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "새는 하늘을 날아요.",
+                  "audioTarget": "새는 하늘을 날아요.",
+                  "tokens": [
+                    "flies",
+                    "bird",
+                    "The",
+                    "in",
+                    "small",
+                    "tiger",
+                    "the",
+                    "sky",
+                    "likes"
+                  ],
+                  "answer": [
+                    "The",
+                    "bird",
+                    "flies",
+                    "in",
+                    "the",
+                    "sky"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u3-l1-e8",
+                  "sentence": "말은___.",
+                  "translation": "The horse is big.",
+                  "audioTarget": "말은 커요.",
+                  "options": [
+                    "원숭이",
+                    "토끼",
+                    "물고기",
+                    "커요"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u3-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "새",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "물고기",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "소",
+                      "native": "the cow"
+                    },
+                    {
+                      "target": "개",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "코끼리",
+                      "native": "the elephant"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u3-l1-e10",
+                  "mode": "translate",
+                  "prompt": "새는 하늘을 날아요.",
+                  "audioTarget": "새는 하늘을 날아요.",
+                  "answer": "The bird flies in the sky.",
+                  "alternatives": [
+                    "saeneun haneureul narayo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u3-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "토끼",
+                  "audioTarget": "토끼",
+                  "options": [
+                    {
+                      "text": "the kitten",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "the monkey",
+                      "emoji": "🐵"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐱"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "호랑이",
+                  "audioTarget": "호랑이",
+                  "options": [
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐯"
+                    },
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "코끼리",
+                  "audioTarget": "코끼리",
+                  "options": [
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐶"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rabbit",
+                  "audioTarget": "토끼",
+                  "options": [
+                    {
+                      "text": "물고기",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "토끼",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "새",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "소",
+                      "emoji": "🐮"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the tiger",
+                  "audioTarget": "호랑이",
+                  "options": [
+                    {
+                      "text": "호랑이",
+                      "emoji": "🐯"
+                    },
+                    {
+                      "text": "강아지",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "새끼 고양이",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "말",
+                      "emoji": "🐴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "코끼리",
+                  "options": [
+                    {
+                      "text": "개"
+                    },
+                    {
+                      "text": "코끼리"
+                    },
+                    {
+                      "text": "물고기"
+                    },
+                    {
+                      "text": "강아지"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "물고기는 물에 살아요.",
+                  "audioTarget": "물고기는 물에 살아요.",
+                  "tokens": [
+                    "lives",
+                    "water",
+                    "The",
+                    "cow",
+                    "fish",
+                    "the",
+                    "in",
+                    "elephant",
+                    "bananas"
+                  ],
+                  "answer": [
+                    "The",
+                    "fish",
+                    "lives",
+                    "in",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "소는 우유를 줘요.",
+                  "audioTarget": "소는 우유를 줘요.",
+                  "tokens": [
+                    "is",
+                    "bananas",
+                    "gives",
+                    "milk",
+                    "rabbit",
+                    "cow",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "cow",
+                    "gives",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u3-l2-e8",
+                  "sentence": "물고기는___살아요.",
+                  "translation": "The fish lives in the water.",
+                  "audioTarget": "물고기는 물에 살아요.",
+                  "options": [
+                    "강아지",
+                    "물에",
+                    "새",
+                    "원숭이"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u3-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "토끼",
+                      "native": "the rabbit"
+                    },
+                    {
+                      "target": "호랑이",
+                      "native": "the tiger"
+                    },
+                    {
+                      "target": "코끼리",
+                      "native": "the elephant"
+                    },
+                    {
+                      "target": "새",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "새끼 고양이",
+                      "native": "the kitten"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u3-l2-e10",
+                  "mode": "translate",
+                  "prompt": "소는 우유를 줘요.",
+                  "audioTarget": "소는 우유를 줘요.",
+                  "answer": "The cow gives milk.",
+                  "alternatives": [
+                    "soneun uyureul jwoyo"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u3-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "원숭이",
+                  "audioTarget": "원숭이",
+                  "options": [
+                    {
+                      "text": "the kitten",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the monkey",
+                      "emoji": "🐵"
+                    },
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "강아지",
+                  "audioTarget": "강아지",
+                  "options": [
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the kitten",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "새끼 고양이",
+                  "audioTarget": "새끼 고양이",
+                  "options": [
+                    {
+                      "text": "the kitten",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "the puppy",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the tiger",
+                      "emoji": "🐯"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the monkey",
+                  "audioTarget": "원숭이",
+                  "options": [
+                    {
+                      "text": "원숭이",
+                      "emoji": "🐵"
+                    },
+                    {
+                      "text": "개",
+                      "emoji": "🐶"
+                    },
+                    {
+                      "text": "새끼 고양이",
+                      "emoji": "😺"
+                    },
+                    {
+                      "text": "호랑이",
+                      "emoji": "🐯"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the puppy",
+                  "audioTarget": "강아지",
+                  "options": [
+                    {
+                      "text": "강아지",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "물고기",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "말",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "코끼리",
+                      "emoji": "🐘"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u3-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "원숭이",
+                  "options": [
+                    {
+                      "text": "새"
+                    },
+                    {
+                      "text": "개"
+                    },
+                    {
+                      "text": "원숭이"
+                    },
+                    {
+                      "text": "코끼리"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "토끼는 귀가 길어요.",
+                  "audioTarget": "토끼는 귀가 길어요.",
+                  "tokens": [
+                    "sky",
+                    "has",
+                    "trunk",
+                    "long",
+                    "rabbit",
+                    "dog",
+                    "The",
+                    "ears"
+                  ],
+                  "answer": [
+                    "The",
+                    "rabbit",
+                    "has",
+                    "long",
+                    "ears"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u3-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "호랑이는 무서워요.",
+                  "audioTarget": "호랑이는 무서워요.",
+                  "tokens": [
+                    "is",
+                    "has",
+                    "tiger",
+                    "The",
+                    "gives",
+                    "scary",
+                    "dog"
+                  ],
+                  "answer": [
+                    "The",
+                    "tiger",
+                    "is",
+                    "scary"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u3-l3-e8",
+                  "sentence": "토끼는귀가___.",
+                  "translation": "The rabbit has long ears.",
+                  "audioTarget": "토끼는 귀가 길어요.",
+                  "options": [
+                    "코끼리",
+                    "강아지",
+                    "길어요",
+                    "말"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u3-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "원숭이",
+                      "native": "the monkey"
+                    },
+                    {
+                      "target": "강아지",
+                      "native": "the puppy"
+                    },
+                    {
+                      "target": "새끼 고양이",
+                      "native": "the kitten"
+                    },
+                    {
+                      "target": "고양이",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "호랑이",
+                      "native": "the tiger"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u3-l3-e10",
+                  "mode": "translate",
+                  "prompt": "호랑이는 무서워요.",
+                  "audioTarget": "호랑이는 무서워요.",
+                  "answer": "The tiger is scary.",
+                  "alternatives": [
+                    "horangineun museowoyo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-5",
+          "title": "Travel",
+          "description": "Learn essential Korean vocabulary and phrases for getting around cities, using transportation, staying at hotels, and finding places.",
+          "guidebook": "## Getting Around in Korean\n\nThis unit covers essential travel vocabulary. Korean uses **postpositional particles** that come after nouns to show their role in a sentence.\n\n**Key particles to know:**\n- **은/는** (eun/neun) — topic marker: \"as for...\"\n- **이/가** (i/ga) — subject marker: identifies the doer\n- **을/를** (eul/reul) — object marker: marks what receives the action\n- **에** (e) — location or time marker: \"at/in/to\"\n- **에서** (eseo) — \"at/from (a place)\"\n\n**Asking where things are:**\nUse **어디에 있어요?** (eodi-e isseoyo?) — \"Where is it?\"\nPattern: **Noun + 에 + 있어요** — \"It is at [place].\"\nExample: **호텔에 있어요** (hotel-e isseoyo) — \"It is at the hotel.\"\n\n**Getting around:**\n- **~에 가다** (e gada) — \"to go to~\"\n- **~에서 ~까지** (eseo ~ kkaji) — \"from ~ to~\"\n\n**Politeness:** All phrases use **-요** (-yo) style, the standard polite speech suitable for travelers. Keep practicing — you're doing great!",
+          "words": [
+            {
+              "target": "도시",
+              "native": "the city",
+              "emoji": "🏙️",
+              "romanization": "dosi"
+            },
+            {
+              "target": "기차",
+              "native": "the train",
+              "emoji": "🚆",
+              "romanization": "gicha"
+            },
+            {
+              "target": "비행기",
+              "native": "the airplane",
+              "emoji": "✈️",
+              "romanization": "bihaenggi"
+            },
+            {
+              "target": "공항",
+              "native": "the airport",
+              "emoji": "🛫",
+              "romanization": "gonghang"
+            },
+            {
+              "target": "호텔",
+              "native": "the hotel",
+              "emoji": "🏨",
+              "romanization": "hotel"
+            },
+            {
+              "target": "거리",
+              "native": "the street",
+              "emoji": "🛣️",
+              "romanization": "geori"
+            },
+            {
+              "target": "박물관",
+              "native": "the museum",
+              "emoji": "🏛️",
+              "romanization": "bangmulgwan"
+            },
+            {
+              "target": "지하철",
+              "native": "the subway",
+              "emoji": "🚇",
+              "romanization": "jihacheol"
+            },
+            {
+              "target": "버스",
+              "native": "the bus",
+              "emoji": "🚌",
+              "romanization": "beoseu"
+            },
+            {
+              "target": "택시",
+              "native": "the taxi",
+              "emoji": "🚕",
+              "romanization": "taeksi"
+            },
+            {
+              "target": "여권",
+              "native": "the passport",
+              "emoji": "🛂",
+              "romanization": "yeogwon"
+            },
+            {
+              "target": "지도",
+              "native": "the map",
+              "emoji": "🗺️",
+              "romanization": "jido"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u4-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "도시",
+                  "audioTarget": "도시",
+                  "options": [
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "🛫"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "기차",
+                  "audioTarget": "기차",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "🛫"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "비행기",
+                  "audioTarget": "비행기",
+                  "options": [
+                    {
+                      "text": "the airplane",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "🛫"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "🛂"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the city",
+                  "audioTarget": "도시",
+                  "options": [
+                    {
+                      "text": "도시",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "버스",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "거리",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "비행기",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the train",
+                  "audioTarget": "기차",
+                  "options": [
+                    {
+                      "text": "기차",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "여권",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "택시",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "지하철",
+                      "emoji": "🚇"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "도시",
+                  "options": [
+                    {
+                      "text": "지하철"
+                    },
+                    {
+                      "text": "지도"
+                    },
+                    {
+                      "text": "도시"
+                    },
+                    {
+                      "text": "여권"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "어디에 가요?",
+                  "audioTarget": "어디에 가요?",
+                  "tokens": [
+                    "going",
+                    "to",
+                    "you",
+                    "Where",
+                    "looking",
+                    "want",
+                    "are"
+                  ],
+                  "answer": [
+                    "Where",
+                    "are",
+                    "you",
+                    "going"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "호텔에 가요.",
+                  "audioTarget": "호텔에 가요.",
+                  "tokens": [
+                    "looking",
+                    "there",
+                    "I",
+                    "to",
+                    "the",
+                    "hotel",
+                    "going",
+                    "is",
+                    "am"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "going",
+                    "to",
+                    "the",
+                    "hotel"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u4-l0-e8",
+                  "sentence": "___가요?",
+                  "translation": "Where are you going?",
+                  "audioTarget": "어디에 가요?",
+                  "options": [
+                    "거리",
+                    "지하철",
+                    "택시",
+                    "어디에"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u4-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "도시",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "기차",
+                      "native": "the train"
+                    },
+                    {
+                      "target": "비행기",
+                      "native": "the airplane"
+                    },
+                    {
+                      "target": "택시",
+                      "native": "the taxi"
+                    },
+                    {
+                      "target": "버스",
+                      "native": "the bus"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u4-l0-e10",
+                  "mode": "translate",
+                  "prompt": "호텔에 가요.",
+                  "audioTarget": "호텔에 가요.",
+                  "answer": "I am going to the hotel.",
+                  "alternatives": [
+                    "hotel-e gayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u4-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "공항",
+                  "audioTarget": "공항",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "🛫"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "호텔",
+                  "audioTarget": "호텔",
+                  "options": [
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "🛫"
+                    },
+                    {
+                      "text": "the passport",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "the airplane",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "거리",
+                  "audioTarget": "거리",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the airplane",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the airport",
+                  "audioTarget": "공항",
+                  "options": [
+                    {
+                      "text": "거리",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "기차",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "공항",
+                      "emoji": "🛫"
+                    },
+                    {
+                      "text": "호텔",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hotel",
+                  "audioTarget": "호텔",
+                  "options": [
+                    {
+                      "text": "호텔",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "버스",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "비행기",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "지하철",
+                      "emoji": "🚇"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "호텔",
+                  "options": [
+                    {
+                      "text": "기차"
+                    },
+                    {
+                      "text": "지도"
+                    },
+                    {
+                      "text": "호텔"
+                    },
+                    {
+                      "text": "거리"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "공항이 어디예요?",
+                  "audioTarget": "공항이 어디예요?",
+                  "tokens": [
+                    "the",
+                    "Where",
+                    "Busan",
+                    "here",
+                    "I",
+                    "is",
+                    "airport"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "airport"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "지하철역이 저기에 있어요.",
+                  "audioTarget": "지하철역이 저기에 있어요.",
+                  "tokens": [
+                    "subway",
+                    "over",
+                    "me",
+                    "is",
+                    "looking",
+                    "station",
+                    "The",
+                    "going",
+                    "there"
+                  ],
+                  "answer": [
+                    "The",
+                    "subway",
+                    "station",
+                    "is",
+                    "over",
+                    "there"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u4-l1-e8",
+                  "sentence": "___어디예요?",
+                  "translation": "Where is the airport?",
+                  "audioTarget": "공항이 어디예요?",
+                  "options": [
+                    "공항이",
+                    "호텔",
+                    "기차",
+                    "버스"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u4-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "공항",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "호텔",
+                      "native": "the hotel"
+                    },
+                    {
+                      "target": "거리",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "도시",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "버스",
+                      "native": "the bus"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u4-l1-e10",
+                  "mode": "translate",
+                  "prompt": "지하철역이 저기에 있어요.",
+                  "audioTarget": "지하철역이 저기에 있어요.",
+                  "answer": "The subway station is over there.",
+                  "alternatives": [
+                    "jihacheol-yeogi jeogi-e isseoyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u4-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "박물관",
+                  "audioTarget": "박물관",
+                  "options": [
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the airplane",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "지하철",
+                  "audioTarget": "지하철",
+                  "options": [
+                    {
+                      "text": "the subway",
+                      "emoji": "🚇"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the airplane",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "버스",
+                  "audioTarget": "버스",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the museum",
+                  "audioTarget": "박물관",
+                  "options": [
+                    {
+                      "text": "비행기",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "여권",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "거리",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "박물관",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the subway",
+                  "audioTarget": "지하철",
+                  "options": [
+                    {
+                      "text": "여권",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "호텔",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "택시",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "지하철",
+                      "emoji": "🚇"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "버스",
+                  "options": [
+                    {
+                      "text": "지도"
+                    },
+                    {
+                      "text": "호텔"
+                    },
+                    {
+                      "text": "버스"
+                    },
+                    {
+                      "text": "거리"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "박물관에 가고 싶어요.",
+                  "audioTarget": "박물관에 가고 싶어요.",
+                  "tokens": [
+                    "I",
+                    "bus",
+                    "museum",
+                    "the",
+                    "Busan",
+                    "Where",
+                    "to",
+                    "to",
+                    "go",
+                    "want"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "go",
+                    "to",
+                    "the",
+                    "museum"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "서울에서 부산까지 기차를 타요.",
+                  "audioTarget": "서울에서 부산까지 기차를 타요.",
+                  "tokens": [
+                    "Busan",
+                    "bus",
+                    "take",
+                    "to",
+                    "the",
+                    "I",
+                    "station",
+                    "Seoul",
+                    "am",
+                    "train",
+                    "from"
+                  ],
+                  "answer": [
+                    "I",
+                    "take",
+                    "the",
+                    "train",
+                    "from",
+                    "Seoul",
+                    "to",
+                    "Busan"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u4-l2-e8",
+                  "sentence": "___가고싶어요.",
+                  "translation": "I want to go to the museum.",
+                  "audioTarget": "박물관에 가고 싶어요.",
+                  "options": [
+                    "박물관에",
+                    "버스",
+                    "박물관",
+                    "기차"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u4-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "박물관",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "지하철",
+                      "native": "the subway"
+                    },
+                    {
+                      "target": "버스",
+                      "native": "the bus"
+                    },
+                    {
+                      "target": "여권",
+                      "native": "the passport"
+                    },
+                    {
+                      "target": "기차",
+                      "native": "the train"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u4-l2-e10",
+                  "mode": "translate",
+                  "prompt": "서울에서 부산까지 기차를 타요.",
+                  "audioTarget": "서울에서 부산까지 기차를 타요.",
+                  "answer": "I take the train from Seoul to Busan.",
+                  "alternatives": [
+                    "seoul-eseo busan-kkaji gicha-reul tayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u4-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "택시",
+                  "audioTarget": "택시",
+                  "options": [
+                    {
+                      "text": "the taxi",
+                      "emoji": "🚕"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "여권",
+                  "audioTarget": "여권",
+                  "options": [
+                    {
+                      "text": "the passport",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the subway",
+                      "emoji": "🚇"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "지도",
+                  "audioTarget": "지도",
+                  "options": [
+                    {
+                      "text": "the bus",
+                      "emoji": "🚌"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the taxi",
+                  "audioTarget": "택시",
+                  "options": [
+                    {
+                      "text": "호텔",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "지도",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "여권",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "택시",
+                      "emoji": "🚕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the passport",
+                  "audioTarget": "여권",
+                  "options": [
+                    {
+                      "text": "여권",
+                      "emoji": "🛂"
+                    },
+                    {
+                      "text": "지도",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "거리",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "박물관",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u4-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "택시",
+                  "options": [
+                    {
+                      "text": "택시"
+                    },
+                    {
+                      "text": "지도"
+                    },
+                    {
+                      "text": "도시"
+                    },
+                    {
+                      "text": "버스"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "여권을 보여 주세요.",
+                  "audioTarget": "여권을 보여 주세요.",
+                  "tokens": [
+                    "want",
+                    "from",
+                    "your",
+                    "near",
+                    "show",
+                    "passport",
+                    "Please",
+                    "me"
+                  ],
+                  "answer": [
+                    "Please",
+                    "show",
+                    "me",
+                    "your",
+                    "passport"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u4-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "이 근처에 호텔이 있어요?",
+                  "audioTarget": "이 근처에 호텔이 있어요?",
+                  "tokens": [
+                    "Is",
+                    "airport",
+                    "hotel",
+                    "train",
+                    "here",
+                    "near",
+                    "going",
+                    "there",
+                    "a"
+                  ],
+                  "answer": [
+                    "Is",
+                    "there",
+                    "a",
+                    "hotel",
+                    "near",
+                    "here"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u4-l3-e8",
+                  "sentence": "___보여주세요.",
+                  "translation": "Please show me your passport.",
+                  "audioTarget": "여권을 보여 주세요.",
+                  "options": [
+                    "호텔",
+                    "버스",
+                    "도시",
+                    "여권을"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u4-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "택시",
+                      "native": "the taxi"
+                    },
+                    {
+                      "target": "여권",
+                      "native": "the passport"
+                    },
+                    {
+                      "target": "지도",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "버스",
+                      "native": "the bus"
+                    },
+                    {
+                      "target": "거리",
+                      "native": "the street"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u4-l3-e10",
+                  "mode": "translate",
+                  "prompt": "이 근처에 호텔이 있어요?",
+                  "audioTarget": "이 근처에 호텔이 있어요?",
+                  "answer": "Is there a hotel near here?",
+                  "alternatives": [
+                    "i geuncheo-e hotel-i isseoyo?"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

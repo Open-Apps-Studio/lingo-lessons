@@ -1,0 +1,5409 @@
+{
+  "id": "de-en",
+  "version": 1,
+  "targetLanguage": "German",
+  "targetCode": "de",
+  "nativeLanguage": "English",
+  "nativeCode": "en",
+  "flag": "🇩🇪",
+  "sections": [
+    {
+      "id": "de-en:section-1",
+      "title": "Section 1: Beginner",
+      "units": [
+        {
+          "id": "de-en:unit-1",
+          "title": "Basics 1",
+          "description": "Your very first German words and sentences. Learn people, food, drinks, and how to say what you are and what you eat or drink.",
+          "guidebook": "Welcome to German! 🎉\n\n**Nouns & Gender:** Every German noun has a gender: **der** (masculine), **die** (feminine), or **das** (neuter). You must learn the article with the word — it's part of the word!\n\n**The verb *sein* (to be):**\n- ich bin — I am\n- du bist — you are\n- er/sie ist — he/she is\n\nExample: *Ich bin ein Mann.* (I am a man.)\n\n**Verbs *essen* (to eat) and *trinken* (to drink):**\n- ich esse / trinke\n- du isst / trinkst\n- er/sie isst / trinkt\n\nExample: *Ich esse Brot.* (I eat bread.)\n\n**Word order:** German usually puts the verb in the **second position**. Time words like *Ich* come first, then the verb, then the rest.\n\n**Tip:** Always capitalize nouns in German!",
+          "words": [
+            {
+              "target": "der Mann",
+              "native": "the man",
+              "emoji": "👨"
+            },
+            {
+              "target": "die Frau",
+              "native": "the woman",
+              "emoji": "👩"
+            },
+            {
+              "target": "der Junge",
+              "native": "the boy",
+              "emoji": "👦"
+            },
+            {
+              "target": "das Mädchen",
+              "native": "the girl",
+              "emoji": "👧"
+            },
+            {
+              "target": "der Apfel",
+              "native": "the apple",
+              "emoji": "🍎"
+            },
+            {
+              "target": "das Brot",
+              "native": "the bread",
+              "emoji": "🍞"
+            },
+            {
+              "target": "das Wasser",
+              "native": "the water",
+              "emoji": "💧"
+            },
+            {
+              "target": "die Milch",
+              "native": "the milk",
+              "emoji": "🥛"
+            },
+            {
+              "target": "essen",
+              "native": "to eat",
+              "emoji": "🍽️"
+            },
+            {
+              "target": "trinken",
+              "native": "to drink",
+              "emoji": "🥤"
+            },
+            {
+              "target": "sein",
+              "native": "to be",
+              "emoji": "✨"
+            },
+            {
+              "target": "ich",
+              "native": "I",
+              "emoji": "🙋"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "de-en:u0-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Mann",
+                  "audioTarget": "der Mann",
+                  "options": [
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "I",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Frau",
+                  "audioTarget": "die Frau",
+                  "options": [
+                    {
+                      "text": "I",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to be",
+                      "emoji": "✨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Junge",
+                  "audioTarget": "der Junge",
+                  "options": [
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "to be",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the man",
+                  "audioTarget": "der Mann",
+                  "options": [
+                    {
+                      "text": "die Frau",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "der Apfel",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "essen",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "der Mann",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the woman",
+                  "audioTarget": "die Frau",
+                  "options": [
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "die Frau",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "trinken",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Mann",
+                  "options": [
+                    {
+                      "text": "trinken"
+                    },
+                    {
+                      "text": "der Apfel"
+                    },
+                    {
+                      "text": "der Mann"
+                    },
+                    {
+                      "text": "die Milch"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ich bin ein Mann.",
+                  "audioTarget": "Ich bin ein Mann.",
+                  "tokens": [
+                    "am",
+                    "man",
+                    "a",
+                    "woman",
+                    "an",
+                    "boy",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "man"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Du bist eine Frau.",
+                  "audioTarget": "Du bist eine Frau.",
+                  "tokens": [
+                    "a",
+                    "are",
+                    "woman",
+                    "drink",
+                    "man",
+                    "girl",
+                    "You"
+                  ],
+                  "answer": [
+                    "You",
+                    "are",
+                    "a",
+                    "woman"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u0-l0-e8",
+                  "sentence": "Ich bin ein ___.",
+                  "translation": "I am a man.",
+                  "audioTarget": "Ich bin ein Mann.",
+                  "options": [
+                    "Mann",
+                    "Frau",
+                    "essen",
+                    "sein"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u0-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "der Mann",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "die Frau",
+                      "native": "the woman"
+                    },
+                    {
+                      "target": "der Junge",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "das Wasser",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "trinken",
+                      "native": "to drink"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u0-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Du bist eine Frau.",
+                  "audioTarget": "Du bist eine Frau.",
+                  "answer": "You are a woman.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u0-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "das Mädchen",
+                  "audioTarget": "das Mädchen",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "der Apfel",
+                  "audioTarget": "der Apfel",
+                  "options": [
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "das Brot",
+                  "audioTarget": "das Brot",
+                  "options": [
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "to be",
+                      "emoji": "✨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the girl",
+                  "audioTarget": "das Mädchen",
+                  "options": [
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "das Mädchen",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "die Frau",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "der Apfel",
+                  "options": [
+                    {
+                      "text": "trinken",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "die Frau",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "der Apfel",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Apfel",
+                  "options": [
+                    {
+                      "text": "essen"
+                    },
+                    {
+                      "text": "der Apfel"
+                    },
+                    {
+                      "text": "der Junge"
+                    },
+                    {
+                      "text": "das Mädchen"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Er ist ein Junge.",
+                  "audioTarget": "Er ist ein Junge.",
+                  "tokens": [
+                    "He",
+                    "a",
+                    "water",
+                    "boy",
+                    "apple",
+                    "is",
+                    "man"
+                  ],
+                  "answer": [
+                    "He",
+                    "is",
+                    "a",
+                    "boy"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Sie ist ein Mädchen.",
+                  "audioTarget": "Sie ist ein Mädchen.",
+                  "tokens": [
+                    "is",
+                    "water",
+                    "girl",
+                    "a",
+                    "She",
+                    "an",
+                    "milk"
+                  ],
+                  "answer": [
+                    "She",
+                    "is",
+                    "a",
+                    "girl"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u0-l1-e8",
+                  "sentence": "Er ist ein ___.",
+                  "translation": "He is a boy.",
+                  "audioTarget": "Er ist ein Junge.",
+                  "options": [
+                    "Apfel",
+                    "Mädchen",
+                    "Junge",
+                    "Brot"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u0-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "das Mädchen",
+                      "native": "the girl"
+                    },
+                    {
+                      "target": "der Apfel",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "das Brot",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "die Milch",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "essen",
+                      "native": "to eat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u0-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Sie ist ein Mädchen.",
+                  "audioTarget": "Sie ist ein Mädchen.",
+                  "answer": "She is a girl.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u0-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "das Wasser",
+                  "audioTarget": "das Wasser",
+                  "options": [
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Milch",
+                  "audioTarget": "die Milch",
+                  "options": [
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "essen",
+                  "audioTarget": "essen",
+                  "options": [
+                    {
+                      "text": "the man",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the boy",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the water",
+                  "audioTarget": "das Wasser",
+                  "options": [
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "der Junge",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "der Mann",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "die Milch",
+                  "options": [
+                    {
+                      "text": "ich",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "die Frau",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "essen",
+                  "options": [
+                    {
+                      "text": "der Junge"
+                    },
+                    {
+                      "text": "essen"
+                    },
+                    {
+                      "text": "die Frau"
+                    },
+                    {
+                      "text": "der Apfel"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ich esse einen Apfel.",
+                  "audioTarget": "Ich esse einen Apfel.",
+                  "tokens": [
+                    "drink",
+                    "girl",
+                    "drinks",
+                    "an",
+                    "eat",
+                    "I",
+                    "apple"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "an",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ich esse Brot.",
+                  "audioTarget": "Ich esse Brot.",
+                  "tokens": [
+                    "eat",
+                    "a",
+                    "bread",
+                    "I",
+                    "is",
+                    "He"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "bread"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u0-l2-e8",
+                  "sentence": "Ich ___ einen Apfel.",
+                  "translation": "I eat an apple.",
+                  "audioTarget": "Ich esse einen Apfel.",
+                  "options": [
+                    "esse",
+                    "Brot",
+                    "Mädchen",
+                    "sein"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u0-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "das Wasser",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "die Milch",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "essen",
+                      "native": "to eat"
+                    },
+                    {
+                      "target": "der Junge",
+                      "native": "the boy"
+                    },
+                    {
+                      "target": "trinken",
+                      "native": "to drink"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u0-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Ich esse Brot.",
+                  "audioTarget": "Ich esse Brot.",
+                  "answer": "I eat bread.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u0-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "trinken",
+                  "audioTarget": "trinken",
+                  "options": [
+                    {
+                      "text": "the girl",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "sein",
+                  "audioTarget": "sein",
+                  "options": [
+                    {
+                      "text": "to be",
+                      "emoji": "✨"
+                    },
+                    {
+                      "text": "to eat",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "to drink",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "ich",
+                  "audioTarget": "ich",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "I",
+                      "emoji": "🙋"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the woman",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to drink",
+                  "audioTarget": "trinken",
+                  "options": [
+                    {
+                      "text": "trinken",
+                      "emoji": "🥤"
+                    },
+                    {
+                      "text": "der Mann",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "essen",
+                      "emoji": "🍽️"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to be",
+                  "audioTarget": "sein",
+                  "options": [
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "sein",
+                      "emoji": "✨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u0-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "trinken",
+                  "options": [
+                    {
+                      "text": "das Mädchen"
+                    },
+                    {
+                      "text": "trinken"
+                    },
+                    {
+                      "text": "der Junge"
+                    },
+                    {
+                      "text": "die Milch"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ich trinke Wasser.",
+                  "audioTarget": "Ich trinke Wasser.",
+                  "tokens": [
+                    "boy",
+                    "a",
+                    "water",
+                    "drink",
+                    "You",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u0-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ich trinke Milch.",
+                  "audioTarget": "Ich trinke Milch.",
+                  "tokens": [
+                    "boy",
+                    "milk",
+                    "I",
+                    "is",
+                    "drink",
+                    "woman"
+                  ],
+                  "answer": [
+                    "I",
+                    "drink",
+                    "milk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u0-l3-e8",
+                  "sentence": "Ich ___ Wasser.",
+                  "translation": "I drink water.",
+                  "audioTarget": "Ich trinke Wasser.",
+                  "options": [
+                    "Mädchen",
+                    "trinke",
+                    "Brot",
+                    "sein"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u0-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "trinken",
+                      "native": "to drink"
+                    },
+                    {
+                      "target": "sein",
+                      "native": "to be"
+                    },
+                    {
+                      "target": "ich",
+                      "native": "I"
+                    },
+                    {
+                      "target": "der Mann",
+                      "native": "the man"
+                    },
+                    {
+                      "target": "essen",
+                      "native": "to eat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u0-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Ich trinke Milch.",
+                  "audioTarget": "Ich trinke Milch.",
+                  "answer": "I drink milk.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "de-en:unit-2",
+          "title": "Greetings",
+          "description": "Learn essential German greetings and polite expressions for everyday conversations.",
+          "guidebook": "## Greetings & Politeness 👋\n\nGerman greetings change with the time of day:\n- **Guten Morgen** (good morning) — until about noon\n- **Guten Tag** (good day) — the safe all-day default\n- **Guten Abend** (good evening) — from about 18:00\n- **Gute Nacht** (good night) — only when parting or going to bed\n\n**Hallo** is casual and works any time with friends. **Tschüss** is an informal goodbye; **Auf Wiedersehen** is more formal. To say \"see you soon,\" use **Bis bald**.\n\nWhen meeting someone, Germans often ask **Wie geht es Ihnen?** (formal) or **Wie geht's?** (casual). A typical reply is **Mir geht es gut, danke** (\"I'm doing well, thanks\").\n\n**Bitte** means both \"please\" and \"you're welcome\" — context tells you which. **Danke** means \"thanks,\" and **Vielen Dank** means \"thank you very much.\" **Entschuldigung** (\"excuse me\") is used to get attention or apologize for small things; **Es tut mir leid** is a stronger apology.\n\nPoliteness goes a long way in German — use **Sie** (formal you) with strangers and **du** with friends and children.",
+          "words": [
+            {
+              "target": "der Morgen",
+              "native": "the morning",
+              "emoji": "🌅"
+            },
+            {
+              "target": "der Abend",
+              "native": "the evening",
+              "emoji": "🌆"
+            },
+            {
+              "target": "die Nacht",
+              "native": "the night",
+              "emoji": "🌙"
+            },
+            {
+              "target": "der Tag",
+              "native": "the day",
+              "emoji": "☀️"
+            },
+            {
+              "target": "Hallo",
+              "native": "hello",
+              "emoji": "👋"
+            },
+            {
+              "target": "Tschüss",
+              "native": "bye",
+              "emoji": "👋"
+            },
+            {
+              "target": "Bitte",
+              "native": "please",
+              "emoji": "🙏"
+            },
+            {
+              "target": "Danke",
+              "native": "thanks",
+              "emoji": "🙏"
+            },
+            {
+              "target": "Entschuldigung",
+              "native": "excuse me",
+              "emoji": "🙇"
+            },
+            {
+              "target": "Willkommen",
+              "native": "welcome",
+              "emoji": "🤗"
+            },
+            {
+              "target": "Freund",
+              "native": "friend",
+              "emoji": "🧑‍🤝‍🧑"
+            },
+            {
+              "target": "Name",
+              "native": "name",
+              "emoji": "📛"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "de-en:u1-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Morgen",
+                  "audioTarget": "der Morgen",
+                  "options": [
+                    {
+                      "text": "friend",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the morning",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "der Abend",
+                  "audioTarget": "der Abend",
+                  "options": [
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "friend",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "die Nacht",
+                  "audioTarget": "die Nacht",
+                  "options": [
+                    {
+                      "text": "bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "welcome",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the morning",
+                  "audioTarget": "der Morgen",
+                  "options": [
+                    {
+                      "text": "der Abend",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "Entschuldigung",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "der Morgen",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the evening",
+                  "audioTarget": "der Abend",
+                  "options": [
+                    {
+                      "text": "der Abend",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "Hallo",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "Tschüss",
+                      "emoji": "👋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Morgen",
+                  "options": [
+                    {
+                      "text": "Tschüss"
+                    },
+                    {
+                      "text": "Bitte"
+                    },
+                    {
+                      "text": "Willkommen"
+                    },
+                    {
+                      "text": "der Morgen"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Guten Morgen!",
+                  "audioTarget": "Guten Morgen!",
+                  "tokens": [
+                    "welcome",
+                    "Good",
+                    "morning",
+                    "Thank",
+                    "What"
+                  ],
+                  "answer": [
+                    "Good",
+                    "morning"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Guten Abend!",
+                  "audioTarget": "Guten Abend!",
+                  "tokens": [
+                    "Good",
+                    "morning",
+                    "am",
+                    "night",
+                    "evening"
+                  ],
+                  "answer": [
+                    "Good",
+                    "evening"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u1-l0-e8",
+                  "sentence": "Guten ___!",
+                  "translation": "Good morning!",
+                  "audioTarget": "Guten Morgen!",
+                  "options": [
+                    "Morgen",
+                    "Abend",
+                    "Nacht",
+                    "Entschuldigung"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u1-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "der Morgen",
+                      "native": "the morning"
+                    },
+                    {
+                      "target": "der Abend",
+                      "native": "the evening"
+                    },
+                    {
+                      "target": "die Nacht",
+                      "native": "the night"
+                    },
+                    {
+                      "target": "Entschuldigung",
+                      "native": "excuse me"
+                    },
+                    {
+                      "target": "Danke",
+                      "native": "thanks"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u1-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Guten Abend!",
+                  "audioTarget": "Guten Abend!",
+                  "answer": "Good evening!",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u1-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Tag",
+                  "audioTarget": "der Tag",
+                  "options": [
+                    {
+                      "text": "friend",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the day",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "welcome",
+                      "emoji": "🤗"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "Hallo",
+                  "audioTarget": "Hallo",
+                  "options": [
+                    {
+                      "text": "welcome",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "Tschüss",
+                  "audioTarget": "Tschüss",
+                  "options": [
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "the day",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "thanks",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the day",
+                  "audioTarget": "der Tag",
+                  "options": [
+                    {
+                      "text": "Danke",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "der Tag",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "der Morgen",
+                      "emoji": "🌅"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "hello",
+                  "audioTarget": "Hallo",
+                  "options": [
+                    {
+                      "text": "Tschüss",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Hallo",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "Entschuldigung",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "Hallo",
+                  "options": [
+                    {
+                      "text": "die Nacht"
+                    },
+                    {
+                      "text": "Willkommen"
+                    },
+                    {
+                      "text": "Bitte"
+                    },
+                    {
+                      "text": "Hallo"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Gute Nacht!",
+                  "audioTarget": "Gute Nacht!",
+                  "tokens": [
+                    "much",
+                    "night",
+                    "I",
+                    "Good",
+                    "is"
+                  ],
+                  "answer": [
+                    "Good",
+                    "night"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Auf Wiedersehen!",
+                  "audioTarget": "Auf Wiedersehen!",
+                  "tokens": [
+                    "Anna",
+                    "What",
+                    "Goodbye",
+                    "(formal)",
+                    "evening"
+                  ],
+                  "answer": [
+                    "Goodbye",
+                    "(formal)"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u1-l1-e8",
+                  "sentence": "Gute ___!",
+                  "translation": "Good night!",
+                  "audioTarget": "Gute Nacht!",
+                  "options": [
+                    "Tschüss",
+                    "Hallo",
+                    "Nacht",
+                    "Tag"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u1-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "der Tag",
+                      "native": "the day"
+                    },
+                    {
+                      "target": "Hallo",
+                      "native": "hello"
+                    },
+                    {
+                      "target": "Tschüss",
+                      "native": "bye"
+                    },
+                    {
+                      "target": "Bitte",
+                      "native": "please"
+                    },
+                    {
+                      "target": "der Morgen",
+                      "native": "the morning"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u1-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Auf Wiedersehen!",
+                  "audioTarget": "Auf Wiedersehen!",
+                  "answer": "Goodbye (formal)!",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u1-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "Bitte",
+                  "audioTarget": "Bitte",
+                  "options": [
+                    {
+                      "text": "bye",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "please",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "thanks",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "Danke",
+                  "audioTarget": "Danke",
+                  "options": [
+                    {
+                      "text": "friend",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "thanks",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "the day",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "welcome",
+                      "emoji": "🤗"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "Entschuldigung",
+                  "audioTarget": "Entschuldigung",
+                  "options": [
+                    {
+                      "text": "thanks",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "hello",
+                      "emoji": "👋"
+                    },
+                    {
+                      "text": "name",
+                      "emoji": "📛"
+                    },
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "please",
+                  "audioTarget": "Bitte",
+                  "options": [
+                    {
+                      "text": "Freund",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "Bitte",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "der Morgen",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "Danke",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "thanks",
+                  "audioTarget": "Danke",
+                  "options": [
+                    {
+                      "text": "der Morgen",
+                      "emoji": "🌅"
+                    },
+                    {
+                      "text": "Danke",
+                      "emoji": "🙏"
+                    },
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "Entschuldigung",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "Entschuldigung",
+                  "options": [
+                    {
+                      "text": "Entschuldigung"
+                    },
+                    {
+                      "text": "Tschüss"
+                    },
+                    {
+                      "text": "Freund"
+                    },
+                    {
+                      "text": "der Tag"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Wie geht es Ihnen?",
+                  "audioTarget": "Wie geht es Ihnen?",
+                  "tokens": [
+                    "doing",
+                    "you",
+                    "Good",
+                    "are",
+                    "Anna",
+                    "How",
+                    "(formal)"
+                  ],
+                  "answer": [
+                    "How",
+                    "are",
+                    "you",
+                    "(formal)"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Mir geht es gut.",
+                  "audioTarget": "Mir geht es gut.",
+                  "tokens": [
+                    "am",
+                    "you",
+                    "My",
+                    "evening",
+                    "well",
+                    "I",
+                    "doing"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "doing",
+                    "well"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u1-l2-e8",
+                  "sentence": "Wie ___ es Ihnen?",
+                  "translation": "How are you? (formal)",
+                  "audioTarget": "Wie geht es Ihnen?",
+                  "options": [
+                    "Danke",
+                    "Nacht",
+                    "geht",
+                    "Tag"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u1-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "Bitte",
+                      "native": "please"
+                    },
+                    {
+                      "target": "Danke",
+                      "native": "thanks"
+                    },
+                    {
+                      "target": "Entschuldigung",
+                      "native": "excuse me"
+                    },
+                    {
+                      "target": "der Tag",
+                      "native": "the day"
+                    },
+                    {
+                      "target": "die Nacht",
+                      "native": "the night"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u1-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Mir geht es gut.",
+                  "audioTarget": "Mir geht es gut.",
+                  "answer": "I am doing well.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u1-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "Willkommen",
+                  "audioTarget": "Willkommen",
+                  "options": [
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "the evening",
+                      "emoji": "🌆"
+                    },
+                    {
+                      "text": "the day",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "welcome",
+                      "emoji": "🤗"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "Freund",
+                  "audioTarget": "Freund",
+                  "options": [
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "friend",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "name",
+                      "emoji": "📛"
+                    },
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "Name",
+                  "audioTarget": "Name",
+                  "options": [
+                    {
+                      "text": "name",
+                      "emoji": "📛"
+                    },
+                    {
+                      "text": "the night",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "excuse me",
+                      "emoji": "🙇"
+                    },
+                    {
+                      "text": "welcome",
+                      "emoji": "🤗"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "welcome",
+                  "audioTarget": "Willkommen",
+                  "options": [
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "die Nacht",
+                      "emoji": "🌙"
+                    },
+                    {
+                      "text": "der Tag",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "der Abend",
+                      "emoji": "🌆"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "friend",
+                  "audioTarget": "Freund",
+                  "options": [
+                    {
+                      "text": "Freund",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "Willkommen",
+                      "emoji": "🤗"
+                    },
+                    {
+                      "text": "der Tag",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "Bitte",
+                      "emoji": "🙏"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u1-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "Willkommen",
+                  "options": [
+                    {
+                      "text": "der Morgen"
+                    },
+                    {
+                      "text": "Willkommen"
+                    },
+                    {
+                      "text": "Tschüss"
+                    },
+                    {
+                      "text": "Bitte"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Vielen Dank!",
+                  "audioTarget": "Vielen Dank!",
+                  "tokens": [
+                    "I",
+                    "very",
+                    "name",
+                    "Thank",
+                    "much",
+                    "you",
+                    "your"
+                  ],
+                  "answer": [
+                    "Thank",
+                    "you",
+                    "very",
+                    "much"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u1-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Bitte schön.",
+                  "audioTarget": "Bitte schön.",
+                  "tokens": [
+                    "am",
+                    "you",
+                    "(formal)",
+                    "welcome",
+                    "Youre"
+                  ],
+                  "answer": [
+                    "Youre",
+                    "welcome"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u1-l3-e8",
+                  "sentence": "Vielen ___!",
+                  "translation": "Thank you very much!",
+                  "audioTarget": "Vielen Dank!",
+                  "options": [
+                    "Entschuldigung",
+                    "Bitte",
+                    "Abend",
+                    "Dank"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u1-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "Willkommen",
+                      "native": "welcome"
+                    },
+                    {
+                      "target": "Freund",
+                      "native": "friend"
+                    },
+                    {
+                      "target": "Name",
+                      "native": "name"
+                    },
+                    {
+                      "target": "der Morgen",
+                      "native": "the morning"
+                    },
+                    {
+                      "target": "der Tag",
+                      "native": "the day"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u1-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Bitte schön.",
+                  "audioTarget": "Bitte schön.",
+                  "answer": "You're welcome.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "de-en:unit-3",
+          "title": "Food",
+          "description": "Learn essential German words for food and drink, and how to say what you want, eat, and drink.",
+          "guidebook": "## Talking About Food in German 🍽️\n\nIn this unit, you'll learn the most common food and drink words. German nouns have **genders** (der, die, das), and you must learn the article with each noun:\n\n- **der** = masculine (e.g., *der Käse* – the cheese)\n- **die** = feminine (e.g., *die Milch* – the milk)\n- **das** = neuter (e.g., *das Ei* – the egg)\n\n### Verbs for eating and drinking\n- **essen** (to eat): *Ich esse Brot.* – I eat bread.\n- **trinken** (to drink): *Ich trinke Kaffee.* – I drink coffee.\n- **möchten** (to want): *Ich möchte Wasser.* – I would like water.\n\n### Word order\nGerman usually places the verb in the **second position** of a sentence. With *möchten*, the other verb goes to the end: *Ich möchte **essen**.*\n\n### Plurals\nSome plurals are irregular: *das Ei → die Eier* (eggs). Don't worry — you'll learn them with practice!",
+          "words": [
+            {
+              "target": "der Kaffee",
+              "native": "the coffee",
+              "emoji": "☕"
+            },
+            {
+              "target": "der Reis",
+              "native": "the rice",
+              "emoji": "🍚"
+            },
+            {
+              "target": "das Ei",
+              "native": "the egg",
+              "emoji": "🥚"
+            },
+            {
+              "target": "der Käse",
+              "native": "the cheese",
+              "emoji": "🧀"
+            },
+            {
+              "target": "das Obst",
+              "native": "the fruit",
+              "emoji": "🍎"
+            },
+            {
+              "target": "der Saft",
+              "native": "the juice",
+              "emoji": "🧃"
+            },
+            {
+              "target": "das Brot",
+              "native": "the bread",
+              "emoji": "🍞"
+            },
+            {
+              "target": "die Milch",
+              "native": "the milk",
+              "emoji": "🥛"
+            },
+            {
+              "target": "das Wasser",
+              "native": "the water",
+              "emoji": "💧"
+            },
+            {
+              "target": "der Apfel",
+              "native": "the apple",
+              "emoji": "🍏"
+            },
+            {
+              "target": "der Fisch",
+              "native": "the fish",
+              "emoji": "🐟"
+            },
+            {
+              "target": "der Zucker",
+              "native": "the sugar",
+              "emoji": "🍬"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "de-en:u2-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Kaffee",
+                  "audioTarget": "der Kaffee",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "der Reis",
+                  "audioTarget": "der Reis",
+                  "options": [
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "das Ei",
+                  "audioTarget": "das Ei",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the coffee",
+                  "audioTarget": "der Kaffee",
+                  "options": [
+                    {
+                      "text": "der Kaffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "der Saft",
+                      "emoji": "🧃"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rice",
+                  "audioTarget": "der Reis",
+                  "options": [
+                    {
+                      "text": "das Ei",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "der Reis",
+                      "emoji": "🍚"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Kaffee",
+                  "options": [
+                    {
+                      "text": "der Saft"
+                    },
+                    {
+                      "text": "der Kaffee"
+                    },
+                    {
+                      "text": "der Reis"
+                    },
+                    {
+                      "text": "die Milch"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ich möchte Kaffee trinken.",
+                  "audioTarget": "Ich möchte Kaffee trinken.",
+                  "tokens": [
+                    "drink",
+                    "I",
+                    "hungry",
+                    "is",
+                    "coffee",
+                    "like",
+                    "fruit",
+                    "to",
+                    "would"
+                  ],
+                  "answer": [
+                    "I",
+                    "would",
+                    "like",
+                    "to",
+                    "drink",
+                    "coffee"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Das Brot ist frisch.",
+                  "audioTarget": "Das Brot ist frisch.",
+                  "tokens": [
+                    "is",
+                    "cold",
+                    "like",
+                    "water",
+                    "bread",
+                    "The",
+                    "fresh"
+                  ],
+                  "answer": [
+                    "The",
+                    "bread",
+                    "is",
+                    "fresh"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u2-l0-e8",
+                  "sentence": "Ich möchte ___ trinken.",
+                  "translation": "I would like to drink coffee.",
+                  "audioTarget": "Ich möchte Kaffee trinken.",
+                  "options": [
+                    "Fisch",
+                    "Brot",
+                    "Wasser",
+                    "Kaffee"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u2-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "der Kaffee",
+                      "native": "the coffee"
+                    },
+                    {
+                      "target": "der Reis",
+                      "native": "the rice"
+                    },
+                    {
+                      "target": "das Ei",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "der Zucker",
+                      "native": "the sugar"
+                    },
+                    {
+                      "target": "der Apfel",
+                      "native": "the apple"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u2-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Das Brot ist frisch.",
+                  "audioTarget": "Das Brot ist frisch.",
+                  "answer": "The bread is fresh.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u2-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Käse",
+                  "audioTarget": "der Käse",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "das Obst",
+                  "audioTarget": "das Obst",
+                  "options": [
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Saft",
+                  "audioTarget": "der Saft",
+                  "options": [
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cheese",
+                  "audioTarget": "der Käse",
+                  "options": [
+                    {
+                      "text": "der Käse",
+                      "emoji": "🧀"
+                    },
+                    {
+                      "text": "der Saft",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "der Zucker",
+                      "emoji": "🍬"
+                    },
+                    {
+                      "text": "das Ei",
+                      "emoji": "🥚"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fruit",
+                  "audioTarget": "das Obst",
+                  "options": [
+                    {
+                      "text": "das Obst",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "der Kaffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "der Apfel",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "das Obst",
+                  "options": [
+                    {
+                      "text": "das Obst"
+                    },
+                    {
+                      "text": "der Fisch"
+                    },
+                    {
+                      "text": "der Saft"
+                    },
+                    {
+                      "text": "der Reis"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ich esse gern Käse.",
+                  "audioTarget": "Ich esse gern Käse.",
+                  "tokens": [
+                    "like",
+                    "egg",
+                    "cheese",
+                    "fresh",
+                    "eat",
+                    "to",
+                    "I",
+                    "milk"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "to",
+                    "eat",
+                    "cheese"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Er trinkt ein Glas Wasser.",
+                  "audioTarget": "Er trinkt ein Glas Wasser.",
+                  "tokens": [
+                    "a",
+                    "I",
+                    "water",
+                    "drinks",
+                    "juice",
+                    "He",
+                    "of",
+                    "coffee",
+                    "glass"
+                  ],
+                  "answer": [
+                    "He",
+                    "drinks",
+                    "a",
+                    "glass",
+                    "of",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u2-l1-e8",
+                  "sentence": "Ich esse ___ Käse.",
+                  "translation": "I like to eat cheese.",
+                  "audioTarget": "Ich esse gern Käse.",
+                  "options": [
+                    "Fisch",
+                    "Wasser",
+                    "Obst",
+                    "gern"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u2-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "der Käse",
+                      "native": "the cheese"
+                    },
+                    {
+                      "target": "das Obst",
+                      "native": "the fruit"
+                    },
+                    {
+                      "target": "der Saft",
+                      "native": "the juice"
+                    },
+                    {
+                      "target": "die Milch",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "das Brot",
+                      "native": "the bread"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u2-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Er trinkt ein Glas Wasser.",
+                  "audioTarget": "Er trinkt ein Glas Wasser.",
+                  "answer": "He drinks a glass of water.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u2-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "das Brot",
+                  "audioTarget": "das Brot",
+                  "options": [
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the sugar",
+                      "emoji": "🍬"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Milch",
+                  "audioTarget": "die Milch",
+                  "options": [
+                    {
+                      "text": "the juice",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "das Wasser",
+                  "audioTarget": "das Wasser",
+                  "options": [
+                    {
+                      "text": "the water",
+                      "emoji": "💧"
+                    },
+                    {
+                      "text": "the bread",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "the sugar",
+                      "emoji": "🍬"
+                    },
+                    {
+                      "text": "the coffee",
+                      "emoji": "☕"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bread",
+                  "audioTarget": "das Brot",
+                  "options": [
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "der Apfel",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "der Saft",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "der Käse",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the milk",
+                  "audioTarget": "die Milch",
+                  "options": [
+                    {
+                      "text": "der Saft",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "das Brot",
+                      "emoji": "🍞"
+                    },
+                    {
+                      "text": "der Kaffee",
+                      "emoji": "☕"
+                    },
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "das Wasser",
+                  "options": [
+                    {
+                      "text": "die Milch"
+                    },
+                    {
+                      "text": "das Brot"
+                    },
+                    {
+                      "text": "der Saft"
+                    },
+                    {
+                      "text": "das Wasser"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Wir möchten Obst kaufen.",
+                  "audioTarget": "Wir möchten Obst kaufen.",
+                  "tokens": [
+                    "to",
+                    "water",
+                    "fruit",
+                    "like",
+                    "Are",
+                    "The",
+                    "buy",
+                    "We",
+                    "would"
+                  ],
+                  "answer": [
+                    "We",
+                    "would",
+                    "like",
+                    "to",
+                    "buy",
+                    "fruit"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Die Milch ist kalt.",
+                  "audioTarget": "Die Milch ist kalt.",
+                  "tokens": [
+                    "tastes",
+                    "is",
+                    "a",
+                    "The",
+                    "milk",
+                    "cold",
+                    "sweet"
+                  ],
+                  "answer": [
+                    "The",
+                    "milk",
+                    "is",
+                    "cold"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u2-l2-e8",
+                  "sentence": "Wir möchten ___ kaufen.",
+                  "translation": "We would like to buy fruit.",
+                  "audioTarget": "Wir möchten Obst kaufen.",
+                  "options": [
+                    "Zucker",
+                    "Brot",
+                    "Obst",
+                    "Reis"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u2-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "das Brot",
+                      "native": "the bread"
+                    },
+                    {
+                      "target": "die Milch",
+                      "native": "the milk"
+                    },
+                    {
+                      "target": "das Wasser",
+                      "native": "the water"
+                    },
+                    {
+                      "target": "der Zucker",
+                      "native": "the sugar"
+                    },
+                    {
+                      "target": "das Obst",
+                      "native": "the fruit"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u2-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Die Milch ist kalt.",
+                  "audioTarget": "Die Milch ist kalt.",
+                  "answer": "The milk is cold.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u2-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Apfel",
+                  "audioTarget": "der Apfel",
+                  "options": [
+                    {
+                      "text": "the egg",
+                      "emoji": "🥚"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the apple",
+                      "emoji": "🍏"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "der Fisch",
+                  "audioTarget": "der Fisch",
+                  "options": [
+                    {
+                      "text": "the rice",
+                      "emoji": "🍚"
+                    },
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Zucker",
+                  "audioTarget": "der Zucker",
+                  "options": [
+                    {
+                      "text": "the fruit",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the milk",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "the sugar",
+                      "emoji": "🍬"
+                    },
+                    {
+                      "text": "the cheese",
+                      "emoji": "🧀"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the apple",
+                  "audioTarget": "der Apfel",
+                  "options": [
+                    {
+                      "text": "die Milch",
+                      "emoji": "🥛"
+                    },
+                    {
+                      "text": "der Apfel",
+                      "emoji": "🍏"
+                    },
+                    {
+                      "text": "der Fisch",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "das Wasser",
+                      "emoji": "💧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "der Fisch",
+                  "options": [
+                    {
+                      "text": "der Zucker",
+                      "emoji": "🍬"
+                    },
+                    {
+                      "text": "der Fisch",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "der Saft",
+                      "emoji": "🧃"
+                    },
+                    {
+                      "text": "das Obst",
+                      "emoji": "🍎"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u2-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Apfel",
+                  "options": [
+                    {
+                      "text": "der Saft"
+                    },
+                    {
+                      "text": "der Apfel"
+                    },
+                    {
+                      "text": "die Milch"
+                    },
+                    {
+                      "text": "der Reis"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Ich esse ein Ei zum Frühstück.",
+                  "audioTarget": "Ich esse ein Ei zum Frühstück.",
+                  "tokens": [
+                    "eat",
+                    "an",
+                    "for",
+                    "breakfast",
+                    "egg",
+                    "drink",
+                    "juice",
+                    "I",
+                    "glass"
+                  ],
+                  "answer": [
+                    "I",
+                    "eat",
+                    "an",
+                    "egg",
+                    "for",
+                    "breakfast"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u2-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Der Saft schmeckt süß.",
+                  "audioTarget": "Der Saft schmeckt süß.",
+                  "tokens": [
+                    "egg",
+                    "would",
+                    "tastes",
+                    "The",
+                    "hungry",
+                    "sweet",
+                    "juice"
+                  ],
+                  "answer": [
+                    "The",
+                    "juice",
+                    "tastes",
+                    "sweet"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u2-l3-e8",
+                  "sentence": "Ich ___ ein Ei zum Frühstück.",
+                  "translation": "I eat an egg for breakfast.",
+                  "audioTarget": "Ich esse ein Ei zum Frühstück.",
+                  "options": [
+                    "esse",
+                    "Zucker",
+                    "Ei",
+                    "Käse"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u2-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "der Apfel",
+                      "native": "the apple"
+                    },
+                    {
+                      "target": "der Fisch",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "der Zucker",
+                      "native": "the sugar"
+                    },
+                    {
+                      "target": "das Ei",
+                      "native": "the egg"
+                    },
+                    {
+                      "target": "das Obst",
+                      "native": "the fruit"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u2-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Der Saft schmeckt süß.",
+                  "audioTarget": "Der Saft schmeckt süß.",
+                  "answer": "The juice tastes sweet.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "de-en:unit-4",
+          "title": "Animals",
+          "description": "Learn the names of common animals in German and how to describe them simply.",
+          "guidebook": "Welcome to **Animals**! 🐾\n\nIn German, every noun has a **gender** (der/die/das), which affects the article you use. Most animals follow these patterns:\n- **der** for male animals (e.g., *der Hund*)\n- **die** for female animals (e.g., *die Katze*)\n- **das** for baby/young animals (e.g., *das Kalb*)\n\nTo say **\"the dog is big\"**, use: *Der Hund ist groß.* Notice the verb **ist** (is) comes second. To make a sentence negative, add **nicht** (not) before the adjective: *Der Hund ist nicht klein.*\n\nTo describe an animal, pair a noun with an adjective like **groß** (big), **klein** (small), **schnell** (fast), or **süß** (cute). Always capitalize nouns in German! 🐴",
+          "words": [
+            {
+              "target": "der Hund",
+              "native": "the dog",
+              "emoji": "🐕"
+            },
+            {
+              "target": "die Katze",
+              "native": "the cat",
+              "emoji": "🐈"
+            },
+            {
+              "target": "das Pferd",
+              "native": "the horse",
+              "emoji": "🐴"
+            },
+            {
+              "target": "der Vogel",
+              "native": "the bird",
+              "emoji": "🐦"
+            },
+            {
+              "target": "der Fisch",
+              "native": "the fish",
+              "emoji": "🐟"
+            },
+            {
+              "target": "die Kuh",
+              "native": "the cow",
+              "emoji": "🐄"
+            },
+            {
+              "target": "das Schaf",
+              "native": "the sheep",
+              "emoji": "🐑"
+            },
+            {
+              "target": "die Maus",
+              "native": "the mouse",
+              "emoji": "🐭"
+            },
+            {
+              "target": "der Elefant",
+              "native": "the elephant",
+              "emoji": "🐘"
+            },
+            {
+              "target": "der Löwe",
+              "native": "the lion",
+              "emoji": "🦁"
+            },
+            {
+              "target": "das Kaninchen",
+              "native": "the rabbit",
+              "emoji": "🐰"
+            },
+            {
+              "target": "die Schlange",
+              "native": "the snake",
+              "emoji": "🐍"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "de-en:u3-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Hund",
+                  "audioTarget": "der Hund",
+                  "options": [
+                    {
+                      "text": "the lion",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the snake",
+                      "emoji": "🐍"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Katze",
+                  "audioTarget": "die Katze",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the lion",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "das Pferd",
+                  "audioTarget": "das Pferd",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the snake",
+                      "emoji": "🐍"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the dog",
+                  "audioTarget": "der Hund",
+                  "options": [
+                    {
+                      "text": "das Kaninchen",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "der Hund",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "der Löwe",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "die Schlange",
+                      "emoji": "🐍"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cat",
+                  "audioTarget": "die Katze",
+                  "options": [
+                    {
+                      "text": "das Pferd",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "der Elefant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "die Katze",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "der Hund",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Hund",
+                  "options": [
+                    {
+                      "text": "das Pferd"
+                    },
+                    {
+                      "text": "der Löwe"
+                    },
+                    {
+                      "text": "die Maus"
+                    },
+                    {
+                      "text": "der Hund"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Der Hund ist groß.",
+                  "audioTarget": "Der Hund ist groß.",
+                  "tokens": [
+                    "small",
+                    "big",
+                    "cute",
+                    "The",
+                    "dog",
+                    "is",
+                    "white"
+                  ],
+                  "answer": [
+                    "The",
+                    "dog",
+                    "is",
+                    "big"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Die Katze ist klein.",
+                  "audioTarget": "Die Katze ist klein.",
+                  "tokens": [
+                    "in",
+                    "tree",
+                    "small",
+                    "sheep",
+                    "is",
+                    "The",
+                    "cat"
+                  ],
+                  "answer": [
+                    "The",
+                    "cat",
+                    "is",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u3-l0-e8",
+                  "sentence": "Der Hund ist ___.",
+                  "translation": "The dog is big.",
+                  "audioTarget": "Der Hund ist groß.",
+                  "options": [
+                    "Katze",
+                    "groß",
+                    "Löwe",
+                    "Fisch"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u3-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "der Hund",
+                      "native": "the dog"
+                    },
+                    {
+                      "target": "die Katze",
+                      "native": "the cat"
+                    },
+                    {
+                      "target": "das Pferd",
+                      "native": "the horse"
+                    },
+                    {
+                      "target": "das Kaninchen",
+                      "native": "the rabbit"
+                    },
+                    {
+                      "target": "der Elefant",
+                      "native": "the elephant"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u3-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Die Katze ist klein.",
+                  "audioTarget": "Die Katze ist klein.",
+                  "answer": "The cat is small.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u3-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Vogel",
+                  "audioTarget": "der Vogel",
+                  "options": [
+                    {
+                      "text": "the lion",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "the snake",
+                      "emoji": "🐍"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "der Fisch",
+                  "audioTarget": "der Fisch",
+                  "options": [
+                    {
+                      "text": "the fish",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the snake",
+                      "emoji": "🐍"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "die Kuh",
+                  "audioTarget": "die Kuh",
+                  "options": [
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bird",
+                  "audioTarget": "der Vogel",
+                  "options": [
+                    {
+                      "text": "der Elefant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "das Pferd",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "der Vogel",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "der Löwe",
+                      "emoji": "🦁"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fish",
+                  "audioTarget": "der Fisch",
+                  "options": [
+                    {
+                      "text": "das Kaninchen",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "der Elefant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "das Pferd",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "der Fisch",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Fisch",
+                  "options": [
+                    {
+                      "text": "der Vogel"
+                    },
+                    {
+                      "text": "das Kaninchen"
+                    },
+                    {
+                      "text": "die Katze"
+                    },
+                    {
+                      "text": "der Fisch"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Das Pferd ist schnell.",
+                  "audioTarget": "Das Pferd ist schnell.",
+                  "tokens": [
+                    "sheep",
+                    "horse",
+                    "is",
+                    "strong",
+                    "rabbit",
+                    "fast",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "horse",
+                    "is",
+                    "fast"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Der Vogel ist im Baum.",
+                  "audioTarget": "Der Vogel ist im Baum.",
+                  "tokens": [
+                    "the",
+                    "tree",
+                    "The",
+                    "bird",
+                    "is",
+                    "dog",
+                    "cute",
+                    "small",
+                    "in"
+                  ],
+                  "answer": [
+                    "The",
+                    "bird",
+                    "is",
+                    "in",
+                    "the",
+                    "tree"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u3-l1-e8",
+                  "sentence": "Das Pferd ist ___.",
+                  "translation": "The horse is fast.",
+                  "audioTarget": "Das Pferd ist schnell.",
+                  "options": [
+                    "schnell",
+                    "Katze",
+                    "Pferd",
+                    "Kuh"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u3-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "der Vogel",
+                      "native": "the bird"
+                    },
+                    {
+                      "target": "der Fisch",
+                      "native": "the fish"
+                    },
+                    {
+                      "target": "die Kuh",
+                      "native": "the cow"
+                    },
+                    {
+                      "target": "der Elefant",
+                      "native": "the elephant"
+                    },
+                    {
+                      "target": "das Pferd",
+                      "native": "the horse"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u3-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Der Vogel ist im Baum.",
+                  "audioTarget": "Der Vogel ist im Baum.",
+                  "answer": "The bird is in the tree.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u3-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "das Schaf",
+                  "audioTarget": "das Schaf",
+                  "options": [
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Maus",
+                  "audioTarget": "die Maus",
+                  "options": [
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "the cow",
+                      "emoji": "🐄"
+                    },
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Elefant",
+                  "audioTarget": "der Elefant",
+                  "options": [
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the bird",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sheep",
+                  "audioTarget": "das Schaf",
+                  "options": [
+                    {
+                      "text": "der Fisch",
+                      "emoji": "🐟"
+                    },
+                    {
+                      "text": "das Schaf",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "der Hund",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "die Kuh",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the mouse",
+                  "audioTarget": "die Maus",
+                  "options": [
+                    {
+                      "text": "das Pferd",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "die Maus",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "der Vogel",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "der Fisch",
+                      "emoji": "🐟"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Elefant",
+                  "options": [
+                    {
+                      "text": "der Vogel"
+                    },
+                    {
+                      "text": "der Fisch"
+                    },
+                    {
+                      "text": "das Pferd"
+                    },
+                    {
+                      "text": "der Elefant"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Der Fisch ist im Wasser.",
+                  "audioTarget": "Der Fisch ist im Wasser.",
+                  "tokens": [
+                    "in",
+                    "The",
+                    "the",
+                    "fish",
+                    "water",
+                    "cute",
+                    "is",
+                    "rabbit",
+                    "bird"
+                  ],
+                  "answer": [
+                    "The",
+                    "fish",
+                    "is",
+                    "in",
+                    "the",
+                    "water"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Die Kuh ist auf dem Feld.",
+                  "audioTarget": "Die Kuh ist auf dem Feld.",
+                  "tokens": [
+                    "The",
+                    "rabbit",
+                    "cat",
+                    "is",
+                    "the",
+                    "in",
+                    "cow",
+                    "water",
+                    "field"
+                  ],
+                  "answer": [
+                    "The",
+                    "cow",
+                    "is",
+                    "in",
+                    "the",
+                    "field"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u3-l2-e8",
+                  "sentence": "Der ___ ist im Wasser.",
+                  "translation": "The fish is in the water.",
+                  "audioTarget": "Der Fisch ist im Wasser.",
+                  "options": [
+                    "Pferd",
+                    "Löwe",
+                    "Fisch",
+                    "Hund"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u3-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "das Schaf",
+                      "native": "the sheep"
+                    },
+                    {
+                      "target": "die Maus",
+                      "native": "the mouse"
+                    },
+                    {
+                      "target": "der Elefant",
+                      "native": "the elephant"
+                    },
+                    {
+                      "target": "die Schlange",
+                      "native": "the snake"
+                    },
+                    {
+                      "target": "die Katze",
+                      "native": "the cat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u3-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Die Kuh ist auf dem Feld.",
+                  "audioTarget": "Die Kuh ist auf dem Feld.",
+                  "answer": "The cow is in the field.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u3-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Löwe",
+                  "audioTarget": "der Löwe",
+                  "options": [
+                    {
+                      "text": "the horse",
+                      "emoji": "🐴"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the lion",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "das Kaninchen",
+                  "audioTarget": "das Kaninchen",
+                  "options": [
+                    {
+                      "text": "the rabbit",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "the cat",
+                      "emoji": "🐈"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    },
+                    {
+                      "text": "the elephant",
+                      "emoji": "🐘"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "die Schlange",
+                  "audioTarget": "die Schlange",
+                  "options": [
+                    {
+                      "text": "the snake",
+                      "emoji": "🐍"
+                    },
+                    {
+                      "text": "the mouse",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "the dog",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "the sheep",
+                      "emoji": "🐑"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the lion",
+                  "audioTarget": "der Löwe",
+                  "options": [
+                    {
+                      "text": "die Maus",
+                      "emoji": "🐭"
+                    },
+                    {
+                      "text": "der Löwe",
+                      "emoji": "🦁"
+                    },
+                    {
+                      "text": "der Hund",
+                      "emoji": "🐕"
+                    },
+                    {
+                      "text": "der Elefant",
+                      "emoji": "🐘"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rabbit",
+                  "audioTarget": "das Kaninchen",
+                  "options": [
+                    {
+                      "text": "der Elefant",
+                      "emoji": "🐘"
+                    },
+                    {
+                      "text": "der Vogel",
+                      "emoji": "🐦"
+                    },
+                    {
+                      "text": "das Kaninchen",
+                      "emoji": "🐰"
+                    },
+                    {
+                      "text": "die Kuh",
+                      "emoji": "🐄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u3-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Löwe",
+                  "options": [
+                    {
+                      "text": "der Löwe"
+                    },
+                    {
+                      "text": "der Hund"
+                    },
+                    {
+                      "text": "die Kuh"
+                    },
+                    {
+                      "text": "der Elefant"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Das Schaf ist weiß.",
+                  "audioTarget": "Das Schaf ist weiß.",
+                  "tokens": [
+                    "lion",
+                    "sheep",
+                    "water",
+                    "small",
+                    "The",
+                    "is",
+                    "white"
+                  ],
+                  "answer": [
+                    "The",
+                    "sheep",
+                    "is",
+                    "white"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u3-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Die Maus ist sehr klein.",
+                  "audioTarget": "Die Maus ist sehr klein.",
+                  "tokens": [
+                    "is",
+                    "small",
+                    "bird",
+                    "cute",
+                    "cat",
+                    "mouse",
+                    "very",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "mouse",
+                    "is",
+                    "very",
+                    "small"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u3-l3-e8",
+                  "sentence": "Das ___ ist weiß.",
+                  "translation": "The sheep is white.",
+                  "audioTarget": "Das Schaf ist weiß.",
+                  "options": [
+                    "Schaf",
+                    "Pferd",
+                    "Kaninchen",
+                    "Vogel"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u3-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "der Löwe",
+                      "native": "the lion"
+                    },
+                    {
+                      "target": "das Kaninchen",
+                      "native": "the rabbit"
+                    },
+                    {
+                      "target": "die Schlange",
+                      "native": "the snake"
+                    },
+                    {
+                      "target": "die Maus",
+                      "native": "the mouse"
+                    },
+                    {
+                      "target": "die Katze",
+                      "native": "the cat"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u3-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Die Maus ist sehr klein.",
+                  "audioTarget": "Die Maus ist sehr klein.",
+                  "answer": "The mouse is very small.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "de-en:unit-5",
+          "title": "Travel",
+          "description": "Learn essential German vocabulary and phrases for getting around cities, taking trains, staying in hotels, and visiting museums.",
+          "guidebook": "## Getting Around in German 🇩🇪\n\n**Asking where things are** is one of the most useful travel skills. Use:\n- *Wo ist...?* — Where is...?\n- *Wo ist der Bahnhof?* — Where is the train station?\n\n**Getting directions** often starts with *Wie komme ich zu...?** (How do I get to...?). You can also use the imperative: *Gehen Sie geradeaus* (Go straight ahead) or *Biegen Sie links ab* (Turn left).\n\n**At the hotel**, you'll need *Ich möchte ein Zimmer reservieren* (I would like to reserve a room). German nouns always carry a gender — *der Bahnhof* (masculine), *die Stadt* (feminine), *das Museum* (neuter) — so memorize articles with nouns!\n\n**Compound nouns** are everywhere in German: *Flughafen* (airport) = *Flug* + *Hafen*. Recognizing parts helps you guess meanings.\n\n**Politeness matters:** use *bitte* (please) and *danke* (thanks) often. *Entschuldigung* politely gets attention or means \"excuse me.\"\n\nGute Reise! 🚆",
+          "words": [
+            {
+              "target": "die Stadt",
+              "native": "the city",
+              "emoji": "🏙️"
+            },
+            {
+              "target": "der Bahnhof",
+              "native": "the train station",
+              "emoji": "🚉"
+            },
+            {
+              "target": "der Zug",
+              "native": "the train",
+              "emoji": "🚆"
+            },
+            {
+              "target": "die Straße",
+              "native": "the street",
+              "emoji": "🛣️"
+            },
+            {
+              "target": "das Museum",
+              "native": "the museum",
+              "emoji": "🏛️"
+            },
+            {
+              "target": "der Flughafen",
+              "native": "the airport",
+              "emoji": "✈️"
+            },
+            {
+              "target": "das Hotel",
+              "native": "the hotel",
+              "emoji": "🏨"
+            },
+            {
+              "target": "die Karte",
+              "native": "the map",
+              "emoji": "🗺️"
+            },
+            {
+              "target": "das Ticket",
+              "native": "the ticket",
+              "emoji": "🎫"
+            },
+            {
+              "target": "der Koffer",
+              "native": "the suitcase",
+              "emoji": "🧳"
+            },
+            {
+              "target": "die Reise",
+              "native": "the trip",
+              "emoji": "🧳"
+            },
+            {
+              "target": "der Urlaub",
+              "native": "the vacation",
+              "emoji": "🏖️"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "de-en:u4-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "die Stadt",
+                  "audioTarget": "die Stadt",
+                  "options": [
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "der Bahnhof",
+                  "audioTarget": "der Bahnhof",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Zug",
+                  "audioTarget": "der Zug",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the city",
+                  "audioTarget": "die Stadt",
+                  "options": [
+                    {
+                      "text": "die Reise",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "der Urlaub",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "die Stadt",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "das Museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the train station",
+                  "audioTarget": "der Bahnhof",
+                  "options": [
+                    {
+                      "text": "der Bahnhof",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "der Urlaub",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "die Stadt",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "das Ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "die Stadt",
+                  "options": [
+                    {
+                      "text": "der Zug"
+                    },
+                    {
+                      "text": "der Flughafen"
+                    },
+                    {
+                      "text": "die Karte"
+                    },
+                    {
+                      "text": "die Stadt"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Wo ist der Bahnhof?",
+                  "audioTarget": "Wo ist der Bahnhof?",
+                  "tokens": [
+                    "Where",
+                    "Have",
+                    "is",
+                    "station",
+                    "have",
+                    "the",
+                    "train",
+                    "am"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "train",
+                    "station"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ich möchte ein Zimmer reservieren.",
+                  "audioTarget": "Ich möchte ein Zimmer reservieren.",
+                  "tokens": [
+                    "to",
+                    "train",
+                    "reserve",
+                    "like",
+                    "would",
+                    "a",
+                    "I",
+                    "The",
+                    "am",
+                    "room"
+                  ],
+                  "answer": [
+                    "I",
+                    "would",
+                    "like",
+                    "to",
+                    "reserve",
+                    "a",
+                    "room"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u4-l0-e8",
+                  "sentence": "Wo ist der ___?",
+                  "translation": "Where is the train station?",
+                  "audioTarget": "Wo ist der Bahnhof?",
+                  "options": [
+                    "Bahnhof",
+                    "Reise",
+                    "Flughafen",
+                    "Hotel"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u4-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "die Stadt",
+                      "native": "the city"
+                    },
+                    {
+                      "target": "der Bahnhof",
+                      "native": "the train station"
+                    },
+                    {
+                      "target": "der Zug",
+                      "native": "the train"
+                    },
+                    {
+                      "target": "der Urlaub",
+                      "native": "the vacation"
+                    },
+                    {
+                      "target": "der Koffer",
+                      "native": "the suitcase"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u4-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Ich möchte ein Zimmer reservieren.",
+                  "audioTarget": "Ich möchte ein Zimmer reservieren.",
+                  "answer": "I would like to reserve a room.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u4-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "die Straße",
+                  "audioTarget": "die Straße",
+                  "options": [
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "das Museum",
+                  "audioTarget": "das Museum",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Flughafen",
+                  "audioTarget": "der Flughafen",
+                  "options": [
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the street",
+                  "audioTarget": "die Straße",
+                  "options": [
+                    {
+                      "text": "die Straße",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "das Hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "die Karte",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "der Bahnhof",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the museum",
+                  "audioTarget": "das Museum",
+                  "options": [
+                    {
+                      "text": "der Flughafen",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "das Ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "das Museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "die Reise",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "das Museum",
+                  "options": [
+                    {
+                      "text": "die Karte"
+                    },
+                    {
+                      "text": "der Zug"
+                    },
+                    {
+                      "text": "die Reise"
+                    },
+                    {
+                      "text": "das Museum"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Wie komme ich zum Museum?",
+                  "audioTarget": "Wie komme ich zum Museum?",
+                  "tokens": [
+                    "museum",
+                    "do",
+                    "the",
+                    "How",
+                    "like",
+                    "get",
+                    "eight",
+                    "to",
+                    "I",
+                    "ahead"
+                  ],
+                  "answer": [
+                    "How",
+                    "do",
+                    "I",
+                    "get",
+                    "to",
+                    "the",
+                    "museum"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ich fahre mit dem Zug.",
+                  "audioTarget": "Ich fahre mit dem Zug.",
+                  "tokens": [
+                    "Go",
+                    "train",
+                    "Have",
+                    "by",
+                    "I",
+                    "am",
+                    "traveling",
+                    "trip"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "traveling",
+                    "by",
+                    "train"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u4-l1-e8",
+                  "sentence": "Wie komme ich zum ___?",
+                  "translation": "How do I get to the museum?",
+                  "audioTarget": "Wie komme ich zum Museum?",
+                  "options": [
+                    "Ticket",
+                    "Straße",
+                    "Flughafen",
+                    "Museum"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u4-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "die Straße",
+                      "native": "the street"
+                    },
+                    {
+                      "target": "das Museum",
+                      "native": "the museum"
+                    },
+                    {
+                      "target": "der Flughafen",
+                      "native": "the airport"
+                    },
+                    {
+                      "target": "das Ticket",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "die Reise",
+                      "native": "the trip"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u4-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Ich fahre mit dem Zug.",
+                  "audioTarget": "Ich fahre mit dem Zug.",
+                  "answer": "I am traveling by train.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u4-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "das Hotel",
+                  "audioTarget": "das Hotel",
+                  "options": [
+                    {
+                      "text": "the vacation",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "the hotel",
+                      "emoji": "🏨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Karte",
+                  "audioTarget": "die Karte",
+                  "options": [
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the trip",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the train station",
+                      "emoji": "🚉"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "das Ticket",
+                  "audioTarget": "das Ticket",
+                  "options": [
+                    {
+                      "text": "the vacation",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hotel",
+                  "audioTarget": "das Hotel",
+                  "options": [
+                    {
+                      "text": "der Urlaub",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "das Ticket",
+                      "emoji": "🎫"
+                    },
+                    {
+                      "text": "das Hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "der Zug",
+                      "emoji": "🚆"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the map",
+                  "audioTarget": "die Karte",
+                  "options": [
+                    {
+                      "text": "die Straße",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "die Karte",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "der Flughafen",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "das Museum",
+                      "emoji": "🏛️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "das Ticket",
+                  "options": [
+                    {
+                      "text": "das Museum"
+                    },
+                    {
+                      "text": "das Ticket"
+                    },
+                    {
+                      "text": "die Karte"
+                    },
+                    {
+                      "text": "die Straße"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Der Flug geht um acht Uhr.",
+                  "audioTarget": "Der Flug geht um acht Uhr.",
+                  "tokens": [
+                    "oclock",
+                    "museum",
+                    "flight",
+                    "The",
+                    "left",
+                    "eight",
+                    "good",
+                    "leaves",
+                    "at"
+                  ],
+                  "answer": [
+                    "The",
+                    "flight",
+                    "leaves",
+                    "at",
+                    "eight",
+                    "oclock"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Haben Sie eine Karte?",
+                  "audioTarget": "Haben Sie eine Karte?",
+                  "tokens": [
+                    "you",
+                    "map",
+                    "room",
+                    "have",
+                    "Do",
+                    "good",
+                    "left",
+                    "a"
+                  ],
+                  "answer": [
+                    "Do",
+                    "you",
+                    "have",
+                    "a",
+                    "map"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u4-l2-e8",
+                  "sentence": "Der Flug ___ um acht Uhr.",
+                  "translation": "The flight leaves at eight o'clock.",
+                  "audioTarget": "Der Flug geht um acht Uhr.",
+                  "options": [
+                    "Museum",
+                    "Reise",
+                    "geht",
+                    "Stadt"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u4-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "das Hotel",
+                      "native": "the hotel"
+                    },
+                    {
+                      "target": "die Karte",
+                      "native": "the map"
+                    },
+                    {
+                      "target": "das Ticket",
+                      "native": "the ticket"
+                    },
+                    {
+                      "target": "der Bahnhof",
+                      "native": "the train station"
+                    },
+                    {
+                      "target": "der Urlaub",
+                      "native": "the vacation"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u4-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Haben Sie eine Karte?",
+                  "audioTarget": "Haben Sie eine Karte?",
+                  "answer": "Do you have a map?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "de-en:u4-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "der Koffer",
+                  "audioTarget": "der Koffer",
+                  "options": [
+                    {
+                      "text": "the airport",
+                      "emoji": "✈️"
+                    },
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the city",
+                      "emoji": "🏙️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "die Reise",
+                  "audioTarget": "die Reise",
+                  "options": [
+                    {
+                      "text": "the trip",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "the street",
+                      "emoji": "🛣️"
+                    },
+                    {
+                      "text": "the train",
+                      "emoji": "🚆"
+                    },
+                    {
+                      "text": "the suitcase",
+                      "emoji": "🧳"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "der Urlaub",
+                  "audioTarget": "der Urlaub",
+                  "options": [
+                    {
+                      "text": "the map",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "the museum",
+                      "emoji": "🏛️"
+                    },
+                    {
+                      "text": "the vacation",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the suitcase",
+                  "audioTarget": "der Koffer",
+                  "options": [
+                    {
+                      "text": "der Koffer",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "das Hotel",
+                      "emoji": "🏨"
+                    },
+                    {
+                      "text": "die Karte",
+                      "emoji": "🗺️"
+                    },
+                    {
+                      "text": "das Ticket",
+                      "emoji": "🎫"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the trip",
+                  "audioTarget": "die Reise",
+                  "options": [
+                    {
+                      "text": "die Stadt",
+                      "emoji": "🏙️"
+                    },
+                    {
+                      "text": "der Bahnhof",
+                      "emoji": "🚉"
+                    },
+                    {
+                      "text": "die Reise",
+                      "emoji": "🧳"
+                    },
+                    {
+                      "text": "der Urlaub",
+                      "emoji": "🏖️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "de-en:u4-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "der Koffer",
+                  "options": [
+                    {
+                      "text": "der Urlaub"
+                    },
+                    {
+                      "text": "der Koffer"
+                    },
+                    {
+                      "text": "der Bahnhof"
+                    },
+                    {
+                      "text": "das Museum"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Gehen Sie geradeaus.",
+                  "audioTarget": "Gehen Sie geradeaus.",
+                  "tokens": [
+                    "ticket",
+                    "straight",
+                    "Go",
+                    "room",
+                    "do",
+                    "ahead"
+                  ],
+                  "answer": [
+                    "Go",
+                    "straight",
+                    "ahead"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "de-en:u4-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Biegen Sie links ab.",
+                  "audioTarget": "Biegen Sie links ab.",
+                  "tokens": [
+                    "get",
+                    "at",
+                    "straight",
+                    "left",
+                    "Turn"
+                  ],
+                  "answer": [
+                    "Turn",
+                    "left"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "de-en:u4-l3-e8",
+                  "sentence": "Gehen Sie ___.",
+                  "translation": "Go straight ahead.",
+                  "audioTarget": "Gehen Sie geradeaus.",
+                  "options": [
+                    "Hotel",
+                    "Koffer",
+                    "Flughafen",
+                    "geradeaus"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "de-en:u4-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "der Koffer",
+                      "native": "the suitcase"
+                    },
+                    {
+                      "target": "die Reise",
+                      "native": "the trip"
+                    },
+                    {
+                      "target": "der Urlaub",
+                      "native": "the vacation"
+                    },
+                    {
+                      "target": "der Bahnhof",
+                      "native": "the train station"
+                    },
+                    {
+                      "target": "das Hotel",
+                      "native": "the hotel"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "de-en:u4-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Biegen Sie links ab.",
+                  "audioTarget": "Biegen Sie links ab.",
+                  "answer": "Turn left.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
