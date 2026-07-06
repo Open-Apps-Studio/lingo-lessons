@@ -38,7 +38,6 @@ import { haptics } from "@/lib/haptics";
 import {
   currentStreak,
   dueSrsWords,
-  effectiveHearts,
   useProgress,
   XP_PER_LESSON,
   XP_PERFECT_BONUS,
@@ -204,12 +203,6 @@ export default function LessonScreen() {
   const total = exercises.length;
   const percentage = total === 0 ? 0 : Math.min(100, (correctCount / total) * 100);
 
-  // Apply any hearts regenerated since the app was last active.
-  useEffect(() => {
-    progress.syncHearts();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   const progressBar = useSharedValue(0);
   useEffect(() => {
     progressBar.set(withSpring(percentage, { damping: 20, stiffness: 160 }));
@@ -222,7 +215,7 @@ export default function LessonScreen() {
     if (!exercise && total > 0 && !finishedRef.current) {
       finishedRef.current = true;
       const perfect = wrongIds.current.size === 0;
-      progress.completeLesson(lessonId, perfect, isPractice);
+      progress.completeLesson(lessonId, perfect);
       sfx.playFinish();
       haptics.celebrate();
       setFinished(true);
@@ -294,28 +287,6 @@ export default function LessonScreen() {
 
   if (!exercise) return <SafeAreaView style={styles.screen} />;
 
-  if (courseProgress.hearts === 0 && !isPractice) {
-    return (
-      <SafeAreaView style={styles.screen}>
-        <View style={styles.center}>
-          <Ionicons name="heart-dislike" size={72} color={colors.rose} />
-          <Text style={styles.finishTitle}>You ran out of hearts!</Text>
-          <NextHeartCountdown nextHeartAt={effectiveHearts(courseProgress).nextHeartAt} />
-          <Text style={styles.mutedCenter}>
-            Hearts refill over time — or practice a completed lesson and your
-            mistakes to earn them back now.
-          </Text>
-          <DuoButton
-            label="Go practice"
-            variant="primary"
-            onPress={() => exitScreen()}
-            style={{ alignSelf: "stretch" }}
-          />
-        </View>
-      </SafeAreaView>
-    );
-  }
-
   const onCheck = () => {
     const isCorrect = checkAnswer(exercise, answer);
     if (isCorrect) {
@@ -335,7 +306,6 @@ export default function LessonScreen() {
       haptics.error();
       setStatus("wrong");
       wrongIds.current.add(exercise.id);
-      if (!isPractice) progress.loseHeart();
       if (!isMistakes && !isSrs) {
         progress.addMistake({ lessonId, exerciseId: exercise.id });
       }
@@ -366,18 +336,11 @@ export default function LessonScreen() {
               <View style={styles.progressShine} />
             </Animated.View>
           </View>
-          <View style={styles.heartsPill}>
-            {isPractice ? (
+          {isPractice ? (
+            <View style={styles.practicePill}>
               <Ionicons name="infinite" size={24} color={colors.skyDark} />
-            ) : (
-              <>
-                <Ionicons name="heart" size={22} color={colors.rose} />
-                <Text style={styles.hearts} maxFontSizeMultiplier={1.2}>
-                  {courseProgress.hearts}
-                </Text>
-              </>
-            )}
-          </View>
+            </View>
+          ) : null}
         </View>
 
         <ScrollView
@@ -409,7 +372,6 @@ export default function LessonScreen() {
                 if (wrongAttempts > 0) {
                   sfx.playIncorrect();
                   wrongIds.current.add(exercise.id);
-                  if (!isPractice) progress.loseHeart();
                   if (!isMistakes) {
                     progress.addMistake({ lessonId, exerciseId: exercise.id });
                   }
@@ -493,27 +455,6 @@ export default function LessonScreen() {
   );
 }
 
-function NextHeartCountdown({ nextHeartAt }: { nextHeartAt: number | null }) {
-  const [now, setNow] = useState(Date.now());
-  useEffect(() => {
-    const timer = setInterval(() => setNow(Date.now()), 30_000);
-    return () => clearInterval(timer);
-  }, []);
-  if (!nextHeartAt) return null;
-  const remaining = Math.max(0, nextHeartAt - now);
-  const hours = Math.floor(remaining / 3_600_000);
-  const minutes = Math.max(1, Math.ceil((remaining % 3_600_000) / 60_000));
-  return (
-    <View style={styles.countdownPill}>
-      <Ionicons name="heart" size={16} color={colors.rose} />
-      <Text style={styles.countdownText}>
-        Next heart in {hours > 0 ? `${hours}h ` : ""}
-        {minutes}m
-      </Text>
-    </View>
-  );
-}
-
 function ResultCard({
   label,
   value,
@@ -566,15 +507,13 @@ const styles = StyleSheet.create({
     borderRadius: radius.full,
     backgroundColor: "rgba(255,255,255,0.35)",
   },
-  heartsPill: {
+  practicePill: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 4,
     minWidth: 44,
     height: 44,
     justifyContent: "center",
   },
-  hearts: { fontSize: 17, fontWeight: "800", color: colors.rose },
   body: { padding: 20, paddingBottom: 40 },
   footer: {
     padding: 16,
@@ -585,16 +524,6 @@ const styles = StyleSheet.create({
   feedbackRow: { flexDirection: "row", alignItems: "center", gap: 8 },
   feedback: { fontSize: 20, fontWeight: "800" },
   feedbackDetail: { fontSize: 16, fontWeight: "600", marginTop: 2, marginLeft: 34 },
-  countdownPill: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 6,
-    backgroundColor: colors.neutral100,
-    borderRadius: radius.full,
-    paddingHorizontal: 14,
-    paddingVertical: 8,
-  },
-  countdownText: { fontSize: 14, fontWeight: "700", color: colors.textMuted },
   center: {
     flex: 1,
     alignItems: "center",

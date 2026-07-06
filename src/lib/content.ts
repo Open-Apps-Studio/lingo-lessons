@@ -5,6 +5,12 @@ import type { Catalog, LessonPack, Pack, UnitPack } from "./types";
 
 export const catalog = catalogJson as Catalog;
 
+/** Courses for pickers: deepest course first (Spanish), then alphabetical. */
+export const orderedCourses = [...catalog.courses].sort(
+  (a, b) =>
+    b.unitCount - a.unitCount || a.targetLanguage.localeCompare(b.targetLanguage)
+);
+
 export function getPack(courseId: string): Pack {
   const pack = PACKS[courseId];
   if (!pack) throw new Error(`Unknown course: ${courseId}`);

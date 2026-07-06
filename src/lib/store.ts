@@ -4,14 +4,11 @@ import { createJSONStorage, persist } from "zustand/middleware";
 
 import { isDue, reviewWord, type SrsEntry } from "./srs";
 
-export const MAX_HEARTS = 5;
 export const XP_PER_LESSON = 15;
 export const XP_PERFECT_BONUS = 5;
 export const DAILY_GOAL_OPTIONS = [10, 20, 30, 50] as const;
 export const DEFAULT_DAILY_GOAL = 20;
 export const DEFAULT_COURSE = "es-en";
-/** One heart regenerates every 2 hours (lazily, computed from a timestamp). */
-export const HEART_REGEN_MS = 2 * 60 * 60 * 1000;
 /** Days of per-day history kept for the streak calendar and quests. */
 const DAY_HISTORY_LIMIT = 70;
 
@@ -21,9 +18,6 @@ export type DayActivity = { xp: number; lessons: number; perfect: number };
 
 export type CourseProgress = {
   xp: number;
-  hearts: number;
-  /** Regen anchor: when the timer for the next heart started. */
-  heartsUpdatedAt: number;
   completedLessons: Record<string, true>;
   mistakes: MistakeRef[];
   wordStats: Record<string, WordStat>;
@@ -33,25 +27,11 @@ export type CourseProgress = {
 function emptyCourseProgress(): CourseProgress {
   return {
     xp: 0,
-    hearts: MAX_HEARTS,
-    heartsUpdatedAt: 0,
     completedLessons: {},
     mistakes: [],
     wordStats: {},
     srs: {},
   };
-}
-
-/** Hearts including any lazily-regenerated ones, without mutating state. */
-export function effectiveHearts(c: CourseProgress, now = Date.now()) {
-  const hearts = c.hearts;
-  if (hearts >= MAX_HEARTS) return { hearts, nextHeartAt: null };
-  const anchor = c.heartsUpdatedAt || 0;
-  const regenerated = Math.floor((now - anchor) / HEART_REGEN_MS);
-  const total = Math.min(MAX_HEARTS, hearts + Math.max(0, regenerated));
-  const nextHeartAt =
-    total >= MAX_HEARTS ? null : anchor + (Math.max(0, regenerated) + 1) * HEART_REGEN_MS;
-  return { hearts: total, nextHeartAt };
 }
 
 function dayString(date: Date) {
@@ -71,9 +51,7 @@ type ProgressState = {
   activeDays: Record<string, DayActivity>;
 
   course: () => CourseProgress;
-  loseHeart: () => void;
-  syncHearts: () => void;
-  completeLesson: (lessonId: string, perfect: boolean, isPractice: boolean) => void;
+  completeLesson: (lessonId: string, perfect: boolean) => void;
   addMistake: (mistake: MistakeRef) => void;
   clearMistake: (exerciseId: string) => void;
   recordWord: (target: string, correct: boolean) => void;
@@ -120,40 +98,7 @@ export const useProgress = create<ProgressState>()(
 
       course: () => get().courses[get().activeCourseId] ?? emptyCourseProgress(),
 
-      loseHeart: () =>
-        set((state) =>
-          updateCourse(state, state.activeCourseId, (c) => {
-            const now = Date.now();
-            const { hearts } = effectiveHearts(c, now);
-            return {
-              ...c,
-              hearts: Math.max(0, hearts - 1),
-              // Dropping from full starts the regen clock; otherwise keep the
-              // running timer so partial progress toward the next heart survives.
-              heartsUpdatedAt: hearts >= MAX_HEARTS ? now : c.heartsUpdatedAt || now,
-            };
-          })
-        ),
-
-      syncHearts: () =>
-        set((state) =>
-          updateCourse(state, state.activeCourseId, (c) => {
-            const now = Date.now();
-            const { hearts } = effectiveHearts(c, now);
-            if (hearts === c.hearts) return c;
-            const regenerated = hearts - c.hearts;
-            return {
-              ...c,
-              hearts,
-              heartsUpdatedAt:
-                hearts >= MAX_HEARTS
-                  ? 0
-                  : (c.heartsUpdatedAt || now) + regenerated * HEART_REGEN_MS,
-            };
-          })
-        ),
-
-      completeLesson: (lessonId, perfect, isPractice) =>
+      completeLesson: (lessonId, perfect) =>
         set((state) => {
           const today = dayString(new Date());
           const yesterday = dayString(new Date(Date.now() - 86_400_000));
@@ -174,18 +119,11 @@ export const useProgress = create<ProgressState>()(
               perfect: prevDay.perfect + (perfect ? 1 : 0),
             },
           });
-          const courseUpdate = updateCourse(state, state.activeCourseId, (c) => {
-            const now = Date.now();
-            const synced = effectiveHearts(c, now).hearts;
-            const hearts = isPractice ? Math.min(MAX_HEARTS, synced + 1) : synced;
-            return {
-              ...c,
-              xp: c.xp + earned,
-              completedLessons: { ...c.completedLessons, [lessonId]: true },
-              hearts,
-              heartsUpdatedAt: hearts >= MAX_HEARTS ? 0 : c.heartsUpdatedAt || now,
-            };
-          });
+          const courseUpdate = updateCourse(state, state.activeCourseId, (c) => ({
+            ...c,
+            xp: c.xp + earned,
+            completedLessons: { ...c.completedLessons, [lessonId]: true },
+          }));
           return { streak, lastActiveDay: today, activeDays, ...daily, ...courseUpdate };
         }),
 
@@ -248,7 +186,6 @@ export const useProgress = create<ProgressState>()(
         // Migrate v1 flat progress → per-course.
         const legacy = old as {
           xp?: number;
-          hearts?: number;
           completedLessons?: Record<string, true>;
           mistakes?: MistakeRef[];
           wordStats?: Record<string, WordStat>;
@@ -265,7 +202,6 @@ export const useProgress = create<ProgressState>()(
           courses: {
             [DEFAULT_COURSE]: {
               xp: legacy.xp ?? 0,
-              hearts: legacy.hearts ?? MAX_HEARTS,
               completedLessons: legacy.completedLessons ?? {},
               mistakes: legacy.mistakes ?? [],
               wordStats: legacy.wordStats ?? {},

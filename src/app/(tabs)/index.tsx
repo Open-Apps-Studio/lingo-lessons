@@ -18,7 +18,6 @@ import {
   currentLessonIndex,
   currentStreak,
   dailyXpToday,
-  effectiveHearts,
   useProgress,
 } from "@/lib/store";
 import { colors, radius, unitPalette } from "@/lib/theme";
@@ -44,13 +43,6 @@ export default function LearnScreen() {
   const currentIndex = currentLessonIndex(courseProgress.completedLessons, lessonIds);
   const streak = currentStreak(progress);
   const streakLit = activeToday(progress);
-  const hearts = effectiveHearts(courseProgress).hearts;
-
-  // Apply any hearts regenerated while the app was closed.
-  useEffect(() => {
-    progress.syncHearts();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeCourseId]);
 
   // Units cycle through the palette across the whole course.
   const unitColor = new Map<string, (typeof unitPalette)[number]>();
@@ -87,11 +79,6 @@ export default function LearnScreen() {
           icon={<Ionicons name="flash" size={21} color={colors.skyDark} />}
           value={courseProgress.xp}
           color={colors.skyDark}
-        />
-        <Stat
-          icon={<Ionicons name="heart" size={22} color={colors.rose} />}
-          value={hearts}
-          color={colors.rose}
         />
       </View>
 
@@ -147,6 +134,7 @@ export default function LearnScreen() {
                           locked={isLocked}
                           crown={isLastInUnit}
                           color={color}
+                          label={`${unit.title}, lesson ${i + 1} of ${unitLessons.length}`}
                           onPress={() => router.push(`/lesson/${ref.lesson.id}`)}
                         />
                       );
@@ -188,6 +176,7 @@ function LessonNode({
   locked,
   crown,
   color,
+  label,
   onPress,
 }: {
   offset: number;
@@ -196,6 +185,7 @@ function LessonNode({
   locked: boolean;
   crown: boolean;
   color: { main: string; dark: string };
+  label: string;
   onPress: () => void;
 }) {
   const iconColor = locked ? colors.neutral400 : colors.white;
@@ -223,6 +213,12 @@ function LessonNode({
       <Pressable
         disabled={locked}
         onPress={onPress}
+        accessibilityRole="button"
+        accessibilityLabel={label}
+        accessibilityState={{ disabled: locked, selected: current }}
+        accessibilityHint={
+          locked ? "Locked. Complete earlier lessons first." : completed ? "Completed. Practice again." : "Start this lesson."
+        }
         style={({ pressed }) => [
           styles.node,
           locked

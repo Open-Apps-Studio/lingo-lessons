@@ -6,13 +6,17 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { DuoButton } from "@/components/duo-button";
 import { Flag } from "@/components/flag";
-import { catalog } from "@/lib/content";
-import { DAILY_GOAL_OPTIONS, useProgress } from "@/lib/store";
+import { catalog, orderedCourses } from "@/lib/content";
+import { DAILY_GOAL_OPTIONS, DEFAULT_COURSE, useProgress } from "@/lib/store";
 import { colors, radius } from "@/lib/theme";
 
 export default function OnboardingScreen() {
   const finishOnboarding = useProgress((s) => s.finishOnboarding);
-  const [courseId, setCourseId] = useState(catalog.courses[0]?.id ?? "es-en");
+  const [courseId, setCourseId] = useState(
+    catalog.courses.some((c) => c.id === DEFAULT_COURSE)
+      ? DEFAULT_COURSE
+      : (orderedCourses[0]?.id ?? "es-en")
+  );
   const [goal, setGoal] = useState<number>(20);
 
   const selected = catalog.courses.find((c) => c.id === courseId);
@@ -33,7 +37,7 @@ export default function OnboardingScreen() {
 
         <Text style={styles.sectionLabel}>I want to learn</Text>
         <View style={styles.langGrid}>
-          {catalog.courses.map((course) => (
+          {orderedCourses.map((course) => (
             <Pressable
               key={course.id}
               onPress={() => setCourseId(course.id)}

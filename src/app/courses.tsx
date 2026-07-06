@@ -5,7 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { CloseButton } from "@/components/close-button";
 import { Flag } from "@/components/flag";
 import { exitScreen } from "@/lib/navigation";
-import { catalog } from "@/lib/content";
+import { orderedCourses } from "@/lib/content";
 import { useProgress } from "@/lib/store";
 import { colors, radius } from "@/lib/theme";
 
@@ -22,7 +22,7 @@ export default function CoursesScreen() {
 
       <ScrollView contentContainerStyle={styles.body}>
         <Text style={styles.subtitle}>Switch language anytime. Progress is saved per course.</Text>
-        {catalog.courses.map((course) => {
+        {orderedCourses.map((course) => {
           const prog = courses[course.id];
           const lessonsDone = prog
             ? Object.keys(prog.completedLessons).length

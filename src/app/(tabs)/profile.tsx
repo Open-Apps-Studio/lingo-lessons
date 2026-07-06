@@ -8,10 +8,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Flag } from "@/components/flag";
 import { useCourseContent } from "@/lib/content";
 import {
-  MAX_HEARTS,
   currentStreak,
   dailyXpToday,
-  effectiveHearts,
   lastSevenDays,
   useProgress,
 } from "@/lib/store";
@@ -24,7 +22,6 @@ export default function ProfileScreen() {
   const { pack, allLessons, allWords } = useCourseContent(activeCourseId);
   const todayXp = dailyXpToday(progress);
   const streak = currentStreak(progress);
-  const hearts = effectiveHearts(courseProgress).hearts;
   const week = lastSevenDays(progress);
 
   const lessonsDone = Object.keys(courseProgress.completedLessons).filter((id) =>
@@ -53,9 +50,9 @@ export default function ProfileScreen() {
       ),
     },
     {
-      label: "Hearts",
-      value: `${hearts}/${MAX_HEARTS}`,
-      icon: <Ionicons name="heart" size={26} color={colors.rose} />,
+      label: "To review",
+      value: `${courseProgress.mistakes.length}`,
+      icon: <Ionicons name="refresh-circle" size={26} color={colors.rose} />,
     },
     {
       label: "Lessons done",
@@ -78,7 +75,7 @@ export default function ProfileScreen() {
             style={styles.mascot}
             contentFit="contain"
           />
-          <Text style={styles.name}>Ahmet</Text>
+          <Text style={styles.name}>My Progress</Text>
           <Pressable onPress={() => router.push("/courses")} style={styles.courseRow}>
             <Text style={styles.subtitle}>Learning</Text>
             <Flag courseId={activeCourseId} size={18} />
