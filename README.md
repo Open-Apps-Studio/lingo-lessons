@@ -1,13 +1,15 @@
-# Mobile app (the product)
+# (Open Source) Lingo Lessons
 
-Duolingo-style language learning for English speakers. **This Expo React Native app is what we're building.**
+Free, open-source Duolingo-style language learning for English speakers, by [Open Apps Studio](https://github.com/Open-Apps-Studio). No ads, no paywalls, no accounts. **This Expo React Native app is the product.**
+
+[Download on the App Store](https://apps.apple.com/app/id6781818623)
 
 The Next.js app in the repo root is a cloned reference project — useful for UI inspiration and optional content preview/admin, but not the learner experience we're shipping.
 
 ## What it does
 
 - **Learn path** — sections, units, and lesson nodes (locked/unlocked progression)
-- **Lesson engine** — exercises with feedback, hearts, XP, completion flow
+- **Lesson engine** — exercises with feedback, XP, completion flow (no hearts or energy gates — everything is free)
 - **Practice tab** — mistake review and spaced repetition (SRS)
 - **Profile** — streak, stats, per-course progress
 - **8 courses** — Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese (all for English speakers)
