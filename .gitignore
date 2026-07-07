@@ -36,8 +36,13 @@ yarn-error.*
 !.env.example
 .env*.local
 
+# local App Store / EAS submit config (real contact info stays on your machine)
+store.config.json
+
 # local agent/editor state
 .claude/
+*.md
+!README.md
 
 # typescript
 *.tsbuildinfo

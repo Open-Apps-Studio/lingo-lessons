@@ -1,0 +1,29 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "version": "1.0.0",
+    "copyright": "2026 Your Name",
+    "release": {
+      "automaticRelease": true
+    },
+    "categories": ["EDUCATION", "REFERENCE"],
+    "review": {
+      "firstName": "First",
+      "lastName": "Last",
+      "email": "you@example.com",
+      "phone": "+10000000000",
+      "notes": "No account or login is required. The app is free and has no ads or paywalls. Progress is stored on-device."
+    },
+    "info": {
+      "en-US": {
+        "title": "(Open Source) Lingo Lessons",
+        "subtitle": "Spanish, French, German+",
+        "description": "See README.md — copy this file to store.config.json and fill in your App Store review contact before `eas submit`.",
+        "keywords": ["language learning", "Spanish", "French", "German"],
+        "promoText": "Learn 8 languages with short, playful lessons.",
+        "supportUrl": "https://ahmetdedeler.com/lingo/support",
+        "privacyPolicyUrl": "https://ahmetdedeler.com/lingo/privacy"
+      }
+    }
+  }
+}
