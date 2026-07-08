@@ -20,7 +20,7 @@ import {
   dailyXpToday,
   useProgress,
 } from "@/lib/store";
-import { colors, radius, unitPalette } from "@/lib/theme";
+import { makeThemedStyles, radius, unitPalette, useThemeColors } from "@/lib/theme";
 
 function indentFor(index: number) {
   const cycleIndex = index % 8;
@@ -33,6 +33,8 @@ function indentFor(index: number) {
 }
 
 export default function LearnScreen() {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const progress = useProgress();
   const { activeCourseId, dailyGoal } = progress;
   const courseProgress = progress.course();
@@ -159,6 +161,7 @@ function Stat({
   value: number;
   color: string;
 }) {
+  const styles = useStyles();
   return (
     <View style={styles.stat}>
       {icon}
@@ -188,6 +191,8 @@ function LessonNode({
   label: string;
   onPress: () => void;
 }) {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const iconColor = locked ? colors.neutral400 : colors.white;
   const icon = completed ? (
     <Ionicons name="checkmark-sharp" size={34} color={iconColor} />
@@ -235,6 +240,7 @@ function LessonNode({
 
 /** Duolingo-style gentle up/down bob for the START callout. */
 function BobbingBubble({ children }: { children: React.ReactNode }) {
+  const styles = useStyles();
   const bob = useSharedValue(0);
   useEffect(() => {
     bob.set(
@@ -255,7 +261,7 @@ function BobbingBubble({ children }: { children: React.ReactNode }) {
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   statsBar: {
     flexDirection: "row",
@@ -332,7 +338,7 @@ const styles = StyleSheet.create({
   },
   nodeLocked: { backgroundColor: colors.neutral200, borderColor: colors.neutral400 },
   startBubble: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
     borderWidth: 2,
     borderColor: colors.neutral200,
     borderRadius: radius.md,
@@ -358,6 +364,6 @@ const styles = StyleSheet.create({
     borderTopWidth: 7,
     borderLeftColor: "transparent",
     borderRightColor: "transparent",
-    borderTopColor: colors.white,
+    borderTopColor: colors.surface,
   },
-});
+}));

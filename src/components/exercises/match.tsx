@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { speakTarget } from "@/lib/audio";
 import { haptics } from "@/lib/haptics";
 import { useProgress } from "@/lib/store";
-import { colors } from "@/lib/theme";
+import { makeThemedStyles } from "@/lib/theme";
 import type { MatchExercise } from "@/lib/types";
 
 import { OptionCard, type OptionState } from "./option-card";
@@ -37,6 +37,7 @@ function shuffleBy<T>(items: T[], seedText: string): T[] {
 
 export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
   const courseId = useProgress((s) => s.activeCourseId);
+  const styles = useStyles();
   const left = useMemo(
     () => shuffleBy(exercise.pairs.map((p) => p.target), exercise.id + "L"),
     [exercise]
@@ -124,9 +125,11 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 20 },
-  title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
-  columns: { flexDirection: "row", gap: 10 },
-  column: { flex: 1, gap: 10 },
-});
+const useStyles = makeThemedStyles((colors) =>
+  StyleSheet.create({
+    container: { gap: 20 },
+    title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
+    columns: { flexDirection: "row", gap: 10 },
+    column: { flex: 1, gap: 10 },
+  })
+);

@@ -8,9 +8,10 @@ import { CloseButton } from "@/components/close-button";
 import { SpeakerButton } from "@/components/speaker-button";
 import { useCourseContent } from "@/lib/content";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius } from "@/lib/theme";
 
 function GuidebookText({ markdown }: { markdown: string }) {
+  const styles = useStyles();
   return (
     <View style={{ gap: 10 }}>
       {markdown.split("\n").map((line, i) => {
@@ -32,6 +33,7 @@ function GuidebookText({ markdown }: { markdown: string }) {
 }
 
 export default function GuidebookScreen() {
+  const styles = useStyles();
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const activeCourseId = useProgress((s) => s.activeCourseId);
   const { getUnit } = useCourseContent(activeCourseId);
@@ -69,7 +71,7 @@ export default function GuidebookScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   topBar: {
     flexDirection: "row",
@@ -93,4 +95,4 @@ const styles = StyleSheet.create({
   paragraph: { fontSize: 15, color: colors.text, lineHeight: 22 },
   wordRow: { flexDirection: "row", alignItems: "center", gap: 12 },
   wordText: { fontSize: 16, color: colors.text, fontWeight: "600", flexShrink: 1 },
-});
+}));

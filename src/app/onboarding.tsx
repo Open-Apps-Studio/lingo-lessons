@@ -8,9 +8,10 @@ import { DuoButton } from "@/components/duo-button";
 import { Flag } from "@/components/flag";
 import { catalog, orderedCourses } from "@/lib/content";
 import { DAILY_GOAL_OPTIONS, DEFAULT_COURSE, useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius } from "@/lib/theme";
 
 export default function OnboardingScreen() {
+  const styles = useStyles();
   const finishOnboarding = useProgress((s) => s.finishOnboarding);
   const [courseId, setCourseId] = useState(
     catalog.courses.some((c) => c.id === DEFAULT_COURSE)
@@ -90,7 +91,7 @@ export default function OnboardingScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   body: { padding: 24, gap: 16, paddingBottom: 40 },
   mascot: { width: 100, height: 100, alignSelf: "center" },
@@ -144,4 +145,4 @@ const styles = StyleSheet.create({
   goalText: { fontSize: 18, fontWeight: "800", color: colors.neutral700 },
   goalTextActive: { color: colors.greenDark },
   goalHint: { fontSize: 12, color: colors.textMuted },
-});
+}));

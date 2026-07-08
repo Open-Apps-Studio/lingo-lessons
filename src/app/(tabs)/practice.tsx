@@ -10,9 +10,11 @@ import { SpeakerButton } from "@/components/speaker-button";
 import { useCourseContent } from "@/lib/content";
 import { dueInDays } from "@/lib/srs";
 import { dailyQuests, dueSrsWords, useProgress, type Quest } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useThemeColors } from "@/lib/theme";
 
 export default function PracticeScreen() {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const progress = useProgress();
   const { activeCourseId } = progress;
   const courseProgress = progress.course();
@@ -147,6 +149,8 @@ export default function PracticeScreen() {
 }
 
 function QuestRow({ quest }: { quest: Quest }) {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const pct = (quest.value / quest.target) * 100;
   return (
     <View style={styles.questRow}>
@@ -179,7 +183,7 @@ function QuestRow({ quest }: { quest: Quest }) {
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   body: { padding: 20, gap: 16, paddingBottom: 60 },
   heading: { fontSize: 26, fontWeight: "800", color: colors.neutral700 },
@@ -236,4 +240,4 @@ const styles = StyleSheet.create({
     color: colors.neutral700,
     textAlign: "center",
   },
-});
+}));

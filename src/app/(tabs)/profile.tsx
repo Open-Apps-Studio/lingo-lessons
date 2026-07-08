@@ -12,11 +12,21 @@ import {
   dailyXpToday,
   lastSevenDays,
   useProgress,
+  type ThemePreference,
 } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useThemeColors } from "@/lib/theme";
+
+const THEME_OPTIONS: { value: ThemePreference; label: string; icon: string }[] = [
+  { value: "system", label: "Device", icon: "phone-portrait-outline" },
+  { value: "light", label: "Light", icon: "sunny-outline" },
+  { value: "dark", label: "Dark", icon: "moon-outline" },
+];
 
 export default function ProfileScreen() {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const progress = useProgress();
+  const { themePreference, setThemePreference } = progress;
   const { activeCourseId, dailyGoal } = progress;
   const courseProgress = progress.course();
   const { pack, allLessons, allWords } = useCourseContent(activeCourseId);
@@ -131,12 +141,46 @@ export default function ProfileScreen() {
             </View>
           ))}
         </View>
+
+        <View style={styles.settingsCard}>
+          <View style={styles.settingsHeader}>
+            <Ionicons name="color-palette-outline" size={22} color={colors.indigo} />
+            <Text style={styles.settingsTitle}>Appearance</Text>
+          </View>
+          <View style={styles.themeRow}>
+            {THEME_OPTIONS.map((option) => {
+              const active = themePreference === option.value;
+              return (
+                <Pressable
+                  key={option.value}
+                  onPress={() => setThemePreference(option.value)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`${option.label} theme`}
+                  accessibilityState={{ selected: active }}
+                  style={[styles.themeChip, active && styles.themeChipActive]}
+                >
+                  <Ionicons
+                    name={option.icon as keyof typeof Ionicons.glyphMap}
+                    size={20}
+                    color={active ? colors.greenDark : colors.textMuted}
+                  />
+                  <Text style={[styles.themeLabel, active && styles.themeLabelActive]}>
+                    {option.label}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </View>
+          <Text style={styles.settingsHint}>
+            Device follows your phone&apos;s light or dark setting.
+          </Text>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   body: { padding: 20, gap: 20, paddingBottom: 60 },
   header: { alignItems: "center", gap: 8, paddingTop: 12 },
@@ -186,4 +230,30 @@ const styles = StyleSheet.create({
   },
   statValue: { fontSize: 20, fontWeight: "800", color: colors.neutral700 },
   statLabel: { fontSize: 12, color: colors.textMuted },
-});
+  settingsCard: {
+    borderWidth: 2,
+    borderColor: colors.neutral200,
+    borderRadius: radius.xl,
+    padding: 16,
+    gap: 12,
+  },
+  settingsHeader: { flexDirection: "row", alignItems: "center", gap: 8 },
+  settingsTitle: { fontSize: 16, fontWeight: "800", color: colors.neutral700 },
+  themeRow: { flexDirection: "row", gap: 10 },
+  themeChip: {
+    flex: 1,
+    alignItems: "center",
+    gap: 4,
+    borderWidth: 2,
+    borderColor: colors.neutral200,
+    borderRadius: radius.lg,
+    paddingVertical: 12,
+  },
+  themeChipActive: {
+    borderColor: colors.green,
+    backgroundColor: colors.greenLight + "22",
+  },
+  themeLabel: { fontSize: 13, fontWeight: "700", color: colors.textMuted },
+  themeLabelActive: { color: colors.greenDark },
+  settingsHint: { fontSize: 12, color: colors.textMuted },
+}));

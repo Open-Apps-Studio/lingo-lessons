@@ -2,18 +2,21 @@ import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import React from "react";
 
-import { colors } from "@/lib/theme";
+import { useResolvedScheme, useThemeColors } from "@/lib/theme";
 
 export default function TabsLayout() {
+  const colors = useThemeColors();
+  const scheme = useResolvedScheme();
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: colors.greenDark,
+        tabBarActiveTintColor: scheme === "dark" ? colors.green : colors.greenDark,
         tabBarInactiveTintColor: colors.neutral400,
         tabBarAllowFontScaling: false,
         tabBarLabelStyle: { fontWeight: "800", fontSize: 11 },
         tabBarStyle: {
+          backgroundColor: colors.background,
           borderTopWidth: 2,
           borderTopColor: colors.neutral200,
           height: 84,

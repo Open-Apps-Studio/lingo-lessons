@@ -7,18 +7,22 @@ import {
   type ViewStyle,
 } from "react-native";
 
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors, type ThemeColors } from "@/lib/theme";
 
 type Variant = "primary" | "secondary" | "danger" | "super" | "locked" | "white";
 
-const palette: Record<Variant, { bg: string; border: string; text: string }> = {
-  primary: { bg: colors.sky, border: colors.skyDark, text: colors.white },
-  secondary: { bg: colors.green, border: colors.greenDark, text: colors.white },
-  danger: { bg: colors.rose, border: colors.roseDark, text: colors.white },
-  super: { bg: colors.indigo, border: colors.indigoDark, text: colors.white },
-  locked: { bg: colors.neutral200, border: colors.neutral400, text: colors.neutral400 },
-  white: { bg: colors.white, border: colors.neutral200, text: colors.textMuted },
-};
+function palette(
+  colors: ThemeColors
+): Record<Variant, { bg: string; border: string; text: string }> {
+  return {
+    primary: { bg: colors.sky, border: colors.skyDark, text: colors.white },
+    secondary: { bg: colors.green, border: colors.greenDark, text: colors.white },
+    danger: { bg: colors.rose, border: colors.roseDark, text: colors.white },
+    super: { bg: colors.indigo, border: colors.indigoDark, text: colors.white },
+    locked: { bg: colors.neutral200, border: colors.neutral400, text: colors.neutral400 },
+    white: { bg: colors.surface, border: colors.neutral200, text: colors.textMuted },
+  };
+}
 
 type DuoButtonProps = {
   label: string;
@@ -36,7 +40,7 @@ export function DuoButton({
   disabled,
   style,
 }: DuoButtonProps) {
-  const c = palette[disabled ? "locked" : variant];
+  const c = palette(useThemeColors())[disabled ? "locked" : variant];
   return (
     <Pressable
       onPress={onPress}
