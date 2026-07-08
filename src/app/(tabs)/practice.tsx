@@ -1,6 +1,6 @@
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
-import React from "react";
+import React, { useMemo } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -10,7 +10,7 @@ import { SpeakerButton } from "@/components/speaker-button";
 import { useCourseContent } from "@/lib/content";
 import { dueInDays } from "@/lib/srs";
 import { dailyQuests, dueSrsWords, useProgress, type Quest } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 
 export default function PracticeScreen() {
   const progress = useProgress();
@@ -19,10 +19,10 @@ export default function PracticeScreen() {
   const { pack, allWords } = useCourseContent(activeCourseId);
   const dueWords = dueSrsWords(courseProgress.srs);
   const quests = dailyQuests(progress);
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
-  const uniqueWords = [
-    ...new Map(allWords().map((w) => [w.target, w] as const)).values(),
-  ];
+  const uniqueWords = [...new Map(allWords().map((w) => [w.target, w] as const)).values()];
   const words = uniqueWords
     .map((w) => ({
       ...w,
@@ -30,6 +30,39 @@ export default function PracticeScreen() {
       srs: courseProgress.srs[w.target],
     }))
     .filter((w) => w.stat);
+
+  const QuestRow = ({ quest }: { quest: Quest }) => {
+    const pct = (quest.value / quest.target) * 100;
+    return (
+      <View style={styles.questRow}>
+        <View style={{ flex: 1, gap: 6 }}>
+          <Text
+            style={[styles.questLabel, quest.done && { color: colors.textMuted }]}
+            maxFontSizeMultiplier={1.3}
+          >
+            {quest.label}
+          </Text>
+          <View style={styles.questTrack}>
+            <View
+              style={[
+                styles.questFill,
+                { width: `${pct}%` },
+                quest.done && { backgroundColor: colors.green },
+              ]}
+            />
+            <Text style={styles.questCount} maxFontSizeMultiplier={1.1}>
+              {quest.value}/{quest.target}
+            </Text>
+          </View>
+        </View>
+        <Ionicons
+          name={quest.done ? "checkmark-circle" : "ellipse-outline"}
+          size={28}
+          color={quest.done ? colors.green : colors.neutral300}
+        />
+      </View>
+    );
+  };
 
   return (
     <SafeAreaView style={styles.screen} edges={["top", "left", "right"]}>
@@ -42,11 +75,7 @@ export default function PracticeScreen() {
 
         <View style={styles.card}>
           <View style={styles.cardHeader}>
-            <MaterialCommunityIcons
-              name="treasure-chest"
-              size={24}
-              color={colors.amber}
-            />
+            <MaterialCommunityIcons name="treasure-chest" size={24} color={colors.amber} />
             <Text style={styles.cardTitle}>Daily quests</Text>
           </View>
           {quests.map((quest) => (
@@ -146,94 +175,63 @@ export default function PracticeScreen() {
   );
 }
 
-function QuestRow({ quest }: { quest: Quest }) {
-  const pct = (quest.value / quest.target) * 100;
-  return (
-    <View style={styles.questRow}>
-      <View style={{ flex: 1, gap: 6 }}>
-        <Text
-          style={[styles.questLabel, quest.done && { color: colors.textMuted }]}
-          maxFontSizeMultiplier={1.3}
-        >
-          {quest.label}
-        </Text>
-        <View style={styles.questTrack}>
-          <View
-            style={[
-              styles.questFill,
-              { width: `${pct}%` },
-              quest.done && { backgroundColor: colors.green },
-            ]}
-          />
-          <Text style={styles.questCount} maxFontSizeMultiplier={1.1}>
-            {quest.value}/{quest.target}
-          </Text>
-        </View>
-      </View>
-      <Ionicons
-        name={quest.done ? "checkmark-circle" : "ellipse-outline"}
-        size={28}
-        color={quest.done ? colors.green : colors.neutral300}
-      />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
-  body: { padding: 20, gap: 16, paddingBottom: 60 },
-  heading: { fontSize: 26, fontWeight: "800", color: colors.neutral700 },
-  courseRow: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: -8 },
-  courseLabel: { fontSize: 14, fontWeight: "700", color: colors.textMuted },
-  cardHeader: { flexDirection: "row", alignItems: "center", gap: 8 },
-  card: {
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.xl,
-    padding: 18,
-    gap: 12,
-  },
-  cardTitle: { fontSize: 19, fontWeight: "800", color: colors.neutral700 },
-  cardSubtitle: { fontSize: 14, color: colors.textMuted },
-  wordRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
-    paddingVertical: 6,
-  },
-  wordTarget: { fontSize: 16, fontWeight: "700", color: colors.text },
-  wordNative: { fontSize: 13, color: colors.textMuted },
-  dueBadge: { fontSize: 11, fontWeight: "700", color: colors.rose, marginTop: 2 },
-  dueSoon: { fontSize: 11, color: colors.textMuted, marginTop: 2 },
-  strengthTrack: {
-    width: 64,
-    height: 10,
-    borderRadius: radius.full,
-    backgroundColor: colors.neutral200,
-    overflow: "hidden",
-  },
-  strengthFill: { height: "100%", borderRadius: radius.full },
-  questRow: { flexDirection: "row", alignItems: "center", gap: 12 },
-  questLabel: { fontSize: 15, fontWeight: "700", color: colors.text },
-  questTrack: {
-    height: 16,
-    borderRadius: radius.full,
-    backgroundColor: colors.neutral200,
-    overflow: "hidden",
-    justifyContent: "center",
-  },
-  questFill: {
-    position: "absolute",
-    left: 0,
-    top: 0,
-    bottom: 0,
-    borderRadius: radius.full,
-    backgroundColor: colors.amber,
-  },
-  questCount: {
-    fontSize: 10,
-    fontWeight: "800",
-    color: colors.neutral700,
-    textAlign: "center",
-  },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    screen: { flex: 1, backgroundColor: colors.background },
+    body: { padding: 20, gap: 16, paddingBottom: 60 },
+    heading: { fontSize: 26, fontWeight: "800", color: colors.neutral700 },
+    courseRow: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: -8 },
+    courseLabel: { fontSize: 14, fontWeight: "700", color: colors.textMuted },
+    cardHeader: { flexDirection: "row", alignItems: "center", gap: 8 },
+    card: {
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.xl,
+      padding: 18,
+      gap: 12,
+      backgroundColor: colors.neutral100,
+    },
+    cardTitle: { fontSize: 19, fontWeight: "800", color: colors.neutral700 },
+    cardSubtitle: { fontSize: 14, color: colors.textMuted },
+    wordRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 12,
+      paddingVertical: 6,
+    },
+    wordTarget: { fontSize: 16, fontWeight: "700", color: colors.text },
+    wordNative: { fontSize: 13, color: colors.textMuted },
+    dueBadge: { fontSize: 11, fontWeight: "700", color: colors.rose, marginTop: 2 },
+    dueSoon: { fontSize: 11, color: colors.textMuted, marginTop: 2 },
+    strengthTrack: {
+      width: 64,
+      height: 10,
+      borderRadius: radius.full,
+      backgroundColor: colors.neutral200,
+      overflow: "hidden",
+    },
+    strengthFill: { height: "100%", borderRadius: radius.full },
+    questRow: { flexDirection: "row", alignItems: "center", gap: 12 },
+    questLabel: { fontSize: 15, fontWeight: "700", color: colors.text },
+    questTrack: {
+      height: 16,
+      borderRadius: radius.full,
+      backgroundColor: colors.neutral200,
+      overflow: "hidden",
+      justifyContent: "center",
+    },
+    questFill: {
+      position: "absolute",
+      left: 0,
+      top: 0,
+      bottom: 0,
+      borderRadius: radius.full,
+      backgroundColor: colors.amber,
+    },
+    questCount: {
+      fontSize: 10,
+      fontWeight: "800",
+      color: colors.neutral700,
+      textAlign: "center",
+    },
+  });

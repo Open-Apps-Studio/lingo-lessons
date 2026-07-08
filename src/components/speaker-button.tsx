@@ -1,10 +1,10 @@
 import { Ionicons } from "@expo/vector-icons";
-import React from "react";
+import React, { useMemo } from "react";
 import { Pressable, StyleSheet } from "react-native";
 
 import { speakTarget } from "@/lib/audio";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 
 export function SpeakerButton({
   text,
@@ -14,6 +14,8 @@ export function SpeakerButton({
   size?: number;
 }) {
   const courseId = useProgress((s) => s.activeCourseId);
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
   return (
     <Pressable
       onPress={() => speakTarget(courseId, text)}
@@ -30,13 +32,14 @@ export function SpeakerButton({
   );
 }
 
-const styles = StyleSheet.create({
-  button: {
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: colors.sky,
-    borderColor: colors.skyDark,
-    borderBottomWidth: 4,
-    borderRadius: radius.md,
-  },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    button: {
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: colors.sky,
+      borderColor: colors.skyDark,
+      borderBottomWidth: 4,
+      borderRadius: radius.md,
+    },
+  });

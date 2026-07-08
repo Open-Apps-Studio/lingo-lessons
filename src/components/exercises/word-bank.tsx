@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import { SpeakerButton } from "@/components/speaker-button";
 import { haptics } from "@/lib/haptics";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 import type { WordBankExercise } from "@/lib/types";
 
 type WordBankProps = {
@@ -16,6 +16,8 @@ type WordBankProps = {
 
 export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) {
   const locked = status !== "none";
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   const pick = (index: number) => {
     if (locked || answer.includes(index)) return;
@@ -48,6 +50,7 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
             key={tokenIndex}
             label={exercise.tokens[tokenIndex]}
             onPress={() => unpick(tokenIndex)}
+            styles={styles}
           />
         ))}
       </View>
@@ -60,7 +63,7 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
               <Text style={[styles.chipText, { color: "transparent" }]}>{token}</Text>
             </View>
           ) : (
-            <Chip key={index} label={token} onPress={() => pick(index)} />
+            <Chip key={index} label={token} onPress={() => pick(index)} styles={styles} />
           );
         })}
       </View>
@@ -68,7 +71,15 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
   );
 }
 
-function Chip({ label, onPress }: { label: string; onPress: () => void }) {
+function Chip({
+  label,
+  onPress,
+  styles,
+}: {
+  label: string;
+  onPress: () => void;
+  styles: ReturnType<typeof createStyles>;
+}) {
   return (
     <Pressable
       onPress={() => {
@@ -82,36 +93,37 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 20 },
-  title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
-  promptRow: { flexDirection: "row", alignItems: "center", gap: 12 },
-  prompt: { fontSize: 20, fontWeight: "700", color: colors.text, flexShrink: 1 },
-  answerArea: {
-    minHeight: 56,
-    borderTopWidth: 2,
-    borderBottomWidth: 2,
-    borderColor: colors.neutral200,
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-    paddingVertical: 8,
-    alignItems: "center",
-  },
-  pool: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-    justifyContent: "center",
-  },
-  chip: {
-    backgroundColor: colors.white,
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.md,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-  },
-  chipGhost: { backgroundColor: colors.neutral200, borderColor: colors.neutral200 },
-  chipText: { fontSize: 17, fontWeight: "600", color: colors.text },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    container: { gap: 20 },
+    title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
+    promptRow: { flexDirection: "row", alignItems: "center", gap: 12 },
+    prompt: { fontSize: 20, fontWeight: "700", color: colors.text, flexShrink: 1 },
+    answerArea: {
+      minHeight: 56,
+      borderTopWidth: 2,
+      borderBottomWidth: 2,
+      borderColor: colors.neutral200,
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: 8,
+      paddingVertical: 8,
+      alignItems: "center",
+    },
+    pool: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: 8,
+      justifyContent: "center",
+    },
+    chip: {
+      backgroundColor: colors.neutral100,
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.md,
+      paddingHorizontal: 14,
+      paddingVertical: 10,
+    },
+    chipGhost: { backgroundColor: colors.neutral200, borderColor: colors.neutral200 },
+    chipText: { fontSize: 17, fontWeight: "600", color: colors.text },
+  });

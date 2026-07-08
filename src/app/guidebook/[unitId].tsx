@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from "expo-router";
 
-import React from "react";
+import React, { useMemo } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -8,9 +8,15 @@ import { CloseButton } from "@/components/close-button";
 import { SpeakerButton } from "@/components/speaker-button";
 import { useCourseContent } from "@/lib/content";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 
-function GuidebookText({ markdown }: { markdown: string }) {
+function GuidebookText({
+  markdown,
+  styles,
+}: {
+  markdown: string;
+  styles: ReturnType<typeof createStyles>;
+}) {
   return (
     <View style={{ gap: 10 }}>
       {markdown.split("\n").map((line, i) => {
@@ -36,6 +42,8 @@ export default function GuidebookScreen() {
   const activeCourseId = useProgress((s) => s.activeCourseId);
   const { getUnit } = useCourseContent(activeCourseId);
   const unit = getUnit(unitId ?? "");
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   if (!unit) return null;
 
@@ -51,7 +59,7 @@ export default function GuidebookScreen() {
 
       <ScrollView contentContainerStyle={styles.body}>
         <Text style={styles.description}>{unit.description}</Text>
-        <GuidebookText markdown={unit.guidebook} />
+        <GuidebookText markdown={unit.guidebook} styles={styles} />
 
         <Text style={styles.heading}>Key words</Text>
         <View style={{ gap: 8 }}>
@@ -69,28 +77,29 @@ export default function GuidebookScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
-  topBar: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    paddingHorizontal: 10,
-    paddingVertical: 8,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.neutral200,
-  },
-  title: { fontSize: 17, fontWeight: "800", color: colors.neutral700 },
-  body: { padding: 20, gap: 14, paddingBottom: 60 },
-  description: {
-    fontSize: 15,
-    color: colors.textMuted,
-    backgroundColor: colors.neutral100,
-    borderRadius: radius.md,
-    padding: 12,
-  },
-  heading: { fontSize: 19, fontWeight: "800", color: colors.neutral700, marginTop: 8 },
-  paragraph: { fontSize: 15, color: colors.text, lineHeight: 22 },
-  wordRow: { flexDirection: "row", alignItems: "center", gap: 12 },
-  wordText: { fontSize: 16, color: colors.text, fontWeight: "600", flexShrink: 1 },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    screen: { flex: 1, backgroundColor: colors.background },
+    topBar: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      paddingHorizontal: 10,
+      paddingVertical: 8,
+      borderBottomWidth: 2,
+      borderBottomColor: colors.neutral200,
+    },
+    title: { fontSize: 17, fontWeight: "800", color: colors.neutral700 },
+    body: { padding: 20, gap: 14, paddingBottom: 60 },
+    description: {
+      fontSize: 15,
+      color: colors.textMuted,
+      backgroundColor: colors.neutral100,
+      borderRadius: radius.md,
+      padding: 12,
+    },
+    heading: { fontSize: 19, fontWeight: "800", color: colors.neutral700, marginTop: 8 },
+    paragraph: { fontSize: 15, color: colors.text, lineHeight: 22 },
+    wordRow: { flexDirection: "row", alignItems: "center", gap: 12 },
+    wordText: { fontSize: 16, color: colors.text, fontWeight: "600", flexShrink: 1 },
+  });

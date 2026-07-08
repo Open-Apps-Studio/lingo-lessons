@@ -42,7 +42,7 @@ import {
   XP_PER_LESSON,
   XP_PERFECT_BONUS,
 } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 import type { Exercise } from "@/lib/types";
 
 type Status = "none" | "correct" | "wrong";
@@ -117,6 +117,8 @@ export default function LessonScreen() {
   const courseProgress = progress.course();
   const { pack, getLesson, allWords, getWord } = useCourseContent(activeCourseId);
   const sfx = useSfx();
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   const isMistakes = id === "mistakes";
   const isSrs = id === "srs";
@@ -466,6 +468,8 @@ function ResultCard({
   icon?: React.ReactNode;
   color: string;
 }) {
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
   return (
     <View style={[styles.resultCard, { borderColor: color }]}>
       <View style={[styles.resultCardHeader, { backgroundColor: color }]}>
@@ -479,93 +483,94 @@ function ResultCard({
   );
 }
 
-const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
-  header: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 10,
-    paddingHorizontal: 10,
-    paddingVertical: 8,
-  },
-  progressTrack: {
-    flex: 1,
-    height: 14,
-    borderRadius: radius.full,
-    backgroundColor: colors.neutral200,
-    overflow: "hidden",
-  },
-  progressFill: {
-    height: "100%",
-    borderRadius: radius.full,
-    backgroundColor: colors.greenLight,
-    justifyContent: "center",
-  },
-  progressShine: {
-    height: 4,
-    marginHorizontal: 8,
-    borderRadius: radius.full,
-    backgroundColor: "rgba(255,255,255,0.35)",
-  },
-  practicePill: {
-    flexDirection: "row",
-    alignItems: "center",
-    minWidth: 44,
-    height: 44,
-    justifyContent: "center",
-  },
-  body: { padding: 20, paddingBottom: 40 },
-  footer: {
-    padding: 16,
-    gap: 12,
-    borderTopWidth: 2,
-    borderTopColor: colors.neutral200,
-  },
-  feedbackRow: { flexDirection: "row", alignItems: "center", gap: 8 },
-  feedback: { fontSize: 20, fontWeight: "800" },
-  feedbackDetail: { fontSize: 16, fontWeight: "600", marginTop: 2, marginLeft: 34 },
-  center: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 24,
-    gap: 18,
-  },
-  finishMascot: { width: 130, height: 130 },
-  finishTitle: {
-    fontSize: 26,
-    fontWeight: "800",
-    color: colors.neutral700,
-    textAlign: "center",
-  },
-  mutedCenter: { fontSize: 15, color: colors.textMuted, textAlign: "center" },
-  perfect: { fontSize: 15, fontWeight: "700", color: colors.amber },
-  resultRow: { flexDirection: "row", gap: 14 },
-  resultCard: {
-    borderWidth: 2,
-    borderRadius: radius.lg,
-    overflow: "hidden",
-    minWidth: 130,
-  },
-  resultCardHeader: { paddingVertical: 6, alignItems: "center" },
-  resultCardLabel: {
-    color: colors.white,
-    fontWeight: "800",
-    fontSize: 12,
-    textTransform: "uppercase",
-    letterSpacing: 1,
-  },
-  resultCardBody: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: 6,
-    paddingVertical: 12,
-    backgroundColor: colors.white,
-  },
-  resultCardValue: {
-    textAlign: "center",
-    fontSize: 22,
-    fontWeight: "800",
-  },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    screen: { flex: 1, backgroundColor: colors.background },
+    header: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 10,
+      paddingHorizontal: 10,
+      paddingVertical: 8,
+    },
+    progressTrack: {
+      flex: 1,
+      height: 14,
+      borderRadius: radius.full,
+      backgroundColor: colors.neutral200,
+      overflow: "hidden",
+    },
+    progressFill: {
+      height: "100%",
+      borderRadius: radius.full,
+      backgroundColor: colors.greenLight,
+      justifyContent: "center",
+    },
+    progressShine: {
+      height: 4,
+      marginHorizontal: 8,
+      borderRadius: radius.full,
+      backgroundColor: "rgba(255,255,255,0.35)",
+    },
+    practicePill: {
+      flexDirection: "row",
+      alignItems: "center",
+      minWidth: 44,
+      height: 44,
+      justifyContent: "center",
+    },
+    body: { padding: 20, paddingBottom: 40 },
+    footer: {
+      padding: 16,
+      gap: 12,
+      borderTopWidth: 2,
+      borderTopColor: colors.neutral200,
+    },
+    feedbackRow: { flexDirection: "row", alignItems: "center", gap: 8 },
+    feedback: { fontSize: 20, fontWeight: "800" },
+    feedbackDetail: { fontSize: 16, fontWeight: "600", marginTop: 2, marginLeft: 34 },
+    center: {
+      flex: 1,
+      alignItems: "center",
+      justifyContent: "center",
+      padding: 24,
+      gap: 18,
+    },
+    finishMascot: { width: 130, height: 130 },
+    finishTitle: {
+      fontSize: 26,
+      fontWeight: "800",
+      color: colors.neutral700,
+      textAlign: "center",
+    },
+    mutedCenter: { fontSize: 15, color: colors.textMuted, textAlign: "center" },
+    perfect: { fontSize: 15, fontWeight: "700", color: colors.amber },
+    resultRow: { flexDirection: "row", gap: 14 },
+    resultCard: {
+      borderWidth: 2,
+      borderRadius: radius.lg,
+      overflow: "hidden",
+      minWidth: 130,
+    },
+    resultCardHeader: { paddingVertical: 6, alignItems: "center" },
+    resultCardLabel: {
+      color: colors.white,
+      fontWeight: "800",
+      fontSize: 12,
+      textTransform: "uppercase",
+      letterSpacing: 1,
+    },
+    resultCardBody: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 6,
+      paddingVertical: 12,
+      backgroundColor: colors.neutral100,
+    },
+    resultCardValue: {
+      textAlign: "center",
+      fontSize: 22,
+      fontWeight: "800",
+    },
+  });

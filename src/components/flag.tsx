@@ -1,8 +1,8 @@
 import { Image } from "expo-image";
-import React from "react";
+import React, { useMemo } from "react";
 import { StyleSheet, View } from "react-native";
 
-import { colors } from "@/lib/theme";
+import { useThemeColors } from "@/lib/theme";
 
 /**
  * Round country flags (HatScripts/circle-flags, MIT). Keyed by course id so
@@ -22,6 +22,8 @@ const FLAGS: Record<string, number> = {
 
 export function Flag({ courseId, size = 28 }: { courseId: string; size?: number }) {
   const source = FLAGS[courseId];
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
   if (!source) return null;
   return (
     <View
@@ -39,10 +41,11 @@ export function Flag({ courseId, size = 28 }: { courseId: string; size?: number 
   );
 }
 
-const styles = StyleSheet.create({
-  ring: {
-    overflow: "hidden",
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: colors.neutral200,
-  },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    ring: {
+      overflow: "hidden",
+      borderWidth: StyleSheet.hairlineWidth,
+      borderColor: colors.neutral200,
+    },
+  });

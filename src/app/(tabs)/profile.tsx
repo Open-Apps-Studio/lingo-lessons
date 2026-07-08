@@ -1,7 +1,7 @@
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { Image } from "expo-image";
-import React from "react";
+import React, { useMemo } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -12,17 +12,26 @@ import {
   dailyXpToday,
   lastSevenDays,
   useProgress,
+  type ThemePreference,
 } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
+
+const themeLabels: Record<ThemePreference, string> = {
+  system: "System",
+  light: "Light",
+  dark: "Dark",
+};
 
 export default function ProfileScreen() {
   const progress = useProgress();
-  const { activeCourseId, dailyGoal } = progress;
+  const { activeCourseId, dailyGoal, themePreference, setThemePreference } = progress;
   const courseProgress = progress.course();
   const { pack, allLessons, allWords } = useCourseContent(activeCourseId);
   const todayXp = dailyXpToday(progress);
   const streak = currentStreak(progress);
   const week = lastSevenDays(progress);
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   const lessonsDone = Object.keys(courseProgress.completedLessons).filter((id) =>
     allLessons.some((l) => l.lesson.id === id)
@@ -87,6 +96,34 @@ export default function ProfileScreen() {
           </Pressable>
         </View>
 
+        <View style={styles.themeCard}>
+          <View style={styles.themeHeader}>
+            <Ionicons name="moon" size={20} color={colors.indigo} />
+            <Text style={styles.themeTitle}>Appearance</Text>
+          </View>
+          <View style={styles.themeOptions}>
+            {(Object.keys(themeLabels) as ThemePreference[]).map((option) => (
+              <Pressable
+                key={option}
+                onPress={() => setThemePreference(option)}
+                style={[
+                  styles.themeOption,
+                  themePreference === option && styles.themeOptionActive,
+                ]}
+              >
+                <Text
+                  style={[
+                    styles.themeOptionText,
+                    themePreference === option && styles.themeOptionTextActive,
+                  ]}
+                >
+                  {themeLabels[option]}
+                </Text>
+              </Pressable>
+            ))}
+          </View>
+        </View>
+
         <View style={styles.weekCard}>
           <View style={styles.weekHeader}>
             <MaterialCommunityIcons
@@ -136,54 +173,82 @@ export default function ProfileScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
-  body: { padding: 20, gap: 20, paddingBottom: 60 },
-  header: { alignItems: "center", gap: 8, paddingTop: 12 },
-  mascot: { width: 110, height: 110 },
-  name: { fontSize: 26, fontWeight: "800", color: colors.neutral700 },
-  courseRow: { flexDirection: "row", alignItems: "center", gap: 6 },
-  subtitle: { fontSize: 14, color: colors.textMuted },
-  switchRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 2,
-    marginLeft: 6,
-  },
-  switch: { fontSize: 13, fontWeight: "700", color: colors.green },
-  weekCard: {
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.xl,
-    padding: 16,
-    gap: 14,
-  },
-  weekHeader: { flexDirection: "row", alignItems: "center", gap: 8 },
-  weekTitle: { fontSize: 16, fontWeight: "800", color: colors.neutral700 },
-  weekRow: { flexDirection: "row", justifyContent: "space-between" },
-  weekDay: { alignItems: "center", gap: 6 },
-  weekLabel: { fontSize: 12, fontWeight: "700", color: colors.textMuted },
-  weekDot: {
-    width: 30,
-    height: 30,
-    borderRadius: radius.full,
-    backgroundColor: colors.neutral200,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  weekDotActive: { backgroundColor: colors.orange },
-  weekDotToday: { borderWidth: 2, borderColor: colors.orange },
-  grid: { flexDirection: "row", flexWrap: "wrap", gap: 12 },
-  statCard: {
-    flexBasis: "47%",
-    flexGrow: 1,
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.lg,
-    padding: 14,
-    alignItems: "center",
-    gap: 4,
-  },
-  statValue: { fontSize: 20, fontWeight: "800", color: colors.neutral700 },
-  statLabel: { fontSize: 12, color: colors.textMuted },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    screen: { flex: 1, backgroundColor: colors.background },
+    body: { padding: 20, gap: 20, paddingBottom: 60 },
+    header: { alignItems: "center", gap: 8, paddingTop: 12 },
+    mascot: { width: 110, height: 110 },
+    name: { fontSize: 26, fontWeight: "800", color: colors.neutral700 },
+    courseRow: { flexDirection: "row", alignItems: "center", gap: 6 },
+    subtitle: { fontSize: 14, color: colors.textMuted },
+    switchRow: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 2,
+      marginLeft: 6,
+    },
+    switch: { fontSize: 13, fontWeight: "700", color: colors.green },
+    themeCard: {
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.xl,
+      padding: 16,
+      gap: 12,
+      backgroundColor: colors.neutral100,
+    },
+    themeHeader: { flexDirection: "row", alignItems: "center", gap: 8 },
+    themeTitle: { fontSize: 16, fontWeight: "800", color: colors.neutral700 },
+    themeOptions: { flexDirection: "row", gap: 8 },
+    themeOption: {
+      flex: 1,
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.md,
+      paddingVertical: 10,
+      alignItems: "center",
+      backgroundColor: colors.background,
+    },
+    themeOptionActive: {
+      borderColor: colors.green,
+      backgroundColor: colors.green + "22",
+    },
+    themeOptionText: { fontWeight: "700", color: colors.textMuted },
+    themeOptionTextActive: { color: colors.greenDark },
+    weekCard: {
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.xl,
+      padding: 16,
+      gap: 14,
+    },
+    weekHeader: { flexDirection: "row", alignItems: "center", gap: 8 },
+    weekTitle: { fontSize: 16, fontWeight: "800", color: colors.neutral700 },
+    weekRow: { flexDirection: "row", justifyContent: "space-between" },
+    weekDay: { alignItems: "center", gap: 6 },
+    weekLabel: { fontSize: 12, fontWeight: "700", color: colors.textMuted },
+    weekDot: {
+      width: 30,
+      height: 30,
+      borderRadius: radius.full,
+      backgroundColor: colors.neutral200,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    weekDotActive: { backgroundColor: colors.orange },
+    weekDotToday: { borderWidth: 2, borderColor: colors.orange },
+    grid: { flexDirection: "row", flexWrap: "wrap", gap: 12 },
+    statCard: {
+      flexBasis: "47%",
+      flexGrow: 1,
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.lg,
+      padding: 14,
+      alignItems: "center",
+      gap: 4,
+      backgroundColor: colors.neutral100,
+    },
+    statValue: { fontSize: 20, fontWeight: "800", color: colors.neutral700 },
+    statLabel: { fontSize: 12, color: colors.textMuted },
+  });

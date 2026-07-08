@@ -2,9 +2,10 @@ import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import React from "react";
 
-import { colors } from "@/lib/theme";
+import { useThemeColors } from "@/lib/theme";
 
 export default function TabsLayout() {
+  const colors = useThemeColors();
   return (
     <Tabs
       screenOptions={{
@@ -14,6 +15,7 @@ export default function TabsLayout() {
         tabBarAllowFontScaling: false,
         tabBarLabelStyle: { fontWeight: "800", fontSize: 11 },
         tabBarStyle: {
+          backgroundColor: colors.background,
           borderTopWidth: 2,
           borderTopColor: colors.neutral200,
           height: 84,

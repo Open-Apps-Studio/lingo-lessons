@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { speakTarget } from "@/lib/audio";
 import { haptics } from "@/lib/haptics";
 import { useProgress } from "@/lib/store";
-import { colors } from "@/lib/theme";
+import { useThemeColors } from "@/lib/theme";
 import type { MatchExercise } from "@/lib/types";
 
 import { OptionCard, type OptionState } from "./option-card";
@@ -45,6 +45,8 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
     () => shuffleBy(exercise.pairs.map((p) => p.native), exercise.id + "R"),
     [exercise]
   );
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   const [selectedTarget, setSelectedTarget] = useState<string | null>(null);
   const [selectedNative, setSelectedNative] = useState<string | null>(null);
@@ -52,8 +54,7 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
   const [wrongFlash, setWrongFlash] = useState<Set<string>>(new Set());
   const wrongAttempts = useRef(0);
 
-  const targetOf = (native: string) =>
-    exercise.pairs.find((p) => p.native === native)?.target;
+  const targetOf = (native: string) => exercise.pairs.find((p) => p.native === native)?.target;
 
   const tryMatch = (target: string | null, native: string | null) => {
     if (!target || !native) return;
@@ -75,11 +76,7 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
     setSelectedNative(null);
   };
 
-  const stateFor = (
-    key: string,
-    isMatchedKey: string,
-    selected: boolean
-  ): OptionState => {
+  const stateFor = (key: string, isMatchedKey: string, selected: boolean): OptionState => {
     if (matched.has(isMatchedKey)) return "correct";
     if (wrongFlash.has(key)) return "wrong";
     if (selected) return "selected";
@@ -124,9 +121,10 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 20 },
-  title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
-  columns: { flexDirection: "row", gap: 10 },
-  column: { flex: 1, gap: 10 },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    container: { gap: 20 },
+    title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
+    columns: { flexDirection: "row", gap: 10 },
+    column: { flex: 1, gap: 10 },
+  });

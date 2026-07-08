@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { CloseButton } from "@/components/close-button";
 import { Flag } from "@/components/flag";
-import { exitScreen } from "@/lib/navigation";
 import { orderedCourses } from "@/lib/content";
+import { exitScreen } from "@/lib/navigation";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 
 export default function CoursesScreen() {
   const { activeCourseId, setActiveCourse, courses } = useProgress();
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   return (
     <SafeAreaView style={styles.screen} edges={["top", "left", "right"]}>
@@ -24,9 +26,7 @@ export default function CoursesScreen() {
         <Text style={styles.subtitle}>Switch language anytime. Progress is saved per course.</Text>
         {orderedCourses.map((course) => {
           const prog = courses[course.id];
-          const lessonsDone = prog
-            ? Object.keys(prog.completedLessons).length
-            : 0;
+          const lessonsDone = prog ? Object.keys(prog.completedLessons).length : 0;
           const active = course.id === activeCourseId;
           return (
             <Pressable
@@ -53,36 +53,38 @@ export default function CoursesScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
-  topBar: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    paddingHorizontal: 10,
-    paddingVertical: 8,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.neutral200,
-  },
-  title: { fontSize: 17, fontWeight: "800", color: colors.neutral700 },
-  body: { padding: 20, gap: 12, paddingBottom: 60 },
-  subtitle: { fontSize: 14, color: colors.textMuted, marginBottom: 4 },
-  card: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 14,
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.xl,
-    padding: 16,
-  },
-  cardActive: { borderColor: colors.green, backgroundColor: colors.greenLight + "18" },
-  langName: { fontSize: 18, fontWeight: "800", color: colors.neutral700 },
-  meta: { fontSize: 13, color: colors.textMuted, marginTop: 2 },
-  activeBadge: {
-    fontSize: 12,
-    fontWeight: "800",
-    color: colors.green,
-    textTransform: "uppercase",
-  },
-});
+const createStyles = (colors: ReturnType<typeof useThemeColors>) =>
+  StyleSheet.create({
+    screen: { flex: 1, backgroundColor: colors.background },
+    topBar: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+      paddingHorizontal: 10,
+      paddingVertical: 8,
+      borderBottomWidth: 2,
+      borderBottomColor: colors.neutral200,
+    },
+    title: { fontSize: 17, fontWeight: "800", color: colors.neutral700 },
+    body: { padding: 20, gap: 12, paddingBottom: 60 },
+    subtitle: { fontSize: 14, color: colors.textMuted, marginBottom: 4 },
+    card: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 14,
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.xl,
+      padding: 16,
+      backgroundColor: colors.neutral100,
+    },
+    cardActive: { borderColor: colors.green, backgroundColor: colors.green + "18" },
+    langName: { fontSize: 18, fontWeight: "800", color: colors.neutral700 },
+    meta: { fontSize: 13, color: colors.textMuted, marginTop: 2 },
+    activeBadge: {
+      fontSize: 12,
+      fontWeight: "800",
+      color: colors.green,
+      textTransform: "uppercase",
+    },
+  });

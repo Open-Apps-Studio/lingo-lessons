@@ -9,6 +9,8 @@ export const XP_PERFECT_BONUS = 5;
 export const DAILY_GOAL_OPTIONS = [10, 20, 30, 50] as const;
 export const DEFAULT_DAILY_GOAL = 20;
 export const DEFAULT_COURSE = "es-en";
+export const THEME_OPTIONS = ["system", "light", "dark"] as const;
+export type ThemePreference = (typeof THEME_OPTIONS)[number];
 /** Days of per-day history kept for the streak calendar and quests. */
 const DAY_HISTORY_LIMIT = 70;
 
@@ -43,6 +45,7 @@ type ProgressState = {
   streak: number;
   lastActiveDay: string | null;
   dailyGoal: number;
+  themePreference: ThemePreference;
   dailyXp: number;
   dailyXpDay: string | null;
   onboardingDone: boolean;
@@ -57,6 +60,7 @@ type ProgressState = {
   recordWord: (target: string, correct: boolean) => void;
   reviewSrsWord: (target: string, correct: boolean) => void;
   setActiveCourse: (courseId: string) => void;
+  setThemePreference: (theme: ThemePreference) => void;
   finishOnboarding: (courseId: string, goal: number) => void;
 };
 
@@ -90,6 +94,7 @@ export const useProgress = create<ProgressState>()(
       streak: 0,
       lastActiveDay: null,
       dailyGoal: DEFAULT_DAILY_GOAL,
+      themePreference: "system",
       dailyXp: 0,
       dailyXpDay: null,
       onboardingDone: false,
@@ -173,6 +178,7 @@ export const useProgress = create<ProgressState>()(
         ),
 
       setActiveCourse: (courseId) => set({ activeCourseId: courseId }),
+      setThemePreference: (themePreference) => set({ themePreference }),
 
       finishOnboarding: (courseId, goal) =>
         set({ activeCourseId: courseId, dailyGoal: goal, onboardingDone: true }),
@@ -182,7 +188,16 @@ export const useProgress = create<ProgressState>()(
       storage: createJSONStorage(() => AsyncStorage),
       migrate: (persisted: unknown) => {
         const old = persisted as Record<string, unknown>;
-        if (old.courses) return persisted as ProgressState;
+        if (old.courses) {
+          const current = persisted as ProgressState;
+          return {
+            ...current,
+            themePreference:
+              current.themePreference === "light" || current.themePreference === "dark"
+                ? current.themePreference
+                : "system",
+          };
+        }
         // Migrate v1 flat progress → per-course.
         const legacy = old as {
           xp?: number;
@@ -196,6 +211,10 @@ export const useProgress = create<ProgressState>()(
           streak: old.streak ?? 0,
           lastActiveDay: old.lastActiveDay ?? null,
           dailyGoal: old.dailyGoal ?? DEFAULT_DAILY_GOAL,
+          themePreference:
+            old.themePreference === "light" || old.themePreference === "dark"
+              ? old.themePreference
+              : "system",
           dailyXp: old.dailyXp ?? 0,
           dailyXpDay: old.dailyXpDay ?? null,
           onboardingDone: old.onboardingDone ?? false,

@@ -1,12 +1,16 @@
 import { Stack, router, useSegments } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect } from "react";
+import { View } from "react-native";
 
 import { useProgress } from "@/lib/store";
+import { useThemeColors, useThemeMode } from "@/lib/theme";
 
 export default function RootLayout() {
   const onboardingDone = useProgress((s) => s.onboardingDone);
   const segments = useSegments();
+  const colors = useThemeColors();
+  const themeMode = useThemeMode();
 
   useEffect(() => {
     const inOnboarding = segments[0] === "onboarding";
@@ -24,8 +28,8 @@ export default function RootLayout() {
   }, [onboardingDone, segments]);
 
   return (
-    <>
-      <StatusBar style="dark" />
+    <View style={{ flex: 1, backgroundColor: colors.background }}>
+      <StatusBar style={themeMode === "dark" ? "light" : "dark"} />
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="onboarding" />
         <Stack.Screen name="(tabs)" />
@@ -33,6 +37,6 @@ export default function RootLayout() {
         <Stack.Screen name="lesson/[id]" options={{ presentation: "fullScreenModal" }} />
         <Stack.Screen name="guidebook/[unitId]" options={{ presentation: "modal" }} />
       </Stack>
-    </>
+    </View>
   );
 }

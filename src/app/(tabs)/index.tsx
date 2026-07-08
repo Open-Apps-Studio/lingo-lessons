@@ -1,6 +1,6 @@
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import Animated, {
   useAnimatedStyle,
@@ -20,7 +20,7 @@ import {
   dailyXpToday,
   useProgress,
 } from "@/lib/store";
-import { colors, radius, unitPalette } from "@/lib/theme";
+import { radius, unitPalette, useThemeColors } from "@/lib/theme";
 
 function indentFor(index: number) {
   const cycleIndex = index % 8;
@@ -43,6 +43,8 @@ export default function LearnScreen() {
   const currentIndex = currentLessonIndex(courseProgress.completedLessons, lessonIds);
   const streak = currentStreak(progress);
   const streakLit = activeToday(progress);
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
 
   // Units cycle through the palette across the whole course.
   const unitColor = new Map<string, (typeof unitPalette)[number]>();
@@ -74,11 +76,13 @@ export default function LearnScreen() {
           }
           value={streak}
           color={streakLit ? colors.orange : colors.neutral400}
+          styles={styles}
         />
         <Stat
           icon={<Ionicons name="flash" size={21} color={colors.skyDark} />}
           value={courseProgress.xp}
           color={colors.skyDark}
+          styles={styles}
         />
       </View>
 
@@ -136,6 +140,8 @@ export default function LearnScreen() {
                           color={color}
                           label={`${unit.title}, lesson ${i + 1} of ${unitLessons.length}`}
                           onPress={() => router.push(`/lesson/${ref.lesson.id}`)}
+                          styles={styles}
+                          colors={colors}
                         />
                       );
                     })}
@@ -154,10 +160,12 @@ function Stat({
   icon,
   value,
   color,
+  styles,
 }: {
   icon: React.ReactNode;
   value: number;
   color: string;
+  styles: ReturnType<typeof createStyles>;
 }) {
   return (
     <View style={styles.stat}>
@@ -178,6 +186,8 @@ function LessonNode({
   color,
   label,
   onPress,
+  styles,
+  colors,
 }: {
   offset: number;
   completed: boolean;
@@ -187,6 +197,8 @@ function LessonNode({
   color: { main: string; dark: string };
   label: string;
   onPress: () => void;
+  styles: ReturnType<typeof createStyles>;
+  colors: ReturnType<typeof useThemeColors>;
 }) {
   const iconColor = locked ? colors.neutral400 : colors.white;
   const icon = completed ? (
@@ -207,7 +219,7 @@ function LessonNode({
       {current && (
         <BobbingBubble>
           <Text style={[styles.startText, { color: color.main }]}>START</Text>
-          <View style={styles.startArrow} />
+          <View style={[styles.startArrow, { borderTopColor: colors.neutral100 }]} />
         </BobbingBubble>
       )}
       <Pressable
@@ -235,6 +247,8 @@ function LessonNode({
 
 /** Duolingo-style gentle up/down bob for the START callout. */
 function BobbingBubble({ children }: { children: React.ReactNode }) {
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(colors), [colors]);
   const bob = useSharedValue(0);
   useEffect(() => {
     bob.set(
@@ -255,7 +269,7 @@ function BobbingBubble({ children }: { children: React.ReactNode }) {
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colors: ReturnType<typeof useThemeColors>) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   statsBar: {
     flexDirection: "row",
@@ -332,7 +346,7 @@ const styles = StyleSheet.create({
   },
   nodeLocked: { backgroundColor: colors.neutral200, borderColor: colors.neutral400 },
   startBubble: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.neutral100,
     borderWidth: 2,
     borderColor: colors.neutral200,
     borderRadius: radius.md,
@@ -358,6 +372,6 @@ const styles = StyleSheet.create({
     borderTopWidth: 7,
     borderLeftColor: "transparent",
     borderRightColor: "transparent",
-    borderTopColor: colors.white,
+    borderTopColor: colors.neutral100,
   },
 });

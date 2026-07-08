@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import {
   Pressable,
   StyleSheet,
@@ -7,18 +7,9 @@ import {
   type ViewStyle,
 } from "react-native";
 
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 
 type Variant = "primary" | "secondary" | "danger" | "super" | "locked" | "white";
-
-const palette: Record<Variant, { bg: string; border: string; text: string }> = {
-  primary: { bg: colors.sky, border: colors.skyDark, text: colors.white },
-  secondary: { bg: colors.green, border: colors.greenDark, text: colors.white },
-  danger: { bg: colors.rose, border: colors.roseDark, text: colors.white },
-  super: { bg: colors.indigo, border: colors.indigoDark, text: colors.white },
-  locked: { bg: colors.neutral200, border: colors.neutral400, text: colors.neutral400 },
-  white: { bg: colors.white, border: colors.neutral200, text: colors.textMuted },
-};
 
 type DuoButtonProps = {
   label: string;
@@ -36,6 +27,16 @@ export function DuoButton({
   disabled,
   style,
 }: DuoButtonProps) {
+  const colors = useThemeColors();
+  const styles = useMemo(() => createStyles(), []);
+  const palette: Record<Variant, { bg: string; border: string; text: string }> = {
+    primary: { bg: colors.sky, border: colors.skyDark, text: colors.white },
+    secondary: { bg: colors.green, border: colors.greenDark, text: colors.white },
+    danger: { bg: colors.rose, border: colors.roseDark, text: colors.white },
+    super: { bg: colors.indigo, border: colors.indigoDark, text: colors.white },
+    locked: { bg: colors.neutral200, border: colors.neutral400, text: colors.neutral400 },
+    white: { bg: colors.white, border: colors.neutral200, text: colors.textMuted },
+  };
   const c = palette[disabled ? "locked" : variant];
   return (
     <Pressable
@@ -58,18 +59,19 @@ export function DuoButton({
   );
 }
 
-const styles = StyleSheet.create({
-  base: {
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: radius.lg,
-    paddingVertical: 14,
-    paddingHorizontal: 16,
-  },
-  label: {
-    fontWeight: "800",
-    fontSize: 15,
-    textTransform: "uppercase",
-    letterSpacing: 0.8,
-  },
-});
+const createStyles = () =>
+  StyleSheet.create({
+    base: {
+      alignItems: "center",
+      justifyContent: "center",
+      borderRadius: radius.lg,
+      paddingVertical: 14,
+      paddingHorizontal: 16,
+    },
+    label: {
+      fontWeight: "800",
+      fontSize: 15,
+      textTransform: "uppercase",
+      letterSpacing: 0.8,
+    },
+  });
