@@ -3,13 +3,14 @@ import React from "react";
 import { Pressable, StyleSheet } from "react-native";
 
 import { exitScreen } from "@/lib/navigation";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors } from "@/lib/theme";
 
 /**
  * 44×44 close button (Apple's minimum touch target) — a bare text glyph was
  * too small to hit reliably, especially with large Dynamic Type sizes.
  */
 export function CloseButton({ onPress }: { onPress?: () => void }) {
+  const colors = useThemeColors();
   return (
     <Pressable
       onPress={onPress ?? (() => exitScreen())}

@@ -1,12 +1,21 @@
 import { Stack, router, useSegments } from "expo-router";
 import { StatusBar } from "expo-status-bar";
+import * as SystemUI from "expo-system-ui";
 import React, { useEffect } from "react";
 
 import { useProgress } from "@/lib/store";
+import { useResolvedScheme, useThemeColors } from "@/lib/theme";
 
 export default function RootLayout() {
   const onboardingDone = useProgress((s) => s.onboardingDone);
   const segments = useSegments();
+  const scheme = useResolvedScheme();
+  const colors = useThemeColors();
+
+  useEffect(() => {
+    // Root window color, so transitions and overscroll never flash white.
+    SystemUI.setBackgroundColorAsync(colors.background);
+  }, [colors.background]);
 
   useEffect(() => {
     const inOnboarding = segments[0] === "onboarding";
@@ -25,8 +34,13 @@ export default function RootLayout() {
 
   return (
     <>
-      <StatusBar style="dark" />
-      <Stack screenOptions={{ headerShown: false }}>
+      <StatusBar style={scheme === "dark" ? "light" : "dark"} />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+          contentStyle: { backgroundColor: colors.background },
+        }}
+      >
         <Stack.Screen name="onboarding" />
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="courses" options={{ presentation: "modal" }} />

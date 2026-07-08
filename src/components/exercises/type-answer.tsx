@@ -4,7 +4,7 @@ import { StyleSheet, Text, TextInput, View } from "react-native";
 import { SpeakerButton } from "@/components/speaker-button";
 import { speakTarget } from "@/lib/audio";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useResolvedScheme, useThemeColors } from "@/lib/theme";
 import type { TypeAnswerExercise } from "@/lib/types";
 
 type TypeAnswerProps = {
@@ -23,6 +23,9 @@ export function TypeAnswer({
   targetLanguage,
 }: TypeAnswerProps) {
   const courseId = useProgress((s) => s.activeCourseId);
+  const colors = useThemeColors();
+  const styles = useStyles();
+  const scheme = useResolvedScheme();
   const isListen = exercise.mode === "listen";
 
   useEffect(() => {
@@ -48,6 +51,7 @@ export function TypeAnswer({
         placeholderTextColor={colors.neutral400}
         autoCapitalize="none"
         autoCorrect={false}
+        keyboardAppearance={scheme}
         multiline
         style={[
           styles.input,
@@ -59,20 +63,22 @@ export function TypeAnswer({
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 20 },
-  title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
-  promptRow: { flexDirection: "row", alignItems: "center", gap: 12 },
-  prompt: { fontSize: 20, fontWeight: "700", color: colors.text, flexShrink: 1 },
-  input: {
-    minHeight: 110,
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.lg,
-    backgroundColor: colors.neutral100,
-    padding: 14,
-    fontSize: 17,
-    color: colors.text,
-    textAlignVertical: "top",
-  },
-});
+const useStyles = makeThemedStyles((colors) =>
+  StyleSheet.create({
+    container: { gap: 20 },
+    title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
+    promptRow: { flexDirection: "row", alignItems: "center", gap: 12 },
+    prompt: { fontSize: 20, fontWeight: "700", color: colors.text, flexShrink: 1 },
+    input: {
+      minHeight: 110,
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.lg,
+      backgroundColor: colors.neutral100,
+      padding: 14,
+      fontSize: 17,
+      color: colors.text,
+      textAlignVertical: "top",
+    },
+  })
+);

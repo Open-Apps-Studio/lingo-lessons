@@ -12,6 +12,7 @@ export const DEFAULT_COURSE = "es-en";
 /** Days of per-day history kept for the streak calendar and quests. */
 const DAY_HISTORY_LIMIT = 70;
 
+export type ThemePreference = "system" | "light" | "dark";
 export type WordStat = { correct: number; wrong: number; lastSeen: number };
 export type MistakeRef = { lessonId: string; exerciseId: string };
 export type DayActivity = { xp: number; lessons: number; perfect: number };
@@ -46,6 +47,8 @@ type ProgressState = {
   dailyXp: number;
   dailyXpDay: string | null;
   onboardingDone: boolean;
+  /** "system" follows the device's light/dark setting. */
+  themePreference: ThemePreference;
   courses: Record<string, CourseProgress>;
   /** Per-day activity across courses, for the streak calendar and quests. */
   activeDays: Record<string, DayActivity>;
@@ -57,6 +60,7 @@ type ProgressState = {
   recordWord: (target: string, correct: boolean) => void;
   reviewSrsWord: (target: string, correct: boolean) => void;
   setActiveCourse: (courseId: string) => void;
+  setThemePreference: (preference: ThemePreference) => void;
   finishOnboarding: (courseId: string, goal: number) => void;
 };
 
@@ -93,6 +97,7 @@ export const useProgress = create<ProgressState>()(
       dailyXp: 0,
       dailyXpDay: null,
       onboardingDone: false,
+      themePreference: "system",
       courses: {},
       activeDays: {},
 
@@ -173,6 +178,8 @@ export const useProgress = create<ProgressState>()(
         ),
 
       setActiveCourse: (courseId) => set({ activeCourseId: courseId }),
+
+      setThemePreference: (preference) => set({ themePreference: preference }),
 
       finishOnboarding: (courseId, goal) =>
         set({ activeCourseId: courseId, dailyGoal: goal, onboardingDone: true }),

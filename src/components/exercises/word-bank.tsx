@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import { SpeakerButton } from "@/components/speaker-button";
 import { haptics } from "@/lib/haptics";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useThemeColors } from "@/lib/theme";
 import type { WordBankExercise } from "@/lib/types";
 
 type WordBankProps = {
@@ -15,6 +15,8 @@ type WordBankProps = {
 };
 
 export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const locked = status !== "none";
 
   const pick = (index: number) => {
@@ -69,6 +71,7 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
 }
 
 function Chip({ label, onPress }: { label: string; onPress: () => void }) {
+  const styles = useStyles();
   return (
     <Pressable
       onPress={() => {
@@ -82,36 +85,38 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 20 },
-  title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
-  promptRow: { flexDirection: "row", alignItems: "center", gap: 12 },
-  prompt: { fontSize: 20, fontWeight: "700", color: colors.text, flexShrink: 1 },
-  answerArea: {
-    minHeight: 56,
-    borderTopWidth: 2,
-    borderBottomWidth: 2,
-    borderColor: colors.neutral200,
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-    paddingVertical: 8,
-    alignItems: "center",
-  },
-  pool: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-    justifyContent: "center",
-  },
-  chip: {
-    backgroundColor: colors.white,
-    borderWidth: 2,
-    borderColor: colors.neutral200,
-    borderRadius: radius.md,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-  },
-  chipGhost: { backgroundColor: colors.neutral200, borderColor: colors.neutral200 },
-  chipText: { fontSize: 17, fontWeight: "600", color: colors.text },
-});
+const useStyles = makeThemedStyles((colors) =>
+  StyleSheet.create({
+    container: { gap: 20 },
+    title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
+    promptRow: { flexDirection: "row", alignItems: "center", gap: 12 },
+    prompt: { fontSize: 20, fontWeight: "700", color: colors.text, flexShrink: 1 },
+    answerArea: {
+      minHeight: 56,
+      borderTopWidth: 2,
+      borderBottomWidth: 2,
+      borderColor: colors.neutral200,
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: 8,
+      paddingVertical: 8,
+      alignItems: "center",
+    },
+    pool: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      gap: 8,
+      justifyContent: "center",
+    },
+    chip: {
+      backgroundColor: colors.surface,
+      borderWidth: 2,
+      borderColor: colors.neutral200,
+      borderRadius: radius.md,
+      paddingHorizontal: 14,
+      paddingVertical: 10,
+    },
+    chipGhost: { backgroundColor: colors.neutral200, borderColor: colors.neutral200 },
+    chipText: { fontSize: 17, fontWeight: "600", color: colors.text },
+  })
+);

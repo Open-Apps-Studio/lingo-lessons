@@ -4,7 +4,7 @@ import { Pressable, StyleSheet } from "react-native";
 
 import { speakTarget } from "@/lib/audio";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useThemeColors } from "@/lib/theme";
 
 export function SpeakerButton({
   text,
@@ -14,6 +14,8 @@ export function SpeakerButton({
   size?: number;
 }) {
   const courseId = useProgress((s) => s.activeCourseId);
+  const colors = useThemeColors();
+  const styles = useStyles();
   return (
     <Pressable
       onPress={() => speakTarget(courseId, text)}
@@ -30,13 +32,15 @@ export function SpeakerButton({
   );
 }
 
-const styles = StyleSheet.create({
-  button: {
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: colors.sky,
-    borderColor: colors.skyDark,
-    borderBottomWidth: 4,
-    borderRadius: radius.md,
-  },
-});
+const useStyles = makeThemedStyles((colors) =>
+  StyleSheet.create({
+    button: {
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: colors.sky,
+      borderColor: colors.skyDark,
+      borderBottomWidth: 4,
+      borderRadius: radius.md,
+    },
+  })
+);

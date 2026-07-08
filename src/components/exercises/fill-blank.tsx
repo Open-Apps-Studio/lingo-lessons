@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import { colors } from "@/lib/theme";
+import { makeThemedStyles } from "@/lib/theme";
 import type { FillBlankExercise } from "@/lib/types";
 
 import { OptionCard, type OptionState } from "./option-card";
@@ -14,6 +14,7 @@ type FillBlankProps = {
 };
 
 export function FillBlank({ exercise, answer, onAnswer, status }: FillBlankProps) {
+  const styles = useStyles();
   const filled =
     answer !== null
       ? exercise.sentence.replace("___", exercise.options[answer])
@@ -47,10 +48,12 @@ export function FillBlank({ exercise, answer, onAnswer, status }: FillBlankProps
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 16 },
-  title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
-  sentence: { fontSize: 22, fontWeight: "700", color: colors.text },
-  translation: { fontSize: 15, color: colors.textMuted },
-  options: { gap: 10, marginTop: 8 },
-});
+const useStyles = makeThemedStyles((colors) =>
+  StyleSheet.create({
+    container: { gap: 16 },
+    title: { fontSize: 22, fontWeight: "800", color: colors.neutral700 },
+    sentence: { fontSize: 22, fontWeight: "700", color: colors.text },
+    translation: { fontSize: 15, color: colors.textMuted },
+    options: { gap: 10, marginTop: 8 },
+  })
+);

@@ -42,7 +42,7 @@ import {
   XP_PER_LESSON,
   XP_PERFECT_BONUS,
 } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useThemeColors } from "@/lib/theme";
 import type { Exercise } from "@/lib/types";
 
 type Status = "none" | "correct" | "wrong";
@@ -110,6 +110,8 @@ function answerIsReady(exercise: Exercise, answer: Answer): boolean {
 }
 
 export default function LessonScreen() {
+  const colors = useThemeColors();
+  const styles = useStyles();
   const { id } = useLocalSearchParams<{ id: string }>();
   const insets = useSafeAreaInsets();
   const progress = useProgress();
@@ -466,6 +468,7 @@ function ResultCard({
   icon?: React.ReactNode;
   color: string;
 }) {
+  const styles = useStyles();
   return (
     <View style={[styles.resultCard, { borderColor: color }]}>
       <View style={[styles.resultCardHeader, { backgroundColor: color }]}>
@@ -479,7 +482,7 @@ function ResultCard({
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   header: {
     flexDirection: "row",
@@ -561,11 +564,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     gap: 6,
     paddingVertical: 12,
-    backgroundColor: colors.white,
+    backgroundColor: colors.surface,
   },
   resultCardValue: {
     textAlign: "center",
     fontSize: 22,
     fontWeight: "800",
   },
-});
+}));

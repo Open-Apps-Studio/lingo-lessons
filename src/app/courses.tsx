@@ -7,9 +7,10 @@ import { Flag } from "@/components/flag";
 import { exitScreen } from "@/lib/navigation";
 import { orderedCourses } from "@/lib/content";
 import { useProgress } from "@/lib/store";
-import { colors, radius } from "@/lib/theme";
+import { makeThemedStyles, radius } from "@/lib/theme";
 
 export default function CoursesScreen() {
+  const styles = useStyles();
   const { activeCourseId, setActiveCourse, courses } = useProgress();
 
   return (
@@ -53,7 +54,7 @@ export default function CoursesScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const useStyles = makeThemedStyles((colors) => StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   topBar: {
     flexDirection: "row",
@@ -85,4 +86,4 @@ const styles = StyleSheet.create({
     color: colors.green,
     textTransform: "uppercase",
   },
-});
+}));

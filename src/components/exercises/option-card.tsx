@@ -2,16 +2,24 @@ import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
 import { haptics } from "@/lib/haptics";
-import { colors, radius } from "@/lib/theme";
+import { radius, useThemeColors, type ThemeColors } from "@/lib/theme";
 
 export type OptionState = "idle" | "selected" | "correct" | "wrong";
 
-const stateColors: Record<OptionState, { border: string; bg: string; text: string }> = {
-  idle: { border: colors.neutral200, bg: colors.white, text: colors.text },
-  selected: { border: colors.sky, bg: "#e0f2fe", text: colors.skyDark },
-  correct: { border: colors.greenLight, bg: colors.correctBg, text: colors.correctText },
-  wrong: { border: colors.rose, bg: colors.wrongBg, text: colors.wrongText },
-};
+function stateColors(
+  colors: ThemeColors
+): Record<OptionState, { border: string; bg: string; text: string }> {
+  return {
+    idle: { border: colors.neutral200, bg: colors.surface, text: colors.text },
+    selected: { border: colors.sky, bg: colors.selectedBg, text: colors.selectedText },
+    correct: {
+      border: colors.greenLight,
+      bg: colors.correctBg,
+      text: colors.correctText,
+    },
+    wrong: { border: colors.rose, bg: colors.wrongBg, text: colors.wrongText },
+  };
+}
 
 type OptionCardProps = {
   text: string;
@@ -30,7 +38,7 @@ export function OptionCard({
   disabled,
   compact,
 }: OptionCardProps) {
-  const c = stateColors[state];
+  const c = stateColors(useThemeColors())[state];
   return (
     <Pressable
       onPress={() => {
