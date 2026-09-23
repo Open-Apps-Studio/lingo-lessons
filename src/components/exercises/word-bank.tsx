@@ -78,9 +78,13 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
         haptics.tap();
         onPress();
       }}
+      accessibilityRole="button"
+      accessibilityLabel={label}
       style={({ pressed }) => [styles.chip, { borderBottomWidth: pressed ? 2 : 4 }]}
     >
-      <Text style={styles.chipText}>{label}</Text>
+      <Text style={styles.chipText} maxFontSizeMultiplier={1.3}>
+        {label}
+      </Text>
     </Pressable>
   );
 }

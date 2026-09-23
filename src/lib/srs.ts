@@ -27,7 +27,7 @@ export function reviewWord(entry: SrsEntry | undefined, quality: 0 | 1 | 2): Srs
   let interval: number;
   if (newStreak === 1) interval = 1;
   else if (newStreak === 2) interval = 3;
-  else interval = Math.round(base.interval * base.ease);
+  else interval = Math.max(1, Math.round((base.interval || 1) * base.ease));
 
   const ease =
     quality === 1

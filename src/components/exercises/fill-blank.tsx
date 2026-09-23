@@ -13,12 +13,30 @@ type FillBlankProps = {
   status: "none" | "correct" | "wrong";
 };
 
+export function ensureBlank(sentence: string, correctOption?: string): string {
+  if (sentence.includes("___")) return sentence;
+  if (!correctOption) return sentence;
+  const cleanOption = correctOption.replace(/[.,!?¿¡;:"'、。！？]/g, "").toLowerCase();
+  const words = sentence.split(/\s+/);
+  const idx = words.findIndex(
+    (w) => w.replace(/[.,!?¿¡;:"'、。！？]/g, "").toLowerCase() === cleanOption
+  );
+  if (idx !== -1) {
+    const token = words[idx];
+    const trailingPunct = token.match(/[.,!?¿¡;:"'、。！？]+$/)?.[0] ?? "";
+    words[idx] = `___${trailingPunct}`;
+    return words.join(" ");
+  }
+  return sentence;
+}
+
 export function FillBlank({ exercise, answer, onAnswer, status }: FillBlankProps) {
   const styles = useStyles();
+  const baseSentence = ensureBlank(exercise.sentence, exercise.options[exercise.correct]);
   const filled =
     answer !== null
-      ? exercise.sentence.replace("___", exercise.options[answer])
-      : exercise.sentence;
+      ? baseSentence.replace("___", exercise.options[answer])
+      : baseSentence;
 
   const optionState = (index: number): OptionState => {
     if (status === "none") return answer === index ? "selected" : "idle";

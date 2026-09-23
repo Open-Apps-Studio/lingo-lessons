@@ -17,16 +17,22 @@ export default function CoursesScreen() {
     <SafeAreaView style={styles.screen} edges={["top", "left", "right"]}>
       <View style={styles.topBar}>
         <CloseButton />
-        <Text style={styles.title}>Courses</Text>
+        <Text style={styles.title} maxFontSizeMultiplier={1.2}>
+          Courses
+        </Text>
         <View style={{ width: 44 }} />
       </View>
 
       <ScrollView contentContainerStyle={styles.body}>
-        <Text style={styles.subtitle}>Switch language anytime. Progress is saved per course.</Text>
+        <Text style={styles.subtitle} maxFontSizeMultiplier={1.3}>
+          Switch language anytime. Progress is saved per course.
+        </Text>
         {orderedCourses.map((course) => {
           const prog = courses[course.id];
           const lessonsDone = prog
-            ? Object.keys(prog.completedLessons).length
+            ? Object.keys(prog.completedLessons).filter(
+                (id) => id !== "mistakes" && id !== "srs"
+              ).length
             : 0;
           const active = course.id === activeCourseId;
           return (
@@ -36,12 +42,20 @@ export default function CoursesScreen() {
                 setActiveCourse(course.id);
                 exitScreen();
               }}
+              accessibilityRole="button"
+              accessibilityLabel={`${course.targetLanguage}, ${lessonsDone} of ${course.lessonCount} lessons`}
+              accessibilityState={{ selected: active }}
+              accessibilityHint={
+                active ? "Current active course" : `Switch to ${course.targetLanguage}`
+              }
               style={[styles.card, active && styles.cardActive]}
             >
               <Flag courseId={course.id} size={44} />
               <View style={{ flex: 1 }}>
-                <Text style={styles.langName}>{course.targetLanguage}</Text>
-                <Text style={styles.meta}>
+                <Text style={styles.langName} maxFontSizeMultiplier={1.3}>
+                  {course.targetLanguage}
+                </Text>
+                <Text style={styles.meta} maxFontSizeMultiplier={1.3}>
                   {lessonsDone}/{course.lessonCount} lessons · {course.unitCount} units
                 </Text>
               </View>

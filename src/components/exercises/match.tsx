@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 import { speakTarget } from "@/lib/audio";
@@ -52,6 +52,16 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
   const [matched, setMatched] = useState<Set<string>>(new Set());
   const [wrongFlash, setWrongFlash] = useState<Set<string>>(new Set());
   const wrongAttempts = useRef(0);
+  const flashTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // The lesson keys Match per queue position, so a retried exercise remounts
+  // with fresh state; only the pending wrong-flash timer needs cleanup.
+  useEffect(
+    () => () => {
+      if (flashTimeout.current) clearTimeout(flashTimeout.current);
+    },
+    []
+  );
 
   const targetOf = (native: string) =>
     exercise.pairs.find((p) => p.native === native)?.target;
@@ -70,7 +80,8 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
       wrongAttempts.current += 1;
       const flash = new Set([target, native]);
       setWrongFlash(flash);
-      setTimeout(() => setWrongFlash(new Set()), 600);
+      if (flashTimeout.current) clearTimeout(flashTimeout.current);
+      flashTimeout.current = setTimeout(() => setWrongFlash(new Set()), 600);
     }
     setSelectedTarget(null);
     setSelectedNative(null);
@@ -100,6 +111,10 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
               disabled={matched.has(target)}
               onPress={() => {
                 speakTarget(courseId, target);
+                if (selectedTarget === target) {
+                  setSelectedTarget(null);
+                  return;
+                }
                 setSelectedTarget(target);
                 tryMatch(target, selectedNative);
               }}
@@ -114,6 +129,10 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
               state={stateFor(native, targetOf(native) ?? "", selectedNative === native)}
               disabled={matched.has(targetOf(native) ?? "")}
               onPress={() => {
+                if (selectedNative === native) {
+                  setSelectedNative(null);
+                  return;
+                }
                 setSelectedNative(native);
                 tryMatch(selectedTarget, native);
               }}

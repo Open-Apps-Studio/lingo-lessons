@@ -40,7 +40,8 @@ export default function LearnScreen() {
   const courseProgress = progress.course();
   const { pack, allLessons } = useCourseContent(activeCourseId);
   const todayXp = dailyXpToday(progress);
-  const goalPct = Math.min(100, (todayXp / dailyGoal) * 100);
+  const goalPct =
+    dailyGoal > 0 ? Math.min(100, Math.max(0, (todayXp / dailyGoal) * 100)) : 0;
   const lessonIds = allLessons.map((l) => l.lesson.id);
   const currentIndex = currentLessonIndex(courseProgress.completedLessons, lessonIds);
   const streak = currentStreak(progress);
@@ -96,7 +97,9 @@ export default function LearnScreen() {
       <ScrollView contentContainerStyle={styles.path}>
         {pack.sections.map((section) => (
           <View key={section.id}>
-            <Text style={styles.sectionTitle}>{section.title}</Text>
+            <Text style={styles.sectionTitle} maxFontSizeMultiplier={1.3}>
+              {section.title}
+            </Text>
             {section.units.map((unit) => {
               const unitLessons = allLessons.filter((l) => l.unit.id === unit.id);
               const color = unitColor.get(unit.id) ?? unitPalette[0];
@@ -104,8 +107,12 @@ export default function LearnScreen() {
                 <View key={unit.id}>
                   <View style={[styles.banner, { backgroundColor: color.main }]}>
                     <View style={{ flex: 1, gap: 4 }}>
-                      <Text style={styles.bannerTitle}>{unit.title}</Text>
-                      <Text style={styles.bannerSubtitle}>{unit.description}</Text>
+                      <Text style={styles.bannerTitle} maxFontSizeMultiplier={1.3}>
+                        {unit.title}
+                      </Text>
+                      <Text style={styles.bannerSubtitle} maxFontSizeMultiplier={1.3}>
+                        {unit.description}
+                      </Text>
                     </View>
                     <Pressable
                       style={({ pressed }) => [
@@ -357,6 +364,7 @@ const useStyles = makeThemedStyles((colors) => StyleSheet.create({
     position: "absolute",
     bottom: -7,
     left: "50%",
+    transform: [{ translateX: -7 }],
     width: 0,
     height: 0,
     borderLeftWidth: 7,

@@ -46,6 +46,12 @@ export function OptionCard({
         onPress();
       }}
       disabled={disabled}
+      accessibilityRole="button"
+      accessibilityLabel={text}
+      accessibilityState={{
+        selected: state === "selected",
+        disabled: !!disabled,
+      }}
       style={({ pressed }) => [
         styles.card,
         compact ? styles.compact : styles.full,
@@ -58,7 +64,9 @@ export function OptionCard({
     >
       {emoji ? <Text style={styles.emoji}>{emoji}</Text> : null}
       <View style={styles.textWrap}>
-        <Text style={[styles.text, { color: c.text }]}>{text}</Text>
+        <Text style={[styles.text, { color: c.text }]} maxFontSizeMultiplier={1.3}>
+          {text}
+        </Text>
       </View>
     </Pressable>
   );

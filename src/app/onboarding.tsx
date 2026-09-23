@@ -8,9 +8,11 @@ import { DuoButton } from "@/components/duo-button";
 import { Flag } from "@/components/flag";
 import { catalog, orderedCourses } from "@/lib/content";
 import { DAILY_GOAL_OPTIONS, DEFAULT_COURSE, useProgress } from "@/lib/store";
-import { makeThemedStyles, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useResolvedScheme, useThemeColors } from "@/lib/theme";
 
 export default function OnboardingScreen() {
+  const colors = useThemeColors();
+  const scheme = useResolvedScheme();
   const styles = useStyles();
   const finishOnboarding = useProgress((s) => s.finishOnboarding);
   const [courseId, setCourseId] = useState(
@@ -21,6 +23,7 @@ export default function OnboardingScreen() {
   const [goal, setGoal] = useState<number>(20);
 
   const selected = catalog.courses.find((c) => c.id === courseId);
+  const activeGreen = scheme === "dark" ? colors.green : colors.greenDark;
 
   return (
     <SafeAreaView style={styles.screen}>
@@ -30,48 +33,67 @@ export default function OnboardingScreen() {
           style={styles.mascot}
           contentFit="contain"
         />
-        <Text style={styles.title}>Welcome!</Text>
-        <Text style={styles.subtitle}>
+        <Text style={styles.title} maxFontSizeMultiplier={1.3}>
+          Welcome!
+        </Text>
+        <Text style={styles.subtitle} maxFontSizeMultiplier={1.3}>
           Pick a language and start learning with bite-sized lessons, real audio, and
           spaced repetition.
         </Text>
 
-        <Text style={styles.sectionLabel}>I want to learn</Text>
+        <Text style={styles.sectionLabel} maxFontSizeMultiplier={1.3}>
+          I want to learn
+        </Text>
         <View style={styles.langGrid}>
           {orderedCourses.map((course) => (
             <Pressable
               key={course.id}
               onPress={() => setCourseId(course.id)}
+              accessibilityRole="button"
+              accessibilityLabel={`${course.targetLanguage}, ${course.unitCount} units, ${course.lessonCount} lessons`}
+              accessibilityState={{ selected: courseId === course.id }}
               style={[styles.langChip, courseId === course.id && styles.langChipActive]}
             >
               <Flag courseId={course.id} size={32} />
               <Text
                 style={[
                   styles.langName,
-                  courseId === course.id && styles.langNameActive,
+                  courseId === course.id && { color: activeGreen },
                 ]}
+                maxFontSizeMultiplier={1.3}
               >
                 {course.targetLanguage}
               </Text>
-              <Text style={styles.langMeta}>
+              <Text style={styles.langMeta} maxFontSizeMultiplier={1.3}>
                 {course.unitCount} units · {course.lessonCount} lessons
               </Text>
             </Pressable>
           ))}
         </View>
 
-        <Text style={styles.sectionLabel}>Daily XP goal</Text>
+        <Text style={styles.sectionLabel} maxFontSizeMultiplier={1.3}>
+          Daily XP goal
+        </Text>
         <View style={styles.goals}>
           {DAILY_GOAL_OPTIONS.map((g) => (
             <Pressable
               key={g}
               onPress={() => setGoal(g)}
+              accessibilityRole="button"
+              accessibilityLabel={`${g} XP per day, ${g <= 10 ? "Casual" : g <= 20 ? "Regular" : g <= 30 ? "Serious" : "Intense"}`}
+              accessibilityState={{ selected: goal === g }}
               style={[styles.goalChip, goal === g && styles.goalChipActive]}
             >
-              <Text style={[styles.goalText, goal === g && styles.goalTextActive]}>
+              <Text
+                style={[styles.goalText, goal === g && { color: activeGreen }]}
+                maxFontSizeMultiplier={1.3}
+              >
                 {g} XP
               </Text>
-              <Text style={[styles.goalHint, goal === g && styles.goalTextActive]}>
+              <Text
+                style={[styles.goalHint, goal === g && { color: activeGreen }]}
+                maxFontSizeMultiplier={1.3}
+              >
                 {g <= 10 ? "Casual" : g <= 20 ? "Regular" : g <= 30 ? "Serious" : "Intense"}
               </Text>
             </Pressable>

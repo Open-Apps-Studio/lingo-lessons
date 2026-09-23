@@ -36,10 +36,14 @@ export default function PracticeScreen() {
   return (
     <SafeAreaView style={styles.screen} edges={["top", "left", "right"]}>
       <ScrollView contentContainerStyle={styles.body}>
-        <Text style={styles.heading}>Practice</Text>
+        <Text style={styles.heading} maxFontSizeMultiplier={1.3}>
+          Practice
+        </Text>
         <View style={styles.courseRow}>
           <Flag courseId={activeCourseId} size={20} />
-          <Text style={styles.courseLabel}>{pack.targetLanguage}</Text>
+          <Text style={styles.courseLabel} maxFontSizeMultiplier={1.3}>
+            {pack.targetLanguage}
+          </Text>
         </View>
 
         <View style={styles.card}>
@@ -94,11 +98,13 @@ export default function PracticeScreen() {
 
         <View style={styles.card}>
           <View style={styles.cardHeader}>
-            <Ionicons name="book" size={24} color={colors.greenDark} />
-            <Text style={styles.cardTitle}>Words ({words.length})</Text>
+            <Ionicons name="book" size={24} color={colors.green} />
+            <Text style={styles.cardTitle} maxFontSizeMultiplier={1.3}>
+              Words ({words.length})
+            </Text>
           </View>
           {words.length === 0 ? (
-            <Text style={styles.cardSubtitle}>
+            <Text style={styles.cardSubtitle} maxFontSizeMultiplier={1.3}>
               Words you learn will show up here with their strength.
             </Text>
           ) : (
@@ -106,20 +112,27 @@ export default function PracticeScreen() {
               .sort((a, b) => (b.stat?.lastSeen ?? 0) - (a.stat?.lastSeen ?? 0))
               .map((word) => {
                 const total = (word.stat?.correct ?? 0) + (word.stat?.wrong ?? 0);
-                const strength = total === 0 ? 0 : (word.stat!.correct / total) * 100;
+                const strength =
+                  total > 0 ? Math.min(100, Math.max(0, (word.stat!.correct / total) * 100)) : 0;
                 const due = word.srs ? dueInDays(word.srs) : null;
                 return (
                   <View key={word.target} style={styles.wordRow}>
                     <SpeakerButton text={word.target} size={36} />
                     <View style={{ flex: 1 }}>
-                      <Text style={styles.wordTarget}>
+                      <Text style={styles.wordTarget} maxFontSizeMultiplier={1.3}>
                         {word.emoji} {word.target}
                       </Text>
-                      <Text style={styles.wordNative}>{word.native}</Text>
+                      <Text style={styles.wordNative} maxFontSizeMultiplier={1.3}>
+                        {word.native}
+                      </Text>
                       {due !== null && due === 0 ? (
-                        <Text style={styles.dueBadge}>Due now</Text>
+                        <Text style={styles.dueBadge} maxFontSizeMultiplier={1.2}>
+                          Due now
+                        </Text>
                       ) : due !== null && due <= 3 ? (
-                        <Text style={styles.dueSoon}>Review in {due}d</Text>
+                        <Text style={styles.dueSoon} maxFontSizeMultiplier={1.2}>
+                          Review in {due}d
+                        </Text>
                       ) : null}
                     </View>
                     <View style={styles.strengthTrack}>
@@ -151,7 +164,8 @@ export default function PracticeScreen() {
 function QuestRow({ quest }: { quest: Quest }) {
   const colors = useThemeColors();
   const styles = useStyles();
-  const pct = (quest.value / quest.target) * 100;
+  const pct =
+    quest.target > 0 ? Math.min(100, Math.max(0, (quest.value / quest.target) * 100)) : 0;
   return (
     <View style={styles.questRow}>
       <View style={{ flex: 1, gap: 6 }}>

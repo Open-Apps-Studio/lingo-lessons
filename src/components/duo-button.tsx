@@ -45,6 +45,9 @@ export function DuoButton({
     <Pressable
       onPress={onPress}
       disabled={disabled}
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      accessibilityState={{ disabled: !!disabled }}
       style={({ pressed }) => [
         styles.base,
         {
@@ -57,7 +60,9 @@ export function DuoButton({
         style,
       ]}
     >
-      <Text style={[styles.label, { color: c.text }]}>{label}</Text>
+      <Text style={[styles.label, { color: c.text }]} maxFontSizeMultiplier={1.3}>
+        {label}
+      </Text>
     </Pressable>
   );
 }

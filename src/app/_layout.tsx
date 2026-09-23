@@ -1,16 +1,28 @@
 import { Stack, router, useSegments } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import * as SystemUI from "expo-system-ui";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import { useProgress } from "@/lib/store";
 import { useResolvedScheme, useThemeColors } from "@/lib/theme";
 
 export default function RootLayout() {
+  const [hydrated, setHydrated] = useState(() => useProgress.persist.hasHydrated());
   const onboardingDone = useProgress((s) => s.onboardingDone);
   const segments = useSegments();
   const scheme = useResolvedScheme();
   const colors = useThemeColors();
+
+  useEffect(() => {
+    if (useProgress.persist.hasHydrated()) {
+      setHydrated(true);
+      return;
+    }
+    const unsub = useProgress.persist.onFinishHydration(() => setHydrated(true));
+    return () => {
+      unsub();
+    };
+  }, []);
 
   useEffect(() => {
     // Root window color, so transitions and overscroll never flash white.
@@ -18,6 +30,7 @@ export default function RootLayout() {
   }, [colors.background]);
 
   useEffect(() => {
+    if (!hydrated) return;
     const inOnboarding = segments[0] === "onboarding";
     const state = useProgress.getState();
     const hasProgress = Object.values(state.courses).some(
@@ -30,7 +43,7 @@ export default function RootLayout() {
     } else if (!shouldShowOnboarding && inOnboarding) {
       router.replace("/(tabs)");
     }
-  }, [onboardingDone, segments]);
+  }, [hydrated, onboardingDone, segments]);
 
   return (
     <>

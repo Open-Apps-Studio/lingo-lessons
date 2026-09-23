@@ -1,7 +1,7 @@
 import catalogJson from "../content/catalog.json";
 import { PACKS } from "../content/packs/index";
 
-import type { Catalog, LessonPack, Pack, UnitPack } from "./types";
+import type { Catalog, LessonPack, Pack, UnitPack, Word } from "./types";
 
 export const catalog = catalogJson as Catalog;
 
@@ -39,34 +39,49 @@ function buildLessonIndex(pack: Pack): { list: LessonRef[]; byId: Map<string, Le
   return { list, byId };
 }
 
-let cachedCourseId: string | null = null;
-let cachedList: LessonRef[] = [];
-let cachedById = new Map<string, LessonRef>();
+type CourseCacheEntry = {
+  pack: Pack;
+  list: LessonRef[];
+  byId: Map<string, LessonRef>;
+  unitById: Map<string, UnitPack>;
+  allWords: Word[];
+  wordByTarget: Map<string, Word>;
+};
 
-export function useCourseContent(courseId: string) {
-  if (cachedCourseId !== courseId) {
+const courseCache = new Map<string, CourseCacheEntry>();
+
+function getCourseCache(courseId: string): CourseCacheEntry {
+  let cached = courseCache.get(courseId);
+  if (!cached) {
     const pack = getPack(courseId);
     const { list, byId } = buildLessonIndex(pack);
-    cachedCourseId = courseId;
-    cachedList = list;
-    cachedById = byId;
-  }
-  const pack = getPack(courseId);
-  return {
-    pack,
-    allLessons: cachedList,
-    getLesson: (id: string) => cachedById.get(id),
-    getUnit: (unitId: string) => {
-      for (const section of pack.sections) {
-        const unit = section.units.find((u) => u.id === unitId);
-        if (unit) return unit;
+    const unitById = new Map<string, UnitPack>();
+    for (const section of pack.sections) {
+      for (const unit of section.units) {
+        unitById.set(unit.id, unit);
       }
-      return undefined;
-    },
-    allWords: () => pack.sections.flatMap((s) => s.units.flatMap((u) => u.words)),
-    getWord: (target: string) =>
-      pack.sections
-        .flatMap((s) => s.units.flatMap((u) => u.words))
-        .find((w) => w.target === target),
+    }
+    const allWords = pack.sections.flatMap((s) => s.units.flatMap((u) => u.words));
+    const wordByTarget = new Map<string, Word>();
+    for (const w of allWords) {
+      if (!wordByTarget.has(w.target)) {
+        wordByTarget.set(w.target, w);
+      }
+    }
+    cached = { pack, list, byId, unitById, allWords, wordByTarget };
+    courseCache.set(courseId, cached);
+  }
+  return cached;
+}
+
+export function useCourseContent(courseId: string) {
+  const cached = getCourseCache(courseId);
+  return {
+    pack: cached.pack,
+    allLessons: cached.list,
+    getLesson: (id: string) => cached.byId.get(id),
+    getUnit: (unitId: string) => cached.unitById.get(unitId),
+    allWords: () => cached.allWords,
+    getWord: (target: string) => cached.wordByTarget.get(target),
   };
 }

@@ -27,7 +27,7 @@ import {
 
 import { CloseButton } from "@/components/close-button";
 import { DuoButton } from "@/components/duo-button";
-import { FillBlank } from "@/components/exercises/fill-blank";
+import { FillBlank, ensureBlank } from "@/components/exercises/fill-blank";
 import { Match } from "@/components/exercises/match";
 import { Select } from "@/components/exercises/select";
 import { TypeAnswer } from "@/components/exercises/type-answer";
@@ -84,8 +84,10 @@ function correctAnswerText(exercise: Exercise): string {
   switch (exercise.type) {
     case "select":
       return exercise.options[exercise.correct].text;
-    case "fillBlank":
-      return exercise.sentence.replace("___", exercise.options[exercise.correct]);
+    case "fillBlank": {
+      const sentence = ensureBlank(exercise.sentence, exercise.options[exercise.correct]);
+      return sentence.replace("___", exercise.options[exercise.correct]);
+    }
     case "wordBank":
       return exercise.answer.join(" ");
     case "typeAnswer":
@@ -116,7 +118,6 @@ export default function LessonScreen() {
   const insets = useSafeAreaInsets();
   const progress = useProgress();
   const { activeCourseId } = progress;
-  const courseProgress = progress.course();
   const { pack, getLesson, allWords, getWord } = useCourseContent(activeCourseId);
   const sfx = useSfx();
 
@@ -129,20 +130,26 @@ export default function LessonScreen() {
       const word = getWord(target);
       if (!word) return [];
       const distractors = pool
-        .filter((w) => w.target !== target)
+        .filter((w) => w.target !== target && w.native !== word.native)
+        .sort(() => Math.random() - 0.5)
         .slice(0, 3)
         .map((w) => ({ text: w.native }));
-      const options = [{ text: word.native, emoji: word.emoji }, ...distractors].slice(
+      const unindexedOptions = [{ text: word.native, emoji: word.emoji }, ...distractors].slice(
         0,
         4
       );
+      const options = [...unindexedOptions];
+      for (let i = options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [options[i], options[j]] = [options[j], options[i]];
+      }
       const correctIndex = options.findIndex((o) => o.text === word.native);
       return [
         {
           type: "select" as const,
           id: `srs-${target}`,
           mode: "targetToNative" as const,
-          prompt: "What does this mean?",
+          prompt: word.target,
           audioTarget: word.target,
           options,
           correct: correctIndex >= 0 ? correctIndex : 0,
@@ -152,8 +159,9 @@ export default function LessonScreen() {
   };
 
   const { exercises, lessonId, alreadyCompleted } = useMemo(() => {
+    const course = useProgress.getState().course();
     if (isMistakes) {
-      const list = courseProgress.mistakes
+      const list = course.mistakes
         .map((m) => {
           const ref = getLesson(m.lessonId);
           return ref?.lesson.exercises.find((e) => e.id === m.exerciseId);
@@ -163,7 +171,7 @@ export default function LessonScreen() {
       return { exercises: list, lessonId: "mistakes", alreadyCompleted: true };
     }
     if (isSrs) {
-      const due = dueSrsWords(courseProgress.srs);
+      const due = dueSrsWords(course.srs);
       return {
         exercises: buildSrsExercises(due),
         lessonId: "srs",
@@ -174,10 +182,10 @@ export default function LessonScreen() {
     return {
       exercises: ref?.lesson.exercises ?? [],
       lessonId: ref?.lesson.id ?? "",
-      alreadyCompleted: !!courseProgress.completedLessons[ref?.lesson.id ?? ""],
+      alreadyCompleted: !!course.completedLessons[ref?.lesson.id ?? ""],
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, activeCourseId, courseProgress.mistakes, courseProgress.srs]);
+  }, [id, activeCourseId]);
 
   const isPractice = isMistakes || isSrs || alreadyCompleted;
 
@@ -210,7 +218,7 @@ export default function LessonScreen() {
     progressBar.set(withSpring(percentage, { damping: 20, stiffness: 160 }));
   }, [percentage, progressBar]);
   const progressBarStyle = useAnimatedStyle(() => ({
-    width: `${progressBar.get()}%`,
+    width: `${Math.max(0, Math.min(100, progressBar.get()))}%`,
   }));
 
   useEffect(() => {
@@ -369,6 +377,7 @@ export default function LessonScreen() {
           )}
           {exercise.type === "match" && (
             <Match
+              key={`${exercise.id}-${index}`}
               exercise={exercise}
               onComplete={(wrongAttempts) => {
                 if (wrongAttempts > 0) {

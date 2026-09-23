@@ -31,7 +31,7 @@ export function speakTarget(courseId: string, text: string) {
   if (source) {
     if (!voicePlayer) voicePlayer = createAudioPlayer(source);
     else voicePlayer.replace(source);
-    voicePlayer.seekTo(0);
+    voicePlayer.seekTo(0).catch(() => {});
     voicePlayer.play();
     return;
   }
@@ -46,7 +46,7 @@ export function useSfx() {
   const finish = useAudioPlayer(require("@/assets/sfx/finish.mp3"));
 
   const play = (player: ReturnType<typeof useAudioPlayer>) => {
-    player.seekTo(0);
+    player.seekTo(0).catch(() => {});
     player.play();
   };
 

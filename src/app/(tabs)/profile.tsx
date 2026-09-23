@@ -14,7 +14,7 @@ import {
   useProgress,
   type ThemePreference,
 } from "@/lib/store";
-import { makeThemedStyles, radius, useThemeColors } from "@/lib/theme";
+import { makeThemedStyles, radius, useResolvedScheme, useThemeColors } from "@/lib/theme";
 
 const THEME_OPTIONS: { value: ThemePreference; label: string; icon: string }[] = [
   { value: "system", label: "Device", icon: "phone-portrait-outline" },
@@ -24,6 +24,7 @@ const THEME_OPTIONS: { value: ThemePreference; label: string; icon: string }[] =
 
 export default function ProfileScreen() {
   const colors = useThemeColors();
+  const scheme = useResolvedScheme();
   const styles = useStyles();
   const progress = useProgress();
   const { themePreference, setThemePreference } = progress;
@@ -33,6 +34,8 @@ export default function ProfileScreen() {
   const todayXp = dailyXpToday(progress);
   const streak = currentStreak(progress);
   const week = lastSevenDays(progress);
+
+  const activeGreen = scheme === "dark" ? colors.green : colors.greenDark;
 
   const lessonsDone = Object.keys(courseProgress.completedLessons).filter((id) =>
     allLessons.some((l) => l.lesson.id === id)
@@ -85,13 +88,26 @@ export default function ProfileScreen() {
             style={styles.mascot}
             contentFit="contain"
           />
-          <Text style={styles.name}>My Progress</Text>
-          <Pressable onPress={() => router.push("/courses")} style={styles.courseRow}>
-            <Text style={styles.subtitle}>Learning</Text>
+          <Text style={styles.name} maxFontSizeMultiplier={1.3}>
+            My Progress
+          </Text>
+          <Pressable
+            onPress={() => router.push("/courses")}
+            style={styles.courseRow}
+            accessibilityRole="button"
+            accessibilityLabel={`Learning ${pack.targetLanguage}. Switch course.`}
+          >
+            <Text style={styles.subtitle} maxFontSizeMultiplier={1.3}>
+              Learning
+            </Text>
             <Flag courseId={activeCourseId} size={18} />
-            <Text style={styles.subtitle}>{pack.targetLanguage}</Text>
+            <Text style={styles.subtitle} maxFontSizeMultiplier={1.3}>
+              {pack.targetLanguage}
+            </Text>
             <View style={styles.switchRow}>
-              <Text style={styles.switch}>Switch</Text>
+              <Text style={styles.switch} maxFontSizeMultiplier={1.3}>
+                Switch
+              </Text>
               <Ionicons name="chevron-down" size={12} color={colors.green} />
             </View>
           </Pressable>
@@ -136,8 +152,12 @@ export default function ProfileScreen() {
           {stats.map((stat) => (
             <View key={stat.label} style={styles.statCard}>
               {stat.icon}
-              <Text style={styles.statValue}>{stat.value}</Text>
-              <Text style={styles.statLabel}>{stat.label}</Text>
+              <Text style={styles.statValue} maxFontSizeMultiplier={1.3}>
+                {stat.value}
+              </Text>
+              <Text style={styles.statLabel} maxFontSizeMultiplier={1.3}>
+                {stat.label}
+              </Text>
             </View>
           ))}
         </View>
@@ -145,7 +165,9 @@ export default function ProfileScreen() {
         <View style={styles.settingsCard}>
           <View style={styles.settingsHeader}>
             <Ionicons name="color-palette-outline" size={22} color={colors.indigo} />
-            <Text style={styles.settingsTitle}>Appearance</Text>
+            <Text style={styles.settingsTitle} maxFontSizeMultiplier={1.3}>
+              Appearance
+            </Text>
           </View>
           <View style={styles.themeRow}>
             {THEME_OPTIONS.map((option) => {
@@ -162,16 +184,22 @@ export default function ProfileScreen() {
                   <Ionicons
                     name={option.icon as keyof typeof Ionicons.glyphMap}
                     size={20}
-                    color={active ? colors.greenDark : colors.textMuted}
+                    color={active ? activeGreen : colors.textMuted}
                   />
-                  <Text style={[styles.themeLabel, active && styles.themeLabelActive]}>
+                  <Text
+                    style={[
+                      styles.themeLabel,
+                      active && { color: activeGreen },
+                    ]}
+                    maxFontSizeMultiplier={1.3}
+                  >
                     {option.label}
                   </Text>
                 </Pressable>
               );
             })}
           </View>
-          <Text style={styles.settingsHint}>
+          <Text style={styles.settingsHint} maxFontSizeMultiplier={1.3}>
             Device follows your phone&apos;s light or dark setting.
           </Text>
         </View>

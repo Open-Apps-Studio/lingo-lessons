@@ -36,7 +36,15 @@ function emptyCourseProgress(): CourseProgress {
 }
 
 function dayString(date: Date) {
-  return date.toISOString().slice(0, 10);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function getYesterday(date = new Date()) {
+  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 1);
+  return dayString(d);
 }
 
 type ProgressState = {
@@ -106,7 +114,7 @@ export const useProgress = create<ProgressState>()(
       completeLesson: (lessonId, perfect) =>
         set((state) => {
           const today = dayString(new Date());
-          const yesterday = dayString(new Date(Date.now() - 86_400_000));
+          const yesterday = getYesterday();
           const streak =
             state.lastActiveDay === today
               ? state.streak
@@ -127,7 +135,10 @@ export const useProgress = create<ProgressState>()(
           const courseUpdate = updateCourse(state, state.activeCourseId, (c) => ({
             ...c,
             xp: c.xp + earned,
-            completedLessons: { ...c.completedLessons, [lessonId]: true },
+            completedLessons:
+              lessonId === "mistakes" || lessonId === "srs"
+                ? c.completedLessons
+                : { ...c.completedLessons, [lessonId]: true },
           }));
           return { streak, lastActiveDay: today, activeDays, ...daily, ...courseUpdate };
         }),
@@ -171,10 +182,21 @@ export const useProgress = create<ProgressState>()(
 
       reviewSrsWord: (target, correct) =>
         set((state) =>
-          updateCourse(state, state.activeCourseId, (c) => ({
-            ...c,
-            srs: { ...c.srs, [target]: reviewWord(c.srs[target], correct ? 2 : 0) },
-          }))
+          updateCourse(state, state.activeCourseId, (c) => {
+            const prev = c.wordStats[target] ?? { correct: 0, wrong: 0, lastSeen: 0 };
+            return {
+              ...c,
+              wordStats: {
+                ...c.wordStats,
+                [target]: {
+                  correct: prev.correct + (correct ? 1 : 0),
+                  wrong: prev.wrong + (correct ? 0 : 1),
+                  lastSeen: Date.now(),
+                },
+              },
+              srs: { ...c.srs, [target]: reviewWord(c.srs[target], correct ? 2 : 0) },
+            };
+          })
         ),
 
       setActiveCourse: (courseId) => set({ activeCourseId: courseId }),
@@ -243,7 +265,7 @@ export function currentStreak(
   now = new Date()
 ) {
   const today = dayString(now);
-  const yesterday = dayString(new Date(now.getTime() - 86_400_000));
+  const yesterday = getYesterday(now);
   return state.lastActiveDay === today || state.lastActiveDay === yesterday
     ? state.streak
     : 0;
@@ -274,6 +296,7 @@ export function dailyQuests(
   state: Pick<ProgressState, "activeDays" | "dailyGoal">
 ): Quest[] {
   const today = todayActivity(state);
+  const goal = Math.max(1, state.dailyGoal || DEFAULT_DAILY_GOAL);
   const make = (id: string, label: string, target: number, value: number): Quest => ({
     id,
     label,
@@ -282,7 +305,7 @@ export function dailyQuests(
     done: value >= target,
   });
   return [
-    make("xp", `Earn ${state.dailyGoal} XP`, state.dailyGoal, today.xp),
+    make("xp", `Earn ${goal} XP`, goal, today.xp),
     make("lessons", "Complete 3 lessons", 3, today.lessons),
     make("perfect", "Get 1 perfect lesson", 1, today.perfect),
   ];
@@ -291,8 +314,9 @@ export function dailyQuests(
 /** Rolling 7-day window ending today, for the streak calendar strip. */
 export function lastSevenDays(state: Pick<ProgressState, "activeDays">) {
   const out: { day: string; weekday: string; active: boolean; isToday: boolean }[] = [];
+  const now = new Date();
   for (let i = 6; i >= 0; i--) {
-    const date = new Date(Date.now() - i * 86_400_000);
+    const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
     const day = dayString(date);
     out.push({
       day,
