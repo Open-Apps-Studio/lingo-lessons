@@ -1035,14 +1035,14 @@
                 {
                   "type": "fillBlank",
                   "id": "it-en:u0-l3-e8",
-                  "sentence": "Bevo l'acqua.",
+                  "sentence": "___ l'acqua.",
                   "translation": "I drink the water.",
                   "audioTarget": "Bevo l'acqua.",
                   "options": [
                     "bere",
                     "latte",
                     "bambino",
-                    "lacqua"
+                    "Bevo"
                   ],
                   "correct": 3
                 },
@@ -2687,13 +2687,13 @@
                 {
                   "type": "fillBlank",
                   "id": "it-en:u2-l1-e8",
-                  "sentence": "Bevo l'acqua.",
+                  "sentence": "___ l'acqua.",
                   "translation": "I drink the water.",
                   "audioTarget": "Bevo l'acqua.",
                   "options": [
                     "l'uovo",
                     "mangiare",
-                    "lacqua",
+                    "Bevo",
                     "formaggio"
                   ],
                   "correct": 2
@@ -4600,16 +4600,16 @@
                 {
                   "type": "fillBlank",
                   "id": "it-en:u4-l0-e8",
-                  "sentence": "Dov'è la stazione?",
+                  "sentence": "Dov'è la ___?",
                   "translation": "Where is the station?",
                   "audioTarget": "Dov'è la stazione?",
                   "options": [
+                    "l'albergo",
+                    "stazione",
                     "museo",
-                    "viaggio",
-                    "Dovè",
-                    "l'aeroporto"
+                    "viaggio"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -4628,12 +4628,12 @@
                       "native": "the station"
                     },
                     {
-                      "target": "la strada",
-                      "native": "the street"
+                      "target": "l'albergo",
+                      "native": "the hotel"
                     },
                     {
-                      "target": "l'autobus",
-                      "native": "the bus"
+                      "target": "la valigia",
+                      "native": "the suitcase"
                     }
                   ]
                 },

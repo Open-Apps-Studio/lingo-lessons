@@ -296,14 +296,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u0-l0-e8",
-                  "sentence": "___がくせいです。",
+                  "sentence": "___は がくせいです。",
                   "translation": "I am a student.",
                   "audioTarget": "わたしは がくせいです。",
                   "options": [
+                    "男の子",
+                    "女の人",
                     "わたし",
-                    "男の人",
-                    "わたしは",
-                    "男の子"
+                    "のみます"
                   ],
                   "correct": 2
                 },
@@ -324,12 +324,12 @@
                       "native": "the boy"
                     },
                     {
-                      "target": "パン",
-                      "native": "the bread"
+                      "target": "です",
+                      "native": "to be (polite)"
                     },
                     {
-                      "target": "女の子",
-                      "native": "the girl"
+                      "target": "のみます",
+                      "native": "to drink"
                     }
                   ]
                 },
@@ -553,7 +553,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u0-l1-e8",
-                  "sentence": "あのひとは___人です。",
+                  "sentence": "あの ひとは ___ 人です。",
                   "translation": "That person is a woman.",
                   "audioTarget": "あの ひとは 女の 人です。",
                   "options": [
@@ -808,7 +808,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u0-l2-e8",
-                  "sentence": "___子は女の子です。",
+                  "sentence": "___ 子は 女の 子です。",
                   "translation": "That child is a girl.",
                   "audioTarget": "あの 子は 女の 子です。",
                   "options": [
@@ -1057,16 +1057,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u0-l3-e8",
-                  "sentence": "パンを___。",
+                  "sentence": "パンを ___。",
                   "translation": "I eat bread.",
                   "audioTarget": "パンを たべます。",
                   "options": [
-                    "わたし",
-                    "のみます",
+                    "女の子",
                     "たべます",
-                    "です"
+                    "です",
+                    "のみます"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -1085,8 +1085,8 @@
                       "native": "I / me"
                     },
                     {
-                      "target": "パン",
-                      "native": "the bread"
+                      "target": "みず",
+                      "native": "the water"
                     },
                     {
                       "target": "ぎゅうにゅう",
@@ -1396,16 +1396,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u1-l0-e8",
-                  "sentence": "はじめまして。よろしくお願いします。",
+                  "sentence": "___。よろしくお願いします。",
                   "translation": "Nice to meet you. Please treat me well.",
                   "audioTarget": "はじめまして。よろしくお願いします。",
                   "options": [
-                    "はじめましてよろしくお願いします",
-                    "はい",
-                    "すみません",
-                    "ありがとう"
+                    "ありがとうございます",
+                    "さようなら",
+                    "おやすみなさい",
+                    "はじめまして"
                   ],
-                  "correct": 0
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -1424,8 +1424,8 @@
                       "native": "Good evening"
                     },
                     {
-                      "target": "ありがとう",
-                      "native": "Thank you"
+                      "target": "さようなら",
+                      "native": "Goodbye"
                     },
                     {
                       "target": "はい",
@@ -1649,14 +1649,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u1-l1-e8",
-                  "sentence": "こんにちは、お元気ですか？",
+                  "sentence": "___、お元気ですか？",
                   "translation": "Hello, how are you?",
                   "audioTarget": "こんにちは、お元気ですか？",
                   "options": [
-                    "こんにちはお元気ですか",
                     "こんにちは",
-                    "さようなら",
-                    "いいえ"
+                    "おはようございます",
+                    "はじめまして",
+                    "さようなら"
                   ],
                   "correct": 0
                 },
@@ -1677,12 +1677,12 @@
                       "native": "Nice to meet you"
                     },
                     {
-                      "target": "いいえ",
-                      "native": "No"
+                      "target": "ありがとう",
+                      "native": "Thank you"
                     },
                     {
-                      "target": "ありがとうございます",
-                      "native": "Thank you (polite)"
+                      "target": "はい",
+                      "native": "Yes"
                     }
                   ]
                 },
@@ -1912,8 +1912,8 @@
                   "options": [
                     "ありがとうございます",
                     "いいえ",
-                    "こんばんは",
-                    "ありがとう"
+                    "はじめまして",
+                    "おはようございます"
                   ],
                   "correct": 0
                 },
@@ -2490,14 +2490,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u2-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "___がのみたいです。",
                   "translation": "I want to drink coffee.",
                   "audioTarget": "コーヒーがのみたいです。",
                   "options": [
-                    "コーヒーがのみたいです",
                     "コーヒー",
-                    "おちゃ",
-                    "くだもの"
+                    "くだもの",
+                    "ジュース",
+                    "おちゃ"
                   ],
                   "correct": 0
                 },
@@ -2518,12 +2518,12 @@
                       "native": "the juice"
                     },
                     {
-                      "target": "さかな",
-                      "native": "the fish"
+                      "target": "チーズ",
+                      "native": "the cheese"
                     },
                     {
-                      "target": "くだもの",
-                      "native": "the fruit"
+                      "target": "ケーキ",
+                      "native": "the cake"
                     }
                   ]
                 },
@@ -2737,16 +2737,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u2-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "___をください。",
                   "translation": "Water, please.",
                   "audioTarget": "みずをください。",
                   "options": [
-                    "くだもの",
-                    "にく",
-                    "ごはん",
-                    "みずをください"
+                    "おちゃ",
+                    "ジュース",
+                    "みず",
+                    "にく"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -2765,12 +2765,12 @@
                       "native": "the bread"
                     },
                     {
-                      "target": "さかな",
-                      "native": "the fish"
-                    },
-                    {
                       "target": "にく",
                       "native": "the meat"
+                    },
+                    {
+                      "target": "おちゃ",
+                      "native": "the tea"
                     }
                   ]
                 },
@@ -2986,16 +2986,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u2-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___をたべました。",
                   "translation": "I ate bread.",
                   "audioTarget": "パンをたべました。",
                   "options": [
-                    "たまご",
+                    "ごはん",
+                    "パン",
                     "にく",
-                    "パンをたべました",
-                    "パン"
+                    "たまご"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -3014,12 +3014,12 @@
                       "native": "the fruit"
                     },
                     {
-                      "target": "ごはん",
-                      "native": "the rice"
+                      "target": "にく",
+                      "native": "the meat"
                     },
                     {
-                      "target": "パン",
-                      "native": "the bread"
+                      "target": "ごはん",
+                      "native": "the rice"
                     }
                   ]
                 },
@@ -3237,16 +3237,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u2-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___がほしいです。",
                   "translation": "I want fruit.",
                   "audioTarget": "くだものがほしいです。",
                   "options": [
-                    "くだものがほしいです",
-                    "ケーキ",
-                    "コーヒー",
-                    "たまご"
+                    "みず",
+                    "ごはん",
+                    "おちゃ",
+                    "くだもの"
                   ],
-                  "correct": 0
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -3265,8 +3265,8 @@
                       "native": "the cake"
                     },
                     {
-                      "target": "ごはん",
-                      "native": "the rice"
+                      "target": "みず",
+                      "native": "the water"
                     },
                     {
                       "target": "チーズ",
@@ -3572,16 +3572,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u3-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "___は大きいです。",
                   "translation": "The dog is big.",
                   "audioTarget": "犬は大きいです。",
                   "options": [
                     "豚",
-                    "猫",
-                    "鳥",
-                    "犬は大きいです"
+                    "牛",
+                    "犬",
+                    "馬"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -3600,12 +3600,12 @@
                       "native": "horse"
                     },
                     {
-                      "target": "牛",
-                      "native": "cow"
+                      "target": "豚",
+                      "native": "pig"
                     },
                     {
-                      "target": "パンダ",
-                      "native": "panda"
+                      "target": "牛",
+                      "native": "cow"
                     }
                   ]
                 },
@@ -3825,16 +3825,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u3-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "___は速いです。",
                   "translation": "The horse is fast.",
                   "audioTarget": "馬は速いです。",
                   "options": [
+                    "鳥",
+                    "猫",
                     "豚",
-                    "馬は速いです",
-                    "馬",
-                    "猿"
+                    "馬"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -3853,12 +3853,12 @@
                       "native": "cow"
                     },
                     {
-                      "target": "パンダ",
-                      "native": "panda"
+                      "target": "ライオン",
+                      "native": "lion"
                     },
                     {
-                      "target": "猿",
-                      "native": "monkey"
+                      "target": "象",
+                      "native": "elephant"
                     }
                   ]
                 },
@@ -4086,16 +4086,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u3-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___は水の中にいます。",
                   "translation": "The fish is in the water.",
                   "audioTarget": "魚は水の中にいます。",
                   "options": [
-                    "兎",
                     "ライオン",
-                    "馬",
-                    "魚は水の中にいます"
+                    "兎",
+                    "魚",
+                    "猫"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -4118,8 +4118,8 @@
                       "native": "dog"
                     },
                     {
-                      "target": "鳥",
-                      "native": "bird"
+                      "target": "馬",
+                      "native": "horse"
                     }
                   ]
                 },
@@ -4337,16 +4337,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u3-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "私は___が好きです。",
                   "translation": "I like dogs.",
                   "audioTarget": "私は犬が好きです。",
                   "options": [
-                    "ライオン",
-                    "私は犬が好きです",
+                    "犬",
                     "猿",
-                    "兎"
+                    "ライオン",
+                    "魚"
                   ],
-                  "correct": 1
+                  "correct": 0
                 },
                 {
                   "type": "match",
@@ -4365,12 +4365,12 @@
                       "native": "panda"
                     },
                     {
-                      "target": "豚",
-                      "native": "pig"
+                      "target": "牛",
+                      "native": "cow"
                     },
                     {
-                      "target": "犬",
-                      "native": "dog"
+                      "target": "象",
+                      "native": "elephant"
                     }
                   ]
                 },
@@ -4678,16 +4678,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u4-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "___はどこですか。",
                   "translation": "Where is the train station?",
                   "audioTarget": "駅はどこですか。",
                   "options": [
-                    "町",
+                    "電車",
+                    "駅",
                     "バス",
-                    "駅はどこですか",
-                    "電車"
+                    "切符"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -4706,12 +4706,12 @@
                       "native": "the hotel"
                     },
                     {
-                      "target": "道",
-                      "native": "the street"
-                    },
-                    {
                       "target": "町",
                       "native": "the city"
+                    },
+                    {
+                      "target": "荷物",
+                      "native": "the luggage"
                     }
                   ]
                 },
@@ -4937,14 +4937,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u4-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "___に泊まります。",
                   "translation": "I am staying at a hotel.",
                   "audioTarget": "ホテルに泊まります。",
                   "options": [
-                    "博物館",
                     "道",
                     "町",
-                    "ホテルに泊まります"
+                    "博物館",
+                    "ホテル"
                   ],
                   "correct": 3
                 },
@@ -4965,12 +4965,12 @@
                       "native": "the museum"
                     },
                     {
-                      "target": "切符",
-                      "native": "the ticket"
+                      "target": "地図",
+                      "native": "the map"
                     },
                     {
-                      "target": "荷物",
-                      "native": "the luggage"
+                      "target": "切符",
+                      "native": "the ticket"
                     }
                   ]
                 },
@@ -5196,14 +5196,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u4-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___で町に行きます。",
                   "translation": "I go to the city by train.",
                   "audioTarget": "電車で町に行きます。",
                   "options": [
-                    "電車で町に行きます",
+                    "電車",
                     "空港",
-                    "町",
-                    "電車"
+                    "バス",
+                    "ホテル"
                   ],
                   "correct": 0
                 },
@@ -5224,12 +5224,12 @@
                       "native": "the train"
                     },
                     {
-                      "target": "町",
-                      "native": "the city"
+                      "target": "ホテル",
+                      "native": "the hotel"
                     },
                     {
-                      "target": "道",
-                      "native": "the street"
+                      "target": "駅",
+                      "native": "the train station"
                     }
                   ]
                 },
@@ -5453,16 +5453,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u4-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___を見てもいいですか。",
                   "translation": "May I see the map?",
                   "audioTarget": "地図を見てもいいですか。",
                   "options": [
+                    "道",
+                    "地図",
                     "町",
-                    "博物館",
-                    "地図を見てもいいですか",
-                    "地図"
+                    "切符"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -5481,12 +5481,12 @@
                       "native": "the luggage"
                     },
                     {
-                      "target": "地図",
-                      "native": "the map"
+                      "target": "町",
+                      "native": "the city"
                     },
                     {
-                      "target": "電車",
-                      "native": "the train"
+                      "target": "博物館",
+                      "native": "the museum"
                     }
                   ]
                 },
@@ -5790,16 +5790,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u5-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "___は優しいです。",
                   "translation": "My father is kind.",
                   "audioTarget": "父は優しいです。",
                   "options": [
+                    "兄弟",
                     "弟",
                     "父",
-                    "赤ちゃん",
-                    "父は優しいです"
+                    "祖父"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -5818,12 +5818,12 @@
                       "native": "the mother"
                     },
                     {
-                      "target": "両親",
-                      "native": "the parents"
+                      "target": "祖父",
+                      "native": "the grandfather"
                     },
                     {
-                      "target": "祖母",
-                      "native": "the grandmother"
+                      "target": "弟",
+                      "native": "the younger brother"
                     }
                   ]
                 },
@@ -6049,16 +6049,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u5-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "___は東京にいます。",
                   "translation": "My older brother is in Tokyo.",
                   "audioTarget": "兄は東京にいます。",
                   "options": [
-                    "姉",
-                    "祖母",
-                    "兄は東京にいます",
-                    "母"
+                    "祖父",
+                    "兄",
+                    "兄弟",
+                    "祖母"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -6081,8 +6081,8 @@
                       "native": "the family"
                     },
                     {
-                      "target": "妹",
-                      "native": "the younger sister"
+                      "target": "両親",
+                      "native": "the parents"
                     }
                   ]
                 },
@@ -6308,14 +6308,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u5-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___が笑っています。",
                   "translation": "The baby is smiling.",
                   "audioTarget": "赤ちゃんが笑っています。",
                   "options": [
                     "姉",
                     "家族",
-                    "赤ちゃんが笑っています",
-                    "弟"
+                    "赤ちゃん",
+                    "妹"
                   ],
                   "correct": 2
                 },
@@ -6336,12 +6336,12 @@
                       "native": "the grandmother"
                     },
                     {
-                      "target": "兄弟",
-                      "native": "the siblings"
+                      "target": "両親",
+                      "native": "the parents"
                     },
                     {
-                      "target": "母",
-                      "native": "the mother"
+                      "target": "兄弟",
+                      "native": "the siblings"
                     }
                   ]
                 },
@@ -6563,16 +6563,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u5-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___は元気です。",
                   "translation": "My grandfather is well.",
                   "audioTarget": "祖父は元気です。",
                   "options": [
+                    "祖母",
+                    "祖父",
                     "家族",
-                    "妹",
-                    "祖父は元気です",
-                    "母"
+                    "妹"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -6591,12 +6591,12 @@
                       "native": "the siblings"
                     },
                     {
-                      "target": "父",
-                      "native": "the father"
-                    },
-                    {
                       "target": "弟",
                       "native": "the younger brother"
+                    },
+                    {
+                      "target": "家族",
+                      "native": "the family"
                     }
                   ]
                 },
@@ -6900,16 +6900,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u6-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "これは___ですか。",
                   "translation": "How much is this?",
                   "audioTarget": "これはいくらですか。",
                   "options": [
+                    "レシート",
                     "財布",
-                    "カード",
-                    "高い",
-                    "これはいくらですか"
+                    "いくら",
+                    "市場"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -6928,8 +6928,8 @@
                       "native": "the yen"
                     },
                     {
-                      "target": "袋",
-                      "native": "the bag"
+                      "target": "財布",
+                      "native": "the wallet"
                     },
                     {
                       "target": "買う",
@@ -7159,16 +7159,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u6-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "この店はとても___です。",
                   "translation": "This shop is very cheap.",
                   "audioTarget": "この店はとても安いです。",
                   "options": [
-                    "この店はとても安いです",
+                    "円",
                     "いくら",
-                    "袋",
-                    "安い"
+                    "安い",
+                    "カード"
                   ],
-                  "correct": 0
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -7187,12 +7187,12 @@
                       "native": "how much"
                     },
                     {
-                      "target": "袋",
-                      "native": "the bag"
+                      "target": "カード",
+                      "native": "the card"
                     },
                     {
-                      "target": "買う",
-                      "native": "to buy"
+                      "target": "円",
+                      "native": "the yen"
                     }
                   ]
                 },
@@ -7418,16 +7418,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u6-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___で払えますか。",
                   "translation": "Can I pay by card?",
                   "audioTarget": "カードで払えますか。",
                   "options": [
-                    "カードで払えますか",
+                    "買う",
+                    "カード",
                     "市場",
-                    "安い",
-                    "財布"
+                    "お金"
                   ],
-                  "correct": 0
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -7450,8 +7450,8 @@
                       "native": "how much"
                     },
                     {
-                      "target": "袋",
-                      "native": "the bag"
+                      "target": "レシート",
+                      "native": "the receipt"
                     }
                   ]
                 },
@@ -7673,16 +7673,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u6-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___をお願いします。",
                   "translation": "A bag, please.",
                   "audioTarget": "袋をお願いします。",
                   "options": [
-                    "袋をお願いします",
-                    "財布",
-                    "安い",
-                    "買う"
+                    "高い",
+                    "袋",
+                    "市場",
+                    "レシート"
                   ],
-                  "correct": 0
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -7701,12 +7701,12 @@
                       "native": "the card"
                     },
                     {
-                      "target": "店",
-                      "native": "the shop"
+                      "target": "高い",
+                      "native": "expensive"
                     },
                     {
-                      "target": "いくら",
-                      "native": "how much"
+                      "target": "お金",
+                      "native": "the money"
                     }
                   ]
                 },
@@ -8016,16 +8016,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u7-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "今日はいい___ですね。",
                   "translation": "The weather is nice today, isn't it?",
                   "audioTarget": "今日はいい天気ですね。",
                   "options": [
                     "雲",
-                    "寒い",
-                    "今日はいい天気ですね",
-                    "雨"
+                    "天気",
+                    "春",
+                    "寒い"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -8044,12 +8044,12 @@
                       "native": "the snow"
                     },
                     {
-                      "target": "寒い",
-                      "native": "cold"
+                      "target": "冬",
+                      "native": "the winter"
                     },
                     {
-                      "target": "風",
-                      "native": "the wind"
+                      "target": "春",
+                      "native": "the spring"
                     }
                   ]
                 },
@@ -8269,16 +8269,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u7-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "外は___が降っています。",
                   "translation": "It is raining outside.",
                   "audioTarget": "外は雨が降っています。",
                   "options": [
-                    "寒い",
-                    "外は雨が降っています",
                     "雨",
-                    "天気"
+                    "暑い",
+                    "天気",
+                    "雪"
                   ],
-                  "correct": 1
+                  "correct": 0
                 },
                 {
                   "type": "match",
@@ -8297,12 +8297,12 @@
                       "native": "the cloud"
                     },
                     {
-                      "target": "雪",
-                      "native": "the snow"
+                      "target": "夏",
+                      "native": "the summer"
                     },
                     {
-                      "target": "天気",
-                      "native": "the weather"
+                      "target": "寒い",
+                      "native": "cold"
                     }
                   ]
                 },
@@ -8528,14 +8528,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u7-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "今日は___が強いです。",
                   "translation": "The wind is strong today.",
                   "audioTarget": "今日は風が強いです。",
                   "options": [
-                    "今日は風が強いです",
-                    "春",
                     "風",
-                    "天気"
+                    "暑い",
+                    "天気",
+                    "雪"
                   ],
                   "correct": 0
                 },
@@ -8556,8 +8556,8 @@
                       "native": "the spring"
                     },
                     {
-                      "target": "秋",
-                      "native": "the autumn"
+                      "target": "風",
+                      "native": "the wind"
                     },
                     {
                       "target": "太陽",
@@ -8791,16 +8791,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u7-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "今日の夜は___です。",
                   "translation": "Tonight is cold.",
                   "audioTarget": "今日の夜は寒いです。",
                   "options": [
-                    "今日の夜は寒いです",
-                    "寒い",
                     "暑い",
-                    "雨"
+                    "冬",
+                    "夏",
+                    "寒い"
                   ],
-                  "correct": 0
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -8823,8 +8823,8 @@
                       "native": "the spring"
                     },
                     {
-                      "target": "雲",
-                      "native": "the cloud"
+                      "target": "暑い",
+                      "native": "hot"
                     }
                   ]
                 },
@@ -9126,16 +9126,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u8-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "私は___です。",
                   "translation": "I am a student.",
                   "audioTarget": "私は学生です。",
                   "options": [
-                    "学校",
+                    "事務所",
                     "授業",
-                    "会社員",
-                    "私は学生です"
+                    "学生",
+                    "学校"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -9154,12 +9154,12 @@
                       "native": "the doctor"
                     },
                     {
-                      "target": "会社",
-                      "native": "the company"
-                    },
-                    {
                       "target": "仕事",
                       "native": "the work"
+                    },
+                    {
+                      "target": "会社",
+                      "native": "the company"
                     }
                   ]
                 },
@@ -9387,16 +9387,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u8-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "父は___で働いています。",
                   "translation": "My father works at a hospital.",
                   "audioTarget": "父は病院で働いています。",
                   "options": [
+                    "仕事",
                     "教室",
-                    "医者",
-                    "学生",
-                    "父は病院で働いています"
+                    "病院",
+                    "学生"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -9415,12 +9415,12 @@
                       "native": "the office"
                     },
                     {
-                      "target": "仕事",
-                      "native": "the work"
+                      "target": "宿題",
+                      "native": "the homework"
                     },
                     {
-                      "target": "学生",
-                      "native": "the student"
+                      "target": "授業",
+                      "native": "the class"
                     }
                   ]
                 },
@@ -9642,14 +9642,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u8-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___を忘れました。",
                   "translation": "I forgot the homework.",
                   "audioTarget": "宿題を忘れました。",
                   "options": [
-                    "宿題を忘れました",
-                    "学校",
-                    "学生",
-                    "教室"
+                    "宿題",
+                    "会社員",
+                    "医者",
+                    "会社"
                   ],
                   "correct": 0
                 },
@@ -9670,8 +9670,8 @@
                       "native": "the work"
                     },
                     {
-                      "target": "事務所",
-                      "native": "the office"
+                      "target": "教室",
+                      "native": "the classroom"
                     },
                     {
                       "target": "先生",
@@ -9905,16 +9905,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u8-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___で書類を書きます。",
                   "translation": "I write documents in the office.",
                   "audioTarget": "事務所で書類を書きます。",
                   "options": [
-                    "宿題",
-                    "授業",
-                    "先生",
-                    "事務所で書類を書きます"
+                    "学生",
+                    "医者",
+                    "事務所",
+                    "宿題"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -9937,8 +9937,8 @@
                       "native": "the student"
                     },
                     {
-                      "target": "会社員",
-                      "native": "the office worker"
+                      "target": "仕事",
+                      "native": "the work"
                     }
                   ]
                 },
@@ -10236,16 +10236,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u9-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "頭が___です。",
                   "translation": "My head hurts.",
                   "audioTarget": "頭が痛いです。",
                   "options": [
+                    "熱",
                     "痛い",
-                    "足",
-                    "風邪",
-                    "頭が痛いです"
+                    "病院",
+                    "薬"
                   ],
-                  "correct": 3
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -10264,8 +10264,8 @@
                       "native": "the eye"
                     },
                     {
-                      "target": "痛い",
-                      "native": "painful"
+                      "target": "お腹",
+                      "native": "the stomach"
                     },
                     {
                       "target": "病院",
@@ -10491,22 +10491,8 @@
                   ]
                 },
                 {
-                  "type": "fillBlank",
-                  "id": "ja-en:u9-l1-e8",
-                  "sentence": "___。",
-                  "translation": "I am very tired today.",
-                  "audioTarget": "今日はとても疲れました。",
-                  "options": [
-                    "目",
-                    "手",
-                    "風邪",
-                    "今日はとても疲れました"
-                  ],
-                  "correct": 3
-                },
-                {
                   "type": "match",
-                  "id": "ja-en:u9-l1-e9",
+                  "id": "ja-en:u9-l1-e8",
                   "pairs": [
                     {
                       "target": "足",
@@ -10521,18 +10507,18 @@
                       "native": "the hospital"
                     },
                     {
-                      "target": "風邪",
-                      "native": "the cold"
+                      "target": "手",
+                      "native": "the hand"
                     },
                     {
-                      "target": "目",
-                      "native": "the eye"
+                      "target": "熱",
+                      "native": "the fever"
                     }
                   ]
                 },
                 {
                   "type": "typeAnswer",
-                  "id": "ja-en:u9-l1-e10",
+                  "id": "ja-en:u9-l1-e9",
                   "mode": "translate",
                   "prompt": "病院へ行きましょう。",
                   "audioTarget": "病院へ行きましょう。",
@@ -10746,16 +10732,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u9-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "この___を飲んでください。",
                   "translation": "Please take this medicine.",
                   "audioTarget": "この薬を飲んでください。",
                   "options": [
-                    "医者",
+                    "病院",
+                    "薬",
                     "痛い",
-                    "この薬を飲んでください",
                     "疲れた"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -10774,12 +10760,12 @@
                       "native": "the cold"
                     },
                     {
-                      "target": "疲れた",
-                      "native": "tired"
+                      "target": "痛い",
+                      "native": "painful"
                     },
                     {
-                      "target": "手",
-                      "native": "the hand"
+                      "target": "病院",
+                      "native": "the hospital"
                     }
                   ]
                 },
@@ -11003,16 +10989,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ja-en:u9-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___がありますか。",
                   "translation": "Do you have a fever?",
                   "audioTarget": "熱がありますか。",
                   "options": [
-                    "お腹",
+                    "風邪",
                     "熱",
-                    "熱がありますか",
+                    "足",
                     "痛い"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -11031,12 +11017,12 @@
                       "native": "tired"
                     },
                     {
-                      "target": "病院",
-                      "native": "the hospital"
-                    },
-                    {
                       "target": "お腹",
                       "native": "the stomach"
+                    },
+                    {
+                      "target": "医者",
+                      "native": "the doctor"
                     }
                   ]
                 },

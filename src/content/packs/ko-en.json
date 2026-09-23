@@ -294,16 +294,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u0-l0-e8",
-                  "sentence": "저는___.",
+                  "sentence": "저는 ___예요.",
                   "translation": "I am a man.",
                   "audioTarget": "저는 남자예요.",
                   "options": [
-                    "먹다",
-                    "여자",
-                    "남자예요",
-                    "물"
+                    "사과",
+                    "남자",
+                    "물",
+                    "빵"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -322,12 +322,12 @@
                       "native": "the boy"
                     },
                     {
-                      "target": "마시다",
-                      "native": "to drink"
+                      "target": "먹다",
+                      "native": "to eat"
                     },
                     {
-                      "target": "예요",
-                      "native": "to be (polite)"
+                      "target": "사과",
+                      "native": "the apple"
                     }
                   ]
                 },
@@ -547,14 +547,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u0-l1-e8",
-                  "sentence": "___소년이에요.",
+                  "sentence": "저는 ___이에요.",
                   "translation": "I am a boy.",
                   "audioTarget": "저는 소년이에요.",
                   "options": [
-                    "우유",
                     "마시다",
+                    "물",
                     "남자",
-                    "저는"
+                    "소년"
                   ],
                   "correct": 3
                 },
@@ -575,12 +575,12 @@
                       "native": "the bread"
                     },
                     {
-                      "target": "여자",
-                      "native": "the woman"
+                      "target": "먹다",
+                      "native": "to eat"
                     },
                     {
-                      "target": "저",
-                      "native": "I (humble)"
+                      "target": "마시다",
+                      "native": "to drink"
                     }
                   ]
                 },
@@ -798,16 +798,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u0-l2-e8",
-                  "sentence": "저는___먹어요.",
+                  "sentence": "저는 ___를 먹어요.",
                   "translation": "I eat an apple.",
                   "audioTarget": "저는 사과를 먹어요.",
                   "options": [
-                    "남자",
                     "우유",
-                    "사과를",
+                    "사과",
+                    "빵",
                     "마시다"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -826,12 +826,12 @@
                       "native": "to eat"
                     },
                     {
-                      "target": "소년",
-                      "native": "the boy"
+                      "target": "예요",
+                      "native": "to be (polite)"
                     },
                     {
-                      "target": "빵",
-                      "native": "the bread"
+                      "target": "소녀",
+                      "native": "the girl"
                     }
                   ]
                 },
@@ -1047,16 +1047,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u0-l3-e8",
-                  "sentence": "저는물을___.",
+                  "sentence": "___는 물을 마셔요.",
                   "translation": "I drink water.",
                   "audioTarget": "저는 물을 마셔요.",
                   "options": [
+                    "우유",
+                    "남자",
                     "먹다",
-                    "마셔요",
-                    "사과",
                     "저"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -1075,12 +1075,12 @@
                       "native": "to be (polite)"
                     },
                     {
-                      "target": "빵",
-                      "native": "the bread"
+                      "target": "소녀",
+                      "native": "the girl"
                     },
                     {
-                      "target": "남자",
-                      "native": "the man"
+                      "target": "먹다",
+                      "native": "to eat"
                     }
                   ]
                 },
@@ -1384,16 +1384,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u1-l0-e8",
-                  "sentence": "안녕하세요,잘___?",
+                  "sentence": "___, 잘 지내세요?",
                   "translation": "Hello, how are you?",
                   "audioTarget": "안녕하세요, 잘 지내세요?",
                   "options": [
                     "저녁",
-                    "감사합니다",
-                    "가요",
-                    "지내세요"
+                    "안녕하세요",
+                    "고마워요",
+                    "밤"
                   ],
-                  "correct": 3
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -1412,12 +1412,12 @@
                       "native": "Goodbye"
                     },
                     {
-                      "target": "고마워요",
-                      "native": "Thanks (casual)"
+                      "target": "저녁",
+                      "native": "the evening"
                     },
                     {
-                      "target": "감사합니다",
-                      "native": "Thank you"
+                      "target": "죄송합니다",
+                      "native": "I'm sorry"
                     }
                   ]
                 },
@@ -1633,14 +1633,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u1-l1-e8",
-                  "sentence": "안녕히___.",
+                  "sentence": "___히 가세요.",
                   "translation": "Goodbye (to someone leaving).",
                   "audioTarget": "안녕히 가세요.",
                   "options": [
-                    "가세요",
-                    "감사합니다",
+                    "안녕",
                     "안녕하세요",
-                    "아침"
+                    "괜찮아요",
+                    "감사합니다"
                   ],
                   "correct": 0
                 },
@@ -1661,12 +1661,12 @@
                       "native": "I'm sorry"
                     },
                     {
-                      "target": "네",
-                      "native": "Yes"
+                      "target": "괜찮아요",
+                      "native": "It's okay"
                     },
                     {
-                      "target": "안녕",
-                      "native": "Hi (informal)"
+                      "target": "네",
+                      "native": "Yes"
                     }
                   ]
                 },
@@ -1882,7 +1882,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u1-l2-e8",
-                  "sentence": "좋은___보내세요.",
+                  "sentence": "좋은 ___ 보내세요.",
                   "translation": "Have a good evening.",
                   "audioTarget": "좋은 저녁 보내세요.",
                   "options": [
@@ -2137,7 +2137,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u1-l3-e8",
-                  "sentence": "___,선생님.",
+                  "sentence": "___, 선생님.",
                   "translation": "Thank you, teacher.",
                   "audioTarget": "감사합니다, 선생님.",
                   "options": [
@@ -2468,14 +2468,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u2-l0-e8",
-                  "sentence": "저는___먹어요.",
+                  "sentence": "저는 ___을 먹어요.",
                   "translation": "I eat rice.",
                   "audioTarget": "저는 밥을 먹어요.",
                   "options": [
+                    "빵",
                     "과일",
-                    "커피",
-                    "밥을",
-                    "밥"
+                    "밥",
+                    "차"
                   ],
                   "correct": 2
                 },
@@ -2496,12 +2496,12 @@
                       "native": "the meat"
                     },
                     {
-                      "target": "주스",
-                      "native": "the juice"
-                    },
-                    {
                       "target": "물",
                       "native": "the water"
+                    },
+                    {
+                      "target": "과일",
+                      "native": "the fruit"
                     }
                   ]
                 },
@@ -2713,16 +2713,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u2-l1-e8",
-                  "sentence": "___주세요.",
+                  "sentence": "___를 주세요.",
                   "translation": "Coffee, please.",
                   "audioTarget": "커피를 주세요.",
                   "options": [
-                    "계란",
-                    "커피를",
                     "주스",
-                    "물"
+                    "우유",
+                    "물",
+                    "커피"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -2741,12 +2741,12 @@
                       "native": "the cheese"
                     },
                     {
-                      "target": "커피",
-                      "native": "the coffee"
+                      "target": "고기",
+                      "native": "the meat"
                     },
                     {
-                      "target": "과일",
-                      "native": "the fruit"
+                      "target": "차",
+                      "native": "the tea"
                     }
                   ]
                 },
@@ -2962,16 +2962,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u2-l2-e8",
-                  "sentence": "저는___먹어요.",
+                  "sentence": "저는 ___을 먹어요.",
                   "translation": "I eat bread.",
                   "audioTarget": "저는 빵을 먹어요.",
                   "options": [
-                    "밥",
+                    "계란",
                     "과일",
-                    "커피",
-                    "빵을"
+                    "빵",
+                    "밥"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -2990,12 +2990,12 @@
                       "native": "the juice"
                     },
                     {
-                      "target": "차",
-                      "native": "the tea"
+                      "target": "우유",
+                      "native": "the milk"
                     },
                     {
-                      "target": "빵",
-                      "native": "the bread"
+                      "target": "생선",
+                      "native": "the fish"
                     }
                   ]
                 },
@@ -3211,14 +3211,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u2-l3-e8",
-                  "sentence": "저는과일을___.",
+                  "sentence": "저는 ___을 좋아해요.",
                   "translation": "I like fruit.",
                   "audioTarget": "저는 과일을 좋아해요.",
                   "options": [
-                    "좋아해요",
+                    "과일",
                     "주스",
                     "고기",
-                    "계란"
+                    "생선"
                   ],
                   "correct": 0
                 },
@@ -3239,12 +3239,12 @@
                       "native": "the tea"
                     },
                     {
-                      "target": "고기",
-                      "native": "the meat"
+                      "target": "빵",
+                      "native": "the bread"
                     },
                     {
-                      "target": "계란",
-                      "native": "the egg"
+                      "target": "생선",
+                      "native": "the fish"
                     }
                   ]
                 },
@@ -3546,14 +3546,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u3-l0-e8",
-                  "sentence": "개는___.",
+                  "sentence": "___는 귀여워요.",
                   "translation": "The dog is cute.",
                   "audioTarget": "개는 귀여워요.",
                   "options": [
-                    "새",
-                    "귀여워요",
                     "물고기",
-                    "소"
+                    "개",
+                    "소",
+                    "토끼"
                   ],
                   "correct": 1
                 },
@@ -3803,14 +3803,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u3-l1-e8",
-                  "sentence": "말은___.",
+                  "sentence": "___은 커요.",
                   "translation": "The horse is big.",
                   "audioTarget": "말은 커요.",
                   "options": [
-                    "원숭이",
-                    "토끼",
-                    "물고기",
-                    "커요"
+                    "강아지",
+                    "호랑이",
+                    "소",
+                    "말"
                   ],
                   "correct": 3
                 },
@@ -4060,14 +4060,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u3-l2-e8",
-                  "sentence": "물고기는___살아요.",
+                  "sentence": "___는 물에 살아요.",
                   "translation": "The fish lives in the water.",
                   "audioTarget": "물고기는 물에 살아요.",
                   "options": [
-                    "강아지",
-                    "물에",
+                    "새끼 고양이",
+                    "물고기",
                     "새",
-                    "원숭이"
+                    "강아지"
                   ],
                   "correct": 1
                 },
@@ -4315,13 +4315,13 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u3-l3-e8",
-                  "sentence": "토끼는귀가___.",
+                  "sentence": "___는 귀가 길어요.",
                   "translation": "The rabbit has long ears.",
                   "audioTarget": "토끼는 귀가 길어요.",
                   "options": [
-                    "코끼리",
-                    "강아지",
-                    "길어요",
+                    "원숭이",
+                    "새끼 고양이",
+                    "토끼",
                     "말"
                   ],
                   "correct": 2
@@ -4654,7 +4654,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u4-l0-e8",
-                  "sentence": "___가요?",
+                  "sentence": "___ 가요?",
                   "translation": "Where are you going?",
                   "audioTarget": "어디에 가요?",
                   "options": [
@@ -4911,16 +4911,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u4-l1-e8",
-                  "sentence": "___어디예요?",
+                  "sentence": "___이 어디예요?",
                   "translation": "Where is the airport?",
                   "audioTarget": "공항이 어디예요?",
                   "options": [
-                    "공항이",
-                    "호텔",
-                    "기차",
-                    "버스"
+                    "지하철",
+                    "공항",
+                    "버스",
+                    "택시"
                   ],
-                  "correct": 0
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -4939,12 +4939,12 @@
                       "native": "the street"
                     },
                     {
-                      "target": "도시",
-                      "native": "the city"
+                      "target": "여권",
+                      "native": "the passport"
                     },
                     {
-                      "target": "버스",
-                      "native": "the bus"
+                      "target": "도시",
+                      "native": "the city"
                     }
                   ]
                 },
@@ -5178,14 +5178,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u4-l2-e8",
-                  "sentence": "___가고싶어요.",
+                  "sentence": "___에 가고 싶어요.",
                   "translation": "I want to go to the museum.",
                   "audioTarget": "박물관에 가고 싶어요.",
                   "options": [
-                    "박물관에",
-                    "버스",
                     "박물관",
-                    "기차"
+                    "택시",
+                    "거리",
+                    "버스"
                   ],
                   "correct": 0
                 },
@@ -5206,8 +5206,8 @@
                       "native": "the bus"
                     },
                     {
-                      "target": "여권",
-                      "native": "the passport"
+                      "target": "택시",
+                      "native": "the taxi"
                     },
                     {
                       "target": "기차",
@@ -5437,16 +5437,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u4-l3-e8",
-                  "sentence": "___보여주세요.",
+                  "sentence": "___을 보여 주세요.",
                   "translation": "Please show me your passport.",
                   "audioTarget": "여권을 보여 주세요.",
                   "options": [
-                    "호텔",
-                    "버스",
+                    "박물관",
                     "도시",
-                    "여권을"
+                    "여권",
+                    "공항"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -5465,12 +5465,12 @@
                       "native": "the map"
                     },
                     {
-                      "target": "버스",
-                      "native": "the bus"
+                      "target": "호텔",
+                      "native": "the hotel"
                     },
                     {
-                      "target": "거리",
-                      "native": "the street"
+                      "target": "버스",
+                      "native": "the bus"
                     }
                   ]
                 },
@@ -5780,16 +5780,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u5-l0-e8",
-                  "sentence": "___가족은네명이에요.",
+                  "sentence": "우리 ___은 네 명이에요.",
                   "translation": "There are four people in our family.",
                   "audioTarget": "우리 가족은 네 명이에요.",
                   "options": [
+                    "누나",
                     "가족",
-                    "할머니",
-                    "우리",
-                    "오빠"
+                    "동생",
+                    "할머니"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -5812,8 +5812,8 @@
                       "native": "the baby"
                     },
                     {
-                      "target": "언니",
-                      "native": "the older sister (of a female)"
+                      "target": "할아버지",
+                      "native": "the grandfather"
                     }
                   ]
                 },
@@ -6041,16 +6041,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u5-l1-e8",
-                  "sentence": "아버지는회사에___.",
+                  "sentence": "___는 회사에 가요.",
                   "translation": "Father goes to the office.",
                   "audioTarget": "아버지는 회사에 가요.",
                   "options": [
+                    "아버지",
+                    "아기",
                     "어머니",
-                    "가요",
-                    "할아버지",
-                    "부모님"
+                    "할아버지"
                   ],
-                  "correct": 1
+                  "correct": 0
                 },
                 {
                   "type": "match",
@@ -6069,12 +6069,12 @@
                       "native": "the older brother (of a male)"
                     },
                     {
-                      "target": "가족",
-                      "native": "the family"
+                      "target": "아버지",
+                      "native": "the father"
                     },
                     {
-                      "target": "언니",
-                      "native": "the older sister (of a female)"
+                      "target": "오빠",
+                      "native": "the older brother (of a female)"
                     }
                   ]
                 },
@@ -6300,16 +6300,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u5-l2-e8",
-                  "sentence": "할머니는따뜻한___마셔요.",
+                  "sentence": "___는 따뜻한 차를 마셔요.",
                   "translation": "Grandmother drinks warm tea.",
                   "audioTarget": "할머니는 따뜻한 차를 마셔요.",
                   "options": [
-                    "누나",
                     "어머니",
-                    "아기",
-                    "차를"
+                    "가족",
+                    "할머니",
+                    "동생"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -6328,12 +6328,12 @@
                       "native": "the older sister (of a female)"
                     },
                     {
-                      "target": "어머니",
-                      "native": "the mother"
+                      "target": "가족",
+                      "native": "the family"
                     },
                     {
-                      "target": "부모님",
-                      "native": "the parents"
+                      "target": "어머니",
+                      "native": "the mother"
                     }
                   ]
                 },
@@ -6565,16 +6565,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u5-l3-e8",
-                  "sentence": "제동생은___.",
+                  "sentence": "제 ___은 학생이에요.",
                   "translation": "My younger sibling is a student.",
                   "audioTarget": "제 동생은 학생이에요.",
                   "options": [
-                    "어머니",
-                    "학생이에요",
+                    "동생",
+                    "형",
                     "언니",
-                    "누나"
+                    "어머니"
                   ],
-                  "correct": 1
+                  "correct": 0
                 },
                 {
                   "type": "match",
@@ -6593,12 +6593,12 @@
                       "native": "the parents"
                     },
                     {
-                      "target": "할머니",
-                      "native": "the grandmother"
+                      "target": "오빠",
+                      "native": "the older brother (of a female)"
                     },
                     {
-                      "target": "언니",
-                      "native": "the older sister (of a female)"
+                      "target": "할머니",
+                      "native": "the grandmother"
                     }
                   ]
                 },
@@ -6904,12 +6904,12 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u6-l0-e8",
-                  "sentence": "이___얼마예요?",
+                  "sentence": "이 사과는 ___예요?",
                   "translation": "How much is this apple?",
                   "audioTarget": "이 사과는 얼마예요?",
                   "options": [
-                    "사과는",
-                    "싸다",
+                    "얼마",
+                    "카드",
                     "백화점",
                     "현금"
                   ],
@@ -6932,12 +6932,12 @@
                       "native": "the department store"
                     },
                     {
-                      "target": "카드",
-                      "native": "the card"
+                      "target": "사다",
+                      "native": "to buy"
                     },
                     {
-                      "target": "얼마",
-                      "native": "how much"
+                      "target": "싸다",
+                      "native": "to be cheap"
                     }
                   ]
                 },
@@ -7163,7 +7163,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u6-l1-e8",
-                  "sentence": "저가방은___비싸요.",
+                  "sentence": "저 가방은 ___ 비싸요.",
                   "translation": "That bag is too expensive.",
                   "audioTarget": "저 가방은 너무 비싸요.",
                   "options": [
@@ -7424,14 +7424,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u6-l2-e8",
-                  "sentence": "___계산해주세요.",
+                  "sentence": "___로 계산해 주세요.",
                   "translation": "I'd like to pay by card, please.",
                   "audioTarget": "카드로 계산해 주세요.",
                   "options": [
-                    "카드로",
+                    "카드",
                     "백화점",
-                    "돈",
-                    "가격"
+                    "얼마",
+                    "돈"
                   ],
                   "correct": 0
                 },
@@ -7456,8 +7456,8 @@
                       "native": "the store"
                     },
                     {
-                      "target": "얼마",
-                      "native": "how much"
+                      "target": "가격",
+                      "native": "the price"
                     }
                   ]
                 },
@@ -7685,16 +7685,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u6-l3-e8",
-                  "sentence": "___버려주세요.",
+                  "sentence": "___은 버려 주세요.",
                   "translation": "Please throw away the receipt.",
                   "audioTarget": "영수증은 버려 주세요.",
                   "options": [
-                    "얼마",
+                    "돈",
                     "가격",
-                    "영수증은",
-                    "사다"
+                    "싸다",
+                    "영수증"
                   ],
-                  "correct": 2
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -7713,12 +7713,12 @@
                       "native": "the receipt"
                     },
                     {
-                      "target": "싸다",
-                      "native": "to be cheap"
+                      "target": "비싸다",
+                      "native": "to be expensive"
                     },
                     {
-                      "target": "백화점",
-                      "native": "the department store"
+                      "target": "사다",
+                      "native": "to buy"
                     }
                   ]
                 },
@@ -8028,16 +8028,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u7-l0-e8",
-                  "sentence": "오늘___정말좋아요.",
+                  "sentence": "오늘 ___가 정말 좋아요.",
                   "translation": "The weather is really nice today.",
                   "audioTarget": "오늘 날씨가 정말 좋아요.",
                   "options": [
-                    "날씨가",
-                    "덥다",
-                    "바람",
+                    "비",
+                    "춥다",
+                    "가을",
                     "날씨"
                   ],
-                  "correct": 0
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -8056,12 +8056,12 @@
                       "native": "the rain"
                     },
                     {
-                      "target": "겨울",
-                      "native": "the winter"
+                      "target": "봄",
+                      "native": "the spring"
                     },
                     {
-                      "target": "구름",
-                      "native": "the cloud"
+                      "target": "춥다",
+                      "native": "to be cold"
                     }
                   ]
                 },
@@ -8293,16 +8293,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u7-l1-e8",
-                  "sentence": "___날씨가아주추워요.",
+                  "sentence": "겨울에는 ___가 아주 추워요.",
                   "translation": "In winter, the weather is very cold.",
                   "audioTarget": "겨울에는 날씨가 아주 추워요.",
                   "options": [
-                    "날씨",
-                    "겨울에는",
-                    "덥다",
-                    "눈"
+                    "눈",
+                    "해",
+                    "춥다",
+                    "날씨"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -8321,12 +8321,12 @@
                       "native": "the cloud"
                     },
                     {
-                      "target": "덥다",
-                      "native": "to be hot"
+                      "target": "춥다",
+                      "native": "to be cold"
                     },
                     {
-                      "target": "여름",
-                      "native": "the summer"
+                      "target": "비",
+                      "native": "the rain"
                     }
                   ]
                 },
@@ -8558,16 +8558,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u7-l2-e8",
-                  "sentence": "오늘은___많이불어요.",
+                  "sentence": "오늘은 ___이 많이 불어요.",
                   "translation": "The wind blows a lot today.",
                   "audioTarget": "오늘은 바람이 많이 불어요.",
                   "options": [
-                    "가을",
-                    "바람이",
-                    "여름",
-                    "날씨"
+                    "바람",
+                    "날씨",
+                    "구름",
+                    "가을"
                   ],
-                  "correct": 1
+                  "correct": 0
                 },
                 {
                   "type": "match",
@@ -8586,12 +8586,12 @@
                       "native": "the spring"
                     },
                     {
-                      "target": "해",
-                      "native": "the sun"
-                    },
-                    {
                       "target": "바람",
                       "native": "the wind"
+                    },
+                    {
+                      "target": "비",
+                      "native": "the rain"
                     }
                   ]
                 },
@@ -8815,14 +8815,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u7-l3-e8",
-                  "sentence": "___눈이조용히내려요.",
+                  "sentence": "하얀 ___이 조용히 내려요.",
                   "translation": "White snow falls quietly.",
                   "audioTarget": "하얀 눈이 조용히 내려요.",
                   "options": [
                     "날씨",
+                    "겨울",
                     "여름",
-                    "덥다",
-                    "하얀"
+                    "눈"
                   ],
                   "correct": 3
                 },
@@ -8847,8 +8847,8 @@
                       "native": "the weather"
                     },
                     {
-                      "target": "눈",
-                      "native": "the snow"
+                      "target": "바람",
+                      "native": "the wind"
                     }
                   ]
                 },
@@ -9156,16 +9156,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u8-l0-e8",
-                  "sentence": "선생님이학교에___.",
+                  "sentence": "___이 학교에 있어요.",
                   "translation": "The teacher is at school.",
                   "audioTarget": "선생님이 학교에 있어요.",
                   "options": [
-                    "병원",
-                    "있어요",
+                    "수업",
                     "일",
-                    "사무실"
+                    "선생님",
+                    "병원"
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -9188,8 +9188,8 @@
                       "native": "the class"
                     },
                     {
-                      "target": "일",
-                      "native": "the work"
+                      "target": "책상",
+                      "native": "the desk"
                     }
                   ]
                 },
@@ -9413,14 +9413,14 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u8-l1-e8",
-                  "sentence": "학생이___열심히해요.",
+                  "sentence": "___이 숙제를 열심히 해요.",
                   "translation": "The student does homework diligently.",
                   "audioTarget": "학생이 숙제를 열심히 해요.",
                   "options": [
-                    "숙제를",
+                    "학생",
                     "수업",
-                    "선생님",
-                    "회사"
+                    "동료",
+                    "의사"
                   ],
                   "correct": 0
                 },
@@ -9441,12 +9441,12 @@
                       "native": "the office"
                     },
                     {
-                      "target": "수업",
-                      "native": "the class"
+                      "target": "책상",
+                      "native": "the desk"
                     },
                     {
-                      "target": "동료",
-                      "native": "the colleague"
+                      "target": "선생님",
+                      "native": "the teacher"
                     }
                   ]
                 },
@@ -9672,16 +9672,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u8-l2-e8",
-                  "sentence": "___사무실에서일해요.",
+                  "sentence": "저는 ___에서 일해요.",
                   "translation": "I work in the office.",
                   "audioTarget": "저는 사무실에서 일해요.",
                   "options": [
-                    "책상",
-                    "저는",
-                    "숙제",
-                    "학생"
+                    "병원",
+                    "수업",
+                    "사무실",
+                    "책상"
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -9700,8 +9700,8 @@
                       "native": "the homework"
                     },
                     {
-                      "target": "학생",
-                      "native": "the student"
+                      "target": "선생님",
+                      "native": "the teacher"
                     },
                     {
                       "target": "일",
@@ -9935,7 +9935,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u8-l3-e8",
-                  "sentence": "___위에책이있어요.",
+                  "sentence": "___ 위에 책이 있어요.",
                   "translation": "There is a book on the desk.",
                   "audioTarget": "책상 위에 책이 있어요.",
                   "options": [
@@ -10272,16 +10272,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u9-l0-e8",
-                  "sentence": "머리가너무___.",
+                  "sentence": "___가 너무 아파요.",
                   "translation": "My head hurts a lot.",
                   "audioTarget": "머리가 너무 아파요.",
                   "options": [
-                    "피곤하다",
-                    "아파요",
+                    "머리",
                     "약",
-                    "몸"
+                    "약국",
+                    "아프다"
                   ],
-                  "correct": 1
+                  "correct": 0
                 },
                 {
                   "type": "match",
@@ -10300,12 +10300,12 @@
                       "native": "the eye"
                     },
                     {
-                      "target": "약국",
-                      "native": "the pharmacy"
-                    },
-                    {
                       "target": "병원",
                       "native": "the hospital"
+                    },
+                    {
+                      "target": "피곤하다",
+                      "native": "to be tired"
                     }
                   ]
                 },
@@ -10539,16 +10539,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u9-l1-e8",
-                  "sentence": "오늘은몸이___.",
+                  "sentence": "오늘은 ___이 피곤해요.",
                   "translation": "My body is tired today.",
                   "audioTarget": "오늘은 몸이 피곤해요.",
                   "options": [
-                    "피곤하다",
-                    "몸",
+                    "아프다",
                     "의사",
-                    "피곤해요"
+                    "몸",
+                    "피곤하다"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -10567,12 +10567,12 @@
                       "native": "the medicine"
                     },
                     {
-                      "target": "피곤하다",
-                      "native": "to be tired"
+                      "target": "의사",
+                      "native": "the doctor"
                     },
                     {
-                      "target": "감기",
-                      "native": "the cold"
+                      "target": "아프다",
+                      "native": "to be sick"
                     }
                   ]
                 },
@@ -10804,16 +10804,16 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u9-l2-e8",
-                  "sentence": "___먹고약을드세요.",
+                  "sentence": "밥을 먹고 ___을 드세요.",
                   "translation": "Please take medicine after eating.",
                   "audioTarget": "밥을 먹고 약을 드세요.",
                   "options": [
-                    "피곤하다",
                     "눈",
-                    "밥을",
-                    "손"
+                    "의사",
+                    "손",
+                    "약"
                   ],
-                  "correct": 2
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -10832,12 +10832,12 @@
                       "native": "the doctor"
                     },
                     {
-                      "target": "약",
-                      "native": "the medicine"
-                    },
-                    {
                       "target": "몸",
                       "native": "the body"
+                    },
+                    {
+                      "target": "손",
+                      "native": "the hand"
                     }
                   ]
                 },
@@ -11059,7 +11059,7 @@
                 {
                   "type": "fillBlank",
                   "id": "ko-en:u9-l3-e8",
-                  "sentence": "___선생님을만나요.",
+                  "sentence": "___ 선생님을 만나요.",
                   "translation": "I see the doctor.",
                   "audioTarget": "의사 선생님을 만나요.",
                   "options": [

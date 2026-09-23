@@ -294,16 +294,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u0-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "我是___。",
                   "translation": "I am a girl.",
                   "audioTarget": "我是女孩。",
                   "options": [
-                    "我",
-                    "面包",
-                    "我是女孩",
-                    "是"
+                    "水",
+                    "女孩",
+                    "苹果",
+                    "男孩"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -326,8 +326,8 @@
                       "native": "to drink"
                     },
                     {
-                      "target": "牛奶",
-                      "native": "the milk"
+                      "target": "女孩",
+                      "native": "the girl"
                     }
                   ]
                 },
@@ -547,16 +547,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u0-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "她是___。",
                   "translation": "She is a woman.",
                   "audioTarget": "她是女人。",
                   "options": [
-                    "她是女人",
                     "喝",
+                    "男人",
                     "面包",
-                    "是"
+                    "女人"
                   ],
-                  "correct": 0
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -575,12 +575,12 @@
                       "native": "the bread"
                     },
                     {
-                      "target": "水",
-                      "native": "the water"
-                    },
-                    {
                       "target": "吃",
                       "native": "to eat"
+                    },
+                    {
+                      "target": "男孩",
+                      "native": "the boy"
                     }
                   ]
                 },
@@ -798,16 +798,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u0-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "我吃___。",
                   "translation": "I eat an apple.",
                   "audioTarget": "我吃苹果。",
                   "options": [
-                    "我吃苹果",
-                    "喝",
-                    "男孩",
-                    "面包"
+                    "水",
+                    "苹果",
+                    "面包",
+                    "是"
                   ],
-                  "correct": 0
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -826,12 +826,12 @@
                       "native": "I / me"
                     },
                     {
-                      "target": "是",
-                      "native": "am / is / are"
+                      "target": "女孩",
+                      "native": "the girl"
                     },
                     {
-                      "target": "男孩",
-                      "native": "the boy"
+                      "target": "吃",
+                      "native": "to eat"
                     }
                   ]
                 },
@@ -1047,14 +1047,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u0-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "我喝___。",
                   "translation": "I drink water.",
                   "audioTarget": "我喝水。",
                   "options": [
-                    "我喝水",
-                    "面包",
-                    "男人",
-                    "水"
+                    "水",
+                    "是",
+                    "苹果",
+                    "面包"
                   ],
                   "correct": 0
                 },
@@ -1075,12 +1075,12 @@
                       "native": "to drink"
                     },
                     {
-                      "target": "女孩",
-                      "native": "the girl"
-                    },
-                    {
                       "target": "男人",
                       "native": "the man"
+                    },
+                    {
+                      "target": "男孩",
+                      "native": "the boy"
                     }
                   ]
                 },
@@ -1380,16 +1380,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u1-l0-e8",
-                  "sentence": "___？",
+                  "sentence": "___吗？",
                   "translation": "How are you?",
                   "audioTarget": "你好吗？",
                   "options": [
-                    "你好吗",
-                    "请",
-                    "谢谢",
-                    "早上好"
+                    "对不起",
+                    "早上好",
+                    "你好",
+                    "谢谢"
                   ],
-                  "correct": 0
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -1408,12 +1408,12 @@
                       "native": "please"
                     },
                     {
-                      "target": "谢谢",
-                      "native": "thank you"
+                      "target": "晚上好",
+                      "native": "good evening"
                     },
                     {
-                      "target": "晚安",
-                      "native": "good night"
+                      "target": "谢谢",
+                      "native": "thank you"
                     }
                   ]
                 },
@@ -1631,16 +1631,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u1-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "___，很高兴认识你。",
                   "translation": "Hello, nice to meet you.",
                   "audioTarget": "你好，很高兴认识你。",
                   "options": [
                     "晚上好",
-                    "你好，很高兴认识你",
-                    "拜拜",
-                    "早上好"
+                    "早上好",
+                    "你好",
+                    "没关系"
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -1659,12 +1659,12 @@
                       "native": "good evening"
                     },
                     {
-                      "target": "拜拜",
-                      "native": "bye-bye"
+                      "target": "没关系",
+                      "native": "no problem"
                     },
                     {
-                      "target": "请",
-                      "native": "please"
+                      "target": "再见",
+                      "native": "goodbye"
                     }
                   ]
                 },
@@ -1882,16 +1882,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u1-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___，明天见。",
                   "translation": "Good night, see you tomorrow.",
                   "audioTarget": "晚安，明天见。",
                   "options": [
-                    "对不起",
-                    "好",
-                    "请",
-                    "晚安，明天见"
+                    "晚上好",
+                    "再见",
+                    "晚安",
+                    "请"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -1914,8 +1914,8 @@
                       "native": "bye-bye"
                     },
                     {
-                      "target": "谢谢",
-                      "native": "thank you"
+                      "target": "好",
+                      "native": "good"
                     }
                   ]
                 },
@@ -2468,16 +2468,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u2-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "我想喝___。",
                   "translation": "I want to drink coffee.",
                   "audioTarget": "我想喝咖啡。",
                   "options": [
-                    "面条",
                     "牛奶",
-                    "我想喝咖啡",
+                    "咖啡",
+                    "面包",
                     "水果"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -2496,12 +2496,12 @@
                       "native": "the egg"
                     },
                     {
-                      "target": "面条",
-                      "native": "the noodles"
-                    },
-                    {
                       "target": "牛奶",
                       "native": "the milk"
+                    },
+                    {
+                      "target": "果汁",
+                      "native": "the juice"
                     }
                   ]
                 },
@@ -2729,14 +2729,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u2-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "请给我一杯___。",
                   "translation": "Please give me a glass of water.",
                   "audioTarget": "请给我一杯水。",
                   "options": [
-                    "茶",
-                    "请给我一杯水",
+                    "面包",
+                    "水",
                     "米饭",
-                    "牛奶"
+                    "茶"
                   ],
                   "correct": 1
                 },
@@ -2757,12 +2757,12 @@
                       "native": "the juice"
                     },
                     {
-                      "target": "面条",
-                      "native": "the noodles"
+                      "target": "米饭",
+                      "native": "the rice"
                     },
                     {
-                      "target": "牛奶",
-                      "native": "the milk"
+                      "target": "茶",
+                      "native": "the tea"
                     }
                   ]
                 },
@@ -2984,16 +2984,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u2-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "我喜欢喝___。",
                   "translation": "I like to drink juice.",
                   "audioTarget": "我喜欢喝果汁。",
                   "options": [
-                    "水",
+                    "奶酪",
+                    "苹果",
                     "米饭",
-                    "我喜欢喝果汁",
-                    "水果"
+                    "果汁"
                   ],
-                  "correct": 2
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -3012,12 +3012,12 @@
                       "native": "the bread"
                     },
                     {
-                      "target": "鸡蛋",
-                      "native": "the egg"
+                      "target": "牛奶",
+                      "native": "the milk"
                     },
                     {
-                      "target": "面条",
-                      "native": "the noodles"
+                      "target": "鸡蛋",
+                      "native": "the egg"
                     }
                   ]
                 },
@@ -3241,14 +3241,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u2-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "我喜欢喝___。",
                   "translation": "I like to drink tea.",
                   "audioTarget": "我喜欢喝茶。",
                   "options": [
-                    "水",
+                    "果汁",
                     "咖啡",
                     "米饭",
-                    "我喜欢喝茶"
+                    "茶"
                   ],
                   "correct": 3
                 },
@@ -3269,12 +3269,12 @@
                       "native": "the noodles"
                     },
                     {
-                      "target": "果汁",
-                      "native": "the juice"
-                    },
-                    {
                       "target": "水",
                       "native": "the water"
+                    },
+                    {
+                      "target": "茶",
+                      "native": "the tea"
                     }
                   ]
                 },
@@ -3576,16 +3576,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u3-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "这是一___狗。",
                   "translation": "This is a dog.",
                   "audioTarget": "这是一只狗。",
                   "options": [
+                    "马",
                     "牛",
-                    "这是一只狗",
-                    "鸟",
-                    "猫"
+                    "猫",
+                    "只"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -3604,12 +3604,12 @@
                       "native": "the horse"
                     },
                     {
-                      "target": "鸟",
-                      "native": "the bird"
+                      "target": "大",
+                      "native": "big"
                     },
                     {
-                      "target": "动物",
-                      "native": "the animal"
+                      "target": "快",
+                      "native": "fast"
                     }
                   ]
                 },
@@ -3833,16 +3833,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u3-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "___跑得快。",
                   "translation": "The horse runs fast.",
                   "audioTarget": "马跑得快。",
                   "options": [
-                    "小",
-                    "动物",
+                    "可爱",
+                    "马",
                     "牛",
-                    "马跑得快"
+                    "动物"
                   ],
-                  "correct": 3
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -3861,12 +3861,12 @@
                       "native": "the cow"
                     },
                     {
-                      "target": "马",
-                      "native": "the horse"
+                      "target": "猫",
+                      "native": "the cat"
                     },
                     {
-                      "target": "动物",
-                      "native": "the animal"
+                      "target": "大",
+                      "native": "big"
                     }
                   ]
                 },
@@ -4090,14 +4090,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u3-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___在水里。",
                   "translation": "The fish is in the water.",
                   "audioTarget": "鱼在水里。",
                   "options": [
                     "小",
-                    "鱼在水里",
-                    "猫",
-                    "鱼"
+                    "鱼",
+                    "可爱",
+                    "鸟"
                   ],
                   "correct": 1
                 },
@@ -4118,12 +4118,12 @@
                       "native": "cute"
                     },
                     {
-                      "target": "动物",
-                      "native": "the animal"
+                      "target": "马",
+                      "native": "the horse"
                     },
                     {
-                      "target": "只",
-                      "native": "measure word for animals"
+                      "target": "牛",
+                      "native": "the cow"
                     }
                   ]
                 },
@@ -4343,16 +4343,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u3-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "这只猫很___。",
                   "translation": "This cat is very cute.",
                   "audioTarget": "这只猫很可爱。",
                   "options": [
                     "鸟",
-                    "这只猫很可爱",
-                    "狗",
-                    "牛"
+                    "小",
+                    "可爱",
+                    "鱼"
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -4371,8 +4371,8 @@
                       "native": "the animal"
                     },
                     {
-                      "target": "狗",
-                      "native": "the dog"
+                      "target": "小",
+                      "native": "small"
                     },
                     {
                       "target": "大",
@@ -4678,14 +4678,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u4-l0-e8",
-                  "sentence": "___?",
+                  "sentence": "___在哪里?",
                   "translation": "Where is the hotel?",
                   "audioTarget": "酒店在哪里?",
                   "options": [
-                    "街道",
-                    "酒店在哪里",
-                    "博物馆",
-                    "火车站"
+                    "公园",
+                    "酒店",
+                    "出租车",
+                    "博物馆"
                   ],
                   "correct": 1
                 },
@@ -4933,14 +4933,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u4-l1-e8",
-                  "sentence": "___?",
+                  "sentence": "___在哪里?",
                   "translation": "Where is the train station?",
                   "audioTarget": "火车站在哪里?",
                   "options": [
+                    "机场",
+                    "火车站",
                     "公园",
-                    "火车站在哪里",
-                    "出租车",
-                    "机场"
+                    "博物馆"
                   ],
                   "correct": 1
                 },
@@ -4961,12 +4961,12 @@
                       "native": "the taxi"
                     },
                     {
-                      "target": "博物馆",
-                      "native": "the museum"
+                      "target": "街道",
+                      "native": "the street"
                     },
                     {
-                      "target": "公园",
-                      "native": "the park"
+                      "target": "地图",
+                      "native": "the map"
                     }
                   ]
                 },
@@ -5192,16 +5192,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u4-l2-e8",
-                  "sentence": "___?",
+                  "sentence": "___站在哪里?",
                   "translation": "Where is the subway station?",
                   "audioTarget": "地铁站在哪里?",
                   "options": [
-                    "地铁站在哪里",
-                    "出租车",
                     "博物馆",
+                    "地铁",
+                    "出租车",
                     "街道"
                   ],
-                  "correct": 0
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -5220,12 +5220,12 @@
                       "native": "the park"
                     },
                     {
-                      "target": "行李",
-                      "native": "the luggage"
+                      "target": "酒店",
+                      "native": "the hotel"
                     },
                     {
-                      "target": "出租车",
-                      "native": "the taxi"
+                      "target": "行李",
+                      "native": "the luggage"
                     }
                   ]
                 },
@@ -5451,14 +5451,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u4-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "请给我一张___。",
                   "translation": "Please give me a map.",
                   "audioTarget": "请给我一张地图。",
                   "options": [
+                    "火车站",
                     "行李",
-                    "出租车",
-                    "地铁",
-                    "请给我一张地图"
+                    "护照",
+                    "地图"
                   ],
                   "correct": 3
                 },
@@ -5483,8 +5483,8 @@
                       "native": "the museum"
                     },
                     {
-                      "target": "火车站",
-                      "native": "the train station"
+                      "target": "酒店",
+                      "native": "the hotel"
                     }
                   ]
                 },
@@ -5788,16 +5788,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u5-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "这是我的___。",
                   "translation": "This is my father.",
                   "audioTarget": "这是我的爸爸。",
                   "options": [
-                    "爸爸",
+                    "姐姐",
                     "家人",
-                    "儿子",
-                    "这是我的爸爸"
+                    "爸爸",
+                    "妈妈"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -6043,14 +6043,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u5-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "他是我的___。",
                   "translation": "He is my older brother.",
                   "audioTarget": "他是我的哥哥。",
                   "options": [
-                    "他是我的哥哥",
-                    "女儿",
-                    "家人",
-                    "宝宝"
+                    "哥哥",
+                    "宝宝",
+                    "姐姐",
+                    "爸爸"
                   ],
                   "correct": 0
                 },
@@ -6071,12 +6071,12 @@
                       "native": "the younger sister"
                     },
                     {
-                      "target": "宝宝",
-                      "native": "the baby"
+                      "target": "女儿",
+                      "native": "the daughter"
                     },
                     {
-                      "target": "爷爷",
-                      "native": "the grandfather"
+                      "target": "家人",
+                      "native": "the family members"
                     }
                   ]
                 },
@@ -6298,16 +6298,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u5-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "我爱我的___。",
                   "translation": "I love my family.",
                   "audioTarget": "我爱我的家人。",
                   "options": [
-                    "弟弟",
+                    "妈妈",
+                    "家人",
                     "哥哥",
-                    "我爱我的家人",
-                    "妈妈"
+                    "弟弟"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -6326,12 +6326,12 @@
                       "native": "the baby"
                     },
                     {
-                      "target": "妈妈",
-                      "native": "the mother"
-                    },
-                    {
                       "target": "爸爸",
                       "native": "the father"
+                    },
+                    {
+                      "target": "妈妈",
+                      "native": "the mother"
                     }
                   ]
                 },
@@ -6551,16 +6551,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u5-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "___在喝茶。",
                   "translation": "Grandfather is drinking tea.",
                   "audioTarget": "爷爷在喝茶。",
                   "options": [
-                    "儿子",
-                    "家人",
                     "女儿",
-                    "爷爷在喝茶"
+                    "家人",
+                    "爷爷",
+                    "儿子"
                   ],
-                  "correct": 3
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -6579,8 +6579,8 @@
                       "native": "the family members"
                     },
                     {
-                      "target": "宝宝",
-                      "native": "the baby"
+                      "target": "姐姐",
+                      "native": "the older sister"
                     },
                     {
                       "target": "妹妹",
@@ -6882,16 +6882,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u6-l0-e8",
-                  "sentence": "___？",
+                  "sentence": "这个___钱？",
                   "translation": "How much is this?",
                   "audioTarget": "这个多少钱？",
                   "options": [
+                    "块",
                     "多少",
-                    "贵",
-                    "钱",
-                    "这个多少钱"
+                    "市场",
+                    "卖"
                   ],
-                  "correct": 3
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -6910,12 +6910,12 @@
                       "native": "the store"
                     },
                     {
-                      "target": "多少",
-                      "native": "how much"
+                      "target": "市场",
+                      "native": "the market"
                     },
                     {
-                      "target": "钱",
-                      "native": "the money"
+                      "target": "东西",
+                      "native": "the thing"
                     }
                   ]
                 },
@@ -7137,14 +7137,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u6-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "我想___这个。",
                   "translation": "I want to buy this.",
                   "audioTarget": "我想买这个。",
                   "options": [
-                    "我想买这个",
+                    "买",
                     "刷卡",
                     "市场",
-                    "块"
+                    "贵"
                   ],
                   "correct": 0
                 },
@@ -7165,12 +7165,12 @@
                       "native": "how much"
                     },
                     {
-                      "target": "卖",
-                      "native": "to sell"
+                      "target": "现金",
+                      "native": "the cash"
                     },
                     {
-                      "target": "块",
-                      "native": "the yuan"
+                      "target": "东西",
+                      "native": "the thing"
                     }
                   ]
                 },
@@ -7390,16 +7390,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u6-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "一共五十___。",
                   "translation": "Fifty yuan in total.",
                   "audioTarget": "一共五十块。",
                   "options": [
                     "贵",
-                    "一共五十块",
-                    "商店",
-                    "东西"
+                    "东西",
+                    "块",
+                    "多少"
                   ],
-                  "correct": 1
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -7418,8 +7418,8 @@
                       "native": "cheap"
                     },
                     {
-                      "target": "现金",
-                      "native": "the cash"
+                      "target": "卖",
+                      "native": "to sell"
                     },
                     {
                       "target": "东西",
@@ -7655,16 +7655,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u6-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "我去___买菜。",
                   "translation": "I am going to the market to buy groceries.",
                   "audioTarget": "我去市场买菜。",
                   "options": [
-                    "块",
-                    "贵",
-                    "我去市场买菜",
+                    "多少",
+                    "市场",
+                    "便宜",
                     "商店"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -7683,12 +7683,12 @@
                       "native": "to pay by card"
                     },
                     {
-                      "target": "卖",
-                      "native": "to sell"
+                      "target": "多少",
+                      "native": "how much"
                     },
                     {
-                      "target": "商店",
-                      "native": "the store"
+                      "target": "卖",
+                      "native": "to sell"
                     }
                   ]
                 },
@@ -7992,14 +7992,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u7-l0-e8",
-                  "sentence": "___？",
+                  "sentence": "今天___怎么样？",
                   "translation": "How is the weather today?",
                   "audioTarget": "今天天气怎么样？",
                   "options": [
-                    "秋天",
-                    "今天天气怎么样",
-                    "风",
-                    "晴天"
+                    "晴天",
+                    "天气",
+                    "太阳",
+                    "秋天"
                   ],
                   "correct": 1
                 },
@@ -8020,12 +8020,12 @@
                       "native": "the rain"
                     },
                     {
-                      "target": "秋天",
-                      "native": "the autumn"
+                      "target": "春天",
+                      "native": "the spring"
                     },
                     {
-                      "target": "热",
-                      "native": "hot"
+                      "target": "秋天",
+                      "native": "the autumn"
                     }
                   ]
                 },
@@ -8247,14 +8247,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u7-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "明天会下___。",
                   "translation": "It will snow tomorrow.",
                   "audioTarget": "明天会下雪。",
                   "options": [
-                    "热",
                     "夏天",
-                    "雨",
-                    "明天会下雪"
+                    "热",
+                    "冷",
+                    "雪"
                   ],
                   "correct": 3
                 },
@@ -8279,8 +8279,8 @@
                       "native": "the weather"
                     },
                     {
-                      "target": "太阳",
-                      "native": "the sun"
+                      "target": "晴天",
+                      "native": "the sunny day"
                     }
                   ]
                 },
@@ -8500,16 +8500,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u7-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "___太热了。",
                   "translation": "Summer is too hot.",
                   "audioTarget": "夏天太热了。",
                   "options": [
-                    "雪",
                     "春天",
-                    "夏天太热了",
-                    "天气"
+                    "天气",
+                    "雨",
+                    "夏天"
                   ],
-                  "correct": 2
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -8528,12 +8528,12 @@
                       "native": "the winter"
                     },
                     {
-                      "target": "秋天",
-                      "native": "the autumn"
+                      "target": "雪",
+                      "native": "the snow"
                     },
                     {
-                      "target": "热",
-                      "native": "hot"
+                      "target": "秋天",
+                      "native": "the autumn"
                     }
                   ]
                 },
@@ -8757,16 +8757,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u7-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "明天是___。",
                   "translation": "Tomorrow is a sunny day.",
                   "audioTarget": "明天是晴天。",
                   "options": [
-                    "秋天",
-                    "明天是晴天",
                     "天气",
-                    "风"
+                    "秋天",
+                    "风",
+                    "晴天"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -8785,12 +8785,12 @@
                       "native": "the sunny day"
                     },
                     {
-                      "target": "雪",
-                      "native": "the snow"
-                    },
-                    {
                       "target": "天气",
                       "native": "the weather"
+                    },
+                    {
+                      "target": "热",
+                      "native": "hot"
                     }
                   ]
                 },
@@ -9094,16 +9094,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u8-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "我是___。",
                   "translation": "I am a student.",
                   "audioTarget": "我是学生。",
                   "options": [
+                    "工作",
+                    "学生",
                     "作业",
-                    "教室",
-                    "我是学生",
-                    "工作"
+                    "教室"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -9122,12 +9122,12 @@
                       "native": "the doctor"
                     },
                     {
-                      "target": "教室",
-                      "native": "the classroom"
+                      "target": "作业",
+                      "native": "the homework"
                     },
                     {
-                      "target": "公司",
-                      "native": "the company"
+                      "target": "学校",
+                      "native": "the school"
                     }
                   ]
                 },
@@ -9357,14 +9357,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u8-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "老师在___。",
                   "translation": "The teacher is in the office.",
                   "audioTarget": "老师在办公室。",
                   "options": [
-                    "作业",
+                    "课",
+                    "学校",
                     "办公室",
-                    "老师在办公室",
-                    "公司"
+                    "工作"
                   ],
                   "correct": 2
                 },
@@ -9385,12 +9385,12 @@
                       "native": "the hospital"
                     },
                     {
-                      "target": "老师",
-                      "native": "the teacher"
+                      "target": "作业",
+                      "native": "the homework"
                     },
                     {
-                      "target": "医生",
-                      "native": "the doctor"
+                      "target": "课",
+                      "native": "the class"
                     }
                   ]
                 },
@@ -9614,16 +9614,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u8-l2-e8",
-                  "sentence": "___？",
+                  "sentence": "你写___了吗？",
                   "translation": "Did you do your homework?",
                   "audioTarget": "你写作业了吗？",
                   "options": [
-                    "医生",
                     "学生",
-                    "你写作业了吗",
-                    "课"
+                    "作业",
+                    "医生",
+                    "医院"
                   ],
-                  "correct": 2
+                  "correct": 1
                 },
                 {
                   "type": "match",
@@ -9642,12 +9642,12 @@
                       "native": "the job"
                     },
                     {
-                      "target": "老师",
-                      "native": "the teacher"
+                      "target": "学校",
+                      "native": "the school"
                     },
                     {
-                      "target": "公司",
-                      "native": "the company"
+                      "target": "医生",
+                      "native": "the doctor"
                     }
                   ]
                 },
@@ -9873,16 +9873,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u8-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "同学们在___里。",
                   "translation": "The classmates are in the classroom.",
                   "audioTarget": "同学们在教室里。",
                   "options": [
-                    "同学们在教室里",
-                    "医院",
+                    "作业",
+                    "课",
                     "教室",
-                    "课"
+                    "工作"
                   ],
-                  "correct": 0
+                  "correct": 2
                 },
                 {
                   "type": "match",
@@ -9901,8 +9901,8 @@
                       "native": "the company"
                     },
                     {
-                      "target": "医院",
-                      "native": "the hospital"
+                      "target": "课",
+                      "native": "the class"
                     },
                     {
                       "target": "老师",
@@ -10210,14 +10210,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u9-l0-e8",
-                  "sentence": "___。",
+                  "sentence": "我头很___。",
                   "translation": "My head hurts a lot.",
                   "audioTarget": "我头很疼。",
                   "options": [
-                    "我头很疼",
-                    "舒服",
-                    "医院",
-                    "累"
+                    "疼",
+                    "医生",
+                    "累",
+                    "生病"
                   ],
                   "correct": 0
                 },
@@ -10238,12 +10238,12 @@
                       "native": "the foot"
                     },
                     {
-                      "target": "生病",
-                      "native": "to get sick"
+                      "target": "身体",
+                      "native": "the body"
                     },
                     {
-                      "target": "医院",
-                      "native": "the hospital"
+                      "target": "累",
+                      "native": "tired"
                     }
                   ]
                 },
@@ -10467,14 +10467,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u9-l1-e8",
-                  "sentence": "___。",
+                  "sentence": "我今天很___。",
                   "translation": "I am very tired today.",
                   "audioTarget": "我今天很累。",
                   "options": [
                     "头",
                     "医生",
-                    "生病",
-                    "我今天很累"
+                    "眼睛",
+                    "累"
                   ],
                   "correct": 3
                 },
@@ -10495,12 +10495,12 @@
                       "native": "to get sick"
                     },
                     {
-                      "target": "医院",
-                      "native": "the hospital"
-                    },
-                    {
                       "target": "头",
                       "native": "the head"
+                    },
+                    {
+                      "target": "累",
+                      "native": "tired"
                     }
                   ]
                 },
@@ -10726,14 +10726,14 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u9-l2-e8",
-                  "sentence": "___。",
+                  "sentence": "我们去___吧。",
                   "translation": "Let's go to the hospital.",
                   "audioTarget": "我们去医院吧。",
                   "options": [
+                    "脚",
                     "疼",
-                    "眼睛",
-                    "药",
-                    "我们去医院吧"
+                    "累",
+                    "医院"
                   ],
                   "correct": 3
                 },
@@ -10758,8 +10758,8 @@
                       "native": "the hand"
                     },
                     {
-                      "target": "身体",
-                      "native": "the body"
+                      "target": "头",
+                      "native": "the head"
                     }
                   ]
                 },
@@ -10983,16 +10983,16 @@
                 {
                   "type": "fillBlank",
                   "id": "zh-en:u9-l3-e8",
-                  "sentence": "___。",
+                  "sentence": "他的___很疼。",
                   "translation": "His hand hurts.",
                   "audioTarget": "他的手很疼。",
                   "options": [
-                    "医院",
-                    "他的手很疼",
                     "眼睛",
-                    "药"
+                    "医院",
+                    "头",
+                    "手"
                   ],
-                  "correct": 1
+                  "correct": 3
                 },
                 {
                   "type": "match",
@@ -11011,8 +11011,8 @@
                       "native": "comfortable"
                     },
                     {
-                      "target": "生病",
-                      "native": "to get sick"
+                      "target": "脚",
+                      "native": "the foot"
                     },
                     {
                       "target": "累",

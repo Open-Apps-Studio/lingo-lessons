@@ -2675,12 +2675,12 @@
                 {
                   "type": "fillBlank",
                   "id": "fr-en:u2-l1-e8",
-                  "sentence": "Je bois de l'eau.",
+                  "sentence": "Je ___ de l'eau.",
                   "translation": "I drink water.",
                   "audioTarget": "Je bois de l'eau.",
                   "options": [
                     "jus",
-                    "leau",
+                    "bois",
                     "l'eau",
                     "fromage"
                   ],
@@ -4002,14 +4002,14 @@
                 {
                   "type": "fillBlank",
                   "id": "fr-en:u3-l2-e8",
-                  "sentence": "L'oiseau vole haut.",
+                  "sentence": "L'oiseau ___ haut.",
                   "translation": "The bird flies high.",
                   "audioTarget": "L'oiseau vole haut.",
                   "options": [
                     "souris",
                     "l'âne",
                     "chat",
-                    "Loiseau"
+                    "vole"
                   ],
                   "correct": 3
                 },
@@ -5911,11 +5911,11 @@
                 {
                   "type": "fillBlank",
                   "id": "fr-en:u5-l1-e8",
-                  "sentence": "Mon père s'appelle Marc.",
+                  "sentence": "Mon père s'appelle ___.",
                   "translation": "My father's name is Marc.",
                   "audioTarget": "Mon père s'appelle Marc.",
                   "options": [
-                    "sappelle",
+                    "Marc",
                     "mère",
                     "parents",
                     "père"
@@ -7268,11 +7268,11 @@
                 {
                   "type": "fillBlank",
                   "id": "fr-en:u6-l2-e8",
-                  "sentence": "Le magasin est ouvert aujourd'hui.",
+                  "sentence": "Le magasin est ___ aujourd'hui.",
                   "translation": "The shop is open today.",
                   "audioTarget": "Le magasin est ouvert aujourd'hui.",
                   "options": [
-                    "aujourdhui",
+                    "ouvert",
                     "l'euro",
                     "prix",
                     "acheter"
@@ -10317,13 +10317,13 @@
                 {
                   "type": "fillBlank",
                   "id": "fr-en:u9-l1-e8",
-                  "sentence": "Elle va vite à l'hôpital.",
+                  "sentence": "Elle va ___ à l'hôpital.",
                   "translation": "She is going quickly to the hospital.",
                   "audioTarget": "Elle va vite à l'hôpital.",
                   "options": [
                     "médecin",
                     "médicament",
-                    "lhôpital",
+                    "vite",
                     "dos"
                   ],
                   "correct": 2
