@@ -6,7 +6,9 @@ import { exitScreen } from "@/lib/navigation";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   KeyboardAvoidingView,
+  Linking,
   Platform,
+  Pressable,
   ScrollView,
   StyleSheet,
   Text,
@@ -189,6 +191,22 @@ export default function LessonScreen() {
 
   const isPractice = isMistakes || isSrs || alreadyCompleted;
 
+  // Words the learner had already met before this session; a select exercise
+  // on any other word is its introduction and gets a NEW WORD badge (only the
+  // first time it appears in the lesson).
+  const newWordIndexes = useMemo(() => {
+    const seen = new Set(Object.keys(useProgress.getState().course().wordStats ?? {}));
+    const out = new Set<number>();
+    exercises.forEach((e, i) => {
+      if (e.type === "select" && e.audioTarget && !seen.has(e.audioTarget)) {
+        seen.add(e.audioTarget);
+        out.add(i);
+      }
+    });
+    return out;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [exercises]);
+
   const [queue, setQueue] = useState<Exercise[]>(exercises);
   const [index, setIndex] = useState(0);
   const [status, setStatus] = useState<Status>("none");
@@ -358,6 +376,17 @@ export default function LessonScreen() {
           contentContainerStyle={styles.body}
           keyboardShouldPersistTaps="handled"
         >
+          {index >= exercises.length && !isMistakes ? (
+            <View style={[styles.badge, { backgroundColor: colors.orange + "22" }]}>
+              <Ionicons name="refresh" size={14} color={colors.orange} />
+              <Text style={[styles.badgeText, { color: colors.orange }]}>PREVIOUS MISTAKE</Text>
+            </View>
+          ) : newWordIndexes.has(index) && !isSrs ? (
+            <View style={[styles.badge, { backgroundColor: colors.indigo + "22" }]}>
+              <Ionicons name="sparkles" size={14} color={colors.indigo} />
+              <Text style={[styles.badgeText, { color: colors.indigo }]}>NEW WORD</Text>
+            </View>
+          ) : null}
           {exercise.type === "select" && (
             <Select
               exercise={exercise}
@@ -447,6 +476,29 @@ export default function LessonScreen() {
               </Text>
             </Animated.View>
           )}
+          {status !== "none" && (
+            <Pressable
+              accessibilityRole="link"
+              accessibilityLabel="Report a problem with this exercise"
+              hitSlop={8}
+              onPress={() => Linking.openURL(reportUrl(activeCourseId, exercise)).catch(() => {})}
+              style={styles.reportLink}
+            >
+              <Ionicons
+                name="flag-outline"
+                size={15}
+                color={status === "wrong" ? colors.wrongText : colors.correctText}
+              />
+              <Text
+                style={[
+                  styles.reportText,
+                  { color: status === "wrong" ? colors.wrongText : colors.correctText },
+                ]}
+              >
+                Report a problem
+              </Text>
+            </Pressable>
+          )}
           {status === "none" ? (
             <DuoButton
               label="Check"
@@ -464,6 +516,25 @@ export default function LessonScreen() {
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
+}
+
+const REPO_ISSUES = "https://github.com/Open-Apps-Studio/lingo-lessons/issues/new";
+
+/**
+ * Prefilled GitHub issue for a content problem. Only course, exercise id and
+ * the expected answer go in the URL, nothing about the learner.
+ */
+function reportUrl(courseId: string, exercise: Exercise): string {
+  const title = `Content issue: ${courseId} ${exercise.id}`;
+  const body = [
+    `Course: ${courseId}`,
+    `Exercise: ${exercise.id} (${exercise.type})`,
+    `Expected answer: ${correctAnswerText(exercise)}`,
+    "",
+    "What's wrong? (typo, wrong translation, bad audio, confusing...)",
+    "",
+  ].join("\n");
+  return `${REPO_ISSUES}?labels=content&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
 }
 
 function ResultCard({
@@ -534,6 +605,19 @@ const useStyles = makeThemedStyles((colors) => StyleSheet.create({
     borderTopColor: colors.neutral200,
   },
   feedbackRow: { flexDirection: "row", alignItems: "center", gap: 8 },
+  badge: {
+    flexDirection: "row",
+    alignItems: "center",
+    alignSelf: "flex-start",
+    gap: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 999,
+    marginBottom: 8,
+  },
+  badgeText: { fontSize: 12, fontWeight: "800", letterSpacing: 0.6 },
+  reportLink: { flexDirection: "row", alignItems: "center", alignSelf: "flex-start", gap: 6, marginTop: 6, marginBottom: 2 },
+  reportText: { fontSize: 13, fontWeight: "700" },
   feedback: { fontSize: 20, fontWeight: "800" },
   feedbackDetail: { fontSize: 16, fontWeight: "600", marginTop: 2, marginLeft: 34 },
   center: {
