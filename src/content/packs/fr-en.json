@@ -5380,6 +5380,5506 @@
               ]
             }
           ]
+        },
+        {
+          "id": "fr-en:unit-6",
+          "title": "Family",
+          "description": "Learn to talk about your family members and describe relatives in French.",
+          "guidebook": "### Talking About Family in French\n\nIn French, possessive adjectives change depending on the gender and number of the family member:\n\n- **mon** before masculine singular nouns: *mon père* (my father), *mon frère* (my brother).\n- **ma** before feminine singular nouns: *ma mère* (my mother), *ma sœur* (my sister).\n- **mes** before all plural nouns: *mes parents* (my parents).\n\n*Helpful tip:* If a feminine singular noun starts with a vowel sound, use **mon** instead of *ma* for easier pronunciation (for example, *mon amie*).\n\nEvery noun has a gender, so remember to pair them with **le** (masculine) or **la** (feminine). Use *Voici...* (\"Here is...\") to introduce your loved ones!",
+          "words": [
+            {
+              "target": "la famille",
+              "native": "the family",
+              "emoji": "👨‍👩‍👧‍👦"
+            },
+            {
+              "target": "la mère",
+              "native": "the mother",
+              "emoji": "👩"
+            },
+            {
+              "target": "le père",
+              "native": "the father",
+              "emoji": "👨"
+            },
+            {
+              "target": "les parents",
+              "native": "the parents",
+              "emoji": "🧑‍🤝‍🧑"
+            },
+            {
+              "target": "la sœur",
+              "native": "the sister",
+              "emoji": "👧"
+            },
+            {
+              "target": "le frère",
+              "native": "the brother",
+              "emoji": "👦"
+            },
+            {
+              "target": "la grand-mère",
+              "native": "the grandmother",
+              "emoji": "👵"
+            },
+            {
+              "target": "le grand-père",
+              "native": "the grandfather",
+              "emoji": "👴"
+            },
+            {
+              "target": "le bébé",
+              "native": "the baby",
+              "emoji": "👶"
+            },
+            {
+              "target": "le fils",
+              "native": "the son",
+              "emoji": "🧒"
+            },
+            {
+              "target": "la fille",
+              "native": "the daughter",
+              "emoji": "👧"
+            },
+            {
+              "target": "l'oncle",
+              "native": "the uncle",
+              "emoji": "👨‍🦰"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "fr-en:u5-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la famille",
+                  "audioTarget": "la famille",
+                  "options": [
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the daughter",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la mère",
+                  "audioTarget": "la mère",
+                  "options": [
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le père",
+                  "audioTarget": "le père",
+                  "options": [
+                    {
+                      "text": "the sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the family",
+                  "audioTarget": "la famille",
+                  "options": [
+                    {
+                      "text": "le grand-père",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "l'oncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "le frère",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "la famille",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the mother",
+                  "audioTarget": "la mère",
+                  "options": [
+                    {
+                      "text": "le grand-père",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "l'oncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "la fille",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "la mère",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la famille",
+                  "options": [
+                    {
+                      "text": "le grand-père"
+                    },
+                    {
+                      "text": "les parents"
+                    },
+                    {
+                      "text": "la famille"
+                    },
+                    {
+                      "text": "la grand-mère"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Voici ma famille.",
+                  "audioTarget": "Voici ma famille.",
+                  "tokens": [
+                    "is",
+                    "old",
+                    "have",
+                    "Here",
+                    "does",
+                    "family",
+                    "my"
+                  ],
+                  "answer": [
+                    "Here",
+                    "is",
+                    "my",
+                    "family"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "J'ai un frère et une sœur.",
+                  "audioTarget": "J'ai un frère et une sœur.",
+                  "tokens": [
+                    "sister",
+                    "have",
+                    "a",
+                    "brother",
+                    "baby",
+                    "and",
+                    "family",
+                    "a",
+                    "music",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "have",
+                    "a",
+                    "brother",
+                    "and",
+                    "a",
+                    "sister"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u5-l0-e8",
+                  "sentence": "Voici ma ___.",
+                  "translation": "Here is my family.",
+                  "audioTarget": "Voici ma famille.",
+                  "options": [
+                    "mère",
+                    "famille",
+                    "fille",
+                    "père"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u5-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "la famille",
+                      "native": "the family"
+                    },
+                    {
+                      "target": "la mère",
+                      "native": "the mother"
+                    },
+                    {
+                      "target": "le père",
+                      "native": "the father"
+                    },
+                    {
+                      "target": "le grand-père",
+                      "native": "the grandfather"
+                    },
+                    {
+                      "target": "les parents",
+                      "native": "the parents"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u5-l0-e10",
+                  "mode": "translate",
+                  "prompt": "J'ai un frère et une sœur.",
+                  "audioTarget": "J'ai un frère et une sœur.",
+                  "answer": "I have a brother and a sister.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u5-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "les parents",
+                  "audioTarget": "les parents",
+                  "options": [
+                    {
+                      "text": "the parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la sœur",
+                  "audioTarget": "la sœur",
+                  "options": [
+                    {
+                      "text": "the son",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le frère",
+                  "audioTarget": "le frère",
+                  "options": [
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the parents",
+                  "audioTarget": "les parents",
+                  "options": [
+                    {
+                      "text": "le père",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "les parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "le fils",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "la grand-mère",
+                      "emoji": "👵"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sister",
+                  "audioTarget": "la sœur",
+                  "options": [
+                    {
+                      "text": "le fils",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "la mère",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "le grand-père",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "la sœur",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la sœur",
+                  "options": [
+                    {
+                      "text": "le bébé"
+                    },
+                    {
+                      "text": "le frère"
+                    },
+                    {
+                      "text": "la mère"
+                    },
+                    {
+                      "text": "la sœur"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Mon père s'appelle Marc.",
+                  "audioTarget": "Mon père s'appelle Marc.",
+                  "tokens": [
+                    "Here",
+                    "My",
+                    "fathers",
+                    "Marc",
+                    "name",
+                    "is",
+                    "parents",
+                    "Where"
+                  ],
+                  "answer": [
+                    "My",
+                    "fathers",
+                    "name",
+                    "is",
+                    "Marc"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ma mère aime les chats.",
+                  "audioTarget": "Ma mère aime les chats.",
+                  "tokens": [
+                    "kind",
+                    "family",
+                    "live",
+                    "likes",
+                    "My",
+                    "mother",
+                    "cats"
+                  ],
+                  "answer": [
+                    "My",
+                    "mother",
+                    "likes",
+                    "cats"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u5-l1-e8",
+                  "sentence": "Mon père s'appelle Marc.",
+                  "translation": "My father's name is Marc.",
+                  "audioTarget": "Mon père s'appelle Marc.",
+                  "options": [
+                    "sappelle",
+                    "mère",
+                    "parents",
+                    "père"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u5-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "les parents",
+                      "native": "the parents"
+                    },
+                    {
+                      "target": "la sœur",
+                      "native": "the sister"
+                    },
+                    {
+                      "target": "le frère",
+                      "native": "the brother"
+                    },
+                    {
+                      "target": "la fille",
+                      "native": "the daughter"
+                    },
+                    {
+                      "target": "le père",
+                      "native": "the father"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u5-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Ma mère aime les chats.",
+                  "audioTarget": "Ma mère aime les chats.",
+                  "answer": "My mother likes cats.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u5-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la grand-mère",
+                  "audioTarget": "la grand-mère",
+                  "options": [
+                    {
+                      "text": "the brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the uncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the sister",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le grand-père",
+                  "audioTarget": "le grand-père",
+                  "options": [
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the uncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the sister",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le bébé",
+                  "audioTarget": "le bébé",
+                  "options": [
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the grandmother",
+                  "audioTarget": "la grand-mère",
+                  "options": [
+                    {
+                      "text": "l'oncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "la famille",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "la grand-mère",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "la mère",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the grandfather",
+                  "audioTarget": "le grand-père",
+                  "options": [
+                    {
+                      "text": "le frère",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "l'oncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "le grand-père",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "le bébé",
+                      "emoji": "👶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le bébé",
+                  "options": [
+                    {
+                      "text": "les parents"
+                    },
+                    {
+                      "text": "la famille"
+                    },
+                    {
+                      "text": "le bébé"
+                    },
+                    {
+                      "text": "la grand-mère"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Où habite ton grand-père ?",
+                  "audioTarget": "Où habite ton grand-père ?",
+                  "tokens": [
+                    "have",
+                    "grandfather",
+                    "brother",
+                    "your",
+                    "does",
+                    "baby",
+                    "live",
+                    "Where"
+                  ],
+                  "answer": [
+                    "Where",
+                    "does",
+                    "your",
+                    "grandfather",
+                    "live"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ma grand-mère est très gentille.",
+                  "audioTarget": "Ma grand-mère est très gentille.",
+                  "tokens": [
+                    "loves",
+                    "kind",
+                    "grandmother",
+                    "is",
+                    "very",
+                    "My",
+                    "and",
+                    "brother"
+                  ],
+                  "answer": [
+                    "My",
+                    "grandmother",
+                    "is",
+                    "very",
+                    "kind"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u5-l2-e8",
+                  "sentence": "Où habite ton ___ ?",
+                  "translation": "Where does your grandfather live?",
+                  "audioTarget": "Où habite ton grand-père ?",
+                  "options": [
+                    "père",
+                    "bébé",
+                    "grand-père",
+                    "famille"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u5-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "la grand-mère",
+                      "native": "the grandmother"
+                    },
+                    {
+                      "target": "le grand-père",
+                      "native": "the grandfather"
+                    },
+                    {
+                      "target": "le bébé",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "les parents",
+                      "native": "the parents"
+                    },
+                    {
+                      "target": "la famille",
+                      "native": "the family"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u5-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Ma grand-mère est très gentille.",
+                  "audioTarget": "Ma grand-mère est très gentille.",
+                  "answer": "My grandmother is very kind.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u5-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le fils",
+                  "audioTarget": "le fils",
+                  "options": [
+                    {
+                      "text": "the son",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "the brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la fille",
+                  "audioTarget": "la fille",
+                  "options": [
+                    {
+                      "text": "the uncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "the daughter",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'oncle",
+                  "audioTarget": "l'oncle",
+                  "options": [
+                    {
+                      "text": "the uncle",
+                      "emoji": "👨‍🦰"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "the brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the son",
+                  "audioTarget": "le fils",
+                  "options": [
+                    {
+                      "text": "la mère",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "le grand-père",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "le fils",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "la famille",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the daughter",
+                  "audioTarget": "la fille",
+                  "options": [
+                    {
+                      "text": "la fille",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "les parents",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "le père",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "la mère",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u5-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le fils",
+                  "options": [
+                    {
+                      "text": "les parents"
+                    },
+                    {
+                      "text": "l'oncle"
+                    },
+                    {
+                      "text": "la mère"
+                    },
+                    {
+                      "text": "le fils"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Le bébé dort dans sa chambre.",
+                  "audioTarget": "Le bébé dort dans sa chambre.",
+                  "tokens": [
+                    "baby",
+                    "is",
+                    "his",
+                    "Their",
+                    "in",
+                    "room",
+                    "sleeping",
+                    "are",
+                    "The",
+                    "a"
+                  ],
+                  "answer": [
+                    "The",
+                    "baby",
+                    "is",
+                    "sleeping",
+                    "in",
+                    "his",
+                    "room"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u5-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ce sont mes parents.",
+                  "audioTarget": "Ce sont mes parents.",
+                  "tokens": [
+                    "ten",
+                    "Here",
+                    "These",
+                    "family",
+                    "my",
+                    "parents",
+                    "are"
+                  ],
+                  "answer": [
+                    "These",
+                    "are",
+                    "my",
+                    "parents"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u5-l3-e8",
+                  "sentence": "Le ___ dort dans sa chambre.",
+                  "translation": "The baby is sleeping in his room.",
+                  "audioTarget": "Le bébé dort dans sa chambre.",
+                  "options": [
+                    "fils",
+                    "parents",
+                    "bébé",
+                    "mère"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u5-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "le fils",
+                      "native": "the son"
+                    },
+                    {
+                      "target": "la fille",
+                      "native": "the daughter"
+                    },
+                    {
+                      "target": "l'oncle",
+                      "native": "the uncle"
+                    },
+                    {
+                      "target": "la sœur",
+                      "native": "the sister"
+                    },
+                    {
+                      "target": "la famille",
+                      "native": "the family"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u5-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Ce sont mes parents.",
+                  "audioTarget": "Ce sont mes parents.",
+                  "answer": "These are my parents.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr-en:unit-7",
+          "title": "Shopping",
+          "description": "Learn how to navigate stores, ask for prices, and buy goods in French.",
+          "guidebook": "### Going Shopping in French!\n\nWhen browsing a boutique or an outdoor market (*le marché*), asking prices is simple. Just say **« C'est combien ? »** (*How much is it?*) or **« Combien coûte ceci ? »** (*How much does this cost?*).\n\n#### Expressing Value\nRemember that adjectives agree with gender:\n- **Ce sac est cher.** (*This bag is expensive.* - masculine)\n- **Cette montre est chère.** (*This watch is expensive.* - feminine)\n- For bargain finds, use **bon marché** or **pas cher** (*inexpensive*).\n\n#### At the Register\nWhen you are ready to pay (*payer*), specify your method:\n- **Par carte** (*by card*)\n- **En espèces** (*in cash*)\n\nDon't forget a polite *« Merci, bonne journée ! »* when leaving!",
+          "words": [
+            {
+              "target": "le magasin",
+              "native": "the shop",
+              "emoji": "🏪"
+            },
+            {
+              "target": "le marché",
+              "native": "the market",
+              "emoji": "🍎"
+            },
+            {
+              "target": "l'argent",
+              "native": "the money",
+              "emoji": "💰"
+            },
+            {
+              "target": "le prix",
+              "native": "the price",
+              "emoji": "🏷️"
+            },
+            {
+              "target": "cher",
+              "native": "expensive",
+              "emoji": "💎"
+            },
+            {
+              "target": "pas cher",
+              "native": "cheap",
+              "emoji": "🪙"
+            },
+            {
+              "target": "acheter",
+              "native": "to buy",
+              "emoji": "🛍️"
+            },
+            {
+              "target": "payer",
+              "native": "to pay",
+              "emoji": "🧾"
+            },
+            {
+              "target": "combien",
+              "native": "how much",
+              "emoji": "❓"
+            },
+            {
+              "target": "l'euro",
+              "native": "the euro",
+              "emoji": "💶"
+            },
+            {
+              "target": "la carte",
+              "native": "the card",
+              "emoji": "💳"
+            },
+            {
+              "target": "le client",
+              "native": "the customer",
+              "emoji": "👤"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "fr-en:u6-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le magasin",
+                  "audioTarget": "le magasin",
+                  "options": [
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "to pay",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le marché",
+                  "audioTarget": "le marché",
+                  "options": [
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "expensive",
+                      "emoji": "💎"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'argent",
+                  "audioTarget": "l'argent",
+                  "options": [
+                    {
+                      "text": "expensive",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the shop",
+                  "audioTarget": "le magasin",
+                  "options": [
+                    {
+                      "text": "combien",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "la carte",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "cher",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "le magasin",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the market",
+                  "audioTarget": "le marché",
+                  "options": [
+                    {
+                      "text": "le marché",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "la carte",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "le prix",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "cher",
+                      "emoji": "💎"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le magasin",
+                  "options": [
+                    {
+                      "text": "le magasin"
+                    },
+                    {
+                      "text": "le client"
+                    },
+                    {
+                      "text": "acheter"
+                    },
+                    {
+                      "text": "le marché"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "C'est combien, s'il vous plaît ?",
+                  "audioTarget": "C'est combien, s'il vous plaît ?",
+                  "tokens": [
+                    "very",
+                    "money",
+                    "much",
+                    "it",
+                    "please",
+                    "How",
+                    "is",
+                    "Sunday"
+                  ],
+                  "answer": [
+                    "How",
+                    "much",
+                    "is",
+                    "it",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Ce manteau est très cher.",
+                  "audioTarget": "Ce manteau est très cher.",
+                  "tokens": [
+                    "it",
+                    "This",
+                    "very",
+                    "much",
+                    "by",
+                    "is",
+                    "coat",
+                    "expensive"
+                  ],
+                  "answer": [
+                    "This",
+                    "coat",
+                    "is",
+                    "very",
+                    "expensive"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u6-l0-e8",
+                  "sentence": "C'est combien, s'il vous ___ ?",
+                  "translation": "How much is it, please?",
+                  "audioTarget": "C'est combien, s'il vous plaît ?",
+                  "options": [
+                    "combien",
+                    "acheter",
+                    "marché",
+                    "plaît"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u6-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "le magasin",
+                      "native": "the shop"
+                    },
+                    {
+                      "target": "le marché",
+                      "native": "the market"
+                    },
+                    {
+                      "target": "l'argent",
+                      "native": "the money"
+                    },
+                    {
+                      "target": "le prix",
+                      "native": "the price"
+                    },
+                    {
+                      "target": "l'euro",
+                      "native": "the euro"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u6-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Ce manteau est très cher.",
+                  "audioTarget": "Ce manteau est très cher.",
+                  "answer": "This coat is very expensive.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u6-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le prix",
+                  "audioTarget": "le prix",
+                  "options": [
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "to pay",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "cher",
+                  "audioTarget": "cher",
+                  "options": [
+                    {
+                      "text": "expensive",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "to pay",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "pas cher",
+                  "audioTarget": "pas cher",
+                  "options": [
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the price",
+                  "audioTarget": "le prix",
+                  "options": [
+                    {
+                      "text": "acheter",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "le prix",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "pas cher",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "payer",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "expensive",
+                  "audioTarget": "cher",
+                  "options": [
+                    {
+                      "text": "l'euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "le magasin",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "le prix",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "cher",
+                      "emoji": "💎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "cher",
+                  "options": [
+                    {
+                      "text": "cher"
+                    },
+                    {
+                      "text": "la carte"
+                    },
+                    {
+                      "text": "le client"
+                    },
+                    {
+                      "text": "acheter"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Je voudrais payer par carte.",
+                  "audioTarget": "Je voudrais payer par carte.",
+                  "tokens": [
+                    "I",
+                    "to",
+                    "by",
+                    "pay",
+                    "today",
+                    "fruits",
+                    "like",
+                    "card",
+                    "would",
+                    "We"
+                  ],
+                  "answer": [
+                    "I",
+                    "would",
+                    "like",
+                    "to",
+                    "pay",
+                    "by",
+                    "card"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Nous allons au marché dimanche.",
+                  "audioTarget": "Nous allons au marché dimanche.",
+                  "tokens": [
+                    "Sunday",
+                    "market",
+                    "We",
+                    "on",
+                    "pay",
+                    "coat",
+                    "are",
+                    "going",
+                    "shop",
+                    "the",
+                    "to"
+                  ],
+                  "answer": [
+                    "We",
+                    "are",
+                    "going",
+                    "to",
+                    "the",
+                    "market",
+                    "on",
+                    "Sunday"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u6-l1-e8",
+                  "sentence": "Je ___ payer par carte.",
+                  "translation": "I would like to pay by card.",
+                  "audioTarget": "Je voudrais payer par carte.",
+                  "options": [
+                    "l'argent",
+                    "combien",
+                    "cher",
+                    "voudrais"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u6-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "le prix",
+                      "native": "the price"
+                    },
+                    {
+                      "target": "cher",
+                      "native": "expensive"
+                    },
+                    {
+                      "target": "pas cher",
+                      "native": "cheap"
+                    },
+                    {
+                      "target": "l'euro",
+                      "native": "the euro"
+                    },
+                    {
+                      "target": "combien",
+                      "native": "how much"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u6-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Nous allons au marché dimanche.",
+                  "audioTarget": "Nous allons au marché dimanche.",
+                  "answer": "We are going to the market on Sunday.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u6-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "acheter",
+                  "audioTarget": "acheter",
+                  "options": [
+                    {
+                      "text": "to pay",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "payer",
+                  "audioTarget": "payer",
+                  "options": [
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the customer",
+                      "emoji": "👤"
+                    },
+                    {
+                      "text": "to pay",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "combien",
+                  "audioTarget": "combien",
+                  "options": [
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "how much",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to buy",
+                  "audioTarget": "acheter",
+                  "options": [
+                    {
+                      "text": "pas cher",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "le prix",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "acheter",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "le client",
+                      "emoji": "👤"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to pay",
+                  "audioTarget": "payer",
+                  "options": [
+                    {
+                      "text": "le magasin",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "l'argent",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "payer",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "combien",
+                      "emoji": "❓"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "combien",
+                  "options": [
+                    {
+                      "text": "pas cher"
+                    },
+                    {
+                      "text": "le magasin"
+                    },
+                    {
+                      "text": "le prix"
+                    },
+                    {
+                      "text": "combien"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Le magasin est ouvert aujourd'hui.",
+                  "audioTarget": "Le magasin est ouvert aujourd'hui.",
+                  "tokens": [
+                    "pay",
+                    "is",
+                    "it",
+                    "in",
+                    "The",
+                    "shop",
+                    "open",
+                    "today"
+                  ],
+                  "answer": [
+                    "The",
+                    "shop",
+                    "is",
+                    "open",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Tu as assez d'argent ?",
+                  "audioTarget": "Tu as assez d'argent ?",
+                  "tokens": [
+                    "Do",
+                    "in",
+                    "shop",
+                    "money",
+                    "you",
+                    "is",
+                    "enough",
+                    "have"
+                  ],
+                  "answer": [
+                    "Do",
+                    "you",
+                    "have",
+                    "enough",
+                    "money"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u6-l2-e8",
+                  "sentence": "Le magasin est ouvert aujourd'hui.",
+                  "translation": "The shop is open today.",
+                  "audioTarget": "Le magasin est ouvert aujourd'hui.",
+                  "options": [
+                    "aujourdhui",
+                    "l'euro",
+                    "prix",
+                    "acheter"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u6-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "acheter",
+                      "native": "to buy"
+                    },
+                    {
+                      "target": "payer",
+                      "native": "to pay"
+                    },
+                    {
+                      "target": "combien",
+                      "native": "how much"
+                    },
+                    {
+                      "target": "la carte",
+                      "native": "the card"
+                    },
+                    {
+                      "target": "le marché",
+                      "native": "the market"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u6-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Tu as assez d'argent ?",
+                  "audioTarget": "Tu as assez d'argent ?",
+                  "answer": "Do you have enough money?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u6-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'euro",
+                  "audioTarget": "l'euro",
+                  "options": [
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la carte",
+                  "audioTarget": "la carte",
+                  "options": [
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "to pay",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le client",
+                  "audioTarget": "le client",
+                  "options": [
+                    {
+                      "text": "the euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "the customer",
+                      "emoji": "👤"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🍎"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the euro",
+                  "audioTarget": "l'euro",
+                  "options": [
+                    {
+                      "text": "l'argent",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "acheter",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "l'euro",
+                      "emoji": "💶"
+                    },
+                    {
+                      "text": "le prix",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the card",
+                  "audioTarget": "la carte",
+                  "options": [
+                    {
+                      "text": "le client",
+                      "emoji": "👤"
+                    },
+                    {
+                      "text": "le magasin",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "le prix",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "la carte",
+                      "emoji": "💳"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u6-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'euro",
+                  "options": [
+                    {
+                      "text": "le marché"
+                    },
+                    {
+                      "text": "le prix"
+                    },
+                    {
+                      "text": "acheter"
+                    },
+                    {
+                      "text": "l'euro"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Les fruits ne sont pas chers.",
+                  "audioTarget": "Les fruits ne sont pas chers.",
+                  "tokens": [
+                    "The",
+                    "are",
+                    "expensive",
+                    "fruits",
+                    "buy",
+                    "not",
+                    "total",
+                    "coat"
+                  ],
+                  "answer": [
+                    "The",
+                    "fruits",
+                    "are",
+                    "not",
+                    "expensive"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u6-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Je veux acheter ce livre.",
+                  "audioTarget": "Je veux acheter ce livre.",
+                  "tokens": [
+                    "to",
+                    "total",
+                    "buy",
+                    "book",
+                    "this",
+                    "I",
+                    "want",
+                    "expensive",
+                    "the"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "buy",
+                    "this",
+                    "book"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u6-l3-e8",
+                  "sentence": "Les ___ ne sont pas chers.",
+                  "translation": "The fruits are not expensive.",
+                  "audioTarget": "Les fruits ne sont pas chers.",
+                  "options": [
+                    "fruits",
+                    "combien",
+                    "client",
+                    "marché"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u6-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "l'euro",
+                      "native": "the euro"
+                    },
+                    {
+                      "target": "la carte",
+                      "native": "the card"
+                    },
+                    {
+                      "target": "le client",
+                      "native": "the customer"
+                    },
+                    {
+                      "target": "payer",
+                      "native": "to pay"
+                    },
+                    {
+                      "target": "le prix",
+                      "native": "the price"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u6-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Je veux acheter ce livre.",
+                  "audioTarget": "Je veux acheter ce livre.",
+                  "answer": "I want to buy this book.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr-en:unit-8",
+          "title": "Weather",
+          "description": "Talk about the weather, seasons, temperatures, and atmospheric conditions in French.",
+          "guidebook": "### Talking About the Weather\n\nIn French, weather expressions often rely on the verb **faire** (literally \"to make\") rather than *être* (\"to be\").\n\n* **Il fait chaud.** = It is hot.\n* **Il fait froid.** = It is cold.\n* **Il fait beau.** = The weather is nice.\n\n### Wind, Sun, and Precipitation\n\nTo describe elements like wind or sun, use **il y a du...** (\"there is\"):\n* **Il y a du soleil.** = It is sunny.\n* **Il y a du vent.** = It is windy.\n\nPrecipitation uses impersonal verbs:\n* **Il pleut.** = It is raining.\n* **Il neige.** = It is snowing.\n\n### Seasons with Prepositions\n\nWhen talking about seasons, use **en** before vowels or mute *h*, and **au** before consonants:\n* **en été** (in summer), **en hiver** (in winter), **en automne** (in autumn), but **au printemps** (in spring)!",
+          "words": [
+            {
+              "target": "le soleil",
+              "native": "the sun",
+              "emoji": "☀️"
+            },
+            {
+              "target": "la pluie",
+              "native": "the rain",
+              "emoji": "🌧️"
+            },
+            {
+              "target": "la neige",
+              "native": "the snow",
+              "emoji": "❄️"
+            },
+            {
+              "target": "le vent",
+              "native": "the wind",
+              "emoji": "💨"
+            },
+            {
+              "target": "le nuage",
+              "native": "the cloud",
+              "emoji": "☁️"
+            },
+            {
+              "target": "l'été",
+              "native": "the summer",
+              "emoji": "🏖️"
+            },
+            {
+              "target": "l'hiver",
+              "native": "the winter",
+              "emoji": "🧣"
+            },
+            {
+              "target": "le printemps",
+              "native": "the spring",
+              "emoji": "🌸"
+            },
+            {
+              "target": "l'automne",
+              "native": "the autumn",
+              "emoji": "🍂"
+            },
+            {
+              "target": "chaud",
+              "native": "hot",
+              "emoji": "🔥"
+            },
+            {
+              "target": "froid",
+              "native": "cold",
+              "emoji": "🥶"
+            },
+            {
+              "target": "la météo",
+              "native": "the weather forecast",
+              "emoji": "⛅"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "fr-en:u7-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le soleil",
+                  "audioTarget": "le soleil",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🔥"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la pluie",
+                  "audioTarget": "la pluie",
+                  "options": [
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la neige",
+                  "audioTarget": "la neige",
+                  "options": [
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sun",
+                  "audioTarget": "le soleil",
+                  "options": [
+                    {
+                      "text": "l'hiver",
+                      "emoji": "🧣"
+                    },
+                    {
+                      "text": "le soleil",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "la météo",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "le vent",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rain",
+                  "audioTarget": "la pluie",
+                  "options": [
+                    {
+                      "text": "la pluie",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "le vent",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "froid",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "la météo",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le soleil",
+                  "options": [
+                    {
+                      "text": "la pluie"
+                    },
+                    {
+                      "text": "la météo"
+                    },
+                    {
+                      "text": "le soleil"
+                    },
+                    {
+                      "text": "l'automne"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il fait très chaud aujourd'hui.",
+                  "audioTarget": "Il fait très chaud aujourd'hui.",
+                  "tokens": [
+                    "summer",
+                    "hot",
+                    "winter",
+                    "is",
+                    "season",
+                    "It",
+                    "today",
+                    "very"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "very",
+                    "hot",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Il fait froid en hiver.",
+                  "audioTarget": "Il fait froid en hiver.",
+                  "tokens": [
+                    "like",
+                    "winter",
+                    "cold",
+                    "in",
+                    "is",
+                    "the",
+                    "beautiful",
+                    "It"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "cold",
+                    "in",
+                    "winter"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u7-l0-e8",
+                  "sentence": "Il fait très ___ aujourd'hui.",
+                  "translation": "It is very hot today.",
+                  "audioTarget": "Il fait très chaud aujourd'hui.",
+                  "options": [
+                    "l'hiver",
+                    "chaud",
+                    "neige",
+                    "printemps"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u7-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "le soleil",
+                      "native": "the sun"
+                    },
+                    {
+                      "target": "la pluie",
+                      "native": "the rain"
+                    },
+                    {
+                      "target": "la neige",
+                      "native": "the snow"
+                    },
+                    {
+                      "target": "chaud",
+                      "native": "hot"
+                    },
+                    {
+                      "target": "froid",
+                      "native": "cold"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u7-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Il fait froid en hiver.",
+                  "audioTarget": "Il fait froid en hiver.",
+                  "answer": "It is cold in winter.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u7-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le vent",
+                  "audioTarget": "le vent",
+                  "options": [
+                    {
+                      "text": "the weather forecast",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le nuage",
+                  "audioTarget": "le nuage",
+                  "options": [
+                    {
+                      "text": "the winter",
+                      "emoji": "🧣"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'été",
+                  "audioTarget": "l'été",
+                  "options": [
+                    {
+                      "text": "hot",
+                      "emoji": "🔥"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "🧣"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the wind",
+                  "audioTarget": "le vent",
+                  "options": [
+                    {
+                      "text": "le vent",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "chaud",
+                      "emoji": "🔥"
+                    },
+                    {
+                      "text": "froid",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "le printemps",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cloud",
+                  "audioTarget": "le nuage",
+                  "options": [
+                    {
+                      "text": "le nuage",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "l'été",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "la pluie",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "le soleil",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le nuage",
+                  "options": [
+                    {
+                      "text": "le vent"
+                    },
+                    {
+                      "text": "l'été"
+                    },
+                    {
+                      "text": "la pluie"
+                    },
+                    {
+                      "text": "le nuage"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il y a beaucoup de vent.",
+                  "audioTarget": "Il y a beaucoup de vent.",
+                  "tokens": [
+                    "the",
+                    "day",
+                    "lot",
+                    "a",
+                    "is",
+                    "of",
+                    "snowing",
+                    "wind",
+                    "There"
+                  ],
+                  "answer": [
+                    "There",
+                    "is",
+                    "a",
+                    "lot",
+                    "of",
+                    "wind"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Il neige sur la montagne.",
+                  "audioTarget": "Il neige sur la montagne.",
+                  "tokens": [
+                    "snowing",
+                    "is",
+                    "of",
+                    "on",
+                    "gray",
+                    "the",
+                    "mountain",
+                    "It",
+                    "There"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "snowing",
+                    "on",
+                    "the",
+                    "mountain"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u7-l1-e8",
+                  "sentence": "Il y a beaucoup de ___.",
+                  "translation": "There is a lot of wind.",
+                  "audioTarget": "Il y a beaucoup de vent.",
+                  "options": [
+                    "pluie",
+                    "vent",
+                    "météo",
+                    "chaud"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u7-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "le vent",
+                      "native": "the wind"
+                    },
+                    {
+                      "target": "le nuage",
+                      "native": "the cloud"
+                    },
+                    {
+                      "target": "l'été",
+                      "native": "the summer"
+                    },
+                    {
+                      "target": "froid",
+                      "native": "cold"
+                    },
+                    {
+                      "target": "l'hiver",
+                      "native": "the winter"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u7-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Il neige sur la montagne.",
+                  "audioTarget": "Il neige sur la montagne.",
+                  "answer": "It is snowing on the mountain.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u7-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'hiver",
+                  "audioTarget": "l'hiver",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "🧣"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le printemps",
+                  "audioTarget": "le printemps",
+                  "options": [
+                    {
+                      "text": "the weather forecast",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'automne",
+                  "audioTarget": "l'automne",
+                  "options": [
+                    {
+                      "text": "the weather forecast",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the winter",
+                  "audioTarget": "l'hiver",
+                  "options": [
+                    {
+                      "text": "la météo",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "le soleil",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "l'hiver",
+                      "emoji": "🧣"
+                    },
+                    {
+                      "text": "l'automne",
+                      "emoji": "🍂"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the spring",
+                  "audioTarget": "le printemps",
+                  "options": [
+                    {
+                      "text": "chaud",
+                      "emoji": "🔥"
+                    },
+                    {
+                      "text": "l'automne",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "la météo",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "le printemps",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'automne",
+                  "options": [
+                    {
+                      "text": "le nuage"
+                    },
+                    {
+                      "text": "l'automne"
+                    },
+                    {
+                      "text": "la neige"
+                    },
+                    {
+                      "text": "chaud"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Il pleut toute la journée.",
+                  "audioTarget": "Il pleut toute la journée.",
+                  "tokens": [
+                    "all",
+                    "is",
+                    "Spring",
+                    "outside",
+                    "snowing",
+                    "It",
+                    "raining",
+                    "day"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "raining",
+                    "all",
+                    "day"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "J'aime le soleil en été.",
+                  "audioTarget": "J'aime le soleil en été.",
+                  "tokens": [
+                    "I",
+                    "is",
+                    "in",
+                    "summer",
+                    "There",
+                    "the",
+                    "today",
+                    "sun",
+                    "like"
+                  ],
+                  "answer": [
+                    "I",
+                    "like",
+                    "the",
+                    "sun",
+                    "in",
+                    "summer"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u7-l2-e8",
+                  "sentence": "Il ___ toute la journée.",
+                  "translation": "It is raining all day.",
+                  "audioTarget": "Il pleut toute la journée.",
+                  "options": [
+                    "vent",
+                    "l'été",
+                    "l'hiver",
+                    "pleut"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u7-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "l'hiver",
+                      "native": "the winter"
+                    },
+                    {
+                      "target": "le printemps",
+                      "native": "the spring"
+                    },
+                    {
+                      "target": "l'automne",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "froid",
+                      "native": "cold"
+                    },
+                    {
+                      "target": "le nuage",
+                      "native": "the cloud"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u7-l2-e10",
+                  "mode": "translate",
+                  "prompt": "J'aime le soleil en été.",
+                  "audioTarget": "J'aime le soleil en été.",
+                  "answer": "I like the sun in summer.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u7-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "chaud",
+                  "audioTarget": "chaud",
+                  "options": [
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🔥"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "froid",
+                  "audioTarget": "froid",
+                  "options": [
+                    {
+                      "text": "hot",
+                      "emoji": "🔥"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la météo",
+                  "audioTarget": "la météo",
+                  "options": [
+                    {
+                      "text": "the winter",
+                      "emoji": "🧣"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the weather forecast",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "hot",
+                  "audioTarget": "chaud",
+                  "options": [
+                    {
+                      "text": "chaud",
+                      "emoji": "🔥"
+                    },
+                    {
+                      "text": "l'automne",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "le nuage",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "la météo",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "cold",
+                  "audioTarget": "froid",
+                  "options": [
+                    {
+                      "text": "l'été",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "froid",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "la neige",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "l'hiver",
+                      "emoji": "🧣"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u7-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "chaud",
+                  "options": [
+                    {
+                      "text": "froid"
+                    },
+                    {
+                      "text": "chaud"
+                    },
+                    {
+                      "text": "la pluie"
+                    },
+                    {
+                      "text": "le vent"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Quel temps fait-il dehors ?",
+                  "audioTarget": "Quel temps fait-il dehors ?",
+                  "tokens": [
+                    "weather",
+                    "is",
+                    "all",
+                    "the",
+                    "cloud",
+                    "sun",
+                    "outside",
+                    "What",
+                    "like"
+                  ],
+                  "answer": [
+                    "What",
+                    "is",
+                    "the",
+                    "weather",
+                    "like",
+                    "outside"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u7-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Il y a un nuage gris.",
+                  "audioTarget": "Il y a un nuage gris.",
+                  "tokens": [
+                    "gray",
+                    "day",
+                    "a",
+                    "cloud",
+                    "on",
+                    "There",
+                    "is",
+                    "Spring"
+                  ],
+                  "answer": [
+                    "There",
+                    "is",
+                    "a",
+                    "gray",
+                    "cloud"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u7-l3-e8",
+                  "sentence": "Quel temps fait-il ___ ?",
+                  "translation": "What is the weather like outside?",
+                  "audioTarget": "Quel temps fait-il dehors ?",
+                  "options": [
+                    "vent",
+                    "l'hiver",
+                    "dehors",
+                    "froid"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u7-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "chaud",
+                      "native": "hot"
+                    },
+                    {
+                      "target": "froid",
+                      "native": "cold"
+                    },
+                    {
+                      "target": "la météo",
+                      "native": "the weather forecast"
+                    },
+                    {
+                      "target": "le vent",
+                      "native": "the wind"
+                    },
+                    {
+                      "target": "le soleil",
+                      "native": "the sun"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u7-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Il y a un nuage gris.",
+                  "audioTarget": "Il y a un nuage gris.",
+                  "answer": "There is a gray cloud.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr-en:unit-9",
+          "title": "Work & School",
+          "description": "Talk about jobs, school life, and daily tasks in the classroom and the office.",
+          "guidebook": "### Jobs without Articles\nWhen describing someone's profession using the verb **être** (to be), French drops the indefinite article (*un/une*). For example, say **Il est médecin** (*He is a doctor*) or **Je suis professeur** (*I am a teacher*), not *Il est un médecin*.\n\n### Office or Desk?\nThe word **le bureau** does double duty in French! It means both \"desk\" (the piece of furniture) and \"office\" (the workplace).\n\n### Homework is Plural\nIn English, \"homework\" is uncountable, but in French it is almost always plural: **les devoirs**. For instance: *Je fais mes devoirs* (*I am doing my homework*).",
+          "words": [
+            {
+              "target": "le professeur",
+              "native": "the teacher",
+              "emoji": "👨‍🏫"
+            },
+            {
+              "target": "le médecin",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️"
+            },
+            {
+              "target": "l'étudiant",
+              "native": "the student",
+              "emoji": "🎓"
+            },
+            {
+              "target": "le bureau",
+              "native": "the office",
+              "emoji": "🏢"
+            },
+            {
+              "target": "la classe",
+              "native": "the class",
+              "emoji": "🏫"
+            },
+            {
+              "target": "les devoirs",
+              "native": "the homework",
+              "emoji": "📝"
+            },
+            {
+              "target": "le travail",
+              "native": "the work",
+              "emoji": "💼"
+            },
+            {
+              "target": "l'école",
+              "native": "the school",
+              "emoji": "🎒"
+            },
+            {
+              "target": "le livre",
+              "native": "the book",
+              "emoji": "📖"
+            },
+            {
+              "target": "l'ordinateur",
+              "native": "the computer",
+              "emoji": "💻"
+            },
+            {
+              "target": "l'hôpital",
+              "native": "the hospital",
+              "emoji": "🏥"
+            },
+            {
+              "target": "l'examen",
+              "native": "the exam",
+              "emoji": "📑"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "fr-en:u8-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le professeur",
+                  "audioTarget": "le professeur",
+                  "options": [
+                    {
+                      "text": "the work",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🎒"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le médecin",
+                  "audioTarget": "le médecin",
+                  "options": [
+                    {
+                      "text": "the school",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the computer",
+                      "emoji": "💻"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'étudiant",
+                  "audioTarget": "l'étudiant",
+                  "options": [
+                    {
+                      "text": "the class",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎓"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the teacher",
+                  "audioTarget": "le professeur",
+                  "options": [
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "l'examen",
+                      "emoji": "📑"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "le professeur",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the doctor",
+                  "audioTarget": "le médecin",
+                  "options": [
+                    {
+                      "text": "l'ordinateur",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "l'examen",
+                      "emoji": "📑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le professeur",
+                  "options": [
+                    {
+                      "text": "le bureau"
+                    },
+                    {
+                      "text": "le professeur"
+                    },
+                    {
+                      "text": "les devoirs"
+                    },
+                    {
+                      "text": "le livre"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Le professeur parle à la classe.",
+                  "audioTarget": "Le professeur parle à la classe.",
+                  "tokens": [
+                    "am",
+                    "works",
+                    "hospital",
+                    "The",
+                    "to",
+                    "speaks",
+                    "the",
+                    "teacher",
+                    "class"
+                  ],
+                  "answer": [
+                    "The",
+                    "teacher",
+                    "speaks",
+                    "to",
+                    "the",
+                    "class"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Je fais mes devoirs ce soir.",
+                  "audioTarget": "Je fais mes devoirs ce soir.",
+                  "tokens": [
+                    "works",
+                    "tonight",
+                    "at",
+                    "my",
+                    "doing",
+                    "I",
+                    "homework",
+                    "am",
+                    "lot"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "doing",
+                    "my",
+                    "homework",
+                    "tonight"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u8-l0-e8",
+                  "sentence": "Le professeur parle à la ___.",
+                  "translation": "The teacher speaks to the class.",
+                  "audioTarget": "Le professeur parle à la classe.",
+                  "options": [
+                    "l'étudiant",
+                    "classe",
+                    "médecin",
+                    "travail"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u8-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "le professeur",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "le médecin",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "l'étudiant",
+                      "native": "the student"
+                    },
+                    {
+                      "target": "l'ordinateur",
+                      "native": "the computer"
+                    },
+                    {
+                      "target": "l'hôpital",
+                      "native": "the hospital"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u8-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Je fais mes devoirs ce soir.",
+                  "audioTarget": "Je fais mes devoirs ce soir.",
+                  "answer": "I am doing my homework tonight.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u8-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le bureau",
+                  "audioTarget": "le bureau",
+                  "options": [
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la classe",
+                  "audioTarget": "la classe",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "les devoirs",
+                  "audioTarget": "les devoirs",
+                  "options": [
+                    {
+                      "text": "the student",
+                      "emoji": "🎓"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the office",
+                  "audioTarget": "le bureau",
+                  "options": [
+                    {
+                      "text": "le livre",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "les devoirs",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "l'ordinateur",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "le bureau",
+                      "emoji": "🏢"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the class",
+                  "audioTarget": "la classe",
+                  "options": [
+                    {
+                      "text": "le bureau",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "la classe",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "les devoirs",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la classe",
+                  "options": [
+                    {
+                      "text": "l'examen"
+                    },
+                    {
+                      "text": "les devoirs"
+                    },
+                    {
+                      "text": "le travail"
+                    },
+                    {
+                      "text": "la classe"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Elle travaille dans un grand bureau.",
+                  "audioTarget": "Elle travaille dans un grand bureau.",
+                  "tokens": [
+                    "office",
+                    "to",
+                    "big",
+                    "in",
+                    "job",
+                    "computer",
+                    "a",
+                    "She",
+                    "works"
+                  ],
+                  "answer": [
+                    "She",
+                    "works",
+                    "in",
+                    "a",
+                    "big",
+                    "office"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Le médecin travaille à l'hôpital.",
+                  "audioTarget": "Le médecin travaille à l'hôpital.",
+                  "tokens": [
+                    "hospital",
+                    "My",
+                    "to",
+                    "the",
+                    "doctor",
+                    "at",
+                    "The",
+                    "exam",
+                    "works"
+                  ],
+                  "answer": [
+                    "The",
+                    "doctor",
+                    "works",
+                    "at",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u8-l1-e8",
+                  "sentence": "Elle travaille dans un grand ___.",
+                  "translation": "She works in a big office.",
+                  "audioTarget": "Elle travaille dans un grand bureau.",
+                  "options": [
+                    "devoirs",
+                    "l'hôpital",
+                    "bureau",
+                    "travail"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u8-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "le bureau",
+                      "native": "the office"
+                    },
+                    {
+                      "target": "la classe",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "les devoirs",
+                      "native": "the homework"
+                    },
+                    {
+                      "target": "l'examen",
+                      "native": "the exam"
+                    },
+                    {
+                      "target": "le travail",
+                      "native": "the work"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u8-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Le médecin travaille à l'hôpital.",
+                  "audioTarget": "Le médecin travaille à l'hôpital.",
+                  "answer": "The doctor works at the hospital.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u8-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "le travail",
+                  "audioTarget": "le travail",
+                  "options": [
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎓"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "l'école",
+                  "audioTarget": "l'école",
+                  "options": [
+                    {
+                      "text": "the computer",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the exam",
+                      "emoji": "📑"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🎒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le livre",
+                  "audioTarget": "le livre",
+                  "options": [
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎓"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the work",
+                  "audioTarget": "le travail",
+                  "options": [
+                    {
+                      "text": "le travail",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "la classe",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "le professeur",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "l'étudiant",
+                      "emoji": "🎓"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the school",
+                  "audioTarget": "l'école",
+                  "options": [
+                    {
+                      "text": "l'étudiant",
+                      "emoji": "🎓"
+                    },
+                    {
+                      "text": "l'école",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "le professeur",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le livre",
+                  "options": [
+                    {
+                      "text": "l'hôpital"
+                    },
+                    {
+                      "text": "le livre"
+                    },
+                    {
+                      "text": "l'école"
+                    },
+                    {
+                      "text": "la classe"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "L'étudiant étudie pour un examen.",
+                  "audioTarget": "L'étudiant étudie pour un examen.",
+                  "tokens": [
+                    "is",
+                    "studying",
+                    "The",
+                    "student",
+                    "my",
+                    "exam",
+                    "teacher",
+                    "an",
+                    "for",
+                    "office"
+                  ],
+                  "answer": [
+                    "The",
+                    "student",
+                    "is",
+                    "studying",
+                    "for",
+                    "an",
+                    "exam"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Nous allons à l'école ensemble.",
+                  "audioTarget": "Nous allons à l'école ensemble.",
+                  "tokens": [
+                    "going",
+                    "exam",
+                    "are",
+                    "to",
+                    "We",
+                    "I",
+                    "together",
+                    "My",
+                    "school"
+                  ],
+                  "answer": [
+                    "We",
+                    "are",
+                    "going",
+                    "to",
+                    "school",
+                    "together"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u8-l2-e8",
+                  "sentence": "L'étudiant ___ pour un examen.",
+                  "translation": "The student is studying for an exam.",
+                  "audioTarget": "L'étudiant étudie pour un examen.",
+                  "options": [
+                    "étudie",
+                    "l'ordinateur",
+                    "livre",
+                    "l'examen"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u8-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "le travail",
+                      "native": "the work"
+                    },
+                    {
+                      "target": "l'école",
+                      "native": "the school"
+                    },
+                    {
+                      "target": "le livre",
+                      "native": "the book"
+                    },
+                    {
+                      "target": "le professeur",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "les devoirs",
+                      "native": "the homework"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u8-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Nous allons à l'école ensemble.",
+                  "audioTarget": "Nous allons à l'école ensemble.",
+                  "answer": "We are going to school together.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u8-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'ordinateur",
+                  "audioTarget": "l'ordinateur",
+                  "options": [
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the computer",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the exam",
+                      "emoji": "📑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "l'hôpital",
+                  "audioTarget": "l'hôpital",
+                  "options": [
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🎒"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "l'examen",
+                  "audioTarget": "l'examen",
+                  "options": [
+                    {
+                      "text": "the class",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the exam",
+                      "emoji": "📑"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the book",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the computer",
+                  "audioTarget": "l'ordinateur",
+                  "options": [
+                    {
+                      "text": "l'ordinateur",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "la classe",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "les devoirs",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "le travail",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hospital",
+                  "audioTarget": "l'hôpital",
+                  "options": [
+                    {
+                      "text": "le bureau",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "les devoirs",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u8-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'ordinateur",
+                  "options": [
+                    {
+                      "text": "le professeur"
+                    },
+                    {
+                      "text": "l'ordinateur"
+                    },
+                    {
+                      "text": "la classe"
+                    },
+                    {
+                      "text": "le travail"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Tu as beaucoup de devoirs ?",
+                  "audioTarget": "Tu as beaucoup de devoirs ?",
+                  "tokens": [
+                    "a",
+                    "in",
+                    "homework",
+                    "Do",
+                    "of",
+                    "doctor",
+                    "have",
+                    "book",
+                    "you",
+                    "lot"
+                  ],
+                  "answer": [
+                    "Do",
+                    "you",
+                    "have",
+                    "a",
+                    "lot",
+                    "of",
+                    "homework"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u8-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Mon ordinateur est sur le bureau.",
+                  "audioTarget": "Mon ordinateur est sur le bureau.",
+                  "tokens": [
+                    "lot",
+                    "tonight",
+                    "My",
+                    "hospital",
+                    "is",
+                    "computer",
+                    "the",
+                    "desk",
+                    "on"
+                  ],
+                  "answer": [
+                    "My",
+                    "computer",
+                    "is",
+                    "on",
+                    "the",
+                    "desk"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u8-l3-e8",
+                  "sentence": "Tu as ___ de devoirs ?",
+                  "translation": "Do you have a lot of homework?",
+                  "audioTarget": "Tu as beaucoup de devoirs ?",
+                  "options": [
+                    "classe",
+                    "beaucoup",
+                    "l'examen",
+                    "professeur"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u8-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "l'ordinateur",
+                      "native": "the computer"
+                    },
+                    {
+                      "target": "l'hôpital",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "l'examen",
+                      "native": "the exam"
+                    },
+                    {
+                      "target": "l'école",
+                      "native": "the school"
+                    },
+                    {
+                      "target": "les devoirs",
+                      "native": "the homework"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u8-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Mon ordinateur est sur le bureau.",
+                  "audioTarget": "Mon ordinateur est sur le bureau.",
+                  "answer": "My computer is on the desk.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr-en:unit-10",
+          "title": "Health",
+          "description": "Talk about body parts, common ailments, and visiting the doctor.",
+          "guidebook": "### Expressing Pain\nTo say that something hurts in French, use the expression **avoir mal à** followed by the body part.\n\nRemember to contract **à** with definite articles:\n- **à + le = au**: *J'ai mal au dos.* (My back hurts.)\n- **à + la = à la**: *J'ai mal à la tête.* (I have a headache.)\n- **à + les = aux**: *J'ai mal aux dents.* (My teeth hurt.)\n- **à + l' = à l'**: *J'ai mal à l'épaule.* (My shoulder hurts.)\n\n### Describing How You Feel\nUse the verb **être** with adjectives like **malade** (sick) or **fatigué** (tired). Don't forget that adjectives agree with gender:\n- *Il est fatigué.* (He is tired.)\n- *Elle est fatiguée.* (She is tired.)",
+          "words": [
+            {
+              "target": "la tête",
+              "native": "the head",
+              "emoji": "🗣️"
+            },
+            {
+              "target": "la main",
+              "native": "the hand",
+              "emoji": "✋"
+            },
+            {
+              "target": "le bras",
+              "native": "the arm",
+              "emoji": "💪"
+            },
+            {
+              "target": "la jambe",
+              "native": "the leg",
+              "emoji": "🦵"
+            },
+            {
+              "target": "le dos",
+              "native": "the back",
+              "emoji": "🧍"
+            },
+            {
+              "target": "le ventre",
+              "native": "the stomach",
+              "emoji": "🫄"
+            },
+            {
+              "target": "malade",
+              "native": "sick",
+              "emoji": "🤒"
+            },
+            {
+              "target": "fatigué",
+              "native": "tired",
+              "emoji": "🥱"
+            },
+            {
+              "target": "le médicament",
+              "native": "the medicine",
+              "emoji": "💊"
+            },
+            {
+              "target": "l'hôpital",
+              "native": "the hospital",
+              "emoji": "🏥"
+            },
+            {
+              "target": "le médecin",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️"
+            },
+            {
+              "target": "la fièvre",
+              "native": "the fever",
+              "emoji": "🌡️"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "fr-en:u9-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la tête",
+                  "audioTarget": "la tête",
+                  "options": [
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "la main",
+                  "audioTarget": "la main",
+                  "options": [
+                    {
+                      "text": "the back",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫄"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le bras",
+                  "audioTarget": "le bras",
+                  "options": [
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the head",
+                  "audioTarget": "la tête",
+                  "options": [
+                    {
+                      "text": "la jambe",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "la tête",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "la main",
+                      "emoji": "✋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hand",
+                  "audioTarget": "la main",
+                  "options": [
+                    {
+                      "text": "la fièvre",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "fatigué",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "le bras",
+                      "emoji": "💪"
+                    },
+                    {
+                      "text": "la main",
+                      "emoji": "✋"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "la tête",
+                  "options": [
+                    {
+                      "text": "malade"
+                    },
+                    {
+                      "text": "le médecin"
+                    },
+                    {
+                      "text": "la main"
+                    },
+                    {
+                      "text": "la tête"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "J'ai très mal à la tête.",
+                  "audioTarget": "J'ai très mal à la tête.",
+                  "tokens": [
+                    "headache",
+                    "have",
+                    "today",
+                    "a",
+                    "bad",
+                    "She",
+                    "I",
+                    "The"
+                  ],
+                  "answer": [
+                    "I",
+                    "have",
+                    "a",
+                    "bad",
+                    "headache"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Il est très malade aujourd'hui.",
+                  "audioTarget": "Il est très malade aujourd'hui.",
+                  "tokens": [
+                    "is",
+                    "today",
+                    "hospital",
+                    "He",
+                    "sick",
+                    "have",
+                    "has",
+                    "very"
+                  ],
+                  "answer": [
+                    "He",
+                    "is",
+                    "very",
+                    "sick",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u9-l0-e8",
+                  "sentence": "J'ai très mal à la ___.",
+                  "translation": "I have a bad headache.",
+                  "audioTarget": "J'ai très mal à la tête.",
+                  "options": [
+                    "l'hôpital",
+                    "fatigué",
+                    "tête",
+                    "médecin"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u9-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "la tête",
+                      "native": "the head"
+                    },
+                    {
+                      "target": "la main",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "le bras",
+                      "native": "the arm"
+                    },
+                    {
+                      "target": "la jambe",
+                      "native": "the leg"
+                    },
+                    {
+                      "target": "le médecin",
+                      "native": "the doctor"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u9-l0-e10",
+                  "mode": "translate",
+                  "prompt": "Il est très malade aujourd'hui.",
+                  "audioTarget": "Il est très malade aujourd'hui.",
+                  "answer": "He is very sick today.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u9-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "la jambe",
+                  "audioTarget": "la jambe",
+                  "options": [
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the leg",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le dos",
+                  "audioTarget": "le dos",
+                  "options": [
+                    {
+                      "text": "the back",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le ventre",
+                  "audioTarget": "le ventre",
+                  "options": [
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the leg",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫄"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the leg",
+                  "audioTarget": "la jambe",
+                  "options": [
+                    {
+                      "text": "la jambe",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "fatigué",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "la fièvre",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the back",
+                  "audioTarget": "le dos",
+                  "options": [
+                    {
+                      "text": "la tête",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "la jambe",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "le dos",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le dos",
+                  "options": [
+                    {
+                      "text": "malade"
+                    },
+                    {
+                      "text": "le ventre"
+                    },
+                    {
+                      "text": "le dos"
+                    },
+                    {
+                      "text": "la fièvre"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Elle va vite à l'hôpital.",
+                  "audioTarget": "Elle va vite à l'hôpital.",
+                  "tokens": [
+                    "She",
+                    "hospital",
+                    "arriving",
+                    "to",
+                    "quickly",
+                    "is",
+                    "the",
+                    "going",
+                    "soon",
+                    "go"
+                  ],
+                  "answer": [
+                    "She",
+                    "is",
+                    "going",
+                    "quickly",
+                    "to",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Est-ce que tu as de la fièvre ?",
+                  "audioTarget": "Est-ce que tu as de la fièvre ?",
+                  "tokens": [
+                    "have",
+                    "a",
+                    "is",
+                    "Do",
+                    "fever",
+                    "you",
+                    "this",
+                    "Her"
+                  ],
+                  "answer": [
+                    "Do",
+                    "you",
+                    "have",
+                    "a",
+                    "fever"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u9-l1-e8",
+                  "sentence": "Elle va vite à l'hôpital.",
+                  "translation": "She is going quickly to the hospital.",
+                  "audioTarget": "Elle va vite à l'hôpital.",
+                  "options": [
+                    "médecin",
+                    "médicament",
+                    "lhôpital",
+                    "dos"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u9-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "la jambe",
+                      "native": "the leg"
+                    },
+                    {
+                      "target": "le dos",
+                      "native": "the back"
+                    },
+                    {
+                      "target": "le ventre",
+                      "native": "the stomach"
+                    },
+                    {
+                      "target": "la tête",
+                      "native": "the head"
+                    },
+                    {
+                      "target": "la main",
+                      "native": "the hand"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u9-l1-e10",
+                  "mode": "translate",
+                  "prompt": "Est-ce que tu as de la fièvre ?",
+                  "audioTarget": "Est-ce que tu as de la fièvre ?",
+                  "answer": "Do you have a fever?",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u9-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "malade",
+                  "audioTarget": "malade",
+                  "options": [
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫄"
+                    },
+                    {
+                      "text": "sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the back",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "fatigué",
+                  "audioTarget": "fatigué",
+                  "options": [
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "le médicament",
+                  "audioTarget": "le médicament",
+                  "options": [
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫄"
+                    },
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "sick",
+                  "audioTarget": "malade",
+                  "options": [
+                    {
+                      "text": "le ventre",
+                      "emoji": "🫄"
+                    },
+                    {
+                      "text": "la jambe",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "malade",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "la fièvre",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "tired",
+                  "audioTarget": "fatigué",
+                  "options": [
+                    {
+                      "text": "la fièvre",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "fatigué",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "le médicament",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "le médicament",
+                  "options": [
+                    {
+                      "text": "le bras"
+                    },
+                    {
+                      "text": "le ventre"
+                    },
+                    {
+                      "text": "l'hôpital"
+                    },
+                    {
+                      "text": "le médicament"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "Prenez ce médicament le soir.",
+                  "audioTarget": "Prenez ce médicament le soir.",
+                  "tokens": [
+                    "this",
+                    "since",
+                    "Take",
+                    "evening",
+                    "the",
+                    "soon",
+                    "a",
+                    "medicine",
+                    "in"
+                  ],
+                  "answer": [
+                    "Take",
+                    "this",
+                    "medicine",
+                    "in",
+                    "the",
+                    "evening"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Je suis fatigué ce soir.",
+                  "audioTarget": "Je suis fatigué ce soir.",
+                  "tokens": [
+                    "this",
+                    "doctor",
+                    "evening",
+                    "since",
+                    "tired",
+                    "I",
+                    "am",
+                    "the"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "tired",
+                    "this",
+                    "evening"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u9-l2-e8",
+                  "sentence": "___ ce médicament le soir.",
+                  "translation": "Take this medicine in the evening.",
+                  "audioTarget": "Prenez ce médicament le soir.",
+                  "options": [
+                    "Prenez",
+                    "fièvre",
+                    "fatigué",
+                    "bras"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u9-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "malade",
+                      "native": "sick"
+                    },
+                    {
+                      "target": "fatigué",
+                      "native": "tired"
+                    },
+                    {
+                      "target": "le médicament",
+                      "native": "the medicine"
+                    },
+                    {
+                      "target": "la jambe",
+                      "native": "the leg"
+                    },
+                    {
+                      "target": "la tête",
+                      "native": "the head"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u9-l2-e10",
+                  "mode": "translate",
+                  "prompt": "Je suis fatigué ce soir.",
+                  "audioTarget": "Je suis fatigué ce soir.",
+                  "answer": "I am tired this evening.",
+                  "alternatives": []
+                }
+              ]
+            },
+            {
+              "id": "fr-en:u9-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "l'hôpital",
+                  "audioTarget": "l'hôpital",
+                  "options": [
+                    {
+                      "text": "the back",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "le médecin",
+                  "audioTarget": "le médecin",
+                  "options": [
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the arm",
+                      "emoji": "💪"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "la fièvre",
+                  "audioTarget": "la fièvre",
+                  "options": [
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hospital",
+                  "audioTarget": "l'hôpital",
+                  "options": [
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "la fièvre",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "la jambe",
+                      "emoji": "🦵"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the doctor",
+                  "audioTarget": "le médecin",
+                  "options": [
+                    {
+                      "text": "la jambe",
+                      "emoji": "🦵"
+                    },
+                    {
+                      "text": "le médecin",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "la tête",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "l'hôpital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "fr-en:u9-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "l'hôpital",
+                  "options": [
+                    {
+                      "text": "la tête"
+                    },
+                    {
+                      "text": "la main"
+                    },
+                    {
+                      "text": "l'hôpital"
+                    },
+                    {
+                      "text": "malade"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "J'ai mal au dos depuis hier.",
+                  "audioTarget": "J'ai mal au dos depuis hier.",
+                  "tokens": [
+                    "has",
+                    "back",
+                    "since",
+                    "She",
+                    "My",
+                    "yesterday",
+                    "We",
+                    "Do",
+                    "hurt"
+                  ],
+                  "answer": [
+                    "My",
+                    "back",
+                    "has",
+                    "hurt",
+                    "since",
+                    "yesterday"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "fr-en:u9-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "Le médecin arrive bientôt.",
+                  "audioTarget": "Le médecin arrive bientôt.",
+                  "tokens": [
+                    "doctor",
+                    "is",
+                    "quickly",
+                    "hand",
+                    "soon",
+                    "arriving",
+                    "hospital",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "doctor",
+                    "is",
+                    "arriving",
+                    "soon"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "fr-en:u9-l3-e8",
+                  "sentence": "J'ai mal au dos ___ hier.",
+                  "translation": "My back has hurt since yesterday.",
+                  "audioTarget": "J'ai mal au dos depuis hier.",
+                  "options": [
+                    "depuis",
+                    "fièvre",
+                    "malade",
+                    "main"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "fr-en:u9-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "l'hôpital",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "le médecin",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "la fièvre",
+                      "native": "the fever"
+                    },
+                    {
+                      "target": "la main",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "le dos",
+                      "native": "the back"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "fr-en:u9-l3-e10",
+                  "mode": "translate",
+                  "prompt": "Le médecin arrive bientôt.",
+                  "audioTarget": "Le médecin arrive bientôt.",
+                  "answer": "The doctor is arriving soon.",
+                  "alternatives": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }

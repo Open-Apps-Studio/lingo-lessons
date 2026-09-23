@@ -7,8 +7,8 @@
       "targetCode": "de",
       "nativeLanguage": "English",
       "flag": "🇩🇪",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     },
     {
       "id": "es-en",
@@ -25,8 +25,8 @@
       "targetCode": "fr",
       "nativeLanguage": "English",
       "flag": "🇫🇷",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     },
     {
       "id": "it-en",
@@ -34,8 +34,8 @@
       "targetCode": "it",
       "nativeLanguage": "English",
       "flag": "🇮🇹",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     },
     {
       "id": "ja-en",
@@ -43,8 +43,8 @@
       "targetCode": "ja",
       "nativeLanguage": "English",
       "flag": "🇯🇵",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     },
     {
       "id": "ko-en",
@@ -52,8 +52,8 @@
       "targetCode": "ko",
       "nativeLanguage": "English",
       "flag": "🇰🇷",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     },
     {
       "id": "pt-en",
@@ -61,8 +61,8 @@
       "targetCode": "pt",
       "nativeLanguage": "English",
       "flag": "🇧🇷",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     },
     {
       "id": "zh-en",
@@ -70,8 +70,8 @@
       "targetCode": "zh",
       "nativeLanguage": "English",
       "flag": "🇨🇳",
-      "unitCount": 5,
-      "lessonCount": 20
+      "unitCount": 10,
+      "lessonCount": 40
     }
   ]
 }

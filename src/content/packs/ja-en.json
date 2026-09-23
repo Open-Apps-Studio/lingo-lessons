@@ -5504,6 +5504,5556 @@
               ]
             }
           ]
+        },
+        {
+          "id": "ja-en:unit-6",
+          "title": "Family",
+          "description": "Learn how to talk about your family members, siblings, and relatives in Japanese.",
+          "guidebook": "### Talking About Family in Japanese\n\nIn Japanese, the words you use for family members often depend on whose family you are discussing!\n\nWhen talking about your own family to others, use humble terms: **chichi** (father), **haha** (mother), **ani** (older brother), and **ane** (older sister). This shows politeness by lowering your own circle.\n\nWhen talking about someone else's family or calling out to your own relatives directly, polite forms are used instead, like **otousan** (father) and **okaasan** (mother).\n\nAdditionally, Japanese specifies age among siblings: **ani** and **ane** for older siblings, and **otouto** (younger brother) and **imouto** (younger sister) for younger ones.",
+          "words": [
+            {
+              "target": "家族",
+              "native": "the family",
+              "emoji": "👨‍👩‍👧‍👦",
+              "romanization": "kazoku"
+            },
+            {
+              "target": "父",
+              "native": "the father",
+              "emoji": "👨",
+              "romanization": "chichi"
+            },
+            {
+              "target": "母",
+              "native": "the mother",
+              "emoji": "👩",
+              "romanization": "haha"
+            },
+            {
+              "target": "兄",
+              "native": "the older brother",
+              "emoji": "👦",
+              "romanization": "ani"
+            },
+            {
+              "target": "姉",
+              "native": "the older sister",
+              "emoji": "👧",
+              "romanization": "ane"
+            },
+            {
+              "target": "弟",
+              "native": "the younger brother",
+              "emoji": "👦",
+              "romanization": "otouto"
+            },
+            {
+              "target": "妹",
+              "native": "the younger sister",
+              "emoji": "👧",
+              "romanization": "imouto"
+            },
+            {
+              "target": "祖父",
+              "native": "the grandfather",
+              "emoji": "👴",
+              "romanization": "sofu"
+            },
+            {
+              "target": "祖母",
+              "native": "the grandmother",
+              "emoji": "👵",
+              "romanization": "sobo"
+            },
+            {
+              "target": "赤ちゃん",
+              "native": "the baby",
+              "emoji": "👶",
+              "romanization": "akachan"
+            },
+            {
+              "target": "両親",
+              "native": "the parents",
+              "emoji": "👫",
+              "romanization": "ryoushin"
+            },
+            {
+              "target": "兄弟",
+              "native": "the siblings",
+              "emoji": "🧑‍🤝‍🧑",
+              "romanization": "kyoudai"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u5-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "家族",
+                  "audioTarget": "家族",
+                  "options": [
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "父",
+                  "audioTarget": "父",
+                  "options": [
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "母",
+                  "audioTarget": "母",
+                  "options": [
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the younger brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the family",
+                  "audioTarget": "家族",
+                  "options": [
+                    {
+                      "text": "妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "兄弟",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "家族",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "祖父",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the father",
+                  "audioTarget": "父",
+                  "options": [
+                    {
+                      "text": "妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "赤ちゃん",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "父",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "家族",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "家族",
+                  "options": [
+                    {
+                      "text": "祖父"
+                    },
+                    {
+                      "text": "姉"
+                    },
+                    {
+                      "text": "父"
+                    },
+                    {
+                      "text": "家族"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "父は優しいです。",
+                  "audioTarget": "父は優しいです。",
+                  "tokens": [
+                    "is",
+                    "father",
+                    "teacher",
+                    "kind",
+                    "likes",
+                    "grandmother",
+                    "My"
+                  ],
+                  "answer": [
+                    "My",
+                    "father",
+                    "is",
+                    "kind"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "母は先生です。",
+                  "audioTarget": "母は先生です。",
+                  "tokens": [
+                    "is",
+                    "mother",
+                    "teacher",
+                    "a",
+                    "I",
+                    "well",
+                    "My",
+                    "The"
+                  ],
+                  "answer": [
+                    "My",
+                    "mother",
+                    "is",
+                    "a",
+                    "teacher"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u5-l0-e8",
+                  "sentence": "___。",
+                  "translation": "My father is kind.",
+                  "audioTarget": "父は優しいです。",
+                  "options": [
+                    "弟",
+                    "父",
+                    "赤ちゃん",
+                    "父は優しいです"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u5-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "家族",
+                      "native": "the family"
+                    },
+                    {
+                      "target": "父",
+                      "native": "the father"
+                    },
+                    {
+                      "target": "母",
+                      "native": "the mother"
+                    },
+                    {
+                      "target": "両親",
+                      "native": "the parents"
+                    },
+                    {
+                      "target": "祖母",
+                      "native": "the grandmother"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u5-l0-e10",
+                  "mode": "translate",
+                  "prompt": "母は先生です。",
+                  "audioTarget": "母は先生です。",
+                  "answer": "My mother is a teacher.",
+                  "alternatives": [
+                    "Haha wa sensei desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u5-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "兄",
+                  "audioTarget": "兄",
+                  "options": [
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "姉",
+                  "audioTarget": "姉",
+                  "options": [
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the older sister",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "弟",
+                  "audioTarget": "弟",
+                  "options": [
+                    {
+                      "text": "the younger brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the older brother",
+                  "audioTarget": "兄",
+                  "options": [
+                    {
+                      "text": "両親",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "祖父",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "兄",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "弟",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the older sister",
+                  "audioTarget": "姉",
+                  "options": [
+                    {
+                      "text": "姉",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "両親",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "赤ちゃん",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "父",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "姉",
+                  "options": [
+                    {
+                      "text": "赤ちゃん"
+                    },
+                    {
+                      "text": "姉"
+                    },
+                    {
+                      "text": "祖父"
+                    },
+                    {
+                      "text": "弟"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "兄は東京にいます。",
+                  "audioTarget": "兄は東京にいます。",
+                  "tokens": [
+                    "family",
+                    "is",
+                    "have",
+                    "Tokyo",
+                    "tea",
+                    "in",
+                    "older",
+                    "My",
+                    "brother"
+                  ],
+                  "answer": [
+                    "My",
+                    "older",
+                    "brother",
+                    "is",
+                    "in",
+                    "Tokyo"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "私には妹がいます。",
+                  "audioTarget": "私には妹がいます。",
+                  "tokens": [
+                    "younger",
+                    "teacher",
+                    "a",
+                    "have",
+                    "I",
+                    "father",
+                    "older",
+                    "sister"
+                  ],
+                  "answer": [
+                    "I",
+                    "have",
+                    "a",
+                    "younger",
+                    "sister"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u5-l1-e8",
+                  "sentence": "___。",
+                  "translation": "My older brother is in Tokyo.",
+                  "audioTarget": "兄は東京にいます。",
+                  "options": [
+                    "姉",
+                    "祖母",
+                    "兄は東京にいます",
+                    "母"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u5-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "兄",
+                      "native": "the older brother"
+                    },
+                    {
+                      "target": "姉",
+                      "native": "the older sister"
+                    },
+                    {
+                      "target": "弟",
+                      "native": "the younger brother"
+                    },
+                    {
+                      "target": "家族",
+                      "native": "the family"
+                    },
+                    {
+                      "target": "妹",
+                      "native": "the younger sister"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u5-l1-e10",
+                  "mode": "translate",
+                  "prompt": "私には妹がいます。",
+                  "audioTarget": "私には妹がいます。",
+                  "answer": "I have a younger sister.",
+                  "alternatives": [
+                    "Watashi ni wa imouto ga imasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u5-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "妹",
+                  "audioTarget": "妹",
+                  "options": [
+                    {
+                      "text": "the older sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the younger sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "祖父",
+                  "audioTarget": "祖父",
+                  "options": [
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "祖母",
+                  "audioTarget": "祖母",
+                  "options": [
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the younger sister",
+                  "audioTarget": "妹",
+                  "options": [
+                    {
+                      "text": "家族",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "祖父",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "両親",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "妹",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the grandfather",
+                  "audioTarget": "祖父",
+                  "options": [
+                    {
+                      "text": "両親",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "祖父",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "弟",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "祖母",
+                  "options": [
+                    {
+                      "text": "祖母"
+                    },
+                    {
+                      "text": "弟"
+                    },
+                    {
+                      "text": "両親"
+                    },
+                    {
+                      "text": "妹"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "赤ちゃんが笑っています。",
+                  "audioTarget": "赤ちゃんが笑っています。",
+                  "tokens": [
+                    "older",
+                    "likes",
+                    "baby",
+                    "is",
+                    "smiling",
+                    "kind",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "baby",
+                    "is",
+                    "smiling"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "家族は四人です。",
+                  "audioTarget": "家族は四人です。",
+                  "tokens": [
+                    "my",
+                    "older",
+                    "people",
+                    "family",
+                    "are",
+                    "There",
+                    "four",
+                    "well",
+                    "in",
+                    "kind"
+                  ],
+                  "answer": [
+                    "There",
+                    "are",
+                    "four",
+                    "people",
+                    "in",
+                    "my",
+                    "family"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u5-l2-e8",
+                  "sentence": "___。",
+                  "translation": "The baby is smiling.",
+                  "audioTarget": "赤ちゃんが笑っています。",
+                  "options": [
+                    "姉",
+                    "家族",
+                    "赤ちゃんが笑っています",
+                    "弟"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u5-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "妹",
+                      "native": "the younger sister"
+                    },
+                    {
+                      "target": "祖父",
+                      "native": "the grandfather"
+                    },
+                    {
+                      "target": "祖母",
+                      "native": "the grandmother"
+                    },
+                    {
+                      "target": "兄弟",
+                      "native": "the siblings"
+                    },
+                    {
+                      "target": "母",
+                      "native": "the mother"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u5-l2-e10",
+                  "mode": "translate",
+                  "prompt": "家族は四人です。",
+                  "audioTarget": "家族は四人です。",
+                  "answer": "There are four people in my family.",
+                  "alternatives": [
+                    "Kazoku wa yonin desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u5-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "赤ちゃん",
+                  "audioTarget": "赤ちゃん",
+                  "options": [
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the younger brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "両親",
+                  "audioTarget": "両親",
+                  "options": [
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "👫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "兄弟",
+                  "audioTarget": "兄弟",
+                  "options": [
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the siblings",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "👫"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the baby",
+                  "audioTarget": "赤ちゃん",
+                  "options": [
+                    {
+                      "text": "家族",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "姉",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "祖父",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "赤ちゃん",
+                      "emoji": "👶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the parents",
+                  "audioTarget": "両親",
+                  "options": [
+                    {
+                      "text": "家族",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "両親",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "兄弟",
+                      "emoji": "🧑‍🤝‍🧑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u5-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "赤ちゃん",
+                  "options": [
+                    {
+                      "text": "両親"
+                    },
+                    {
+                      "text": "弟"
+                    },
+                    {
+                      "text": "赤ちゃん"
+                    },
+                    {
+                      "text": "祖父"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "祖父は元気です。",
+                  "audioTarget": "祖父は元気です。",
+                  "tokens": [
+                    "well",
+                    "My",
+                    "English",
+                    "grandfather",
+                    "The",
+                    "have",
+                    "is"
+                  ],
+                  "answer": [
+                    "My",
+                    "grandfather",
+                    "is",
+                    "well"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u5-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "姉は英語を話します。",
+                  "audioTarget": "姉は英語を話します。",
+                  "tokens": [
+                    "speaks",
+                    "My",
+                    "sister",
+                    "are",
+                    "older",
+                    "four",
+                    "English",
+                    "family"
+                  ],
+                  "answer": [
+                    "My",
+                    "older",
+                    "sister",
+                    "speaks",
+                    "English"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u5-l3-e8",
+                  "sentence": "___。",
+                  "translation": "My grandfather is well.",
+                  "audioTarget": "祖父は元気です。",
+                  "options": [
+                    "家族",
+                    "妹",
+                    "祖父は元気です",
+                    "母"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u5-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "赤ちゃん",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "両親",
+                      "native": "the parents"
+                    },
+                    {
+                      "target": "兄弟",
+                      "native": "the siblings"
+                    },
+                    {
+                      "target": "父",
+                      "native": "the father"
+                    },
+                    {
+                      "target": "弟",
+                      "native": "the younger brother"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u5-l3-e10",
+                  "mode": "translate",
+                  "prompt": "姉は英語を話します。",
+                  "audioTarget": "姉は英語を話します。",
+                  "answer": "My older sister speaks English.",
+                  "alternatives": [
+                    "Ane wa eigo o hanashimasu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-7",
+          "title": "Shopping",
+          "description": "Learn to ask for prices, talk about shops, and buy items in Japanese.",
+          "guidebook": "### Essential Shopping Phrases\n\nWhen browsing stores in Japan, your most powerful question is **これはいくらですか** (*Kore wa ikura desu ka?* — \"How much is this?\"). \n\n### Prices and Currency\nJapanese currency is measured in **円** (*en*, pronounced \"yen\"). Simply attach the number before 円, such as **千円** (*sen'en*, 1,000 yen) or **百円** (*hyaku'en*, 100 yen).\n\n### Describing Value\nUse the *-i* adjectives **高い** (*takai* — expensive) and **安い** (*yasui* — cheap). Add **です** (*desu*) to make polite statements: **これは高いです** (*Kore wa takai desu* — \"This is expensive\").\n\n### At the Register\nCashiers often ask if you need a bag (**袋**, *fukuro*). You can request items politely by adding **をお願いします** (*o onegai shimasu*): **レシートをお願いします** (*Reshīto o onegai shimasu* — \"The receipt, please\").",
+          "words": [
+            {
+              "target": "店",
+              "native": "the shop",
+              "emoji": "🏪",
+              "romanization": "mise"
+            },
+            {
+              "target": "お金",
+              "native": "the money",
+              "emoji": "💰",
+              "romanization": "okane"
+            },
+            {
+              "target": "円",
+              "native": "the yen",
+              "emoji": "💴",
+              "romanization": "en"
+            },
+            {
+              "target": "高い",
+              "native": "expensive",
+              "emoji": "🏷️",
+              "romanization": "takai"
+            },
+            {
+              "target": "安い",
+              "native": "cheap",
+              "emoji": "🪙",
+              "romanization": "yasui"
+            },
+            {
+              "target": "いくら",
+              "native": "how much",
+              "emoji": "❓",
+              "romanization": "ikura"
+            },
+            {
+              "target": "買う",
+              "native": "to buy",
+              "emoji": "🛒",
+              "romanization": "kau"
+            },
+            {
+              "target": "市場",
+              "native": "the market",
+              "emoji": "🏬",
+              "romanization": "ichiba"
+            },
+            {
+              "target": "財布",
+              "native": "the wallet",
+              "emoji": "👛",
+              "romanization": "saifu"
+            },
+            {
+              "target": "袋",
+              "native": "the bag",
+              "emoji": "🛍️",
+              "romanization": "fukuro"
+            },
+            {
+              "target": "レシート",
+              "native": "the receipt",
+              "emoji": "🧾",
+              "romanization": "reshīto"
+            },
+            {
+              "target": "カード",
+              "native": "the card",
+              "emoji": "💳",
+              "romanization": "kādo"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u6-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "店",
+                  "audioTarget": "店",
+                  "options": [
+                    {
+                      "text": "expensive",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the bag",
+                      "emoji": "🛍️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "お金",
+                  "audioTarget": "お金",
+                  "options": [
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "円",
+                  "audioTarget": "円",
+                  "options": [
+                    {
+                      "text": "how much",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "the wallet",
+                      "emoji": "👛"
+                    },
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the shop",
+                  "audioTarget": "店",
+                  "options": [
+                    {
+                      "text": "市場",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "いくら",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "高い",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "店",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the money",
+                  "audioTarget": "お金",
+                  "options": [
+                    {
+                      "text": "財布",
+                      "emoji": "👛"
+                    },
+                    {
+                      "text": "店",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "お金",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "安い",
+                      "emoji": "🪙"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "店",
+                  "options": [
+                    {
+                      "text": "店"
+                    },
+                    {
+                      "text": "高い"
+                    },
+                    {
+                      "text": "市場"
+                    },
+                    {
+                      "text": "買う"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "これはいくらですか。",
+                  "audioTarget": "これはいくらですか。",
+                  "tokens": [
+                    "How",
+                    "is",
+                    "this",
+                    "thousand",
+                    "receipt",
+                    "here",
+                    "much"
+                  ],
+                  "answer": [
+                    "How",
+                    "much",
+                    "is",
+                    "this"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "それは千円です。",
+                  "audioTarget": "それは千円です。",
+                  "tokens": [
+                    "thousand",
+                    "That",
+                    "a",
+                    "the",
+                    "is",
+                    "yen",
+                    "one",
+                    "bit"
+                  ],
+                  "answer": [
+                    "That",
+                    "is",
+                    "one",
+                    "thousand",
+                    "yen"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u6-l0-e8",
+                  "sentence": "___。",
+                  "translation": "How much is this?",
+                  "audioTarget": "これはいくらですか。",
+                  "options": [
+                    "財布",
+                    "カード",
+                    "高い",
+                    "これはいくらですか"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u6-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "店",
+                      "native": "the shop"
+                    },
+                    {
+                      "target": "お金",
+                      "native": "the money"
+                    },
+                    {
+                      "target": "円",
+                      "native": "the yen"
+                    },
+                    {
+                      "target": "袋",
+                      "native": "the bag"
+                    },
+                    {
+                      "target": "買う",
+                      "native": "to buy"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u6-l0-e10",
+                  "mode": "translate",
+                  "prompt": "それは千円です。",
+                  "audioTarget": "それは千円です。",
+                  "answer": "That is one thousand yen.",
+                  "alternatives": [
+                    "Sore wa sen'en desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u6-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "高い",
+                  "audioTarget": "高い",
+                  "options": [
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "expensive",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "安い",
+                  "audioTarget": "安い",
+                  "options": [
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "いくら",
+                  "audioTarget": "いくら",
+                  "options": [
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the wallet",
+                      "emoji": "👛"
+                    },
+                    {
+                      "text": "how much",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "expensive",
+                  "audioTarget": "高い",
+                  "options": [
+                    {
+                      "text": "高い",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "袋",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "レシート",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "いくら",
+                      "emoji": "❓"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "cheap",
+                  "audioTarget": "安い",
+                  "options": [
+                    {
+                      "text": "安い",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "お金",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "レシート",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "円",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "安い",
+                  "options": [
+                    {
+                      "text": "安い"
+                    },
+                    {
+                      "text": "お金"
+                    },
+                    {
+                      "text": "財布"
+                    },
+                    {
+                      "text": "高い"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "この店はとても安いです。",
+                  "audioTarget": "この店はとても安いです。",
+                  "tokens": [
+                    "very",
+                    "shop",
+                    "at",
+                    "This",
+                    "cheap",
+                    "bit",
+                    "is",
+                    "thousand"
+                  ],
+                  "answer": [
+                    "This",
+                    "shop",
+                    "is",
+                    "very",
+                    "cheap"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "その鞄は少し高いです。",
+                  "audioTarget": "その鞄は少し高いです。",
+                  "tokens": [
+                    "shop",
+                    "That",
+                    "bit",
+                    "bag",
+                    "please",
+                    "is",
+                    "a",
+                    "expensive",
+                    "pay"
+                  ],
+                  "answer": [
+                    "That",
+                    "bag",
+                    "is",
+                    "a",
+                    "bit",
+                    "expensive"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u6-l1-e8",
+                  "sentence": "___。",
+                  "translation": "This shop is very cheap.",
+                  "audioTarget": "この店はとても安いです。",
+                  "options": [
+                    "この店はとても安いです",
+                    "いくら",
+                    "袋",
+                    "安い"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u6-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "高い",
+                      "native": "expensive"
+                    },
+                    {
+                      "target": "安い",
+                      "native": "cheap"
+                    },
+                    {
+                      "target": "いくら",
+                      "native": "how much"
+                    },
+                    {
+                      "target": "袋",
+                      "native": "the bag"
+                    },
+                    {
+                      "target": "買う",
+                      "native": "to buy"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u6-l1-e10",
+                  "mode": "translate",
+                  "prompt": "その鞄は少し高いです。",
+                  "audioTarget": "その鞄は少し高いです。",
+                  "answer": "That bag is a bit expensive.",
+                  "alternatives": [
+                    "Sono kaban wa sukoshi takai desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u6-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "買う",
+                  "audioTarget": "買う",
+                  "options": [
+                    {
+                      "text": "the bag",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "市場",
+                  "audioTarget": "市場",
+                  "options": [
+                    {
+                      "text": "the wallet",
+                      "emoji": "👛"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "財布",
+                  "audioTarget": "財布",
+                  "options": [
+                    {
+                      "text": "how much",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the wallet",
+                      "emoji": "👛"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to buy",
+                  "audioTarget": "買う",
+                  "options": [
+                    {
+                      "text": "買う",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "袋",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "カード",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "円",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the market",
+                  "audioTarget": "市場",
+                  "options": [
+                    {
+                      "text": "市場",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "安い",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "袋",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "買う",
+                      "emoji": "🛒"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "財布",
+                  "options": [
+                    {
+                      "text": "買う"
+                    },
+                    {
+                      "text": "袋"
+                    },
+                    {
+                      "text": "財布"
+                    },
+                    {
+                      "text": "市場"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "カードで払えますか。",
+                  "audioTarget": "カードで払えますか。",
+                  "tokens": [
+                    "is",
+                    "apples",
+                    "by",
+                    "pay",
+                    "card",
+                    "I",
+                    "Can",
+                    "market"
+                  ],
+                  "answer": [
+                    "Can",
+                    "I",
+                    "pay",
+                    "by",
+                    "card"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "新しい財布を買います。",
+                  "audioTarget": "新しい財布を買います。",
+                  "tokens": [
+                    "a",
+                    "new",
+                    "yen",
+                    "bag",
+                    "thousand",
+                    "I",
+                    "will",
+                    "wallet",
+                    "buy"
+                  ],
+                  "answer": [
+                    "I",
+                    "will",
+                    "buy",
+                    "a",
+                    "new",
+                    "wallet"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u6-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Can I pay by card?",
+                  "audioTarget": "カードで払えますか。",
+                  "options": [
+                    "カードで払えますか",
+                    "市場",
+                    "安い",
+                    "財布"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u6-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "買う",
+                      "native": "to buy"
+                    },
+                    {
+                      "target": "市場",
+                      "native": "the market"
+                    },
+                    {
+                      "target": "財布",
+                      "native": "the wallet"
+                    },
+                    {
+                      "target": "いくら",
+                      "native": "how much"
+                    },
+                    {
+                      "target": "袋",
+                      "native": "the bag"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u6-l2-e10",
+                  "mode": "translate",
+                  "prompt": "新しい財布を買います。",
+                  "audioTarget": "新しい財布を買います。",
+                  "answer": "I will buy a new wallet.",
+                  "alternatives": [
+                    "Atarashii saifu o kaimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u6-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "袋",
+                  "audioTarget": "袋",
+                  "options": [
+                    {
+                      "text": "the money",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "the bag",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "レシート",
+                  "audioTarget": "レシート",
+                  "options": [
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "カード",
+                  "audioTarget": "カード",
+                  "options": [
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the shop",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the yen",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the bag",
+                  "audioTarget": "袋",
+                  "options": [
+                    {
+                      "text": "高い",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "いくら",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "袋",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "市場",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the receipt",
+                  "audioTarget": "レシート",
+                  "options": [
+                    {
+                      "text": "店",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "レシート",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "円",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "カード",
+                      "emoji": "💳"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u6-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "袋",
+                  "options": [
+                    {
+                      "text": "安い"
+                    },
+                    {
+                      "text": "袋"
+                    },
+                    {
+                      "text": "買う"
+                    },
+                    {
+                      "text": "高い"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "袋をお願いします。",
+                  "audioTarget": "袋をお願いします。",
+                  "tokens": [
+                    "bag",
+                    "A",
+                    "pay",
+                    "please",
+                    "The",
+                    "new"
+                  ],
+                  "answer": [
+                    "A",
+                    "bag",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u6-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "市場でリンゴを買いました。",
+                  "audioTarget": "市場でリンゴを買いました。",
+                  "tokens": [
+                    "the",
+                    "market",
+                    "bought",
+                    "apples",
+                    "card",
+                    "How",
+                    "very",
+                    "at",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "bought",
+                    "apples",
+                    "at",
+                    "the",
+                    "market"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u6-l3-e8",
+                  "sentence": "___。",
+                  "translation": "A bag, please.",
+                  "audioTarget": "袋をお願いします。",
+                  "options": [
+                    "袋をお願いします",
+                    "財布",
+                    "安い",
+                    "買う"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u6-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "袋",
+                      "native": "the bag"
+                    },
+                    {
+                      "target": "レシート",
+                      "native": "the receipt"
+                    },
+                    {
+                      "target": "カード",
+                      "native": "the card"
+                    },
+                    {
+                      "target": "店",
+                      "native": "the shop"
+                    },
+                    {
+                      "target": "いくら",
+                      "native": "how much"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u6-l3-e10",
+                  "mode": "translate",
+                  "prompt": "市場でリンゴを買いました。",
+                  "audioTarget": "市場でリンゴを買いました。",
+                  "answer": "I bought apples at the market.",
+                  "alternatives": [
+                    "Ichiba de ringo o kaimashita."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-8",
+          "title": "Weather",
+          "description": "Learn to talk about the weather, seasons, and daily climate in Japanese.",
+          "guidebook": "### Talking About the Weather\n\nDiscussing the weather is the ultimate Japanese icebreaker! Keep these handy tips in mind:\n\n#### Hot vs. Cold\nJapanese distinguishes between ambient air temperature and physical touch:\n- **暑い** (*atsui*) means hot weather, while **寒い** (*samui*) means cold weather.\n- For things you touch (like a hot tea or an iced drink), use **熱い** (*atsui*) and **冷たい** (*tsumetai*) instead.\n\n#### Precipitation\nTo express that rain or snow is falling, use the verb **降る** (*furu*, to fall):\n- **雨が降ります** (*ame ga furimasu*) = It rains.\n- **雪が降っています** (*yuki ga futte imasu*) = It is snowing.\n\nWrap up friendly observations with **ね** (*ne*), as in **いい天気ですね** (*Nice weather, isn't it?*).",
+          "words": [
+            {
+              "target": "天気",
+              "native": "the weather",
+              "emoji": "🌤️",
+              "romanization": "tenki"
+            },
+            {
+              "target": "雨",
+              "native": "the rain",
+              "emoji": "🌧️",
+              "romanization": "ame"
+            },
+            {
+              "target": "雪",
+              "native": "the snow",
+              "emoji": "❄️",
+              "romanization": "yuki"
+            },
+            {
+              "target": "風",
+              "native": "the wind",
+              "emoji": "💨",
+              "romanization": "kaze"
+            },
+            {
+              "target": "太陽",
+              "native": "the sun",
+              "emoji": "☀️",
+              "romanization": "taiyō"
+            },
+            {
+              "target": "雲",
+              "native": "the cloud",
+              "emoji": "☁️",
+              "romanization": "kumo"
+            },
+            {
+              "target": "暑い",
+              "native": "hot",
+              "emoji": "🥵",
+              "romanization": "atsui"
+            },
+            {
+              "target": "寒い",
+              "native": "cold",
+              "emoji": "🥶",
+              "romanization": "samui"
+            },
+            {
+              "target": "春",
+              "native": "the spring",
+              "emoji": "🌸",
+              "romanization": "haru"
+            },
+            {
+              "target": "夏",
+              "native": "the summer",
+              "emoji": "🌻",
+              "romanization": "natsu"
+            },
+            {
+              "target": "秋",
+              "native": "the autumn",
+              "emoji": "🍁",
+              "romanization": "aki"
+            },
+            {
+              "target": "冬",
+              "native": "the winter",
+              "emoji": "⛄",
+              "romanization": "fuyu"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u7-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "天気",
+                  "audioTarget": "天気",
+                  "options": [
+                    {
+                      "text": "the summer",
+                      "emoji": "🌻"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "雨",
+                  "audioTarget": "雨",
+                  "options": [
+                    {
+                      "text": "the summer",
+                      "emoji": "🌻"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "雪",
+                  "audioTarget": "雪",
+                  "options": [
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the weather",
+                  "audioTarget": "天気",
+                  "options": [
+                    {
+                      "text": "冬",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "天気",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "寒い",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the rain",
+                  "audioTarget": "雨",
+                  "options": [
+                    {
+                      "text": "秋",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "寒い",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "春",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "天気",
+                  "options": [
+                    {
+                      "text": "夏"
+                    },
+                    {
+                      "text": "天気"
+                    },
+                    {
+                      "text": "雪"
+                    },
+                    {
+                      "text": "太陽"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "今日はいい天気ですね。",
+                  "audioTarget": "今日はいい天気ですね。",
+                  "tokens": [
+                    "to",
+                    "weather",
+                    "The",
+                    "winter",
+                    "Japan",
+                    "is",
+                    "it",
+                    "isnt",
+                    "nice",
+                    "today"
+                  ],
+                  "answer": [
+                    "The",
+                    "weather",
+                    "is",
+                    "nice",
+                    "today",
+                    "isnt",
+                    "it"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "今日はとても暑いです。",
+                  "audioTarget": "今日はとても暑いです。",
+                  "tokens": [
+                    "nice",
+                    "hot",
+                    "rain",
+                    "today",
+                    "I",
+                    "is",
+                    "It",
+                    "very"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "very",
+                    "hot",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u7-l0-e8",
+                  "sentence": "___。",
+                  "translation": "The weather is nice today, isn't it?",
+                  "audioTarget": "今日はいい天気ですね。",
+                  "options": [
+                    "雲",
+                    "寒い",
+                    "今日はいい天気ですね",
+                    "雨"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u7-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "天気",
+                      "native": "the weather"
+                    },
+                    {
+                      "target": "雨",
+                      "native": "the rain"
+                    },
+                    {
+                      "target": "雪",
+                      "native": "the snow"
+                    },
+                    {
+                      "target": "寒い",
+                      "native": "cold"
+                    },
+                    {
+                      "target": "風",
+                      "native": "the wind"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u7-l0-e10",
+                  "mode": "translate",
+                  "prompt": "今日はとても暑いです。",
+                  "audioTarget": "今日はとても暑いです。",
+                  "answer": "It is very hot today.",
+                  "alternatives": [
+                    "Kyō wa totemo atsui desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u7-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "風",
+                  "audioTarget": "風",
+                  "options": [
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🌻"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "太陽",
+                  "audioTarget": "太陽",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "雲",
+                  "audioTarget": "雲",
+                  "options": [
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the wind",
+                  "audioTarget": "風",
+                  "options": [
+                    {
+                      "text": "雲",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "風",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "秋",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "天気",
+                      "emoji": "🌤️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sun",
+                  "audioTarget": "太陽",
+                  "options": [
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "雪",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "風",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "太陽",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "太陽",
+                  "options": [
+                    {
+                      "text": "春"
+                    },
+                    {
+                      "text": "天気"
+                    },
+                    {
+                      "text": "雨"
+                    },
+                    {
+                      "text": "太陽"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "外は雨が降っています。",
+                  "audioTarget": "外は雨が降っています。",
+                  "tokens": [
+                    "outside",
+                    "the",
+                    "Tonight",
+                    "raining",
+                    "is",
+                    "be",
+                    "It"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "raining",
+                    "outside"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "冬は雪が降ります。",
+                  "audioTarget": "冬は雪が降ります。",
+                  "tokens": [
+                    "be",
+                    "It",
+                    "snows",
+                    "weather",
+                    "is",
+                    "winter",
+                    "in"
+                  ],
+                  "answer": [
+                    "It",
+                    "snows",
+                    "in",
+                    "winter"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u7-l1-e8",
+                  "sentence": "___。",
+                  "translation": "It is raining outside.",
+                  "audioTarget": "外は雨が降っています。",
+                  "options": [
+                    "寒い",
+                    "外は雨が降っています",
+                    "雨",
+                    "天気"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u7-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "風",
+                      "native": "the wind"
+                    },
+                    {
+                      "target": "太陽",
+                      "native": "the sun"
+                    },
+                    {
+                      "target": "雲",
+                      "native": "the cloud"
+                    },
+                    {
+                      "target": "雪",
+                      "native": "the snow"
+                    },
+                    {
+                      "target": "天気",
+                      "native": "the weather"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u7-l1-e10",
+                  "mode": "translate",
+                  "prompt": "冬は雪が降ります。",
+                  "audioTarget": "冬は雪が降ります。",
+                  "answer": "It snows in winter.",
+                  "alternatives": [
+                    "Fuyu wa yuki ga furimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u7-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "暑い",
+                  "audioTarget": "暑い",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "寒い",
+                  "audioTarget": "寒い",
+                  "options": [
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "春",
+                  "audioTarget": "春",
+                  "options": [
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "hot",
+                  "audioTarget": "暑い",
+                  "options": [
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "秋",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "暑い",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "冬",
+                      "emoji": "⛄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "cold",
+                  "audioTarget": "寒い",
+                  "options": [
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "雪",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "夏",
+                      "emoji": "🌻"
+                    },
+                    {
+                      "text": "寒い",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "春",
+                  "options": [
+                    {
+                      "text": "雨"
+                    },
+                    {
+                      "text": "春"
+                    },
+                    {
+                      "text": "寒い"
+                    },
+                    {
+                      "text": "太陽"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "今日は風が強いです。",
+                  "audioTarget": "今日は風が強いです。",
+                  "tokens": [
+                    "winter",
+                    "strong",
+                    "today",
+                    "in",
+                    "wind",
+                    "The",
+                    "is",
+                    "weather"
+                  ],
+                  "answer": [
+                    "The",
+                    "wind",
+                    "is",
+                    "strong",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "明日は晴れるでしょう。",
+                  "audioTarget": "明日は晴れるでしょう。",
+                  "tokens": [
+                    "tomorrow",
+                    "raining",
+                    "strong",
+                    "probably",
+                    "will",
+                    "It",
+                    "be",
+                    "nice",
+                    "sunny"
+                  ],
+                  "answer": [
+                    "It",
+                    "will",
+                    "probably",
+                    "be",
+                    "sunny",
+                    "tomorrow"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u7-l2-e8",
+                  "sentence": "___。",
+                  "translation": "The wind is strong today.",
+                  "audioTarget": "今日は風が強いです。",
+                  "options": [
+                    "今日は風が強いです",
+                    "春",
+                    "風",
+                    "天気"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u7-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "暑い",
+                      "native": "hot"
+                    },
+                    {
+                      "target": "寒い",
+                      "native": "cold"
+                    },
+                    {
+                      "target": "春",
+                      "native": "the spring"
+                    },
+                    {
+                      "target": "秋",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "太陽",
+                      "native": "the sun"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u7-l2-e10",
+                  "mode": "translate",
+                  "prompt": "明日は晴れるでしょう。",
+                  "audioTarget": "明日は晴れるでしょう。",
+                  "answer": "It will probably be sunny tomorrow.",
+                  "alternatives": [
+                    "Ashita wa hareru deshō."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u7-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "夏",
+                  "audioTarget": "夏",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🌻"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "🌤️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "秋",
+                  "audioTarget": "秋",
+                  "options": [
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍁"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "冬",
+                  "audioTarget": "冬",
+                  "options": [
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the summer",
+                  "audioTarget": "夏",
+                  "options": [
+                    {
+                      "text": "雪",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "秋",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "夏",
+                      "emoji": "🌻"
+                    },
+                    {
+                      "text": "太陽",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the autumn",
+                  "audioTarget": "秋",
+                  "options": [
+                    {
+                      "text": "秋",
+                      "emoji": "🍁"
+                    },
+                    {
+                      "text": "天気",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "暑い",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "雲",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u7-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "夏",
+                  "options": [
+                    {
+                      "text": "夏"
+                    },
+                    {
+                      "text": "雲"
+                    },
+                    {
+                      "text": "太陽"
+                    },
+                    {
+                      "text": "雨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "今日の夜は寒いです。",
+                  "audioTarget": "今日の夜は寒いです。",
+                  "tokens": [
+                    "Tonight",
+                    "is",
+                    "raining",
+                    "wind",
+                    "Japan",
+                    "cold"
+                  ],
+                  "answer": [
+                    "Tonight",
+                    "is",
+                    "cold"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u7-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "夏は海に行きたいです。",
+                  "audioTarget": "夏は海に行きたいです。",
+                  "tokens": [
+                    "I",
+                    "sea",
+                    "to",
+                    "the",
+                    "the",
+                    "want",
+                    "in",
+                    "beautiful",
+                    "summer",
+                    "snows",
+                    "Japan",
+                    "go",
+                    "to"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "go",
+                    "to",
+                    "the",
+                    "sea",
+                    "in",
+                    "the",
+                    "summer"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u7-l3-e8",
+                  "sentence": "___。",
+                  "translation": "Tonight is cold.",
+                  "audioTarget": "今日の夜は寒いです。",
+                  "options": [
+                    "今日の夜は寒いです",
+                    "寒い",
+                    "暑い",
+                    "雨"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u7-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "夏",
+                      "native": "the summer"
+                    },
+                    {
+                      "target": "秋",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "冬",
+                      "native": "the winter"
+                    },
+                    {
+                      "target": "春",
+                      "native": "the spring"
+                    },
+                    {
+                      "target": "雲",
+                      "native": "the cloud"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u7-l3-e10",
+                  "mode": "translate",
+                  "prompt": "夏は海に行きたいです。",
+                  "audioTarget": "夏は海に行きたいです。",
+                  "answer": "I want to go to the sea in the summer.",
+                  "alternatives": [
+                    "Natsu wa umi ni ikitai desu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-9",
+          "title": "Work & School",
+          "description": "Talk about jobs, workplaces, school life, and daily tasks in Japanese.",
+          "guidebook": "Welcome to Work & School! Here you will learn how to discuss careers, classes, and daily study habits.\n\n### Talking About Professions\nTo state someone's occupation, use the basic sentence frame: **[Person] は [Profession] です** (*[Person] wa [Profession] desu*). For example: 私は学生です (*Watashi wa gakusei desu* – \"I am a student\").\n\n### The Honorific Title 先生 (*Sensei*)\n**先生** is an honorific title reserved for teachers, doctors, and authors. Address your teacher as *Tanaka-sensei*, never *Tanaka-san*! When describing your own profession, avoid calling yourself *sensei*; instead, use 医者 (*isha*) for doctor or 教師 (*kyoushi*) for teacher.\n\n### Location of Action: Particle で (*de*)\nUse the particle **で** to mark the place where an activity happens: 病院**で**働きます (*Byouin de hatarakimasu* – \"I work at a hospital\").",
+          "words": [
+            {
+              "target": "先生",
+              "native": "the teacher",
+              "emoji": "👨‍🏫",
+              "romanization": "sensei"
+            },
+            {
+              "target": "学生",
+              "native": "the student",
+              "emoji": "🧑‍🎓",
+              "romanization": "gakusei"
+            },
+            {
+              "target": "医者",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️",
+              "romanization": "isha"
+            },
+            {
+              "target": "会社員",
+              "native": "the office worker",
+              "emoji": "💼",
+              "romanization": "kaishain"
+            },
+            {
+              "target": "学校",
+              "native": "the school",
+              "emoji": "🏫",
+              "romanization": "gakkou"
+            },
+            {
+              "target": "事務所",
+              "native": "the office",
+              "emoji": "🏢",
+              "romanization": "jimusho"
+            },
+            {
+              "target": "授業",
+              "native": "the class",
+              "emoji": "📖",
+              "romanization": "jugyou"
+            },
+            {
+              "target": "宿題",
+              "native": "the homework",
+              "emoji": "📝",
+              "romanization": "shukudai"
+            },
+            {
+              "target": "仕事",
+              "native": "the work",
+              "emoji": "💻",
+              "romanization": "shigoto"
+            },
+            {
+              "target": "病院",
+              "native": "the hospital",
+              "emoji": "🏥",
+              "romanization": "byouin"
+            },
+            {
+              "target": "教室",
+              "native": "the classroom",
+              "emoji": "🪑",
+              "romanization": "kyoushitsu"
+            },
+            {
+              "target": "会社",
+              "native": "the company",
+              "emoji": "🏬",
+              "romanization": "kaisha"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u8-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "先生",
+                  "audioTarget": "先生",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "学生",
+                  "audioTarget": "学生",
+                  "options": [
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the office worker",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "医者",
+                  "audioTarget": "医者",
+                  "options": [
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the office worker",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the teacher",
+                  "audioTarget": "先生",
+                  "options": [
+                    {
+                      "text": "医者",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "先生",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "事務所",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "宿題",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the student",
+                  "audioTarget": "学生",
+                  "options": [
+                    {
+                      "text": "学生",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "会社員",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "先生",
+                  "options": [
+                    {
+                      "text": "会社員"
+                    },
+                    {
+                      "text": "先生"
+                    },
+                    {
+                      "text": "病院"
+                    },
+                    {
+                      "text": "事務所"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "私は学生です。",
+                  "audioTarget": "私は学生です。",
+                  "tokens": [
+                    "I",
+                    "Work",
+                    "Todays",
+                    "a",
+                    "forgot",
+                    "student",
+                    "am"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "student"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "田中先生は優しいです。",
+                  "audioTarget": "田中先生は優しいです。",
+                  "tokens": [
+                    "Teacher",
+                    "kind",
+                    "Tanaka",
+                    "class",
+                    "is",
+                    "Work",
+                    "in"
+                  ],
+                  "answer": [
+                    "Teacher",
+                    "Tanaka",
+                    "is",
+                    "kind"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u8-l0-e8",
+                  "sentence": "___。",
+                  "translation": "I am a student.",
+                  "audioTarget": "私は学生です。",
+                  "options": [
+                    "学校",
+                    "授業",
+                    "会社員",
+                    "私は学生です"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u8-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "先生",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "学生",
+                      "native": "the student"
+                    },
+                    {
+                      "target": "医者",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "会社",
+                      "native": "the company"
+                    },
+                    {
+                      "target": "仕事",
+                      "native": "the work"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u8-l0-e10",
+                  "mode": "translate",
+                  "prompt": "田中先生は優しいです。",
+                  "audioTarget": "田中先生は優しいです。",
+                  "answer": "Teacher Tanaka is kind.",
+                  "alternatives": [
+                    "Tanaka-sensei wa yasashii desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u8-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "会社員",
+                  "audioTarget": "会社員",
+                  "options": [
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the office worker",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "学校",
+                  "audioTarget": "学校",
+                  "options": [
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "事務所",
+                  "audioTarget": "事務所",
+                  "options": [
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the office worker",
+                  "audioTarget": "会社員",
+                  "options": [
+                    {
+                      "text": "学生",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "授業",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "事務所",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "会社員",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the school",
+                  "audioTarget": "学校",
+                  "options": [
+                    {
+                      "text": "医者",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "事務所",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "学校",
+                  "options": [
+                    {
+                      "text": "授業"
+                    },
+                    {
+                      "text": "会社員"
+                    },
+                    {
+                      "text": "病院"
+                    },
+                    {
+                      "text": "学校"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "父は病院で働いています。",
+                  "audioTarget": "父は病院で働いています。",
+                  "tokens": [
+                    "hospital",
+                    "My",
+                    "a",
+                    "finishes",
+                    "father",
+                    "to",
+                    "at",
+                    "works",
+                    "homework"
+                  ],
+                  "answer": [
+                    "My",
+                    "father",
+                    "works",
+                    "at",
+                    "a",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "明日学校へ行きます。",
+                  "audioTarget": "明日学校へ行きます。",
+                  "tokens": [
+                    "go",
+                    "will",
+                    "a",
+                    "tomorrow",
+                    "to",
+                    "school",
+                    "I",
+                    "Teacher",
+                    "Tanaka"
+                  ],
+                  "answer": [
+                    "I",
+                    "will",
+                    "go",
+                    "to",
+                    "school",
+                    "tomorrow"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u8-l1-e8",
+                  "sentence": "___。",
+                  "translation": "My father works at a hospital.",
+                  "audioTarget": "父は病院で働いています。",
+                  "options": [
+                    "教室",
+                    "医者",
+                    "学生",
+                    "父は病院で働いています"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u8-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "会社員",
+                      "native": "the office worker"
+                    },
+                    {
+                      "target": "学校",
+                      "native": "the school"
+                    },
+                    {
+                      "target": "事務所",
+                      "native": "the office"
+                    },
+                    {
+                      "target": "仕事",
+                      "native": "the work"
+                    },
+                    {
+                      "target": "学生",
+                      "native": "the student"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u8-l1-e10",
+                  "mode": "translate",
+                  "prompt": "明日学校へ行きます。",
+                  "audioTarget": "明日学校へ行きます。",
+                  "answer": "I will go to school tomorrow.",
+                  "alternatives": [
+                    "Ashita gakkou e ikimasu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u8-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "授業",
+                  "audioTarget": "授業",
+                  "options": [
+                    {
+                      "text": "the office worker",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "宿題",
+                  "audioTarget": "宿題",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "仕事",
+                  "audioTarget": "仕事",
+                  "options": [
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the class",
+                  "audioTarget": "授業",
+                  "options": [
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "教室",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "授業",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "会社",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the homework",
+                  "audioTarget": "宿題",
+                  "options": [
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "宿題",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "会社員",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "仕事",
+                  "options": [
+                    {
+                      "text": "仕事"
+                    },
+                    {
+                      "text": "授業"
+                    },
+                    {
+                      "text": "会社"
+                    },
+                    {
+                      "text": "学校"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "宿題を忘れました。",
+                  "audioTarget": "宿題を忘れました。",
+                  "tokens": [
+                    "documents",
+                    "brother",
+                    "forgot",
+                    "the",
+                    "homework",
+                    "in",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "forgot",
+                    "the",
+                    "homework"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "教室はとても広いです。",
+                  "audioTarget": "教室はとても広いです。",
+                  "tokens": [
+                    "The",
+                    "very",
+                    "classroom",
+                    "class",
+                    "is",
+                    "brother",
+                    "to",
+                    "spacious"
+                  ],
+                  "answer": [
+                    "The",
+                    "classroom",
+                    "is",
+                    "very",
+                    "spacious"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u8-l2-e8",
+                  "sentence": "___。",
+                  "translation": "I forgot the homework.",
+                  "audioTarget": "宿題を忘れました。",
+                  "options": [
+                    "宿題を忘れました",
+                    "学校",
+                    "学生",
+                    "教室"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u8-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "授業",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "宿題",
+                      "native": "the homework"
+                    },
+                    {
+                      "target": "仕事",
+                      "native": "the work"
+                    },
+                    {
+                      "target": "事務所",
+                      "native": "the office"
+                    },
+                    {
+                      "target": "先生",
+                      "native": "the teacher"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u8-l2-e10",
+                  "mode": "translate",
+                  "prompt": "教室はとても広いです。",
+                  "audioTarget": "教室はとても広いです。",
+                  "answer": "The classroom is very spacious.",
+                  "alternatives": [
+                    "Kyoushitsu wa totemo hiroi desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u8-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "病院",
+                  "audioTarget": "病院",
+                  "options": [
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "教室",
+                  "audioTarget": "教室",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the office worker",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "会社",
+                  "audioTarget": "会社",
+                  "options": [
+                    {
+                      "text": "the company",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the office worker",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hospital",
+                  "audioTarget": "病院",
+                  "options": [
+                    {
+                      "text": "宿題",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "授業",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "会社員",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the classroom",
+                  "audioTarget": "教室",
+                  "options": [
+                    {
+                      "text": "宿題",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "仕事",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "教室",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u8-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "病院",
+                  "options": [
+                    {
+                      "text": "病院"
+                    },
+                    {
+                      "text": "先生"
+                    },
+                    {
+                      "text": "会社"
+                    },
+                    {
+                      "text": "教室"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "事務所で書類を書きます。",
+                  "audioTarget": "事務所で書類を書きます。",
+                  "tokens": [
+                    "was",
+                    "the",
+                    "office",
+                    "very",
+                    "documents",
+                    "in",
+                    "I",
+                    "kind",
+                    "write"
+                  ],
+                  "answer": [
+                    "I",
+                    "write",
+                    "documents",
+                    "in",
+                    "the",
+                    "office"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u8-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "兄は会社員です。",
+                  "audioTarget": "兄は会社員です。",
+                  "tokens": [
+                    "office",
+                    "an",
+                    "very",
+                    "father",
+                    "brother",
+                    "is",
+                    "My",
+                    "write",
+                    "worker",
+                    "older"
+                  ],
+                  "answer": [
+                    "My",
+                    "older",
+                    "brother",
+                    "is",
+                    "an",
+                    "office",
+                    "worker"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u8-l3-e8",
+                  "sentence": "___。",
+                  "translation": "I write documents in the office.",
+                  "audioTarget": "事務所で書類を書きます。",
+                  "options": [
+                    "宿題",
+                    "授業",
+                    "先生",
+                    "事務所で書類を書きます"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u8-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "病院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "教室",
+                      "native": "the classroom"
+                    },
+                    {
+                      "target": "会社",
+                      "native": "the company"
+                    },
+                    {
+                      "target": "学生",
+                      "native": "the student"
+                    },
+                    {
+                      "target": "会社員",
+                      "native": "the office worker"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u8-l3-e10",
+                  "mode": "translate",
+                  "prompt": "兄は会社員です。",
+                  "audioTarget": "兄は会社員です。",
+                  "answer": "My older brother is an office worker.",
+                  "alternatives": [
+                    "Ani wa kaishain desu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-en:unit-10",
+          "title": "Health",
+          "description": "Learn words and phrases for talking about your body, sickness, and medical care.",
+          "guidebook": "### Talking About Aches and Pains\nWhen expressing physical pain in Japanese, state the body part, add the subject particle **が (ga)**, and finish with **痛い (itai)**. For example, **頭が痛いです (atama ga itai desu)** means \"My head hurts.\"\n\n### Essential Health Phrases\n* **Taking medicine:** Japanese uses the verb **飲む (nomu)** meaning \"to drink\" for pills and medicine: **薬を飲む (kusuri o nomu)**.\n* **Catching a cold:** Use the fixed expression **風邪をひく (kaze o hiku)**. When you already caught one, say **風邪をひきました (kaze o hikimashita)**.\n* **Being tired:** Exhaustion is usually expressed in the past tense: **疲れました (tsukaremashita)**, literally \"I have become tired.\"",
+          "words": [
+            {
+              "target": "頭",
+              "native": "the head",
+              "emoji": "🧠",
+              "romanization": "atama"
+            },
+            {
+              "target": "手",
+              "native": "the hand",
+              "emoji": "✋",
+              "romanization": "te"
+            },
+            {
+              "target": "目",
+              "native": "the eye",
+              "emoji": "👁️",
+              "romanization": "me"
+            },
+            {
+              "target": "足",
+              "native": "the leg",
+              "emoji": "🦶",
+              "romanization": "ashi"
+            },
+            {
+              "target": "お腹",
+              "native": "the stomach",
+              "emoji": "🫃",
+              "romanization": "onaka"
+            },
+            {
+              "target": "病院",
+              "native": "the hospital",
+              "emoji": "🏥",
+              "romanization": "byouin"
+            },
+            {
+              "target": "医者",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️",
+              "romanization": "isha"
+            },
+            {
+              "target": "薬",
+              "native": "the medicine",
+              "emoji": "💊",
+              "romanization": "kusuri"
+            },
+            {
+              "target": "風邪",
+              "native": "the cold",
+              "emoji": "🤧",
+              "romanization": "kaze"
+            },
+            {
+              "target": "熱",
+              "native": "the fever",
+              "emoji": "🌡️",
+              "romanization": "netsu"
+            },
+            {
+              "target": "痛い",
+              "native": "painful",
+              "emoji": "😣",
+              "romanization": "itai"
+            },
+            {
+              "target": "疲れた",
+              "native": "tired",
+              "emoji": "🥱",
+              "romanization": "tsukareta"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ja-en:u9-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "頭",
+                  "audioTarget": "頭",
+                  "options": [
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫃"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "the leg",
+                      "emoji": "🦶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "手",
+                  "audioTarget": "手",
+                  "options": [
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫃"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "目",
+                  "audioTarget": "目",
+                  "options": [
+                    {
+                      "text": "the head",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "😣"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the head",
+                  "audioTarget": "頭",
+                  "options": [
+                    {
+                      "text": "頭",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "目",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "医者",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "熱",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hand",
+                  "audioTarget": "手",
+                  "options": [
+                    {
+                      "text": "目",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "手",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "薬",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "頭",
+                  "options": [
+                    {
+                      "text": "手"
+                    },
+                    {
+                      "text": "目"
+                    },
+                    {
+                      "text": "熱"
+                    },
+                    {
+                      "text": "頭"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "頭が痛いです。",
+                  "audioTarget": "頭が痛いです。",
+                  "tokens": [
+                    "I",
+                    "Do",
+                    "hurts",
+                    "My",
+                    "head",
+                    "take"
+                  ],
+                  "answer": [
+                    "My",
+                    "head",
+                    "hurts"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "お腹が痛いです。",
+                  "audioTarget": "お腹が痛いです。",
+                  "tokens": [
+                    "stomach",
+                    "doctor",
+                    "Do",
+                    "My",
+                    "hospital",
+                    "hurts"
+                  ],
+                  "answer": [
+                    "My",
+                    "stomach",
+                    "hurts"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u9-l0-e8",
+                  "sentence": "___。",
+                  "translation": "My head hurts.",
+                  "audioTarget": "頭が痛いです。",
+                  "options": [
+                    "痛い",
+                    "足",
+                    "風邪",
+                    "頭が痛いです"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u9-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "頭",
+                      "native": "the head"
+                    },
+                    {
+                      "target": "手",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "目",
+                      "native": "the eye"
+                    },
+                    {
+                      "target": "痛い",
+                      "native": "painful"
+                    },
+                    {
+                      "target": "病院",
+                      "native": "the hospital"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u9-l0-e10",
+                  "mode": "translate",
+                  "prompt": "お腹が痛いです。",
+                  "audioTarget": "お腹が痛いです。",
+                  "answer": "My stomach hurts.",
+                  "alternatives": [
+                    "Onaka ga itai desu."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u9-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "足",
+                  "audioTarget": "足",
+                  "options": [
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "the leg",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "お腹",
+                  "audioTarget": "お腹",
+                  "options": [
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫃"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "😣"
+                    },
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "病院",
+                  "audioTarget": "病院",
+                  "options": [
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the leg",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the leg",
+                  "audioTarget": "足",
+                  "options": [
+                    {
+                      "text": "足",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "風邪",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "医者",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "頭",
+                      "emoji": "🧠"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the stomach",
+                  "audioTarget": "お腹",
+                  "options": [
+                    {
+                      "text": "医者",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "お腹",
+                      "emoji": "🫃"
+                    },
+                    {
+                      "text": "熱",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "お腹",
+                  "options": [
+                    {
+                      "text": "頭"
+                    },
+                    {
+                      "text": "足"
+                    },
+                    {
+                      "text": "薬"
+                    },
+                    {
+                      "text": "お腹"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "今日はとても疲れました。",
+                  "audioTarget": "今日はとても疲れました。",
+                  "tokens": [
+                    "today",
+                    "well",
+                    "tired",
+                    "soon",
+                    "fever",
+                    "am",
+                    "I",
+                    "very"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "very",
+                    "tired",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "病院へ行きましょう。",
+                  "audioTarget": "病院へ行きましょう。",
+                  "tokens": [
+                    "Do",
+                    "go",
+                    "the",
+                    "hospital",
+                    "I",
+                    "to",
+                    "tired",
+                    "Lets"
+                  ],
+                  "answer": [
+                    "Lets",
+                    "go",
+                    "to",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u9-l1-e8",
+                  "sentence": "___。",
+                  "translation": "I am very tired today.",
+                  "audioTarget": "今日はとても疲れました。",
+                  "options": [
+                    "目",
+                    "手",
+                    "風邪",
+                    "今日はとても疲れました"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u9-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "足",
+                      "native": "the leg"
+                    },
+                    {
+                      "target": "お腹",
+                      "native": "the stomach"
+                    },
+                    {
+                      "target": "病院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "風邪",
+                      "native": "the cold"
+                    },
+                    {
+                      "target": "目",
+                      "native": "the eye"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u9-l1-e10",
+                  "mode": "translate",
+                  "prompt": "病院へ行きましょう。",
+                  "audioTarget": "病院へ行きましょう。",
+                  "answer": "Let's go to the hospital.",
+                  "alternatives": [
+                    "Byouin e ikimashou."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u9-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "医者",
+                  "audioTarget": "医者",
+                  "options": [
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🫃"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "薬",
+                  "audioTarget": "薬",
+                  "options": [
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "風邪",
+                  "audioTarget": "風邪",
+                  "options": [
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "😣"
+                    },
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the doctor",
+                  "audioTarget": "医者",
+                  "options": [
+                    {
+                      "text": "手",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "頭",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "医者",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the medicine",
+                  "audioTarget": "薬",
+                  "options": [
+                    {
+                      "text": "薬",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "目",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "手",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "疲れた",
+                      "emoji": "🥱"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "風邪",
+                  "options": [
+                    {
+                      "text": "目"
+                    },
+                    {
+                      "text": "熱"
+                    },
+                    {
+                      "text": "風邪"
+                    },
+                    {
+                      "text": "足"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "この薬を飲んでください。",
+                  "audioTarget": "この薬を飲んでください。",
+                  "tokens": [
+                    "take",
+                    "fever",
+                    "I",
+                    "Please",
+                    "this",
+                    "medicine",
+                    "hands"
+                  ],
+                  "answer": [
+                    "Please",
+                    "take",
+                    "this",
+                    "medicine"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "風邪をひきました。",
+                  "audioTarget": "風邪をひきました。",
+                  "tokens": [
+                    "hospital",
+                    "go",
+                    "cold",
+                    "a",
+                    "hands",
+                    "I",
+                    "caught"
+                  ],
+                  "answer": [
+                    "I",
+                    "caught",
+                    "a",
+                    "cold"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u9-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Please take this medicine.",
+                  "audioTarget": "この薬を飲んでください。",
+                  "options": [
+                    "医者",
+                    "痛い",
+                    "この薬を飲んでください",
+                    "疲れた"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u9-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "医者",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "薬",
+                      "native": "the medicine"
+                    },
+                    {
+                      "target": "風邪",
+                      "native": "the cold"
+                    },
+                    {
+                      "target": "疲れた",
+                      "native": "tired"
+                    },
+                    {
+                      "target": "手",
+                      "native": "the hand"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u9-l2-e10",
+                  "mode": "translate",
+                  "prompt": "風邪をひきました。",
+                  "audioTarget": "風邪をひきました。",
+                  "answer": "I caught a cold.",
+                  "alternatives": [
+                    "Kaze o hikimashita."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ja-en:u9-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "熱",
+                  "audioTarget": "熱",
+                  "options": [
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "😣"
+                    },
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "痛い",
+                  "audioTarget": "痛い",
+                  "options": [
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "the fever",
+                      "emoji": "🌡️"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "😣"
+                    },
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "疲れた",
+                  "audioTarget": "疲れた",
+                  "options": [
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "😣"
+                    },
+                    {
+                      "text": "the leg",
+                      "emoji": "🦶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the fever",
+                  "audioTarget": "熱",
+                  "options": [
+                    {
+                      "text": "足",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "風邪",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "病院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "熱",
+                      "emoji": "🌡️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "painful",
+                  "audioTarget": "痛い",
+                  "options": [
+                    {
+                      "text": "頭",
+                      "emoji": "🧠"
+                    },
+                    {
+                      "text": "薬",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "疲れた",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "痛い",
+                      "emoji": "😣"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ja-en:u9-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "熱",
+                  "options": [
+                    {
+                      "text": "薬"
+                    },
+                    {
+                      "text": "医者"
+                    },
+                    {
+                      "text": "疲れた"
+                    },
+                    {
+                      "text": "熱"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "熱がありますか。",
+                  "audioTarget": "熱がありますか。",
+                  "tokens": [
+                    "Do",
+                    "fever",
+                    "go",
+                    "have",
+                    "a",
+                    "you",
+                    "I",
+                    "am"
+                  ],
+                  "answer": [
+                    "Do",
+                    "you",
+                    "have",
+                    "a",
+                    "fever"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ja-en:u9-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "手をよく洗ってください。",
+                  "audioTarget": "手をよく洗ってください。",
+                  "tokens": [
+                    "hands",
+                    "the",
+                    "your",
+                    "Please",
+                    "wash",
+                    "to",
+                    "this",
+                    "well"
+                  ],
+                  "answer": [
+                    "Please",
+                    "wash",
+                    "your",
+                    "hands",
+                    "well"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ja-en:u9-l3-e8",
+                  "sentence": "___。",
+                  "translation": "Do you have a fever?",
+                  "audioTarget": "熱がありますか。",
+                  "options": [
+                    "お腹",
+                    "熱",
+                    "熱がありますか",
+                    "痛い"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ja-en:u9-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "熱",
+                      "native": "the fever"
+                    },
+                    {
+                      "target": "痛い",
+                      "native": "painful"
+                    },
+                    {
+                      "target": "疲れた",
+                      "native": "tired"
+                    },
+                    {
+                      "target": "病院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "お腹",
+                      "native": "the stomach"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ja-en:u9-l3-e10",
+                  "mode": "translate",
+                  "prompt": "手をよく洗ってください。",
+                  "audioTarget": "手をよく洗ってください。",
+                  "answer": "Please wash your hands well.",
+                  "alternatives": [
+                    "Te o yoku aratte kudasai."
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

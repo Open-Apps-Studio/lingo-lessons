@@ -5502,6 +5502,5538 @@
               ]
             }
           ]
+        },
+        {
+          "id": "zh-en:unit-6",
+          "title": "Family",
+          "description": "Learn to talk about your family members, siblings, and loved ones in Chinese.",
+          "guidebook": "### Meet the Family!\nIn Chinese, kinship titles are wonderfully specific. Unlike English, Chinese explicitly distinguishes whether a sibling is older or younger:\n- **哥哥 (gēge)**: older brother vs. **弟弟 (dìdi)**: younger brother\n- **姐姐 (jiějie)**: older sister vs. **妹妹 (mèimei)**: younger sister\n\n### Soft Second Syllables\nMost basic family words are reduplicated characters (like **妈妈 māma** and **爸爸 bàba**). In spoken Chinese, the second syllable almost always softens into a light, **neutral tone**.\n\n### Showing Possession with 的 (de)\nTo say \"my\" or \"your\", add **的 (de)** after the pronoun:\n- **我的妈妈** (*wǒ de māma*) = my mother\n- **你的哥哥** (*nǐ de gēge*) = your older brother",
+          "words": [
+            {
+              "target": "爸爸",
+              "native": "the father",
+              "emoji": "👨",
+              "romanization": "bàba"
+            },
+            {
+              "target": "妈妈",
+              "native": "the mother",
+              "emoji": "👩",
+              "romanization": "māma"
+            },
+            {
+              "target": "哥哥",
+              "native": "the older brother",
+              "emoji": "👦",
+              "romanization": "gēge"
+            },
+            {
+              "target": "弟弟",
+              "native": "the younger brother",
+              "emoji": "🧒",
+              "romanization": "dìdi"
+            },
+            {
+              "target": "姐姐",
+              "native": "the older sister",
+              "emoji": "👱‍♀️",
+              "romanization": "jiějie"
+            },
+            {
+              "target": "妹妹",
+              "native": "the younger sister",
+              "emoji": "👧",
+              "romanization": "mèimei"
+            },
+            {
+              "target": "爷爷",
+              "native": "the grandfather",
+              "emoji": "👴",
+              "romanization": "yéye"
+            },
+            {
+              "target": "奶奶",
+              "native": "the grandmother",
+              "emoji": "👵",
+              "romanization": "nǎinai"
+            },
+            {
+              "target": "宝宝",
+              "native": "the baby",
+              "emoji": "👶",
+              "romanization": "bǎobao"
+            },
+            {
+              "target": "儿子",
+              "native": "the son",
+              "emoji": "🧑",
+              "romanization": "érzi"
+            },
+            {
+              "target": "女儿",
+              "native": "the daughter",
+              "emoji": "👩‍🦰",
+              "romanization": "nǚ'ér"
+            },
+            {
+              "target": "家人",
+              "native": "the family members",
+              "emoji": "👨‍👩‍👧‍👦",
+              "romanization": "jiārén"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u5-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "爸爸",
+                  "audioTarget": "爸爸",
+                  "options": [
+                    {
+                      "text": "the family members",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the older sister",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "妈妈",
+                  "audioTarget": "妈妈",
+                  "options": [
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the younger sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "哥哥",
+                  "audioTarget": "哥哥",
+                  "options": [
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the daughter",
+                      "emoji": "👩‍🦰"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the younger brother",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the father",
+                  "audioTarget": "爸爸",
+                  "options": [
+                    {
+                      "text": "妈妈",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "爸爸",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "妹妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "哥哥",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the mother",
+                  "audioTarget": "妈妈",
+                  "options": [
+                    {
+                      "text": "妹妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "妈妈",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "姐姐",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "女儿",
+                      "emoji": "👩‍🦰"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "爸爸",
+                  "options": [
+                    {
+                      "text": "爷爷"
+                    },
+                    {
+                      "text": "妈妈"
+                    },
+                    {
+                      "text": "爸爸"
+                    },
+                    {
+                      "text": "宝宝"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "这是我的爸爸。",
+                  "audioTarget": "这是我的爸爸。",
+                  "tokens": [
+                    "my",
+                    "likes",
+                    "is",
+                    "delicious",
+                    "This",
+                    "brother",
+                    "father"
+                  ],
+                  "answer": [
+                    "This",
+                    "is",
+                    "my",
+                    "father"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我的妈妈很漂亮。",
+                  "audioTarget": "我的妈妈很漂亮。",
+                  "tokens": [
+                    "pretty",
+                    "is",
+                    "mother",
+                    "drinking",
+                    "name",
+                    "very",
+                    "My",
+                    "she"
+                  ],
+                  "answer": [
+                    "My",
+                    "mother",
+                    "is",
+                    "very",
+                    "pretty"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u5-l0-e8",
+                  "sentence": "___。",
+                  "translation": "This is my father.",
+                  "audioTarget": "这是我的爸爸。",
+                  "options": [
+                    "爸爸",
+                    "家人",
+                    "儿子",
+                    "这是我的爸爸"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u5-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "爸爸",
+                      "native": "the father"
+                    },
+                    {
+                      "target": "妈妈",
+                      "native": "the mother"
+                    },
+                    {
+                      "target": "哥哥",
+                      "native": "the older brother"
+                    },
+                    {
+                      "target": "家人",
+                      "native": "the family members"
+                    },
+                    {
+                      "target": "姐姐",
+                      "native": "the older sister"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u5-l0-e10",
+                  "mode": "translate",
+                  "prompt": "我的妈妈很漂亮。",
+                  "audioTarget": "我的妈妈很漂亮。",
+                  "answer": "My mother is very pretty.",
+                  "alternatives": [
+                    "Wǒ de māma hěn piàoliang."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u5-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "弟弟",
+                  "audioTarget": "弟弟",
+                  "options": [
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the older sister",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the daughter",
+                      "emoji": "👩‍🦰"
+                    },
+                    {
+                      "text": "the younger brother",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "姐姐",
+                  "audioTarget": "姐姐",
+                  "options": [
+                    {
+                      "text": "the older sister",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the family members",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "妹妹",
+                  "audioTarget": "妹妹",
+                  "options": [
+                    {
+                      "text": "the younger sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the daughter",
+                      "emoji": "👩‍🦰"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the younger brother",
+                  "audioTarget": "弟弟",
+                  "options": [
+                    {
+                      "text": "爸爸",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "儿子",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "姐姐",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "弟弟",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the older sister",
+                  "audioTarget": "姐姐",
+                  "options": [
+                    {
+                      "text": "姐姐",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "妹妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "儿子",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "爸爸",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "姐姐",
+                  "options": [
+                    {
+                      "text": "爷爷"
+                    },
+                    {
+                      "text": "姐姐"
+                    },
+                    {
+                      "text": "宝宝"
+                    },
+                    {
+                      "text": "哥哥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "他是我的哥哥。",
+                  "audioTarget": "他是我的哥哥。",
+                  "tokens": [
+                    "Grandfather",
+                    "is",
+                    "older",
+                    "This",
+                    "drinking",
+                    "brother",
+                    "He",
+                    "my"
+                  ],
+                  "answer": [
+                    "He",
+                    "is",
+                    "my",
+                    "older",
+                    "brother"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "她叫什么名字？",
+                  "audioTarget": "她叫什么名字？",
+                  "tokens": [
+                    "name",
+                    "What",
+                    "The",
+                    "My",
+                    "love",
+                    "is",
+                    "her"
+                  ],
+                  "answer": [
+                    "What",
+                    "is",
+                    "her",
+                    "name"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u5-l1-e8",
+                  "sentence": "___。",
+                  "translation": "He is my older brother.",
+                  "audioTarget": "他是我的哥哥。",
+                  "options": [
+                    "他是我的哥哥",
+                    "女儿",
+                    "家人",
+                    "宝宝"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u5-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "弟弟",
+                      "native": "the younger brother"
+                    },
+                    {
+                      "target": "姐姐",
+                      "native": "the older sister"
+                    },
+                    {
+                      "target": "妹妹",
+                      "native": "the younger sister"
+                    },
+                    {
+                      "target": "宝宝",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "爷爷",
+                      "native": "the grandfather"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u5-l1-e10",
+                  "mode": "translate",
+                  "prompt": "她叫什么名字？",
+                  "audioTarget": "她叫什么名字？",
+                  "answer": "What is her name?",
+                  "alternatives": [
+                    "Tā jiào shénme míngzi?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u5-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "爷爷",
+                  "audioTarget": "爷爷",
+                  "options": [
+                    {
+                      "text": "the daughter",
+                      "emoji": "👩‍🦰"
+                    },
+                    {
+                      "text": "the younger sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "奶奶",
+                  "audioTarget": "奶奶",
+                  "options": [
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the younger sister",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the younger brother",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "the family members",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "宝宝",
+                  "audioTarget": "宝宝",
+                  "options": [
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the older brother",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the grandfather",
+                  "audioTarget": "爷爷",
+                  "options": [
+                    {
+                      "text": "弟弟",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "奶奶",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "哥哥",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "爷爷",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the grandmother",
+                  "audioTarget": "奶奶",
+                  "options": [
+                    {
+                      "text": "宝宝",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "弟弟",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "奶奶",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "妹妹",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "宝宝",
+                  "options": [
+                    {
+                      "text": "爷爷"
+                    },
+                    {
+                      "text": "儿子"
+                    },
+                    {
+                      "text": "宝宝"
+                    },
+                    {
+                      "text": "哥哥"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我爱我的家人。",
+                  "audioTarget": "我爱我的家人。",
+                  "tokens": [
+                    "Grandfather",
+                    "my",
+                    "your",
+                    "family",
+                    "is",
+                    "I",
+                    "love"
+                  ],
+                  "answer": [
+                    "I",
+                    "love",
+                    "my",
+                    "family"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "妹妹喜欢看书。",
+                  "audioTarget": "妹妹喜欢看书。",
+                  "tokens": [
+                    "younger",
+                    "older",
+                    "The",
+                    "likes",
+                    "she",
+                    "sister",
+                    "mother",
+                    "reading"
+                  ],
+                  "answer": [
+                    "The",
+                    "younger",
+                    "sister",
+                    "likes",
+                    "reading"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u5-l2-e8",
+                  "sentence": "___。",
+                  "translation": "I love my family.",
+                  "audioTarget": "我爱我的家人。",
+                  "options": [
+                    "弟弟",
+                    "哥哥",
+                    "我爱我的家人",
+                    "妈妈"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u5-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "爷爷",
+                      "native": "the grandfather"
+                    },
+                    {
+                      "target": "奶奶",
+                      "native": "the grandmother"
+                    },
+                    {
+                      "target": "宝宝",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "妈妈",
+                      "native": "the mother"
+                    },
+                    {
+                      "target": "爸爸",
+                      "native": "the father"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u5-l2-e10",
+                  "mode": "translate",
+                  "prompt": "妹妹喜欢看书。",
+                  "audioTarget": "妹妹喜欢看书。",
+                  "answer": "The younger sister likes reading.",
+                  "alternatives": [
+                    "Mèimei xǐhuan kàn shū."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u5-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "儿子",
+                  "audioTarget": "儿子",
+                  "options": [
+                    {
+                      "text": "the family members",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the older sister",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "女儿",
+                  "audioTarget": "女儿",
+                  "options": [
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the daughter",
+                      "emoji": "👩‍🦰"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "家人",
+                  "audioTarget": "家人",
+                  "options": [
+                    {
+                      "text": "the family members",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the son",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the son",
+                  "audioTarget": "儿子",
+                  "options": [
+                    {
+                      "text": "爸爸",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "儿子",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "妈妈",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "宝宝",
+                      "emoji": "👶"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the daughter",
+                  "audioTarget": "女儿",
+                  "options": [
+                    {
+                      "text": "女儿",
+                      "emoji": "👩‍🦰"
+                    },
+                    {
+                      "text": "妹妹",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "爷爷",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "家人",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u5-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "儿子",
+                  "options": [
+                    {
+                      "text": "女儿"
+                    },
+                    {
+                      "text": "儿子"
+                    },
+                    {
+                      "text": "弟弟"
+                    },
+                    {
+                      "text": "哥哥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "爷爷在喝茶。",
+                  "audioTarget": "爷爷在喝茶。",
+                  "tokens": [
+                    "reading",
+                    "Grandmother",
+                    "cooks",
+                    "is",
+                    "drinking",
+                    "tea",
+                    "Grandfather"
+                  ],
+                  "answer": [
+                    "Grandfather",
+                    "is",
+                    "drinking",
+                    "tea"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u5-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "奶奶做饭很好吃。",
+                  "audioTarget": "奶奶做饭很好吃。",
+                  "tokens": [
+                    "Grandmother",
+                    "baby",
+                    "food",
+                    "He",
+                    "cooks",
+                    "delicious",
+                    "her"
+                  ],
+                  "answer": [
+                    "Grandmother",
+                    "cooks",
+                    "delicious",
+                    "food"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u5-l3-e8",
+                  "sentence": "___。",
+                  "translation": "Grandfather is drinking tea.",
+                  "audioTarget": "爷爷在喝茶。",
+                  "options": [
+                    "儿子",
+                    "家人",
+                    "女儿",
+                    "爷爷在喝茶"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u5-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "儿子",
+                      "native": "the son"
+                    },
+                    {
+                      "target": "女儿",
+                      "native": "the daughter"
+                    },
+                    {
+                      "target": "家人",
+                      "native": "the family members"
+                    },
+                    {
+                      "target": "宝宝",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "妹妹",
+                      "native": "the younger sister"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u5-l3-e10",
+                  "mode": "translate",
+                  "prompt": "奶奶做饭很好吃。",
+                  "audioTarget": "奶奶做饭很好吃。",
+                  "answer": "Grandmother cooks delicious food.",
+                  "alternatives": [
+                    "Nǎinai zuò fàn hěn hǎochī."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-7",
+          "title": "Shopping",
+          "description": "Learn to ask for prices, bargain, and navigate markets and stores in Chinese.",
+          "guidebook": "### Asking for Prices\nTo ask how much something costs in Chinese, use the phrase **多少钱** (*duōshao qián*), which literally translates to \"how much money\". Place the item first:\n- **这个多少钱？** (*Zhège duōshao qián?* — How much is this?)\n\n### Everyday Currency\nWhile the official currency unit is the *yuán* (元), people almost always say **块** (*kuài*) in daily conversation when shopping:\n- **十块钱** (*shí kuài qián* — Ten yuan)\n\n### Expressing Extremes\nUse the pattern **太...了** (*tài ... le*) to say something is \"too much\":\n- **太贵了！** (*Tài guì le!* — Too expensive!)\nTo suggest a discount, you can say **便宜一点吧** (*Piányi yìdiǎn ba* — A little cheaper, please).",
+          "words": [
+            {
+              "target": "买",
+              "native": "to buy",
+              "emoji": "🛍️",
+              "romanization": "mǎi"
+            },
+            {
+              "target": "卖",
+              "native": "to sell",
+              "emoji": "🏷️",
+              "romanization": "mài"
+            },
+            {
+              "target": "商店",
+              "native": "the store",
+              "emoji": "🏬",
+              "romanization": "shāngdiàn"
+            },
+            {
+              "target": "市场",
+              "native": "the market",
+              "emoji": "🛒",
+              "romanization": "shìchǎng"
+            },
+            {
+              "target": "钱",
+              "native": "the money",
+              "emoji": "💵",
+              "romanization": "qián"
+            },
+            {
+              "target": "多少",
+              "native": "how much",
+              "emoji": "🔢",
+              "romanization": "duōshǎo"
+            },
+            {
+              "target": "块",
+              "native": "the yuan",
+              "emoji": "💰",
+              "romanization": "kuài"
+            },
+            {
+              "target": "贵",
+              "native": "expensive",
+              "emoji": "💎",
+              "romanization": "guì"
+            },
+            {
+              "target": "便宜",
+              "native": "cheap",
+              "emoji": "🪙",
+              "romanization": "piányi"
+            },
+            {
+              "target": "东西",
+              "native": "the thing",
+              "emoji": "📦",
+              "romanization": "dōngxi"
+            },
+            {
+              "target": "现金",
+              "native": "the cash",
+              "emoji": "💴",
+              "romanization": "xiànjīn"
+            },
+            {
+              "target": "刷卡",
+              "native": "to pay by card",
+              "emoji": "💳",
+              "romanization": "shuākǎ"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u6-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "买",
+                  "audioTarget": "买",
+                  "options": [
+                    {
+                      "text": "expensive",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "the store",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🛒"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "卖",
+                  "audioTarget": "卖",
+                  "options": [
+                    {
+                      "text": "to sell",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the yuan",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "商店",
+                  "audioTarget": "商店",
+                  "options": [
+                    {
+                      "text": "the thing",
+                      "emoji": "📦"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the store",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "to pay by card",
+                      "emoji": "💳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to buy",
+                  "audioTarget": "买",
+                  "options": [
+                    {
+                      "text": "东西",
+                      "emoji": "📦"
+                    },
+                    {
+                      "text": "买",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "贵",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "卖",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to sell",
+                  "audioTarget": "卖",
+                  "options": [
+                    {
+                      "text": "块",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "商店",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "贵",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "卖",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "买",
+                  "options": [
+                    {
+                      "text": "多少"
+                    },
+                    {
+                      "text": "贵"
+                    },
+                    {
+                      "text": "钱"
+                    },
+                    {
+                      "text": "买"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "这个多少钱？",
+                  "audioTarget": "这个多少钱？",
+                  "tokens": [
+                    "How",
+                    "much",
+                    "market",
+                    "Where",
+                    "pay",
+                    "is",
+                    "this"
+                  ],
+                  "answer": [
+                    "How",
+                    "much",
+                    "is",
+                    "this"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "太贵了！",
+                  "audioTarget": "太贵了！",
+                  "tokens": [
+                    "the",
+                    "buy",
+                    "Too",
+                    "yuan",
+                    "expensive"
+                  ],
+                  "answer": [
+                    "Too",
+                    "expensive"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u6-l0-e8",
+                  "sentence": "___？",
+                  "translation": "How much is this?",
+                  "audioTarget": "这个多少钱？",
+                  "options": [
+                    "多少",
+                    "贵",
+                    "钱",
+                    "这个多少钱"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u6-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "买",
+                      "native": "to buy"
+                    },
+                    {
+                      "target": "卖",
+                      "native": "to sell"
+                    },
+                    {
+                      "target": "商店",
+                      "native": "the store"
+                    },
+                    {
+                      "target": "多少",
+                      "native": "how much"
+                    },
+                    {
+                      "target": "钱",
+                      "native": "the money"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u6-l0-e10",
+                  "mode": "translate",
+                  "prompt": "太贵了！",
+                  "audioTarget": "太贵了！",
+                  "answer": "Too expensive!",
+                  "alternatives": [
+                    "Tài guì le!"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u6-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "市场",
+                  "audioTarget": "市场",
+                  "options": [
+                    {
+                      "text": "the yuan",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🛒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "钱",
+                  "audioTarget": "钱",
+                  "options": [
+                    {
+                      "text": "to pay by card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the yuan",
+                      "emoji": "💰"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "多少",
+                  "audioTarget": "多少",
+                  "options": [
+                    {
+                      "text": "how much",
+                      "emoji": "🔢"
+                    },
+                    {
+                      "text": "to pay by card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "to sell",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the yuan",
+                      "emoji": "💰"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the market",
+                  "audioTarget": "市场",
+                  "options": [
+                    {
+                      "text": "多少",
+                      "emoji": "🔢"
+                    },
+                    {
+                      "text": "市场",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "商店",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "卖",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the money",
+                  "audioTarget": "钱",
+                  "options": [
+                    {
+                      "text": "现金",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "东西",
+                      "emoji": "📦"
+                    },
+                    {
+                      "text": "便宜",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "钱",
+                      "emoji": "💵"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "钱",
+                  "options": [
+                    {
+                      "text": "刷卡"
+                    },
+                    {
+                      "text": "钱"
+                    },
+                    {
+                      "text": "市场"
+                    },
+                    {
+                      "text": "贵"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我想买这个。",
+                  "audioTarget": "我想买这个。",
+                  "tokens": [
+                    "by",
+                    "to",
+                    "only",
+                    "is",
+                    "buy",
+                    "I",
+                    "this",
+                    "want"
+                  ],
+                  "answer": [
+                    "I",
+                    "want",
+                    "to",
+                    "buy",
+                    "this"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "这个很便宜。",
+                  "audioTarget": "这个很便宜。",
+                  "tokens": [
+                    "This",
+                    "market",
+                    "is",
+                    "groceries",
+                    "very",
+                    "Too",
+                    "cheap"
+                  ],
+                  "answer": [
+                    "This",
+                    "is",
+                    "very",
+                    "cheap"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u6-l1-e8",
+                  "sentence": "___。",
+                  "translation": "I want to buy this.",
+                  "audioTarget": "我想买这个。",
+                  "options": [
+                    "我想买这个",
+                    "刷卡",
+                    "市场",
+                    "块"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u6-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "市场",
+                      "native": "the market"
+                    },
+                    {
+                      "target": "钱",
+                      "native": "the money"
+                    },
+                    {
+                      "target": "多少",
+                      "native": "how much"
+                    },
+                    {
+                      "target": "卖",
+                      "native": "to sell"
+                    },
+                    {
+                      "target": "块",
+                      "native": "the yuan"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u6-l1-e10",
+                  "mode": "translate",
+                  "prompt": "这个很便宜。",
+                  "audioTarget": "这个很便宜。",
+                  "answer": "This is very cheap.",
+                  "alternatives": [
+                    "Zhège hěn piányi."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u6-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "块",
+                  "audioTarget": "块",
+                  "options": [
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the store",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the yuan",
+                      "emoji": "💰"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "贵",
+                  "audioTarget": "贵",
+                  "options": [
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "the thing",
+                      "emoji": "📦"
+                    },
+                    {
+                      "text": "expensive",
+                      "emoji": "💎"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "便宜",
+                  "audioTarget": "便宜",
+                  "options": [
+                    {
+                      "text": "to sell",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the yuan",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "expensive",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the yuan",
+                  "audioTarget": "块",
+                  "options": [
+                    {
+                      "text": "贵",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "块",
+                      "emoji": "💰"
+                    },
+                    {
+                      "text": "卖",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "多少",
+                      "emoji": "🔢"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "expensive",
+                  "audioTarget": "贵",
+                  "options": [
+                    {
+                      "text": "现金",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "贵",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "商店",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "市场",
+                      "emoji": "🛒"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "便宜",
+                  "options": [
+                    {
+                      "text": "便宜"
+                    },
+                    {
+                      "text": "多少"
+                    },
+                    {
+                      "text": "卖"
+                    },
+                    {
+                      "text": "块"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "一共五十块。",
+                  "audioTarget": "一共五十块。",
+                  "tokens": [
+                    "am",
+                    "very",
+                    "Fifty",
+                    "in",
+                    "total",
+                    "sell",
+                    "yuan"
+                  ],
+                  "answer": [
+                    "Fifty",
+                    "yuan",
+                    "in",
+                    "total"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "商店在哪里？",
+                  "audioTarget": "商店在哪里？",
+                  "tokens": [
+                    "total",
+                    "the",
+                    "store",
+                    "Where",
+                    "groceries",
+                    "is",
+                    "very"
+                  ],
+                  "answer": [
+                    "Where",
+                    "is",
+                    "the",
+                    "store"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u6-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Fifty yuan in total.",
+                  "audioTarget": "一共五十块。",
+                  "options": [
+                    "贵",
+                    "一共五十块",
+                    "商店",
+                    "东西"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u6-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "块",
+                      "native": "the yuan"
+                    },
+                    {
+                      "target": "贵",
+                      "native": "expensive"
+                    },
+                    {
+                      "target": "便宜",
+                      "native": "cheap"
+                    },
+                    {
+                      "target": "现金",
+                      "native": "the cash"
+                    },
+                    {
+                      "target": "东西",
+                      "native": "the thing"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u6-l2-e10",
+                  "mode": "translate",
+                  "prompt": "商店在哪里？",
+                  "audioTarget": "商店在哪里？",
+                  "answer": "Where is the store?",
+                  "alternatives": [
+                    "Shāngdiàn zài nǎlǐ?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u6-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "东西",
+                  "audioTarget": "东西",
+                  "options": [
+                    {
+                      "text": "the thing",
+                      "emoji": "📦"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "to pay by card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "to sell",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "现金",
+                  "audioTarget": "现金",
+                  "options": [
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "the thing",
+                      "emoji": "📦"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "刷卡",
+                  "audioTarget": "刷卡",
+                  "options": [
+                    {
+                      "text": "to pay by card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "how much",
+                      "emoji": "🔢"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the thing",
+                  "audioTarget": "东西",
+                  "options": [
+                    {
+                      "text": "买",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "东西",
+                      "emoji": "📦"
+                    },
+                    {
+                      "text": "市场",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "现金",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cash",
+                  "audioTarget": "现金",
+                  "options": [
+                    {
+                      "text": "买",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "贵",
+                      "emoji": "💎"
+                    },
+                    {
+                      "text": "现金",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "便宜",
+                      "emoji": "🪙"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u6-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "东西",
+                  "options": [
+                    {
+                      "text": "市场"
+                    },
+                    {
+                      "text": "买"
+                    },
+                    {
+                      "text": "现金"
+                    },
+                    {
+                      "text": "东西"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我去市场买菜。",
+                  "audioTarget": "我去市场买菜。",
+                  "tokens": [
+                    "Too",
+                    "to",
+                    "the",
+                    "to",
+                    "card",
+                    "total",
+                    "groceries",
+                    "buy",
+                    "market",
+                    "I",
+                    "am",
+                    "going"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "going",
+                    "to",
+                    "the",
+                    "market",
+                    "to",
+                    "buy",
+                    "groceries"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u6-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "可以刷卡吗？",
+                  "audioTarget": "可以刷卡吗？",
+                  "tokens": [
+                    "Can",
+                    "by",
+                    "I",
+                    "card",
+                    "pay",
+                    "This",
+                    "They",
+                    "expensive"
+                  ],
+                  "answer": [
+                    "Can",
+                    "I",
+                    "pay",
+                    "by",
+                    "card"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u6-l3-e8",
+                  "sentence": "___。",
+                  "translation": "I am going to the market to buy groceries.",
+                  "audioTarget": "我去市场买菜。",
+                  "options": [
+                    "块",
+                    "贵",
+                    "我去市场买菜",
+                    "商店"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u6-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "东西",
+                      "native": "the thing"
+                    },
+                    {
+                      "target": "现金",
+                      "native": "the cash"
+                    },
+                    {
+                      "target": "刷卡",
+                      "native": "to pay by card"
+                    },
+                    {
+                      "target": "卖",
+                      "native": "to sell"
+                    },
+                    {
+                      "target": "商店",
+                      "native": "the store"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u6-l3-e10",
+                  "mode": "translate",
+                  "prompt": "可以刷卡吗？",
+                  "audioTarget": "可以刷卡吗？",
+                  "answer": "Can I pay by card?",
+                  "alternatives": [
+                    "Kěyǐ shuākǎ ma?"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-8",
+          "title": "Weather",
+          "description": "Talk about seasons, temperatures, and common weather conditions in Chinese.",
+          "guidebook": "### Talking About the Weather\n\nTo ask about the weather, say **今天天气怎么样？** (*Jīntiān tiānqì zěnmeyàng?* - How is the weather today?).\n\n### Adjectives Don't Need \"To Be\"\nIn Chinese, you link nouns directly to adjectives using degree adverbs like **很** (*hěn*, very) instead of **是** (*shì*):\n- **今天很冷。** (*Jīntiān hěn lěng.* - Today is cold.)\n- Avoid saying *今天是冷*!\n\nTo express extremes, use **太...了** (*tài... le*, too...):\n- **夏天太热了！** (*Xiàtiān tài rè le!* - Summer is too hot!)\n\n### Rain and Snow Fall Down\nPrecipitation verbs use **下** (*xià*, to fall/descend):\n- **下雨** (*xià yǔ* - to rain)\n- **下雪** (*xià xuě* - to snow)",
+          "words": [
+            {
+              "target": "天气",
+              "native": "the weather",
+              "emoji": "⛅",
+              "romanization": "tiānqì"
+            },
+            {
+              "target": "太阳",
+              "native": "the sun",
+              "emoji": "☀️",
+              "romanization": "tàiyáng"
+            },
+            {
+              "target": "雨",
+              "native": "the rain",
+              "emoji": "🌧️",
+              "romanization": "yǔ"
+            },
+            {
+              "target": "雪",
+              "native": "the snow",
+              "emoji": "❄️",
+              "romanization": "xuě"
+            },
+            {
+              "target": "风",
+              "native": "the wind",
+              "emoji": "💨",
+              "romanization": "fēng"
+            },
+            {
+              "target": "热",
+              "native": "hot",
+              "emoji": "🥵",
+              "romanization": "rè"
+            },
+            {
+              "target": "冷",
+              "native": "cold",
+              "emoji": "🥶",
+              "romanization": "lěng"
+            },
+            {
+              "target": "夏天",
+              "native": "the summer",
+              "emoji": "🏖️",
+              "romanization": "xiàtiān"
+            },
+            {
+              "target": "冬天",
+              "native": "the winter",
+              "emoji": "⛄",
+              "romanization": "dōngtiān"
+            },
+            {
+              "target": "春天",
+              "native": "the spring",
+              "emoji": "🌸",
+              "romanization": "chūntiān"
+            },
+            {
+              "target": "秋天",
+              "native": "the autumn",
+              "emoji": "🍂",
+              "romanization": "qiūtiān"
+            },
+            {
+              "target": "晴天",
+              "native": "the sunny day",
+              "emoji": "🌤️",
+              "romanization": "qíngtiān"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u7-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "天气",
+                  "audioTarget": "天气",
+                  "options": [
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "太阳",
+                  "audioTarget": "太阳",
+                  "options": [
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "雨",
+                  "audioTarget": "雨",
+                  "options": [
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the weather",
+                  "audioTarget": "天气",
+                  "options": [
+                    {
+                      "text": "雪",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "天气",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "热",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "春天",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sun",
+                  "audioTarget": "太阳",
+                  "options": [
+                    {
+                      "text": "春天",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "冬天",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "太阳",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "天气",
+                  "options": [
+                    {
+                      "text": "热"
+                    },
+                    {
+                      "text": "晴天"
+                    },
+                    {
+                      "text": "天气"
+                    },
+                    {
+                      "text": "雨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "今天天气怎么样？",
+                  "audioTarget": "今天天气怎么样？",
+                  "tokens": [
+                    "weather",
+                    "It",
+                    "hot",
+                    "the",
+                    "is",
+                    "like",
+                    "How",
+                    "today"
+                  ],
+                  "answer": [
+                    "How",
+                    "is",
+                    "the",
+                    "weather",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "今天非常热。",
+                  "audioTarget": "今天非常热。",
+                  "tokens": [
+                    "Today",
+                    "is",
+                    "very",
+                    "hot",
+                    "like",
+                    "Summer",
+                    "snow"
+                  ],
+                  "answer": [
+                    "Today",
+                    "is",
+                    "very",
+                    "hot"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u7-l0-e8",
+                  "sentence": "___？",
+                  "translation": "How is the weather today?",
+                  "audioTarget": "今天天气怎么样？",
+                  "options": [
+                    "秋天",
+                    "今天天气怎么样",
+                    "风",
+                    "晴天"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u7-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "天气",
+                      "native": "the weather"
+                    },
+                    {
+                      "target": "太阳",
+                      "native": "the sun"
+                    },
+                    {
+                      "target": "雨",
+                      "native": "the rain"
+                    },
+                    {
+                      "target": "秋天",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "热",
+                      "native": "hot"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u7-l0-e10",
+                  "mode": "translate",
+                  "prompt": "今天非常热。",
+                  "audioTarget": "今天非常热。",
+                  "answer": "Today is very hot.",
+                  "alternatives": [
+                    "Jīntiān fēicháng rè."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u7-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "雪",
+                  "audioTarget": "雪",
+                  "options": [
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "风",
+                  "audioTarget": "风",
+                  "options": [
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "热",
+                  "audioTarget": "热",
+                  "options": [
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the snow",
+                  "audioTarget": "雪",
+                  "options": [
+                    {
+                      "text": "晴天",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "热",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "雪",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "夏天",
+                      "emoji": "🏖️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the wind",
+                  "audioTarget": "风",
+                  "options": [
+                    {
+                      "text": "冬天",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "雨",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "夏天",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "风",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "风",
+                  "options": [
+                    {
+                      "text": "太阳"
+                    },
+                    {
+                      "text": "冷"
+                    },
+                    {
+                      "text": "雪"
+                    },
+                    {
+                      "text": "风"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "明天会下雪。",
+                  "audioTarget": "明天会下雪。",
+                  "tokens": [
+                    "cold",
+                    "It",
+                    "raining",
+                    "tomorrow",
+                    "Beijing",
+                    "will",
+                    "snow"
+                  ],
+                  "answer": [
+                    "It",
+                    "will",
+                    "snow",
+                    "tomorrow"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "外面风很大。",
+                  "audioTarget": "外面风很大。",
+                  "tokens": [
+                    "The",
+                    "a",
+                    "strong",
+                    "outside",
+                    "raining",
+                    "is",
+                    "cold",
+                    "wind"
+                  ],
+                  "answer": [
+                    "The",
+                    "wind",
+                    "is",
+                    "strong",
+                    "outside"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u7-l1-e8",
+                  "sentence": "___。",
+                  "translation": "It will snow tomorrow.",
+                  "audioTarget": "明天会下雪。",
+                  "options": [
+                    "热",
+                    "夏天",
+                    "雨",
+                    "明天会下雪"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u7-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "雪",
+                      "native": "the snow"
+                    },
+                    {
+                      "target": "风",
+                      "native": "the wind"
+                    },
+                    {
+                      "target": "热",
+                      "native": "hot"
+                    },
+                    {
+                      "target": "天气",
+                      "native": "the weather"
+                    },
+                    {
+                      "target": "太阳",
+                      "native": "the sun"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u7-l1-e10",
+                  "mode": "translate",
+                  "prompt": "外面风很大。",
+                  "audioTarget": "外面风很大。",
+                  "answer": "The wind is strong outside.",
+                  "alternatives": [
+                    "Wàimiàn fēng hěn dà."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u7-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "冷",
+                  "audioTarget": "冷",
+                  "options": [
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "夏天",
+                  "audioTarget": "夏天",
+                  "options": [
+                    {
+                      "text": "the sunny day",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "冬天",
+                  "audioTarget": "冬天",
+                  "options": [
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "cold",
+                  "audioTarget": "冷",
+                  "options": [
+                    {
+                      "text": "秋天",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "太阳",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "冷",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "冬天",
+                      "emoji": "⛄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the summer",
+                  "audioTarget": "夏天",
+                  "options": [
+                    {
+                      "text": "天气",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "夏天",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "冷",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "风",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "冬天",
+                  "options": [
+                    {
+                      "text": "冬天"
+                    },
+                    {
+                      "text": "冷"
+                    },
+                    {
+                      "text": "雪"
+                    },
+                    {
+                      "text": "天气"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "夏天太热了。",
+                  "audioTarget": "夏天太热了。",
+                  "tokens": [
+                    "Today",
+                    "like",
+                    "too",
+                    "raining",
+                    "hot",
+                    "Summer",
+                    "is"
+                  ],
+                  "answer": [
+                    "Summer",
+                    "is",
+                    "too",
+                    "hot"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "冬天很冷。",
+                  "audioTarget": "冬天很冷。",
+                  "tokens": [
+                    "is",
+                    "strong",
+                    "Winter",
+                    "very",
+                    "How",
+                    "cold",
+                    "Today"
+                  ],
+                  "answer": [
+                    "Winter",
+                    "is",
+                    "very",
+                    "cold"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u7-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Summer is too hot.",
+                  "audioTarget": "夏天太热了。",
+                  "options": [
+                    "雪",
+                    "春天",
+                    "夏天太热了",
+                    "天气"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u7-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "冷",
+                      "native": "cold"
+                    },
+                    {
+                      "target": "夏天",
+                      "native": "the summer"
+                    },
+                    {
+                      "target": "冬天",
+                      "native": "the winter"
+                    },
+                    {
+                      "target": "秋天",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "热",
+                      "native": "hot"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u7-l2-e10",
+                  "mode": "translate",
+                  "prompt": "冬天很冷。",
+                  "audioTarget": "冬天很冷。",
+                  "answer": "Winter is very cold.",
+                  "alternatives": [
+                    "Dōngtiān hěn lěng."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u7-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "春天",
+                  "audioTarget": "春天",
+                  "options": [
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "秋天",
+                  "audioTarget": "秋天",
+                  "options": [
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "晴天",
+                  "audioTarget": "晴天",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the sunny day",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the spring",
+                  "audioTarget": "春天",
+                  "options": [
+                    {
+                      "text": "冬天",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "夏天",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "春天",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "冷",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the autumn",
+                  "audioTarget": "秋天",
+                  "options": [
+                    {
+                      "text": "冬天",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "春天",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "晴天",
+                      "emoji": "🌤️"
+                    },
+                    {
+                      "text": "秋天",
+                      "emoji": "🍂"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u7-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "春天",
+                  "options": [
+                    {
+                      "text": "春天"
+                    },
+                    {
+                      "text": "秋天"
+                    },
+                    {
+                      "text": "冷"
+                    },
+                    {
+                      "text": "雨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "明天是晴天。",
+                  "audioTarget": "明天是晴天。",
+                  "tokens": [
+                    "heavily",
+                    "Tomorrow",
+                    "sunny",
+                    "day",
+                    "a",
+                    "is",
+                    "Summer",
+                    "Beijing"
+                  ],
+                  "answer": [
+                    "Tomorrow",
+                    "is",
+                    "a",
+                    "sunny",
+                    "day"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u7-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "今天下大雨了。",
+                  "audioTarget": "今天下大雨了。",
+                  "tokens": [
+                    "too",
+                    "a",
+                    "is",
+                    "heavily",
+                    "It",
+                    "raining",
+                    "I",
+                    "today"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "raining",
+                    "heavily",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u7-l3-e8",
+                  "sentence": "___。",
+                  "translation": "Tomorrow is a sunny day.",
+                  "audioTarget": "明天是晴天。",
+                  "options": [
+                    "秋天",
+                    "明天是晴天",
+                    "天气",
+                    "风"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u7-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "春天",
+                      "native": "the spring"
+                    },
+                    {
+                      "target": "秋天",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "晴天",
+                      "native": "the sunny day"
+                    },
+                    {
+                      "target": "雪",
+                      "native": "the snow"
+                    },
+                    {
+                      "target": "天气",
+                      "native": "the weather"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u7-l3-e10",
+                  "mode": "translate",
+                  "prompt": "今天下大雨了。",
+                  "audioTarget": "今天下大雨了。",
+                  "answer": "It is raining heavily today.",
+                  "alternatives": [
+                    "Jīntiān xià dàyǔ le."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-9",
+          "title": "Work & School",
+          "description": "Talk about occupations, daily duties, and school life in Mandarin Chinese.",
+          "guidebook": "### Talking About Occupations\nIn Chinese, stating your profession is straightforward using **是 (shì)**. Unlike English, you do not need articles like \"a\" or \"an\":\n* **我是老师。** (*Wǒ shì lǎoshī.*) — I am a teacher.\n\n### Indicating Where You Work\nTo describe working or studying somewhere, use the pattern **Subject + 在 (zài) + Location + Action**:\n* **他在医院工作。** (*Tā zài yīyuàn gōngzuò.*) — He works at the hospital.\n* **我们在学校上课。** (*Wǒmen zài xuéxiào shàngkè.*) — We attend class at school.\n\n### School Essentials\nCombine **上 (shàng)** with **课 (kè)** to say \"attend class\" (**上课**). When doing homework, use the verb **写 (xiě)**: **写作业** (*xiě zuòyè*).",
+          "words": [
+            {
+              "target": "老师",
+              "native": "the teacher",
+              "emoji": "👨‍🏫",
+              "romanization": "lǎoshī"
+            },
+            {
+              "target": "学生",
+              "native": "the student",
+              "emoji": "🎒",
+              "romanization": "xuésheng"
+            },
+            {
+              "target": "医生",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️",
+              "romanization": "yīshēng"
+            },
+            {
+              "target": "办公室",
+              "native": "the office",
+              "emoji": "🏢",
+              "romanization": "bàngōngshì"
+            },
+            {
+              "target": "学校",
+              "native": "the school",
+              "emoji": "🏫",
+              "romanization": "xuéxiào"
+            },
+            {
+              "target": "医院",
+              "native": "the hospital",
+              "emoji": "🏥",
+              "romanization": "yīyuàn"
+            },
+            {
+              "target": "作业",
+              "native": "the homework",
+              "emoji": "📝",
+              "romanization": "zuòyè"
+            },
+            {
+              "target": "课",
+              "native": "the class",
+              "emoji": "📖",
+              "romanization": "kè"
+            },
+            {
+              "target": "工作",
+              "native": "the job",
+              "emoji": "💼",
+              "romanization": "gōngzuò"
+            },
+            {
+              "target": "同学",
+              "native": "the classmate",
+              "emoji": "🧑‍🤝‍🧑",
+              "romanization": "tóngxué"
+            },
+            {
+              "target": "教室",
+              "native": "the classroom",
+              "emoji": "🪑",
+              "romanization": "jiàoshì"
+            },
+            {
+              "target": "公司",
+              "native": "the company",
+              "emoji": "🏬",
+              "romanization": "gōngsī"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u8-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "老师",
+                  "audioTarget": "老师",
+                  "options": [
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the classmate",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "学生",
+                  "audioTarget": "学生",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "医生",
+                  "audioTarget": "医生",
+                  "options": [
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the teacher",
+                  "audioTarget": "老师",
+                  "options": [
+                    {
+                      "text": "老师",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "医生",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "课",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "工作",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the student",
+                  "audioTarget": "学生",
+                  "options": [
+                    {
+                      "text": "课",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "医生",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "学生",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "作业",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "老师",
+                  "options": [
+                    {
+                      "text": "老师"
+                    },
+                    {
+                      "text": "医生"
+                    },
+                    {
+                      "text": "公司"
+                    },
+                    {
+                      "text": "作业"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我是学生。",
+                  "audioTarget": "我是学生。",
+                  "tokens": [
+                    "student",
+                    "have",
+                    "work",
+                    "I",
+                    "a",
+                    "at",
+                    "am"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "a",
+                    "student"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "他在医院工作。",
+                  "audioTarget": "他在医院工作。",
+                  "tokens": [
+                    "at",
+                    "He",
+                    "a",
+                    "class",
+                    "hospital",
+                    "doctor",
+                    "works",
+                    "classmates"
+                  ],
+                  "answer": [
+                    "He",
+                    "works",
+                    "at",
+                    "a",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u8-l0-e8",
+                  "sentence": "___。",
+                  "translation": "I am a student.",
+                  "audioTarget": "我是学生。",
+                  "options": [
+                    "作业",
+                    "教室",
+                    "我是学生",
+                    "工作"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u8-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "老师",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "学生",
+                      "native": "the student"
+                    },
+                    {
+                      "target": "医生",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "教室",
+                      "native": "the classroom"
+                    },
+                    {
+                      "target": "公司",
+                      "native": "the company"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u8-l0-e10",
+                  "mode": "translate",
+                  "prompt": "他在医院工作。",
+                  "audioTarget": "他在医院工作。",
+                  "answer": "He works at a hospital.",
+                  "alternatives": [
+                    "Tā zài yīyuàn gōngzuò."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u8-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "办公室",
+                  "audioTarget": "办公室",
+                  "options": [
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the job",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "学校",
+                  "audioTarget": "学校",
+                  "options": [
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "医院",
+                  "audioTarget": "医院",
+                  "options": [
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the office",
+                  "audioTarget": "办公室",
+                  "options": [
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "办公室",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "医院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "教室",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the school",
+                  "audioTarget": "学校",
+                  "options": [
+                    {
+                      "text": "办公室",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "医生",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "学校",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "工作",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "学校",
+                  "options": [
+                    {
+                      "text": "学校"
+                    },
+                    {
+                      "text": "办公室"
+                    },
+                    {
+                      "text": "同学"
+                    },
+                    {
+                      "text": "医生"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "老师在办公室。",
+                  "audioTarget": "老师在办公室。",
+                  "tokens": [
+                    "teacher",
+                    "the",
+                    "office",
+                    "do",
+                    "The",
+                    "in",
+                    "is",
+                    "doctor",
+                    "good"
+                  ],
+                  "answer": [
+                    "The",
+                    "teacher",
+                    "is",
+                    "in",
+                    "the",
+                    "office"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "我们去学校上课。",
+                  "audioTarget": "我们去学校上课。",
+                  "tokens": [
+                    "the",
+                    "go",
+                    "We",
+                    "attend",
+                    "to",
+                    "to",
+                    "school",
+                    "class",
+                    "do",
+                    "is"
+                  ],
+                  "answer": [
+                    "We",
+                    "go",
+                    "to",
+                    "school",
+                    "to",
+                    "attend",
+                    "class"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u8-l1-e8",
+                  "sentence": "___。",
+                  "translation": "The teacher is in the office.",
+                  "audioTarget": "老师在办公室。",
+                  "options": [
+                    "作业",
+                    "办公室",
+                    "老师在办公室",
+                    "公司"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u8-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "办公室",
+                      "native": "the office"
+                    },
+                    {
+                      "target": "学校",
+                      "native": "the school"
+                    },
+                    {
+                      "target": "医院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "老师",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "医生",
+                      "native": "the doctor"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u8-l1-e10",
+                  "mode": "translate",
+                  "prompt": "我们去学校上课。",
+                  "audioTarget": "我们去学校上课。",
+                  "answer": "We go to school to attend class.",
+                  "alternatives": [
+                    "Wǒmen qù xuéxiào shàngkè."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u8-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "作业",
+                  "audioTarget": "作业",
+                  "options": [
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "课",
+                  "audioTarget": "课",
+                  "options": [
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the classmate",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "工作",
+                  "audioTarget": "工作",
+                  "options": [
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the job",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the homework",
+                  "audioTarget": "作业",
+                  "options": [
+                    {
+                      "text": "作业",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "教室",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "公司",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "医院",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the class",
+                  "audioTarget": "课",
+                  "options": [
+                    {
+                      "text": "老师",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "同学",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "公司",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "课",
+                      "emoji": "📖"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "工作",
+                  "options": [
+                    {
+                      "text": "工作"
+                    },
+                    {
+                      "text": "教室"
+                    },
+                    {
+                      "text": "老师"
+                    },
+                    {
+                      "text": "同学"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "你写作业了吗？",
+                  "audioTarget": "你写作业了吗？",
+                  "tokens": [
+                    "work",
+                    "your",
+                    "you",
+                    "Did",
+                    "homework",
+                    "do",
+                    "a",
+                    "job"
+                  ],
+                  "answer": [
+                    "Did",
+                    "you",
+                    "do",
+                    "your",
+                    "homework"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "她是一位好医生。",
+                  "audioTarget": "她是一位好医生。",
+                  "tokens": [
+                    "doctor",
+                    "do",
+                    "good",
+                    "attend",
+                    "is",
+                    "She",
+                    "am",
+                    "a"
+                  ],
+                  "answer": [
+                    "She",
+                    "is",
+                    "a",
+                    "good",
+                    "doctor"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u8-l2-e8",
+                  "sentence": "___？",
+                  "translation": "Did you do your homework?",
+                  "audioTarget": "你写作业了吗？",
+                  "options": [
+                    "医生",
+                    "学生",
+                    "你写作业了吗",
+                    "课"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u8-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "作业",
+                      "native": "the homework"
+                    },
+                    {
+                      "target": "课",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "工作",
+                      "native": "the job"
+                    },
+                    {
+                      "target": "老师",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "公司",
+                      "native": "the company"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u8-l2-e10",
+                  "mode": "translate",
+                  "prompt": "她是一位好医生。",
+                  "audioTarget": "她是一位好医生。",
+                  "answer": "She is a good doctor.",
+                  "alternatives": [
+                    "Tā shì yí wèi hǎo yīshēng."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u8-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "同学",
+                  "audioTarget": "同学",
+                  "options": [
+                    {
+                      "text": "the office",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the classmate",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the job",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "教室",
+                  "audioTarget": "教室",
+                  "options": [
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the job",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "the classroom",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "公司",
+                  "audioTarget": "公司",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the classmate",
+                      "emoji": "🧑‍🤝‍🧑"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the classmate",
+                  "audioTarget": "同学",
+                  "options": [
+                    {
+                      "text": "医院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "同学",
+                      "emoji": "🧑‍🤝‍🧑"
+                    },
+                    {
+                      "text": "学生",
+                      "emoji": "🎒"
+                    },
+                    {
+                      "text": "老师",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the classroom",
+                  "audioTarget": "教室",
+                  "options": [
+                    {
+                      "text": "课",
+                      "emoji": "📖"
+                    },
+                    {
+                      "text": "教室",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "老师",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "办公室",
+                      "emoji": "🏢"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u8-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "同学",
+                  "options": [
+                    {
+                      "text": "同学"
+                    },
+                    {
+                      "text": "教室"
+                    },
+                    {
+                      "text": "学校"
+                    },
+                    {
+                      "text": "医生"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "同学们在教室里。",
+                  "audioTarget": "同学们在教室里。",
+                  "tokens": [
+                    "classroom",
+                    "The",
+                    "classmates",
+                    "He",
+                    "are",
+                    "at",
+                    "the",
+                    "go",
+                    "in"
+                  ],
+                  "answer": [
+                    "The",
+                    "classmates",
+                    "are",
+                    "in",
+                    "the",
+                    "classroom"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u8-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "这是我的新工作。",
+                  "audioTarget": "这是我的新工作。",
+                  "tokens": [
+                    "good",
+                    "This",
+                    "job",
+                    "my",
+                    "in",
+                    "new",
+                    "teacher",
+                    "is"
+                  ],
+                  "answer": [
+                    "This",
+                    "is",
+                    "my",
+                    "new",
+                    "job"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u8-l3-e8",
+                  "sentence": "___。",
+                  "translation": "The classmates are in the classroom.",
+                  "audioTarget": "同学们在教室里。",
+                  "options": [
+                    "同学们在教室里",
+                    "医院",
+                    "教室",
+                    "课"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u8-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "同学",
+                      "native": "the classmate"
+                    },
+                    {
+                      "target": "教室",
+                      "native": "the classroom"
+                    },
+                    {
+                      "target": "公司",
+                      "native": "the company"
+                    },
+                    {
+                      "target": "医院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "老师",
+                      "native": "the teacher"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u8-l3-e10",
+                  "mode": "translate",
+                  "prompt": "这是我的新工作。",
+                  "audioTarget": "这是我的新工作。",
+                  "answer": "This is my new job.",
+                  "alternatives": [
+                    "Zhè shì wǒ de xīn gōngzuò."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-en:unit-10",
+          "title": "Health",
+          "description": "Learn how to talk about your body parts, symptoms, and visits to the doctor in Chinese.",
+          "guidebook": "### Expressing Aches and Pains\nIn Chinese, expressing pain is straightforward. You typically use a topic-comment structure: **Person + Body Part + 疼 (téng)**.\n- **我头疼。** (*Wǒ tóu téng.*) — My head hurts.\n- **他的手疼。** (*Tā de shǒu téng.*) — His hand hurts.\n\n### Describing Sickness\nWhen you feel under the weather, use **不舒服** (*bù shūfu* - not comfortable/unwell):\n- **我有点不舒服。** (*Wǒ yǒudiǎn bù shūfu.*) — I feel a bit unwell.\n\n### Taking Medicine\nIn English, you \"take\" medicine, but in Chinese, you \"eat\" it using the verb **吃** (*chī*):\n- **吃药** (*chī yào*) — to take medicine.",
+          "words": [
+            {
+              "target": "头",
+              "native": "the head",
+              "emoji": "🗣️",
+              "romanization": "tóu"
+            },
+            {
+              "target": "手",
+              "native": "the hand",
+              "emoji": "✋",
+              "romanization": "shǒu"
+            },
+            {
+              "target": "脚",
+              "native": "the foot",
+              "emoji": "🦶",
+              "romanization": "jiǎo"
+            },
+            {
+              "target": "眼睛",
+              "native": "the eye",
+              "emoji": "👀",
+              "romanization": "yǎnjing"
+            },
+            {
+              "target": "身体",
+              "native": "the body",
+              "emoji": "🧍",
+              "romanization": "shēntǐ"
+            },
+            {
+              "target": "生病",
+              "native": "to get sick",
+              "emoji": "🤒",
+              "romanization": "shēngbìng"
+            },
+            {
+              "target": "累",
+              "native": "tired",
+              "emoji": "🥱",
+              "romanization": "lèi"
+            },
+            {
+              "target": "疼",
+              "native": "painful",
+              "emoji": "🤕",
+              "romanization": "téng"
+            },
+            {
+              "target": "药",
+              "native": "the medicine",
+              "emoji": "💊",
+              "romanization": "yào"
+            },
+            {
+              "target": "医院",
+              "native": "the hospital",
+              "emoji": "🏥",
+              "romanization": "yīyuàn"
+            },
+            {
+              "target": "医生",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️",
+              "romanization": "yīshēng"
+            },
+            {
+              "target": "舒服",
+              "native": "comfortable",
+              "emoji": "😌",
+              "romanization": "shūfu"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "zh-en:u9-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "头",
+                  "audioTarget": "头",
+                  "options": [
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "🤕"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "手",
+                  "audioTarget": "手",
+                  "options": [
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "脚",
+                  "audioTarget": "脚",
+                  "options": [
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "🤕"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the foot",
+                      "emoji": "🦶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the head",
+                  "audioTarget": "头",
+                  "options": [
+                    {
+                      "text": "生病",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "药",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "头",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "脚",
+                      "emoji": "🦶"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hand",
+                  "audioTarget": "手",
+                  "options": [
+                    {
+                      "text": "生病",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "脚",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "手",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "累",
+                      "emoji": "🥱"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "头",
+                  "options": [
+                    {
+                      "text": "身体"
+                    },
+                    {
+                      "text": "头"
+                    },
+                    {
+                      "text": "生病"
+                    },
+                    {
+                      "text": "眼睛"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我头很疼。",
+                  "audioTarget": "我头很疼。",
+                  "tokens": [
+                    "need",
+                    "do",
+                    "doctor",
+                    "hurts",
+                    "lot",
+                    "My",
+                    "head",
+                    "a"
+                  ],
+                  "answer": [
+                    "My",
+                    "head",
+                    "hurts",
+                    "a",
+                    "lot"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "他生病了。",
+                  "audioTarget": "他生病了。",
+                  "tokens": [
+                    "has",
+                    "fallen",
+                    "drink",
+                    "feel",
+                    "ill",
+                    "He",
+                    "take"
+                  ],
+                  "answer": [
+                    "He",
+                    "has",
+                    "fallen",
+                    "ill"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u9-l0-e8",
+                  "sentence": "___。",
+                  "translation": "My head hurts a lot.",
+                  "audioTarget": "我头很疼。",
+                  "options": [
+                    "我头很疼",
+                    "舒服",
+                    "医院",
+                    "累"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u9-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "头",
+                      "native": "the head"
+                    },
+                    {
+                      "target": "手",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "脚",
+                      "native": "the foot"
+                    },
+                    {
+                      "target": "生病",
+                      "native": "to get sick"
+                    },
+                    {
+                      "target": "医院",
+                      "native": "the hospital"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u9-l0-e10",
+                  "mode": "translate",
+                  "prompt": "他生病了。",
+                  "audioTarget": "他生病了。",
+                  "answer": "He has fallen ill.",
+                  "alternatives": [
+                    "Tā shēngbìng le."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u9-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "眼睛",
+                  "audioTarget": "眼睛",
+                  "options": [
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the foot",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👀"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "身体",
+                  "audioTarget": "身体",
+                  "options": [
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "🤕"
+                    },
+                    {
+                      "text": "to get sick",
+                      "emoji": "🤒"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "生病",
+                  "audioTarget": "生病",
+                  "options": [
+                    {
+                      "text": "the eye",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "to get sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the eye",
+                  "audioTarget": "眼睛",
+                  "options": [
+                    {
+                      "text": "眼睛",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "医院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "头",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "疼",
+                      "emoji": "🤕"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the body",
+                  "audioTarget": "身体",
+                  "options": [
+                    {
+                      "text": "眼睛",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "头",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "舒服",
+                      "emoji": "😌"
+                    },
+                    {
+                      "text": "身体",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "身体",
+                  "options": [
+                    {
+                      "text": "舒服"
+                    },
+                    {
+                      "text": "身体"
+                    },
+                    {
+                      "text": "药"
+                    },
+                    {
+                      "text": "脚"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我今天很累。",
+                  "audioTarget": "我今天很累。",
+                  "tokens": [
+                    "tired",
+                    "hand",
+                    "drink",
+                    "I",
+                    "today",
+                    "feel",
+                    "very",
+                    "am"
+                  ],
+                  "answer": [
+                    "I",
+                    "am",
+                    "very",
+                    "tired",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "你哪里不舒服？",
+                  "audioTarget": "你哪里不舒服？",
+                  "tokens": [
+                    "health",
+                    "feel",
+                    "Where",
+                    "you",
+                    "take",
+                    "do",
+                    "has",
+                    "unwell"
+                  ],
+                  "answer": [
+                    "Where",
+                    "do",
+                    "you",
+                    "feel",
+                    "unwell"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u9-l1-e8",
+                  "sentence": "___。",
+                  "translation": "I am very tired today.",
+                  "audioTarget": "我今天很累。",
+                  "options": [
+                    "头",
+                    "医生",
+                    "生病",
+                    "我今天很累"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u9-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "眼睛",
+                      "native": "the eye"
+                    },
+                    {
+                      "target": "身体",
+                      "native": "the body"
+                    },
+                    {
+                      "target": "生病",
+                      "native": "to get sick"
+                    },
+                    {
+                      "target": "医院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "头",
+                      "native": "the head"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u9-l1-e10",
+                  "mode": "translate",
+                  "prompt": "你哪里不舒服？",
+                  "audioTarget": "你哪里不舒服？",
+                  "answer": "Where do you feel unwell?",
+                  "alternatives": [
+                    "Nǐ nǎlǐ bù shūfu?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u9-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "累",
+                  "audioTarget": "累",
+                  "options": [
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "疼",
+                  "audioTarget": "疼",
+                  "options": [
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "the foot",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "painful",
+                      "emoji": "🤕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "药",
+                  "audioTarget": "药",
+                  "options": [
+                    {
+                      "text": "the eye",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "to get sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "tired",
+                  "audioTarget": "累",
+                  "options": [
+                    {
+                      "text": "脚",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "医生",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "累",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "眼睛",
+                      "emoji": "👀"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "painful",
+                  "audioTarget": "疼",
+                  "options": [
+                    {
+                      "text": "身体",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "医院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "医生",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "疼",
+                      "emoji": "🤕"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "药",
+                  "options": [
+                    {
+                      "text": "药"
+                    },
+                    {
+                      "text": "医院"
+                    },
+                    {
+                      "text": "身体"
+                    },
+                    {
+                      "text": "疼"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "我们去医院吧。",
+                  "audioTarget": "我们去医院吧。",
+                  "tokens": [
+                    "go",
+                    "You",
+                    "a",
+                    "the",
+                    "Lets",
+                    "to",
+                    "hospital",
+                    "ill"
+                  ],
+                  "answer": [
+                    "Lets",
+                    "go",
+                    "to",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "记得按时吃药。",
+                  "audioTarget": "记得按时吃药。",
+                  "tokens": [
+                    "doctor",
+                    "ill",
+                    "very",
+                    "Remember",
+                    "take",
+                    "on",
+                    "time",
+                    "medicine",
+                    "to"
+                  ],
+                  "answer": [
+                    "Remember",
+                    "to",
+                    "take",
+                    "medicine",
+                    "on",
+                    "time"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u9-l2-e8",
+                  "sentence": "___。",
+                  "translation": "Let's go to the hospital.",
+                  "audioTarget": "我们去医院吧。",
+                  "options": [
+                    "疼",
+                    "眼睛",
+                    "药",
+                    "我们去医院吧"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u9-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "累",
+                      "native": "tired"
+                    },
+                    {
+                      "target": "疼",
+                      "native": "painful"
+                    },
+                    {
+                      "target": "药",
+                      "native": "the medicine"
+                    },
+                    {
+                      "target": "手",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "身体",
+                      "native": "the body"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u9-l2-e10",
+                  "mode": "translate",
+                  "prompt": "记得按时吃药。",
+                  "audioTarget": "记得按时吃药。",
+                  "answer": "Remember to take medicine on time.",
+                  "alternatives": [
+                    "Jìde ànshí chī yào."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh-en:u9-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "医院",
+                  "audioTarget": "医院",
+                  "options": [
+                    {
+                      "text": "comfortable",
+                      "emoji": "😌"
+                    },
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "医生",
+                  "audioTarget": "医生",
+                  "options": [
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👀"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "舒服",
+                  "audioTarget": "舒服",
+                  "options": [
+                    {
+                      "text": "comfortable",
+                      "emoji": "😌"
+                    },
+                    {
+                      "text": "tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the foot",
+                      "emoji": "🦶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hospital",
+                  "audioTarget": "医院",
+                  "options": [
+                    {
+                      "text": "医院",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "药",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "累",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "脚",
+                      "emoji": "🦶"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the doctor",
+                  "audioTarget": "医生",
+                  "options": [
+                    {
+                      "text": "身体",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "累",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "脚",
+                      "emoji": "🦶"
+                    },
+                    {
+                      "text": "医生",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "zh-en:u9-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "医院",
+                  "options": [
+                    {
+                      "text": "医院"
+                    },
+                    {
+                      "text": "医生"
+                    },
+                    {
+                      "text": "身体"
+                    },
+                    {
+                      "text": "药"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "他的手很疼。",
+                  "audioTarget": "他的手很疼。",
+                  "tokens": [
+                    "at",
+                    "hurts",
+                    "hand",
+                    "more",
+                    "feel",
+                    "His"
+                  ],
+                  "answer": [
+                    "His",
+                    "hand",
+                    "hurts"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "zh-en:u9-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "医生不在医院。",
+                  "audioTarget": "医生不在医院。",
+                  "tokens": [
+                    "has",
+                    "unwell",
+                    "at",
+                    "need",
+                    "doctor",
+                    "hospital",
+                    "not",
+                    "is",
+                    "the",
+                    "The"
+                  ],
+                  "answer": [
+                    "The",
+                    "doctor",
+                    "is",
+                    "not",
+                    "at",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "zh-en:u9-l3-e8",
+                  "sentence": "___。",
+                  "translation": "His hand hurts.",
+                  "audioTarget": "他的手很疼。",
+                  "options": [
+                    "医院",
+                    "他的手很疼",
+                    "眼睛",
+                    "药"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "zh-en:u9-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "医院",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "医生",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "舒服",
+                      "native": "comfortable"
+                    },
+                    {
+                      "target": "生病",
+                      "native": "to get sick"
+                    },
+                    {
+                      "target": "累",
+                      "native": "tired"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "zh-en:u9-l3-e10",
+                  "mode": "translate",
+                  "prompt": "医生不在医院。",
+                  "audioTarget": "医生不在医院。",
+                  "answer": "The doctor is not at the hospital.",
+                  "alternatives": [
+                    "Yīshēng bù zài yīyuàn."
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

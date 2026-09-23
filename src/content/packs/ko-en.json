@@ -5488,6 +5488,5628 @@
               ]
             }
           ]
+        },
+        {
+          "id": "ko-en:unit-6",
+          "title": "Family",
+          "description": "Learn words for family members and describe your household in Korean.",
+          "guidebook": "### Talking About Family in Korean\n\nFamily terms in Korean vary depending on who is speaking:\n\n- **If you are male:** Call an older brother **형** (*hyeong*) and an older sister **누나** (*nuna*).\n- **If you are female:** Call an older brother **오빠** (*oppa*) and an older sister **언니** (*eonni*).\n\nFor a younger sibling, regardless of gender, use **동생** (*dongsaeng*). To specify, you can say **남동생** (*younger brother*) or **여동생** (*younger sister*).\n\n### Respect and Politeness\n\nKoreans often use honorific titles. For parents, **부모님** (*bumonim*) includes the polite suffix **-님** (*-nim*). When referring to your own family to others, use **우리** (*uri*, literally \"our\") instead of \"my\"—for example, **우리 가족** (*our family*).",
+          "words": [
+            {
+              "target": "어머니",
+              "native": "the mother",
+              "emoji": "👩",
+              "romanization": "eomeoni"
+            },
+            {
+              "target": "아버지",
+              "native": "the father",
+              "emoji": "👨",
+              "romanization": "abeoji"
+            },
+            {
+              "target": "할머니",
+              "native": "the grandmother",
+              "emoji": "👵",
+              "romanization": "halmeoni"
+            },
+            {
+              "target": "할아버지",
+              "native": "the grandfather",
+              "emoji": "👴",
+              "romanization": "harabeoji"
+            },
+            {
+              "target": "아기",
+              "native": "the baby",
+              "emoji": "👶",
+              "romanization": "agi"
+            },
+            {
+              "target": "형",
+              "native": "the older brother (of a male)",
+              "emoji": "👦",
+              "romanization": "hyeong"
+            },
+            {
+              "target": "누나",
+              "native": "the older sister (of a male)",
+              "emoji": "👧",
+              "romanization": "nuna"
+            },
+            {
+              "target": "오빠",
+              "native": "the older brother (of a female)",
+              "emoji": "🧑",
+              "romanization": "oppa"
+            },
+            {
+              "target": "언니",
+              "native": "the older sister (of a female)",
+              "emoji": "👱‍♀️",
+              "romanization": "eonni"
+            },
+            {
+              "target": "동생",
+              "native": "the younger sibling",
+              "emoji": "🧒",
+              "romanization": "dongsaeng"
+            },
+            {
+              "target": "가족",
+              "native": "the family",
+              "emoji": "👨‍👩‍👧‍👦",
+              "romanization": "gajok"
+            },
+            {
+              "target": "부모님",
+              "native": "the parents",
+              "emoji": "👫",
+              "romanization": "bumonim"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u5-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "어머니",
+                  "audioTarget": "어머니",
+                  "options": [
+                    {
+                      "text": "the older sister (of a male)",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "아버지",
+                  "audioTarget": "아버지",
+                  "options": [
+                    {
+                      "text": "the older brother (of a male)",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the older sister (of a female)",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "할머니",
+                  "audioTarget": "할머니",
+                  "options": [
+                    {
+                      "text": "the older sister (of a male)",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the older brother (of a male)",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the mother",
+                  "audioTarget": "어머니",
+                  "options": [
+                    {
+                      "text": "가족",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "어머니",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "할머니",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "아버지",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the father",
+                  "audioTarget": "아버지",
+                  "options": [
+                    {
+                      "text": "할머니",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "아기",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "형",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "아버지",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "어머니",
+                  "options": [
+                    {
+                      "text": "어머니"
+                    },
+                    {
+                      "text": "누나"
+                    },
+                    {
+                      "text": "아버지"
+                    },
+                    {
+                      "text": "부모님"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "우리 가족은 네 명이에요.",
+                  "audioTarget": "우리 가족은 네 명이에요.",
+                  "tokens": [
+                    "younger",
+                    "family",
+                    "to",
+                    "our",
+                    "people",
+                    "are",
+                    "four",
+                    "the",
+                    "There",
+                    "in"
+                  ],
+                  "answer": [
+                    "There",
+                    "are",
+                    "four",
+                    "people",
+                    "in",
+                    "our",
+                    "family"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "어머니는 요리를 잘해요.",
+                  "audioTarget": "어머니는 요리를 잘해요.",
+                  "tokens": [
+                    "at",
+                    "Mother",
+                    "our",
+                    "student",
+                    "good",
+                    "cooking",
+                    "home",
+                    "is"
+                  ],
+                  "answer": [
+                    "Mother",
+                    "is",
+                    "good",
+                    "at",
+                    "cooking"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u5-l0-e8",
+                  "sentence": "___가족은네명이에요.",
+                  "translation": "There are four people in our family.",
+                  "audioTarget": "우리 가족은 네 명이에요.",
+                  "options": [
+                    "가족",
+                    "할머니",
+                    "우리",
+                    "오빠"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u5-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "어머니",
+                      "native": "the mother"
+                    },
+                    {
+                      "target": "아버지",
+                      "native": "the father"
+                    },
+                    {
+                      "target": "할머니",
+                      "native": "the grandmother"
+                    },
+                    {
+                      "target": "아기",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "언니",
+                      "native": "the older sister (of a female)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u5-l0-e10",
+                  "mode": "translate",
+                  "prompt": "어머니는 요리를 잘해요.",
+                  "audioTarget": "어머니는 요리를 잘해요.",
+                  "answer": "Mother is good at cooking.",
+                  "alternatives": [
+                    "Eomeonineun yorireul jalhaeyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u5-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "할아버지",
+                  "audioTarget": "할아버지",
+                  "options": [
+                    {
+                      "text": "the older sister (of a male)",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the younger sibling",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "아기",
+                  "audioTarget": "아기",
+                  "options": [
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the younger sibling",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "형",
+                  "audioTarget": "형",
+                  "options": [
+                    {
+                      "text": "the grandfather",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "the older brother (of a female)",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the older brother (of a male)",
+                      "emoji": "👦"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the grandfather",
+                  "audioTarget": "할아버지",
+                  "options": [
+                    {
+                      "text": "아버지",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "가족",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "동생",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "할아버지",
+                      "emoji": "👴"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the baby",
+                  "audioTarget": "아기",
+                  "options": [
+                    {
+                      "text": "아기",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "할아버지",
+                      "emoji": "👴"
+                    },
+                    {
+                      "text": "형",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "누나",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "아기",
+                  "options": [
+                    {
+                      "text": "아기"
+                    },
+                    {
+                      "text": "언니"
+                    },
+                    {
+                      "text": "동생"
+                    },
+                    {
+                      "text": "할아버지"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "아버지는 회사에 가요.",
+                  "audioTarget": "아버지는 회사에 가요.",
+                  "tokens": [
+                    "my",
+                    "goes",
+                    "the",
+                    "Father",
+                    "office",
+                    "drinks",
+                    "takes",
+                    "to"
+                  ],
+                  "answer": [
+                    "Father",
+                    "goes",
+                    "to",
+                    "the",
+                    "office"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "할아버지는 공원에서 산책해요.",
+                  "audioTarget": "할아버지는 공원에서 산책해요.",
+                  "tokens": [
+                    "room",
+                    "takes",
+                    "Grandfather",
+                    "good",
+                    "a",
+                    "walk",
+                    "in",
+                    "the",
+                    "park",
+                    "tea"
+                  ],
+                  "answer": [
+                    "Grandfather",
+                    "takes",
+                    "a",
+                    "walk",
+                    "in",
+                    "the",
+                    "park"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u5-l1-e8",
+                  "sentence": "아버지는회사에___.",
+                  "translation": "Father goes to the office.",
+                  "audioTarget": "아버지는 회사에 가요.",
+                  "options": [
+                    "어머니",
+                    "가요",
+                    "할아버지",
+                    "부모님"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u5-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "할아버지",
+                      "native": "the grandfather"
+                    },
+                    {
+                      "target": "아기",
+                      "native": "the baby"
+                    },
+                    {
+                      "target": "형",
+                      "native": "the older brother (of a male)"
+                    },
+                    {
+                      "target": "가족",
+                      "native": "the family"
+                    },
+                    {
+                      "target": "언니",
+                      "native": "the older sister (of a female)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u5-l1-e10",
+                  "mode": "translate",
+                  "prompt": "할아버지는 공원에서 산책해요.",
+                  "audioTarget": "할아버지는 공원에서 산책해요.",
+                  "answer": "Grandfather takes a walk in the park.",
+                  "alternatives": [
+                    "Harabeojineun gong-woneseo sanchaekaeyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u5-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "누나",
+                  "audioTarget": "누나",
+                  "options": [
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the older sister (of a male)",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the older brother (of a female)",
+                      "emoji": "🧑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "오빠",
+                  "audioTarget": "오빠",
+                  "options": [
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the older brother (of a female)",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "the older brother (of a male)",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "the older sister (of a male)",
+                      "emoji": "👧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "언니",
+                  "audioTarget": "언니",
+                  "options": [
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the older sister (of a male)",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "the older sister (of a female)",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the older brother (of a female)",
+                      "emoji": "🧑"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the older sister (of a male)",
+                  "audioTarget": "누나",
+                  "options": [
+                    {
+                      "text": "누나",
+                      "emoji": "👧"
+                    },
+                    {
+                      "text": "부모님",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "아버지",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "어머니",
+                      "emoji": "👩"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the older brother (of a female)",
+                  "audioTarget": "오빠",
+                  "options": [
+                    {
+                      "text": "어머니",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "동생",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "오빠",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "언니",
+                      "emoji": "👱‍♀️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "언니",
+                  "options": [
+                    {
+                      "text": "어머니"
+                    },
+                    {
+                      "text": "부모님"
+                    },
+                    {
+                      "text": "가족"
+                    },
+                    {
+                      "text": "언니"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "할머니는 따뜻한 차를 마셔요.",
+                  "audioTarget": "할머니는 따뜻한 차를 마셔요.",
+                  "tokens": [
+                    "to",
+                    "drinks",
+                    "Mother",
+                    "Grandmother",
+                    "warm",
+                    "tea",
+                    "There"
+                  ],
+                  "answer": [
+                    "Grandmother",
+                    "drinks",
+                    "warm",
+                    "tea"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "아기가 방에서 자고 있어요.",
+                  "audioTarget": "아기가 방에서 자고 있어요.",
+                  "tokens": [
+                    "in",
+                    "My",
+                    "The",
+                    "sleeping",
+                    "home",
+                    "the",
+                    "room",
+                    "baby",
+                    "is",
+                    "Mother"
+                  ],
+                  "answer": [
+                    "The",
+                    "baby",
+                    "is",
+                    "sleeping",
+                    "in",
+                    "the",
+                    "room"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u5-l2-e8",
+                  "sentence": "할머니는따뜻한___마셔요.",
+                  "translation": "Grandmother drinks warm tea.",
+                  "audioTarget": "할머니는 따뜻한 차를 마셔요.",
+                  "options": [
+                    "누나",
+                    "어머니",
+                    "아기",
+                    "차를"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u5-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "누나",
+                      "native": "the older sister (of a male)"
+                    },
+                    {
+                      "target": "오빠",
+                      "native": "the older brother (of a female)"
+                    },
+                    {
+                      "target": "언니",
+                      "native": "the older sister (of a female)"
+                    },
+                    {
+                      "target": "어머니",
+                      "native": "the mother"
+                    },
+                    {
+                      "target": "부모님",
+                      "native": "the parents"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u5-l2-e10",
+                  "mode": "translate",
+                  "prompt": "아기가 방에서 자고 있어요.",
+                  "audioTarget": "아기가 방에서 자고 있어요.",
+                  "answer": "The baby is sleeping in the room.",
+                  "alternatives": [
+                    "Agiga bang-eseo jago isseoyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u5-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "동생",
+                  "audioTarget": "동생",
+                  "options": [
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "the father",
+                      "emoji": "👨"
+                    },
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the younger sibling",
+                      "emoji": "🧒"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "가족",
+                  "audioTarget": "가족",
+                  "options": [
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the older sister (of a female)",
+                      "emoji": "👱‍♀️"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "👫"
+                    },
+                    {
+                      "text": "the family",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "부모님",
+                  "audioTarget": "부모님",
+                  "options": [
+                    {
+                      "text": "the baby",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "the mother",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "the grandmother",
+                      "emoji": "👵"
+                    },
+                    {
+                      "text": "the parents",
+                      "emoji": "👫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the younger sibling",
+                  "audioTarget": "동생",
+                  "options": [
+                    {
+                      "text": "동생",
+                      "emoji": "🧒"
+                    },
+                    {
+                      "text": "아기",
+                      "emoji": "👶"
+                    },
+                    {
+                      "text": "오빠",
+                      "emoji": "🧑"
+                    },
+                    {
+                      "text": "아버지",
+                      "emoji": "👨"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the family",
+                  "audioTarget": "가족",
+                  "options": [
+                    {
+                      "text": "가족",
+                      "emoji": "👨‍👩‍👧‍👦"
+                    },
+                    {
+                      "text": "어머니",
+                      "emoji": "👩"
+                    },
+                    {
+                      "text": "형",
+                      "emoji": "👦"
+                    },
+                    {
+                      "text": "부모님",
+                      "emoji": "👫"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u5-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "동생",
+                  "options": [
+                    {
+                      "text": "아기"
+                    },
+                    {
+                      "text": "어머니"
+                    },
+                    {
+                      "text": "아버지"
+                    },
+                    {
+                      "text": "동생"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "제 동생은 학생이에요.",
+                  "audioTarget": "제 동생은 학생이에요.",
+                  "tokens": [
+                    "room",
+                    "baby",
+                    "student",
+                    "is",
+                    "sibling",
+                    "My",
+                    "not",
+                    "younger",
+                    "a"
+                  ],
+                  "answer": [
+                    "My",
+                    "younger",
+                    "sibling",
+                    "is",
+                    "a",
+                    "student"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u5-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "오빠는 지금 집에 없어요.",
+                  "audioTarget": "오빠는 지금 집에 없어요.",
+                  "tokens": [
+                    "There",
+                    "brother",
+                    "right",
+                    "tea",
+                    "is",
+                    "now",
+                    "older",
+                    "not",
+                    "our",
+                    "home",
+                    "My"
+                  ],
+                  "answer": [
+                    "My",
+                    "older",
+                    "brother",
+                    "is",
+                    "not",
+                    "home",
+                    "right",
+                    "now"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u5-l3-e8",
+                  "sentence": "제동생은___.",
+                  "translation": "My younger sibling is a student.",
+                  "audioTarget": "제 동생은 학생이에요.",
+                  "options": [
+                    "어머니",
+                    "학생이에요",
+                    "언니",
+                    "누나"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u5-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "동생",
+                      "native": "the younger sibling"
+                    },
+                    {
+                      "target": "가족",
+                      "native": "the family"
+                    },
+                    {
+                      "target": "부모님",
+                      "native": "the parents"
+                    },
+                    {
+                      "target": "할머니",
+                      "native": "the grandmother"
+                    },
+                    {
+                      "target": "언니",
+                      "native": "the older sister (of a female)"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u5-l3-e10",
+                  "mode": "translate",
+                  "prompt": "오빠는 지금 집에 없어요.",
+                  "audioTarget": "오빠는 지금 집에 없어요.",
+                  "answer": "My older brother is not home right now.",
+                  "alternatives": [
+                    "Oppaneun jigeum jibe eopseoyo."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-7",
+          "title": "Shopping",
+          "description": "Learn how to ask for prices, navigate stores, and buy items in Korean.",
+          "guidebook": "### Essential Shopping Phrases\n\nWhen shopping in Korea, asking for prices is simple! Just point and ask:\n* **이거 얼마예요?** (*Igeo eolmayeyo?*) — \"How much is this?\"\n\n### Payment Methods with -(으)로\nTo indicate your payment method, attach the particle **-(으)로** (\"by\" or \"with\"):\n* **카드로** (*kadeuro*) — \"by card\"\n* **현금으로** (*hyeongeum-euro*) — \"with cash\"\nPair it with **계산해 주세요** (*gyesanhae juseyo*, \"please charge/check out\").\n\n### Cheap vs. Expensive\n* **비싸요** (*bissayo*) = \"It is expensive.\"\n* **싸요** (*ssayo*) = \"It is cheap.\"\n\nAdd **너무** (*neomu*, \"too\") when something exceeds your budget: **너무 비싸요** (*neomu bissayo*, \"It's too expensive!\").",
+          "words": [
+            {
+              "target": "가게",
+              "native": "the store",
+              "emoji": "🏪",
+              "romanization": "gage"
+            },
+            {
+              "target": "시장",
+              "native": "the market",
+              "emoji": "🛍️",
+              "romanization": "sijang"
+            },
+            {
+              "target": "백화점",
+              "native": "the department store",
+              "emoji": "🏬",
+              "romanization": "baekhwajeom"
+            },
+            {
+              "target": "돈",
+              "native": "the money",
+              "emoji": "💵",
+              "romanization": "don"
+            },
+            {
+              "target": "가격",
+              "native": "the price",
+              "emoji": "🏷️",
+              "romanization": "gagyeok"
+            },
+            {
+              "target": "얼마",
+              "native": "how much",
+              "emoji": "❓",
+              "romanization": "eolma"
+            },
+            {
+              "target": "비싸다",
+              "native": "to be expensive",
+              "emoji": "💸",
+              "romanization": "bissada"
+            },
+            {
+              "target": "싸다",
+              "native": "to be cheap",
+              "emoji": "🪙",
+              "romanization": "ssada"
+            },
+            {
+              "target": "사다",
+              "native": "to buy",
+              "emoji": "🛒",
+              "romanization": "sada"
+            },
+            {
+              "target": "카드",
+              "native": "the card",
+              "emoji": "💳",
+              "romanization": "kadeu"
+            },
+            {
+              "target": "현금",
+              "native": "the cash",
+              "emoji": "💴",
+              "romanization": "hyeongeum"
+            },
+            {
+              "target": "영수증",
+              "native": "the receipt",
+              "emoji": "🧾",
+              "romanization": "yeongsujeung"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u6-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "가게",
+                  "audioTarget": "가게",
+                  "options": [
+                    {
+                      "text": "the market",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the store",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "to be expensive",
+                      "emoji": "💸"
+                    },
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "시장",
+                  "audioTarget": "시장",
+                  "options": [
+                    {
+                      "text": "to be expensive",
+                      "emoji": "💸"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🛍️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "백화점",
+                  "audioTarget": "백화점",
+                  "options": [
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the department store",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the store",
+                  "audioTarget": "가게",
+                  "options": [
+                    {
+                      "text": "얼마",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "가게",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "비싸다",
+                      "emoji": "💸"
+                    },
+                    {
+                      "text": "영수증",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the market",
+                  "audioTarget": "시장",
+                  "options": [
+                    {
+                      "text": "시장",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "카드",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "가게",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "영수증",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "가게",
+                  "options": [
+                    {
+                      "text": "돈"
+                    },
+                    {
+                      "text": "카드"
+                    },
+                    {
+                      "text": "가게"
+                    },
+                    {
+                      "text": "싸다"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "이 사과는 얼마예요?",
+                  "audioTarget": "이 사과는 얼마예요?",
+                  "tokens": [
+                    "this",
+                    "I",
+                    "money",
+                    "is",
+                    "buy",
+                    "much",
+                    "apple",
+                    "How"
+                  ],
+                  "answer": [
+                    "How",
+                    "much",
+                    "is",
+                    "this",
+                    "apple"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "이 티셔츠는 정말 싸요.",
+                  "audioTarget": "이 티셔츠는 정말 싸요.",
+                  "tokens": [
+                    "really",
+                    "fruit",
+                    "cheap",
+                    "How",
+                    "is",
+                    "This",
+                    "to",
+                    "T-shirt"
+                  ],
+                  "answer": [
+                    "This",
+                    "T-shirt",
+                    "is",
+                    "really",
+                    "cheap"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u6-l0-e8",
+                  "sentence": "이___얼마예요?",
+                  "translation": "How much is this apple?",
+                  "audioTarget": "이 사과는 얼마예요?",
+                  "options": [
+                    "사과는",
+                    "싸다",
+                    "백화점",
+                    "현금"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u6-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "가게",
+                      "native": "the store"
+                    },
+                    {
+                      "target": "시장",
+                      "native": "the market"
+                    },
+                    {
+                      "target": "백화점",
+                      "native": "the department store"
+                    },
+                    {
+                      "target": "카드",
+                      "native": "the card"
+                    },
+                    {
+                      "target": "얼마",
+                      "native": "how much"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u6-l0-e10",
+                  "mode": "translate",
+                  "prompt": "이 티셔츠는 정말 싸요.",
+                  "audioTarget": "이 티셔츠는 정말 싸요.",
+                  "answer": "This T-shirt is really cheap.",
+                  "alternatives": [
+                    "i tisyeocheuneun jeongmal ssayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u6-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "돈",
+                  "audioTarget": "돈",
+                  "options": [
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the store",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "가격",
+                  "audioTarget": "가격",
+                  "options": [
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "얼마",
+                  "audioTarget": "얼마",
+                  "options": [
+                    {
+                      "text": "how much",
+                      "emoji": "❓"
+                    },
+                    {
+                      "text": "the department store",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "to be expensive",
+                      "emoji": "💸"
+                    },
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the money",
+                  "audioTarget": "돈",
+                  "options": [
+                    {
+                      "text": "가게",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "비싸다",
+                      "emoji": "💸"
+                    },
+                    {
+                      "text": "돈",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "카드",
+                      "emoji": "💳"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the price",
+                  "audioTarget": "가격",
+                  "options": [
+                    {
+                      "text": "돈",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "비싸다",
+                      "emoji": "💸"
+                    },
+                    {
+                      "text": "가격",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "시장",
+                      "emoji": "🛍️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "가격",
+                  "options": [
+                    {
+                      "text": "사다"
+                    },
+                    {
+                      "text": "시장"
+                    },
+                    {
+                      "text": "카드"
+                    },
+                    {
+                      "text": "가격"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저 가방은 너무 비싸요.",
+                  "audioTarget": "저 가방은 너무 비싸요.",
+                  "tokens": [
+                    "That",
+                    "is",
+                    "pay",
+                    "to",
+                    "bag",
+                    "too",
+                    "expensive",
+                    "away"
+                  ],
+                  "answer": [
+                    "That",
+                    "bag",
+                    "is",
+                    "too",
+                    "expensive"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "시장에서 과일을 사요.",
+                  "audioTarget": "시장에서 과일을 사요.",
+                  "tokens": [
+                    "at",
+                    "fruit",
+                    "the",
+                    "market",
+                    "Can",
+                    "buy",
+                    "much",
+                    "I",
+                    "receipt"
+                  ],
+                  "answer": [
+                    "I",
+                    "buy",
+                    "fruit",
+                    "at",
+                    "the",
+                    "market"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u6-l1-e8",
+                  "sentence": "저가방은___비싸요.",
+                  "translation": "That bag is too expensive.",
+                  "audioTarget": "저 가방은 너무 비싸요.",
+                  "options": [
+                    "백화점",
+                    "너무",
+                    "비싸다",
+                    "카드"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u6-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "돈",
+                      "native": "the money"
+                    },
+                    {
+                      "target": "가격",
+                      "native": "the price"
+                    },
+                    {
+                      "target": "얼마",
+                      "native": "how much"
+                    },
+                    {
+                      "target": "시장",
+                      "native": "the market"
+                    },
+                    {
+                      "target": "가게",
+                      "native": "the store"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u6-l1-e10",
+                  "mode": "translate",
+                  "prompt": "시장에서 과일을 사요.",
+                  "audioTarget": "시장에서 과일을 사요.",
+                  "answer": "I buy fruit at the market.",
+                  "alternatives": [
+                    "sijang-eseo gwa-ireul sayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u6-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "비싸다",
+                  "audioTarget": "비싸다",
+                  "options": [
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "to be expensive",
+                      "emoji": "💸"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "싸다",
+                  "audioTarget": "싸다",
+                  "options": [
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the market",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "사다",
+                  "audioTarget": "사다",
+                  "options": [
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "the store",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "to be expensive",
+                  "audioTarget": "비싸다",
+                  "options": [
+                    {
+                      "text": "돈",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "현금",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "가격",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "비싸다",
+                      "emoji": "💸"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to be cheap",
+                  "audioTarget": "싸다",
+                  "options": [
+                    {
+                      "text": "싸다",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "시장",
+                      "emoji": "🛍️"
+                    },
+                    {
+                      "text": "사다",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "얼마",
+                      "emoji": "❓"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "사다",
+                  "options": [
+                    {
+                      "text": "영수증"
+                    },
+                    {
+                      "text": "시장"
+                    },
+                    {
+                      "text": "가게"
+                    },
+                    {
+                      "text": "사다"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "카드로 계산해 주세요.",
+                  "audioTarget": "카드로 계산해 주세요.",
+                  "tokens": [
+                    "please",
+                    "card",
+                    "to",
+                    "pay",
+                    "by",
+                    "like",
+                    "receipt",
+                    "Id",
+                    "shoes",
+                    "too"
+                  ],
+                  "answer": [
+                    "Id",
+                    "like",
+                    "to",
+                    "pay",
+                    "by",
+                    "card",
+                    "please"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "현금으로 내도 돼요?",
+                  "audioTarget": "현금으로 내도 돼요?",
+                  "tokens": [
+                    "Can",
+                    "I",
+                    "pay",
+                    "with",
+                    "cash",
+                    "shoes",
+                    "bought",
+                    "There"
+                  ],
+                  "answer": [
+                    "Can",
+                    "I",
+                    "pay",
+                    "with",
+                    "cash"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u6-l2-e8",
+                  "sentence": "___계산해주세요.",
+                  "translation": "I'd like to pay by card, please.",
+                  "audioTarget": "카드로 계산해 주세요.",
+                  "options": [
+                    "카드로",
+                    "백화점",
+                    "돈",
+                    "가격"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u6-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "비싸다",
+                      "native": "to be expensive"
+                    },
+                    {
+                      "target": "싸다",
+                      "native": "to be cheap"
+                    },
+                    {
+                      "target": "사다",
+                      "native": "to buy"
+                    },
+                    {
+                      "target": "가게",
+                      "native": "the store"
+                    },
+                    {
+                      "target": "얼마",
+                      "native": "how much"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u6-l2-e10",
+                  "mode": "translate",
+                  "prompt": "현금으로 내도 돼요?",
+                  "audioTarget": "현금으로 내도 돼요?",
+                  "answer": "Can I pay with cash?",
+                  "alternatives": [
+                    "hyeongeum-euro naedo dwaeyo?"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u6-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "카드",
+                  "audioTarget": "카드",
+                  "options": [
+                    {
+                      "text": "the department store",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "the card",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "to buy",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "to be expensive",
+                      "emoji": "💸"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "현금",
+                  "audioTarget": "현금",
+                  "options": [
+                    {
+                      "text": "the cash",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "the money",
+                      "emoji": "💵"
+                    },
+                    {
+                      "text": "the department store",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "to be expensive",
+                      "emoji": "💸"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "영수증",
+                  "audioTarget": "영수증",
+                  "options": [
+                    {
+                      "text": "the receipt",
+                      "emoji": "🧾"
+                    },
+                    {
+                      "text": "to be cheap",
+                      "emoji": "🪙"
+                    },
+                    {
+                      "text": "the price",
+                      "emoji": "🏷️"
+                    },
+                    {
+                      "text": "the department store",
+                      "emoji": "🏬"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the card",
+                  "audioTarget": "카드",
+                  "options": [
+                    {
+                      "text": "백화점",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "카드",
+                      "emoji": "💳"
+                    },
+                    {
+                      "text": "사다",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "영수증",
+                      "emoji": "🧾"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cash",
+                  "audioTarget": "현금",
+                  "options": [
+                    {
+                      "text": "현금",
+                      "emoji": "💴"
+                    },
+                    {
+                      "text": "백화점",
+                      "emoji": "🏬"
+                    },
+                    {
+                      "text": "사다",
+                      "emoji": "🛒"
+                    },
+                    {
+                      "text": "가격",
+                      "emoji": "🏷️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u6-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "카드",
+                  "options": [
+                    {
+                      "text": "가게"
+                    },
+                    {
+                      "text": "싸다"
+                    },
+                    {
+                      "text": "가격"
+                    },
+                    {
+                      "text": "카드"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "영수증은 버려 주세요.",
+                  "audioTarget": "영수증은 버려 주세요.",
+                  "tokens": [
+                    "clothes",
+                    "the",
+                    "away",
+                    "many",
+                    "throw",
+                    "Please",
+                    "This",
+                    "receipt"
+                  ],
+                  "answer": [
+                    "Please",
+                    "throw",
+                    "away",
+                    "the",
+                    "receipt"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u6-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "백화점에서 신발을 샀어요.",
+                  "audioTarget": "백화점에서 신발을 샀어요.",
+                  "tokens": [
+                    "at",
+                    "the",
+                    "like",
+                    "department",
+                    "store",
+                    "by",
+                    "bought",
+                    "clothes",
+                    "shoes",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "bought",
+                    "shoes",
+                    "at",
+                    "the",
+                    "department",
+                    "store"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u6-l3-e8",
+                  "sentence": "___버려주세요.",
+                  "translation": "Please throw away the receipt.",
+                  "audioTarget": "영수증은 버려 주세요.",
+                  "options": [
+                    "얼마",
+                    "가격",
+                    "영수증은",
+                    "사다"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u6-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "카드",
+                      "native": "the card"
+                    },
+                    {
+                      "target": "현금",
+                      "native": "the cash"
+                    },
+                    {
+                      "target": "영수증",
+                      "native": "the receipt"
+                    },
+                    {
+                      "target": "싸다",
+                      "native": "to be cheap"
+                    },
+                    {
+                      "target": "백화점",
+                      "native": "the department store"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u6-l3-e10",
+                  "mode": "translate",
+                  "prompt": "백화점에서 신발을 샀어요.",
+                  "audioTarget": "백화점에서 신발을 샀어요.",
+                  "answer": "I bought shoes at the department store.",
+                  "alternatives": [
+                    "baekhwajeom-eseo sinbareul sasseoyo."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-8",
+          "title": "Weather",
+          "description": "Talk about the weather, seasons, and daily conditions in Korean.",
+          "guidebook": "### Talking About the Weather\n\nIn Korean, talking about precipitation is easy! Instead of saying 'it rains,' Koreans say that rain or snow 'comes':\n- **비가 와요** (*Biga wayo*) = It is raining (literally, 'rain comes').\n- **눈이 와요** (*Nuni wayo*) = It is snowing ('snow comes').\n\n### ㅂ-Irregular Adjectives\nWeather adjectives like **덥다** (*deopda*, to be hot) and **춥다** (*chupda*, to be cold) are irregular. When conjugated into the polite present tense, the **ㅂ** changes to **우**, resulting in:\n- 덥다 → **더워요** (*deowoyo*)\n- 춥다 → **추워요** (*chuwoyo*)\n\n### Seasons with Time Particle -에\nAdd the time particle **-에** (*-e*) to seasons to mean 'in': **여름에** (*in summer*), **겨울에** (*in winter*).",
+          "words": [
+            {
+              "target": "날씨",
+              "native": "the weather",
+              "emoji": "⛅",
+              "romanization": "nalssi"
+            },
+            {
+              "target": "해",
+              "native": "the sun",
+              "emoji": "☀️",
+              "romanization": "hae"
+            },
+            {
+              "target": "비",
+              "native": "the rain",
+              "emoji": "🌧️",
+              "romanization": "bi"
+            },
+            {
+              "target": "눈",
+              "native": "the snow",
+              "emoji": "❄️",
+              "romanization": "nun"
+            },
+            {
+              "target": "바람",
+              "native": "the wind",
+              "emoji": "💨",
+              "romanization": "baram"
+            },
+            {
+              "target": "구름",
+              "native": "the cloud",
+              "emoji": "☁️",
+              "romanization": "gureum"
+            },
+            {
+              "target": "여름",
+              "native": "the summer",
+              "emoji": "🏖️",
+              "romanization": "yeoreum"
+            },
+            {
+              "target": "겨울",
+              "native": "the winter",
+              "emoji": "⛄",
+              "romanization": "gyeoul"
+            },
+            {
+              "target": "봄",
+              "native": "the spring",
+              "emoji": "🌸",
+              "romanization": "bom"
+            },
+            {
+              "target": "가을",
+              "native": "the autumn",
+              "emoji": "🍂",
+              "romanization": "gaeul"
+            },
+            {
+              "target": "덥다",
+              "native": "to be hot",
+              "emoji": "🥵",
+              "romanization": "deopda"
+            },
+            {
+              "target": "춥다",
+              "native": "to be cold",
+              "emoji": "🥶",
+              "romanization": "chupda"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u7-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "날씨",
+                  "audioTarget": "날씨",
+                  "options": [
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "to be cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "해",
+                  "audioTarget": "해",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "비",
+                  "audioTarget": "비",
+                  "options": [
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "to be cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the weather",
+                  "audioTarget": "날씨",
+                  "options": [
+                    {
+                      "text": "구름",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "여름",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "눈",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "날씨",
+                      "emoji": "⛅"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the sun",
+                  "audioTarget": "해",
+                  "options": [
+                    {
+                      "text": "덥다",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "여름",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "해",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "겨울",
+                      "emoji": "⛄"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "날씨",
+                  "options": [
+                    {
+                      "text": "봄"
+                    },
+                    {
+                      "text": "겨울"
+                    },
+                    {
+                      "text": "덥다"
+                    },
+                    {
+                      "text": "날씨"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "오늘 날씨가 정말 좋아요.",
+                  "audioTarget": "오늘 날씨가 정말 좋아요.",
+                  "tokens": [
+                    "today",
+                    "raining",
+                    "The",
+                    "really",
+                    "nice",
+                    "White",
+                    "cold",
+                    "is",
+                    "weather"
+                  ],
+                  "answer": [
+                    "The",
+                    "weather",
+                    "is",
+                    "really",
+                    "nice",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "밖에 비가 많이 와요.",
+                  "audioTarget": "밖에 비가 많이 와요.",
+                  "tokens": [
+                    "are",
+                    "raining",
+                    "is",
+                    "a",
+                    "outside",
+                    "sun",
+                    "It",
+                    "lot",
+                    "nice"
+                  ],
+                  "answer": [
+                    "It",
+                    "is",
+                    "raining",
+                    "a",
+                    "lot",
+                    "outside"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u7-l0-e8",
+                  "sentence": "오늘___정말좋아요.",
+                  "translation": "The weather is really nice today.",
+                  "audioTarget": "오늘 날씨가 정말 좋아요.",
+                  "options": [
+                    "날씨가",
+                    "덥다",
+                    "바람",
+                    "날씨"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u7-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "날씨",
+                      "native": "the weather"
+                    },
+                    {
+                      "target": "해",
+                      "native": "the sun"
+                    },
+                    {
+                      "target": "비",
+                      "native": "the rain"
+                    },
+                    {
+                      "target": "겨울",
+                      "native": "the winter"
+                    },
+                    {
+                      "target": "구름",
+                      "native": "the cloud"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u7-l0-e10",
+                  "mode": "translate",
+                  "prompt": "밖에 비가 많이 와요.",
+                  "audioTarget": "밖에 비가 많이 와요.",
+                  "answer": "It is raining a lot outside.",
+                  "alternatives": [
+                    "Bakke biga mani wayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u7-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "눈",
+                  "audioTarget": "눈",
+                  "options": [
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "바람",
+                  "audioTarget": "바람",
+                  "options": [
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "구름",
+                  "audioTarget": "구름",
+                  "options": [
+                    {
+                      "text": "the cloud",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the snow",
+                  "audioTarget": "눈",
+                  "options": [
+                    {
+                      "text": "눈",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "여름",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "해",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "비",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the wind",
+                  "audioTarget": "바람",
+                  "options": [
+                    {
+                      "text": "바람",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "눈",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "날씨",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "해",
+                      "emoji": "☀️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "바람",
+                  "options": [
+                    {
+                      "text": "바람"
+                    },
+                    {
+                      "text": "춥다"
+                    },
+                    {
+                      "text": "겨울"
+                    },
+                    {
+                      "text": "덥다"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "겨울에는 날씨가 아주 추워요.",
+                  "audioTarget": "겨울에는 날씨가 아주 추워요.",
+                  "tokens": [
+                    "very",
+                    "cold",
+                    "blows",
+                    "are",
+                    "In",
+                    "summer",
+                    "weather",
+                    "is",
+                    "winter",
+                    "the"
+                  ],
+                  "answer": [
+                    "In",
+                    "winter",
+                    "the",
+                    "weather",
+                    "is",
+                    "very",
+                    "cold"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "여름에는 날씨가 너무 더워요.",
+                  "audioTarget": "여름에는 날씨가 너무 더워요.",
+                  "tokens": [
+                    "summer",
+                    "too",
+                    "In",
+                    "is",
+                    "weather",
+                    "hot",
+                    "a",
+                    "are",
+                    "wind",
+                    "the"
+                  ],
+                  "answer": [
+                    "In",
+                    "summer",
+                    "the",
+                    "weather",
+                    "is",
+                    "too",
+                    "hot"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u7-l1-e8",
+                  "sentence": "___날씨가아주추워요.",
+                  "translation": "In winter, the weather is very cold.",
+                  "audioTarget": "겨울에는 날씨가 아주 추워요.",
+                  "options": [
+                    "날씨",
+                    "겨울에는",
+                    "덥다",
+                    "눈"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u7-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "눈",
+                      "native": "the snow"
+                    },
+                    {
+                      "target": "바람",
+                      "native": "the wind"
+                    },
+                    {
+                      "target": "구름",
+                      "native": "the cloud"
+                    },
+                    {
+                      "target": "덥다",
+                      "native": "to be hot"
+                    },
+                    {
+                      "target": "여름",
+                      "native": "the summer"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u7-l1-e10",
+                  "mode": "translate",
+                  "prompt": "여름에는 날씨가 너무 더워요.",
+                  "audioTarget": "여름에는 날씨가 너무 더워요.",
+                  "answer": "In summer, the weather is too hot.",
+                  "alternatives": [
+                    "Yeoreumeneun nalssiga neomu deowoyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u7-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "여름",
+                  "audioTarget": "여름",
+                  "options": [
+                    {
+                      "text": "to be cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "겨울",
+                  "audioTarget": "겨울",
+                  "options": [
+                    {
+                      "text": "the weather",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "봄",
+                  "audioTarget": "봄",
+                  "options": [
+                    {
+                      "text": "the rain",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "the spring",
+                      "emoji": "🌸"
+                    },
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the summer",
+                  "audioTarget": "여름",
+                  "options": [
+                    {
+                      "text": "가을",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "구름",
+                      "emoji": "☁️"
+                    },
+                    {
+                      "text": "비",
+                      "emoji": "🌧️"
+                    },
+                    {
+                      "text": "여름",
+                      "emoji": "🏖️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the winter",
+                  "audioTarget": "겨울",
+                  "options": [
+                    {
+                      "text": "바람",
+                      "emoji": "💨"
+                    },
+                    {
+                      "text": "날씨",
+                      "emoji": "⛅"
+                    },
+                    {
+                      "text": "겨울",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "구름",
+                      "emoji": "☁️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "봄",
+                  "options": [
+                    {
+                      "text": "해"
+                    },
+                    {
+                      "text": "춥다"
+                    },
+                    {
+                      "text": "봄"
+                    },
+                    {
+                      "text": "가을"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "오늘은 바람이 많이 불어요.",
+                  "audioTarget": "오늘은 바람이 많이 불어요.",
+                  "tokens": [
+                    "wind",
+                    "It",
+                    "today",
+                    "Do",
+                    "a",
+                    "blows",
+                    "The",
+                    "are",
+                    "lot"
+                  ],
+                  "answer": [
+                    "The",
+                    "wind",
+                    "blows",
+                    "a",
+                    "lot",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "하늘에 구름이 정말 많아요.",
+                  "audioTarget": "하늘에 구름이 정말 많아요.",
+                  "tokens": [
+                    "the",
+                    "hot",
+                    "really",
+                    "many",
+                    "in",
+                    "There",
+                    "sky",
+                    "clouds",
+                    "cold",
+                    "brightly",
+                    "are"
+                  ],
+                  "answer": [
+                    "There",
+                    "are",
+                    "really",
+                    "many",
+                    "clouds",
+                    "in",
+                    "the",
+                    "sky"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u7-l2-e8",
+                  "sentence": "오늘은___많이불어요.",
+                  "translation": "The wind blows a lot today.",
+                  "audioTarget": "오늘은 바람이 많이 불어요.",
+                  "options": [
+                    "가을",
+                    "바람이",
+                    "여름",
+                    "날씨"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u7-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "여름",
+                      "native": "the summer"
+                    },
+                    {
+                      "target": "겨울",
+                      "native": "the winter"
+                    },
+                    {
+                      "target": "봄",
+                      "native": "the spring"
+                    },
+                    {
+                      "target": "해",
+                      "native": "the sun"
+                    },
+                    {
+                      "target": "바람",
+                      "native": "the wind"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u7-l2-e10",
+                  "mode": "translate",
+                  "prompt": "하늘에 구름이 정말 많아요.",
+                  "audioTarget": "하늘에 구름이 정말 많아요.",
+                  "answer": "There are really many clouds in the sky.",
+                  "alternatives": [
+                    "Haneure gureumi jeongmal manayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u7-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "가을",
+                  "audioTarget": "가을",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "the autumn",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "the wind",
+                      "emoji": "💨"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "덥다",
+                  "audioTarget": "덥다",
+                  "options": [
+                    {
+                      "text": "the summer",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "to be cold",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "the winter",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "춥다",
+                  "audioTarget": "춥다",
+                  "options": [
+                    {
+                      "text": "the sun",
+                      "emoji": "☀️"
+                    },
+                    {
+                      "text": "the snow",
+                      "emoji": "❄️"
+                    },
+                    {
+                      "text": "to be hot",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "to be cold",
+                      "emoji": "🥶"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the autumn",
+                  "audioTarget": "가을",
+                  "options": [
+                    {
+                      "text": "가을",
+                      "emoji": "🍂"
+                    },
+                    {
+                      "text": "춥다",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "겨울",
+                      "emoji": "⛄"
+                    },
+                    {
+                      "text": "눈",
+                      "emoji": "❄️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to be hot",
+                  "audioTarget": "덥다",
+                  "options": [
+                    {
+                      "text": "춥다",
+                      "emoji": "🥶"
+                    },
+                    {
+                      "text": "여름",
+                      "emoji": "🏖️"
+                    },
+                    {
+                      "text": "덥다",
+                      "emoji": "🥵"
+                    },
+                    {
+                      "text": "비",
+                      "emoji": "🌧️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u7-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "가을",
+                  "options": [
+                    {
+                      "text": "날씨"
+                    },
+                    {
+                      "text": "봄"
+                    },
+                    {
+                      "text": "바람"
+                    },
+                    {
+                      "text": "가을"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "하얀 눈이 조용히 내려요.",
+                  "audioTarget": "하얀 눈이 조용히 내려요.",
+                  "tokens": [
+                    "cool",
+                    "White",
+                    "weather",
+                    "cold",
+                    "snow",
+                    "quietly",
+                    "falls"
+                  ],
+                  "answer": [
+                    "White",
+                    "snow",
+                    "falls",
+                    "quietly"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u7-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "봄에는 따뜻한 바람이 불어요.",
+                  "audioTarget": "봄에는 따뜻한 바람이 불어요.",
+                  "tokens": [
+                    "the",
+                    "blows",
+                    "in",
+                    "wind",
+                    "Warm",
+                    "nice",
+                    "There",
+                    "many",
+                    "spring"
+                  ],
+                  "answer": [
+                    "Warm",
+                    "wind",
+                    "blows",
+                    "in",
+                    "the",
+                    "spring"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u7-l3-e8",
+                  "sentence": "___눈이조용히내려요.",
+                  "translation": "White snow falls quietly.",
+                  "audioTarget": "하얀 눈이 조용히 내려요.",
+                  "options": [
+                    "날씨",
+                    "여름",
+                    "덥다",
+                    "하얀"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u7-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "가을",
+                      "native": "the autumn"
+                    },
+                    {
+                      "target": "덥다",
+                      "native": "to be hot"
+                    },
+                    {
+                      "target": "춥다",
+                      "native": "to be cold"
+                    },
+                    {
+                      "target": "날씨",
+                      "native": "the weather"
+                    },
+                    {
+                      "target": "눈",
+                      "native": "the snow"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u7-l3-e10",
+                  "mode": "translate",
+                  "prompt": "봄에는 따뜻한 바람이 불어요.",
+                  "audioTarget": "봄에는 따뜻한 바람이 불어요.",
+                  "answer": "Warm wind blows in the spring.",
+                  "alternatives": [
+                    "Bomeneun ttatteuthan barami bureoyo."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-9",
+          "title": "Work & School",
+          "description": "Learn essential vocabulary for professions, school life, and office environments in Korean.",
+          "guidebook": "Welcome to **Work & School**! Here are two essential grammar tips for this unit:\n\n### 1. Locations: -에 vs. -에서\nBoth particles indicate locations, but in different ways:\n- Use **-에** with movement verbs like `가다` (to go) or existence verbs like `있다` (to be/exist): *학교에 가요* (\"I go to school\").\n- Use **-에서** when a specific action happens at a location: *사무실에서 일해요* (\"I work at the office\").\n\n### 2. Respectful Suffix: -님\nIn Korean, respecting professionals and seniors is vital. The suffix **-님** (nim) attaches to professions to show politeness, turning *선생* into *선생님* (teacher). Always address teachers with this honorific!",
+          "words": [
+            {
+              "target": "선생님",
+              "native": "the teacher",
+              "emoji": "👨‍🏫",
+              "romanization": "seonsaengnim"
+            },
+            {
+              "target": "학생",
+              "native": "the student",
+              "emoji": "🧑‍🎓",
+              "romanization": "haksaeng"
+            },
+            {
+              "target": "의사",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️",
+              "romanization": "uisa"
+            },
+            {
+              "target": "학교",
+              "native": "the school",
+              "emoji": "🏫",
+              "romanization": "hakgyo"
+            },
+            {
+              "target": "회사",
+              "native": "the company",
+              "emoji": "🏢",
+              "romanization": "hoesa"
+            },
+            {
+              "target": "사무실",
+              "native": "the office",
+              "emoji": "💼",
+              "romanization": "samusil"
+            },
+            {
+              "target": "병원",
+              "native": "the hospital",
+              "emoji": "🏥",
+              "romanization": "byeongwon"
+            },
+            {
+              "target": "수업",
+              "native": "the class",
+              "emoji": "📚",
+              "romanization": "sueop"
+            },
+            {
+              "target": "숙제",
+              "native": "the homework",
+              "emoji": "📝",
+              "romanization": "sukje"
+            },
+            {
+              "target": "일",
+              "native": "the work",
+              "emoji": "💻",
+              "romanization": "il"
+            },
+            {
+              "target": "책상",
+              "native": "the desk",
+              "emoji": "🪑",
+              "romanization": "chaeksang"
+            },
+            {
+              "target": "동료",
+              "native": "the colleague",
+              "emoji": "🤝",
+              "romanization": "dongnyo"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u8-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "선생님",
+                  "audioTarget": "선생님",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the colleague",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the desk",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "학생",
+                  "audioTarget": "학생",
+                  "options": [
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the office",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "의사",
+                  "audioTarget": "의사",
+                  "options": [
+                    {
+                      "text": "the company",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the teacher",
+                  "audioTarget": "선생님",
+                  "options": [
+                    {
+                      "text": "일",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "학생",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "사무실",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "선생님",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the student",
+                  "audioTarget": "학생",
+                  "options": [
+                    {
+                      "text": "책상",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "학생",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "선생님",
+                      "emoji": "👨‍🏫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "선생님",
+                  "options": [
+                    {
+                      "text": "일"
+                    },
+                    {
+                      "text": "의사"
+                    },
+                    {
+                      "text": "선생님"
+                    },
+                    {
+                      "text": "책상"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "선생님이 학교에 있어요.",
+                  "audioTarget": "선생님이 학교에 있어요.",
+                  "tokens": [
+                    "at",
+                    "hospital",
+                    "is",
+                    "The",
+                    "school",
+                    "a",
+                    "does",
+                    "teacher"
+                  ],
+                  "answer": [
+                    "The",
+                    "teacher",
+                    "is",
+                    "at",
+                    "school"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "의사가 병원에서 일해요.",
+                  "audioTarget": "의사가 병원에서 일해요.",
+                  "tokens": [
+                    "works",
+                    "early",
+                    "hospital",
+                    "doctor",
+                    "The",
+                    "in",
+                    "at",
+                    "the",
+                    "doing"
+                  ],
+                  "answer": [
+                    "The",
+                    "doctor",
+                    "works",
+                    "at",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u8-l0-e8",
+                  "sentence": "선생님이학교에___.",
+                  "translation": "The teacher is at school.",
+                  "audioTarget": "선생님이 학교에 있어요.",
+                  "options": [
+                    "병원",
+                    "있어요",
+                    "일",
+                    "사무실"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u8-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "선생님",
+                      "native": "the teacher"
+                    },
+                    {
+                      "target": "학생",
+                      "native": "the student"
+                    },
+                    {
+                      "target": "의사",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "수업",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "일",
+                      "native": "the work"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u8-l0-e10",
+                  "mode": "translate",
+                  "prompt": "의사가 병원에서 일해요.",
+                  "audioTarget": "의사가 병원에서 일해요.",
+                  "answer": "The doctor works at the hospital.",
+                  "alternatives": [
+                    "uisaga byeongwoneseo ilhaeyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u8-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "학교",
+                  "audioTarget": "학교",
+                  "options": [
+                    {
+                      "text": "the desk",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "회사",
+                  "audioTarget": "회사",
+                  "options": [
+                    {
+                      "text": "the teacher",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the desk",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "사무실",
+                  "audioTarget": "사무실",
+                  "options": [
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the office",
+                      "emoji": "💼"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the school",
+                  "audioTarget": "학교",
+                  "options": [
+                    {
+                      "text": "학교",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "동료",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "숙제",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the company",
+                  "audioTarget": "회사",
+                  "options": [
+                    {
+                      "text": "선생님",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "사무실",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "회사",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "회사",
+                  "options": [
+                    {
+                      "text": "수업"
+                    },
+                    {
+                      "text": "회사"
+                    },
+                    {
+                      "text": "병원"
+                    },
+                    {
+                      "text": "사무실"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "학생이 숙제를 열심히 해요.",
+                  "audioTarget": "학생이 숙제를 열심히 해요.",
+                  "tokens": [
+                    "teacher",
+                    "does",
+                    "diligently",
+                    "The",
+                    "There",
+                    "homework",
+                    "student",
+                    "doing"
+                  ],
+                  "answer": [
+                    "The",
+                    "student",
+                    "does",
+                    "homework",
+                    "diligently"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "오늘 수업이 아주 재미있어요.",
+                  "audioTarget": "오늘 수업이 아주 재미있어요.",
+                  "tokens": [
+                    "with",
+                    "colleague",
+                    "class",
+                    "Todays",
+                    "very",
+                    "works",
+                    "interesting",
+                    "is"
+                  ],
+                  "answer": [
+                    "Todays",
+                    "class",
+                    "is",
+                    "very",
+                    "interesting"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u8-l1-e8",
+                  "sentence": "학생이___열심히해요.",
+                  "translation": "The student does homework diligently.",
+                  "audioTarget": "학생이 숙제를 열심히 해요.",
+                  "options": [
+                    "숙제를",
+                    "수업",
+                    "선생님",
+                    "회사"
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u8-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "학교",
+                      "native": "the school"
+                    },
+                    {
+                      "target": "회사",
+                      "native": "the company"
+                    },
+                    {
+                      "target": "사무실",
+                      "native": "the office"
+                    },
+                    {
+                      "target": "수업",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "동료",
+                      "native": "the colleague"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u8-l1-e10",
+                  "mode": "translate",
+                  "prompt": "오늘 수업이 아주 재미있어요.",
+                  "audioTarget": "오늘 수업이 아주 재미있어요.",
+                  "answer": "Today's class is very interesting.",
+                  "alternatives": [
+                    "oneul sueobi aju jaemiisseoyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u8-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "병원",
+                  "audioTarget": "병원",
+                  "options": [
+                    {
+                      "text": "the office",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the colleague",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "수업",
+                  "audioTarget": "수업",
+                  "options": [
+                    {
+                      "text": "the class",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "the desk",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the company",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "숙제",
+                  "audioTarget": "숙제",
+                  "options": [
+                    {
+                      "text": "the class",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "the desk",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the homework",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hospital",
+                  "audioTarget": "병원",
+                  "options": [
+                    {
+                      "text": "숙제",
+                      "emoji": "📝"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "선생님",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "책상",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the class",
+                  "audioTarget": "수업",
+                  "options": [
+                    {
+                      "text": "동료",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "수업",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "회사",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "의사",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "숙제",
+                  "options": [
+                    {
+                      "text": "의사"
+                    },
+                    {
+                      "text": "숙제"
+                    },
+                    {
+                      "text": "회사"
+                    },
+                    {
+                      "text": "사무실"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "저는 사무실에서 일해요.",
+                  "audioTarget": "저는 사무실에서 일해요.",
+                  "tokens": [
+                    "hospital",
+                    "right",
+                    "in",
+                    "I",
+                    "the",
+                    "work",
+                    "office",
+                    "go"
+                  ],
+                  "answer": [
+                    "I",
+                    "work",
+                    "in",
+                    "the",
+                    "office"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "동료와 함께 일해요.",
+                  "audioTarget": "동료와 함께 일해요.",
+                  "tokens": [
+                    "with",
+                    "student",
+                    "my",
+                    "together",
+                    "tomorrow",
+                    "work",
+                    "hospital",
+                    "I",
+                    "colleague"
+                  ],
+                  "answer": [
+                    "I",
+                    "work",
+                    "together",
+                    "with",
+                    "my",
+                    "colleague"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u8-l2-e8",
+                  "sentence": "___사무실에서일해요.",
+                  "translation": "I work in the office.",
+                  "audioTarget": "저는 사무실에서 일해요.",
+                  "options": [
+                    "책상",
+                    "저는",
+                    "숙제",
+                    "학생"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u8-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "병원",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "수업",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "숙제",
+                      "native": "the homework"
+                    },
+                    {
+                      "target": "학생",
+                      "native": "the student"
+                    },
+                    {
+                      "target": "일",
+                      "native": "the work"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u8-l2-e10",
+                  "mode": "translate",
+                  "prompt": "동료와 함께 일해요.",
+                  "audioTarget": "동료와 함께 일해요.",
+                  "answer": "I work together with my colleague.",
+                  "alternatives": [
+                    "dongnyowa hamkke ilhaeyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u8-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "일",
+                  "audioTarget": "일",
+                  "options": [
+                    {
+                      "text": "the work",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the student",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "the class",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "the colleague",
+                      "emoji": "🤝"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "책상",
+                  "audioTarget": "책상",
+                  "options": [
+                    {
+                      "text": "the colleague",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "the work",
+                      "emoji": "💻"
+                    },
+                    {
+                      "text": "the desk",
+                      "emoji": "🪑"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "동료",
+                  "audioTarget": "동료",
+                  "options": [
+                    {
+                      "text": "the company",
+                      "emoji": "🏢"
+                    },
+                    {
+                      "text": "the colleague",
+                      "emoji": "🤝"
+                    },
+                    {
+                      "text": "the school",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the work",
+                  "audioTarget": "일",
+                  "options": [
+                    {
+                      "text": "선생님",
+                      "emoji": "👨‍🏫"
+                    },
+                    {
+                      "text": "학생",
+                      "emoji": "🧑‍🎓"
+                    },
+                    {
+                      "text": "수업",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "일",
+                      "emoji": "💻"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the desk",
+                  "audioTarget": "책상",
+                  "options": [
+                    {
+                      "text": "학교",
+                      "emoji": "🏫"
+                    },
+                    {
+                      "text": "수업",
+                      "emoji": "📚"
+                    },
+                    {
+                      "text": "사무실",
+                      "emoji": "💼"
+                    },
+                    {
+                      "text": "책상",
+                      "emoji": "🪑"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u8-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "일",
+                  "options": [
+                    {
+                      "text": "선생님"
+                    },
+                    {
+                      "text": "수업"
+                    },
+                    {
+                      "text": "병원"
+                    },
+                    {
+                      "text": "일"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "책상 위에 책이 있어요.",
+                  "audioTarget": "책상 위에 책이 있어요.",
+                  "tokens": [
+                    "the",
+                    "We",
+                    "desk",
+                    "I",
+                    "works",
+                    "on",
+                    "is",
+                    "book",
+                    "There",
+                    "a"
+                  ],
+                  "answer": [
+                    "There",
+                    "is",
+                    "a",
+                    "book",
+                    "on",
+                    "the",
+                    "desk"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u8-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "내일 학교에 일찍 가요.",
+                  "audioTarget": "내일 학교에 일찍 가요.",
+                  "tokens": [
+                    "at",
+                    "now",
+                    "go",
+                    "tomorrow",
+                    "to",
+                    "I",
+                    "am",
+                    "early",
+                    "school"
+                  ],
+                  "answer": [
+                    "I",
+                    "go",
+                    "to",
+                    "school",
+                    "early",
+                    "tomorrow"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u8-l3-e8",
+                  "sentence": "___위에책이있어요.",
+                  "translation": "There is a book on the desk.",
+                  "audioTarget": "책상 위에 책이 있어요.",
+                  "options": [
+                    "숙제",
+                    "책상",
+                    "사무실",
+                    "수업"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u8-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "일",
+                      "native": "the work"
+                    },
+                    {
+                      "target": "책상",
+                      "native": "the desk"
+                    },
+                    {
+                      "target": "동료",
+                      "native": "the colleague"
+                    },
+                    {
+                      "target": "수업",
+                      "native": "the class"
+                    },
+                    {
+                      "target": "학교",
+                      "native": "the school"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u8-l3-e10",
+                  "mode": "translate",
+                  "prompt": "내일 학교에 일찍 가요.",
+                  "audioTarget": "내일 학교에 일찍 가요.",
+                  "answer": "I go to school early tomorrow.",
+                  "alternatives": [
+                    "naeil hakgyoe iljjik gayo."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-en:unit-10",
+          "title": "Health",
+          "description": "Talk about body parts, express symptoms, and navigate visits to the doctor or pharmacy.",
+          "guidebook": "### Talking About Symptoms\n\nTo say that a body part hurts, attach the subject particle **-이/가** to the body part followed by **아파요** (hurts/is sick):\n* **머리가 아파요.** (My head hurts / I have a headache.)\n* **배가 아파요.** (My stomach hurts.)\n\n### Taking Medicine in Korean\nIn English, we say \"take medicine,\" but in Korean, you literally *eat* medicine using the verb **먹다**:\n* **약을 먹어요.** (I take medicine.)\n\n### Catching a Cold\nTo express that you have caught an illness like a cold, use the idiom **감기에 걸리다**:\n* **감기에 걸렸어요.** (I caught a cold.)\n\nWhen resting, Koreans often say **푹 쉬세요** (Please rest well).",
+          "words": [
+            {
+              "target": "머리",
+              "native": "the head",
+              "emoji": "🗣️",
+              "romanization": "meori"
+            },
+            {
+              "target": "손",
+              "native": "the hand",
+              "emoji": "✋",
+              "romanization": "son"
+            },
+            {
+              "target": "눈",
+              "native": "the eye",
+              "emoji": "👁️",
+              "romanization": "nun"
+            },
+            {
+              "target": "배",
+              "native": "the stomach",
+              "emoji": "🤰",
+              "romanization": "bae"
+            },
+            {
+              "target": "몸",
+              "native": "the body",
+              "emoji": "🧍",
+              "romanization": "mom"
+            },
+            {
+              "target": "약",
+              "native": "the medicine",
+              "emoji": "💊",
+              "romanization": "yak"
+            },
+            {
+              "target": "병원",
+              "native": "the hospital",
+              "emoji": "🏥",
+              "romanization": "byeongwon"
+            },
+            {
+              "target": "약국",
+              "native": "the pharmacy",
+              "emoji": "🏪",
+              "romanization": "yakguk"
+            },
+            {
+              "target": "의사",
+              "native": "the doctor",
+              "emoji": "👨‍⚕️",
+              "romanization": "uisa"
+            },
+            {
+              "target": "감기",
+              "native": "the cold",
+              "emoji": "🤧",
+              "romanization": "gamgi"
+            },
+            {
+              "target": "아프다",
+              "native": "to be sick",
+              "emoji": "🤒",
+              "romanization": "apeuda"
+            },
+            {
+              "target": "피곤하다",
+              "native": "to be tired",
+              "emoji": "🥱",
+              "romanization": "pigonhada"
+            }
+          ],
+          "lessons": [
+            {
+              "id": "ko-en:u9-l0",
+              "title": "Lesson 1",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l0-e0",
+                  "mode": "targetToNative",
+                  "prompt": "머리",
+                  "audioTarget": "머리",
+                  "options": [
+                    {
+                      "text": "the stomach",
+                      "emoji": "🤰"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "the head",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l0-e1",
+                  "mode": "targetToNative",
+                  "prompt": "손",
+                  "audioTarget": "손",
+                  "options": [
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "the pharmacy",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🤰"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l0-e2",
+                  "mode": "targetToNative",
+                  "prompt": "눈",
+                  "audioTarget": "눈",
+                  "options": [
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🤰"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l0-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the head",
+                  "audioTarget": "머리",
+                  "options": [
+                    {
+                      "text": "머리",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "눈",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "의사",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l0-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hand",
+                  "audioTarget": "손",
+                  "options": [
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "의사",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "손",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "몸",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l0-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "머리",
+                  "options": [
+                    {
+                      "text": "머리"
+                    },
+                    {
+                      "text": "눈"
+                    },
+                    {
+                      "text": "약국"
+                    },
+                    {
+                      "text": "의사"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l0-e6",
+                  "direction": "targetToNative",
+                  "prompt": "머리가 너무 아파요.",
+                  "audioTarget": "머리가 너무 아파요.",
+                  "tokens": [
+                    "to",
+                    "hands",
+                    "head",
+                    "My",
+                    "eyes",
+                    "a",
+                    "hurts",
+                    "lot"
+                  ],
+                  "answer": [
+                    "My",
+                    "head",
+                    "hurts",
+                    "a",
+                    "lot"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l0-e7",
+                  "direction": "targetToNative",
+                  "prompt": "손을 깨끗이 씻어요.",
+                  "audioTarget": "손을 깨끗이 씻어요.",
+                  "tokens": [
+                    "rest",
+                    "went",
+                    "medicine",
+                    "hands",
+                    "cleanly",
+                    "your",
+                    "Wash"
+                  ],
+                  "answer": [
+                    "Wash",
+                    "your",
+                    "hands",
+                    "cleanly"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u9-l0-e8",
+                  "sentence": "머리가너무___.",
+                  "translation": "My head hurts a lot.",
+                  "audioTarget": "머리가 너무 아파요.",
+                  "options": [
+                    "피곤하다",
+                    "아파요",
+                    "약",
+                    "몸"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u9-l0-e9",
+                  "pairs": [
+                    {
+                      "target": "머리",
+                      "native": "the head"
+                    },
+                    {
+                      "target": "손",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "눈",
+                      "native": "the eye"
+                    },
+                    {
+                      "target": "약국",
+                      "native": "the pharmacy"
+                    },
+                    {
+                      "target": "병원",
+                      "native": "the hospital"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u9-l0-e10",
+                  "mode": "translate",
+                  "prompt": "손을 깨끗이 씻어요.",
+                  "audioTarget": "손을 깨끗이 씻어요.",
+                  "answer": "Wash your hands cleanly.",
+                  "alternatives": [
+                    "Soneul kkaekkeusi ssiseoyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u9-l1",
+              "title": "Lesson 2",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l1-e0",
+                  "mode": "targetToNative",
+                  "prompt": "배",
+                  "audioTarget": "배",
+                  "options": [
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "the stomach",
+                      "emoji": "🤰"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l1-e1",
+                  "mode": "targetToNative",
+                  "prompt": "몸",
+                  "audioTarget": "몸",
+                  "options": [
+                    {
+                      "text": "the stomach",
+                      "emoji": "🤰"
+                    },
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "to be sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l1-e2",
+                  "mode": "targetToNative",
+                  "prompt": "약",
+                  "audioTarget": "약",
+                  "options": [
+                    {
+                      "text": "to be sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    },
+                    {
+                      "text": "the hand",
+                      "emoji": "✋"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l1-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the stomach",
+                  "audioTarget": "배",
+                  "options": [
+                    {
+                      "text": "배",
+                      "emoji": "🤰"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "피곤하다",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "아프다",
+                      "emoji": "🤒"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l1-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the body",
+                  "audioTarget": "몸",
+                  "options": [
+                    {
+                      "text": "배",
+                      "emoji": "🤰"
+                    },
+                    {
+                      "text": "손",
+                      "emoji": "✋"
+                    },
+                    {
+                      "text": "눈",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "몸",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l1-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "몸",
+                  "options": [
+                    {
+                      "text": "눈"
+                    },
+                    {
+                      "text": "몸"
+                    },
+                    {
+                      "text": "의사"
+                    },
+                    {
+                      "text": "머리"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l1-e6",
+                  "direction": "targetToNative",
+                  "prompt": "오늘은 몸이 피곤해요.",
+                  "audioTarget": "오늘은 몸이 피곤해요.",
+                  "tokens": [
+                    "stomach",
+                    "is",
+                    "tired",
+                    "home",
+                    "hospital",
+                    "today",
+                    "My",
+                    "body"
+                  ],
+                  "answer": [
+                    "My",
+                    "body",
+                    "is",
+                    "tired",
+                    "today"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l1-e7",
+                  "direction": "targetToNative",
+                  "prompt": "감기에 걸려서 병원에 가요.",
+                  "audioTarget": "감기에 걸려서 병원에 가요.",
+                  "tokens": [
+                    "hospital",
+                    "the",
+                    "so",
+                    "cold",
+                    "a",
+                    "caught",
+                    "rest",
+                    "I",
+                    "hands",
+                    "to",
+                    "cleanly",
+                    "go",
+                    "I"
+                  ],
+                  "answer": [
+                    "I",
+                    "caught",
+                    "a",
+                    "cold",
+                    "so",
+                    "I",
+                    "go",
+                    "to",
+                    "the",
+                    "hospital"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u9-l1-e8",
+                  "sentence": "오늘은몸이___.",
+                  "translation": "My body is tired today.",
+                  "audioTarget": "오늘은 몸이 피곤해요.",
+                  "options": [
+                    "피곤하다",
+                    "몸",
+                    "의사",
+                    "피곤해요"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u9-l1-e9",
+                  "pairs": [
+                    {
+                      "target": "배",
+                      "native": "the stomach"
+                    },
+                    {
+                      "target": "몸",
+                      "native": "the body"
+                    },
+                    {
+                      "target": "약",
+                      "native": "the medicine"
+                    },
+                    {
+                      "target": "피곤하다",
+                      "native": "to be tired"
+                    },
+                    {
+                      "target": "감기",
+                      "native": "the cold"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u9-l1-e10",
+                  "mode": "translate",
+                  "prompt": "감기에 걸려서 병원에 가요.",
+                  "audioTarget": "감기에 걸려서 병원에 가요.",
+                  "answer": "I caught a cold, so I go to the hospital.",
+                  "alternatives": [
+                    "Gamgie geollyeoseo byeongwone gayo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u9-l2",
+              "title": "Lesson 3",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l2-e0",
+                  "mode": "targetToNative",
+                  "prompt": "병원",
+                  "audioTarget": "병원",
+                  "options": [
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l2-e1",
+                  "mode": "targetToNative",
+                  "prompt": "약국",
+                  "audioTarget": "약국",
+                  "options": [
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "to be sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the pharmacy",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "to be tired",
+                      "emoji": "🥱"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l2-e2",
+                  "mode": "targetToNative",
+                  "prompt": "의사",
+                  "audioTarget": "의사",
+                  "options": [
+                    {
+                      "text": "the pharmacy",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "to be tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "to be sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l2-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the hospital",
+                  "audioTarget": "병원",
+                  "options": [
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "의사",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "눈",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "약",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l2-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "the pharmacy",
+                  "audioTarget": "약국",
+                  "options": [
+                    {
+                      "text": "머리",
+                      "emoji": "🗣️"
+                    },
+                    {
+                      "text": "병원",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "피곤하다",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "약국",
+                      "emoji": "🏪"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l2-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "의사",
+                  "options": [
+                    {
+                      "text": "머리"
+                    },
+                    {
+                      "text": "병원"
+                    },
+                    {
+                      "text": "아프다"
+                    },
+                    {
+                      "text": "의사"
+                    }
+                  ],
+                  "correct": 3
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l2-e6",
+                  "direction": "targetToNative",
+                  "prompt": "밥을 먹고 약을 드세요.",
+                  "audioTarget": "밥을 먹고 약을 드세요.",
+                  "tokens": [
+                    "Please",
+                    "take",
+                    "today",
+                    "medicine",
+                    "cold",
+                    "went",
+                    "eating",
+                    "after"
+                  ],
+                  "answer": [
+                    "Please",
+                    "take",
+                    "medicine",
+                    "after",
+                    "eating"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l2-e7",
+                  "direction": "targetToNative",
+                  "prompt": "배가 아파서 약국에 갔어요.",
+                  "audioTarget": "배가 아파서 약국에 갔어요.",
+                  "tokens": [
+                    "My",
+                    "the",
+                    "caught",
+                    "pharmacy",
+                    "of",
+                    "so",
+                    "hurt",
+                    "went",
+                    "medicine",
+                    "to",
+                    "I",
+                    "stomach"
+                  ],
+                  "answer": [
+                    "My",
+                    "stomach",
+                    "hurt",
+                    "so",
+                    "I",
+                    "went",
+                    "to",
+                    "the",
+                    "pharmacy"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u9-l2-e8",
+                  "sentence": "___먹고약을드세요.",
+                  "translation": "Please take medicine after eating.",
+                  "audioTarget": "밥을 먹고 약을 드세요.",
+                  "options": [
+                    "피곤하다",
+                    "눈",
+                    "밥을",
+                    "손"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u9-l2-e9",
+                  "pairs": [
+                    {
+                      "target": "병원",
+                      "native": "the hospital"
+                    },
+                    {
+                      "target": "약국",
+                      "native": "the pharmacy"
+                    },
+                    {
+                      "target": "의사",
+                      "native": "the doctor"
+                    },
+                    {
+                      "target": "약",
+                      "native": "the medicine"
+                    },
+                    {
+                      "target": "몸",
+                      "native": "the body"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u9-l2-e10",
+                  "mode": "translate",
+                  "prompt": "배가 아파서 약국에 갔어요.",
+                  "audioTarget": "배가 아파서 약국에 갔어요.",
+                  "answer": "My stomach hurt, so I went to the pharmacy.",
+                  "alternatives": [
+                    "Baega apaseo yakguge gasseoyo."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ko-en:u9-l3",
+              "title": "Lesson 4",
+              "exercises": [
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l3-e0",
+                  "mode": "targetToNative",
+                  "prompt": "감기",
+                  "audioTarget": "감기",
+                  "options": [
+                    {
+                      "text": "to be sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l3-e1",
+                  "mode": "targetToNative",
+                  "prompt": "아프다",
+                  "audioTarget": "아프다",
+                  "options": [
+                    {
+                      "text": "the eye",
+                      "emoji": "👁️"
+                    },
+                    {
+                      "text": "to be sick",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "the hospital",
+                      "emoji": "🏥"
+                    },
+                    {
+                      "text": "the body",
+                      "emoji": "🧍"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l3-e2",
+                  "mode": "targetToNative",
+                  "prompt": "피곤하다",
+                  "audioTarget": "피곤하다",
+                  "options": [
+                    {
+                      "text": "the doctor",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "to be tired",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "the medicine",
+                      "emoji": "💊"
+                    },
+                    {
+                      "text": "the cold",
+                      "emoji": "🤧"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l3-e3",
+                  "mode": "nativeToTarget",
+                  "prompt": "the cold",
+                  "audioTarget": "감기",
+                  "options": [
+                    {
+                      "text": "감기",
+                      "emoji": "🤧"
+                    },
+                    {
+                      "text": "피곤하다",
+                      "emoji": "🥱"
+                    },
+                    {
+                      "text": "아프다",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "머리",
+                      "emoji": "🗣️"
+                    }
+                  ],
+                  "correct": 0
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l3-e4",
+                  "mode": "nativeToTarget",
+                  "prompt": "to be sick",
+                  "audioTarget": "아프다",
+                  "options": [
+                    {
+                      "text": "약국",
+                      "emoji": "🏪"
+                    },
+                    {
+                      "text": "아프다",
+                      "emoji": "🤒"
+                    },
+                    {
+                      "text": "의사",
+                      "emoji": "👨‍⚕️"
+                    },
+                    {
+                      "text": "약",
+                      "emoji": "💊"
+                    }
+                  ],
+                  "correct": 1
+                },
+                {
+                  "type": "select",
+                  "id": "ko-en:u9-l3-e5",
+                  "mode": "listen",
+                  "prompt": "Tap what you hear",
+                  "audioTarget": "감기",
+                  "options": [
+                    {
+                      "text": "눈"
+                    },
+                    {
+                      "text": "몸"
+                    },
+                    {
+                      "text": "감기"
+                    },
+                    {
+                      "text": "아프다"
+                    }
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l3-e6",
+                  "direction": "targetToNative",
+                  "prompt": "의사 선생님을 만나요.",
+                  "audioTarget": "의사 선생님을 만나요.",
+                  "tokens": [
+                    "I",
+                    "the",
+                    "doctor",
+                    "see",
+                    "head",
+                    "cleanly",
+                    "caught"
+                  ],
+                  "answer": [
+                    "I",
+                    "see",
+                    "the",
+                    "doctor"
+                  ]
+                },
+                {
+                  "type": "wordBank",
+                  "id": "ko-en:u9-l3-e7",
+                  "direction": "targetToNative",
+                  "prompt": "눈이 조금 아파요.",
+                  "audioTarget": "눈이 조금 아파요.",
+                  "tokens": [
+                    "went",
+                    "My",
+                    "tired",
+                    "eyes",
+                    "little",
+                    "a",
+                    "hurt",
+                    "well"
+                  ],
+                  "answer": [
+                    "My",
+                    "eyes",
+                    "hurt",
+                    "a",
+                    "little"
+                  ]
+                },
+                {
+                  "type": "fillBlank",
+                  "id": "ko-en:u9-l3-e8",
+                  "sentence": "___선생님을만나요.",
+                  "translation": "I see the doctor.",
+                  "audioTarget": "의사 선생님을 만나요.",
+                  "options": [
+                    "배",
+                    "약",
+                    "의사",
+                    "피곤하다"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "type": "match",
+                  "id": "ko-en:u9-l3-e9",
+                  "pairs": [
+                    {
+                      "target": "감기",
+                      "native": "the cold"
+                    },
+                    {
+                      "target": "아프다",
+                      "native": "to be sick"
+                    },
+                    {
+                      "target": "피곤하다",
+                      "native": "to be tired"
+                    },
+                    {
+                      "target": "손",
+                      "native": "the hand"
+                    },
+                    {
+                      "target": "눈",
+                      "native": "the eye"
+                    }
+                  ]
+                },
+                {
+                  "type": "typeAnswer",
+                  "id": "ko-en:u9-l3-e10",
+                  "mode": "translate",
+                  "prompt": "눈이 조금 아파요.",
+                  "audioTarget": "눈이 조금 아파요.",
+                  "answer": "My eyes hurt a little.",
+                  "alternatives": [
+                    "Nuni jogeum apayo."
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
