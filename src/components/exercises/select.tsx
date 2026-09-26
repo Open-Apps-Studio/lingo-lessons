@@ -49,11 +49,17 @@ export function Select({
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.title} maxFontSizeMultiplier={1.3}>
+        {title}
+      </Text>
 
       <View style={styles.promptRow}>
         {exercise.audioTarget ? <SpeakerButton text={exercise.audioTarget} /> : null}
-        {!isListen ? <Text style={styles.prompt}>{exercise.prompt}</Text> : null}
+        {!isListen ? (
+          <Text style={styles.prompt} maxFontSizeMultiplier={1.3}>
+            {exercise.prompt}
+          </Text>
+        ) : null}
       </View>
 
       <View style={[styles.options, hasEmoji && styles.grid]}>

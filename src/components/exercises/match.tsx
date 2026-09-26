@@ -100,7 +100,9 @@ export function Match({ exercise, onComplete, onWordResult }: MatchProps) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tap the matching pairs</Text>
+      <Text style={styles.title} maxFontSizeMultiplier={1.3}>
+        Tap the matching pairs
+      </Text>
       <View style={styles.columns}>
         <View style={styles.column}>
           {left.map((target) => (

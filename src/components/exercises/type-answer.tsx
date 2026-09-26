@@ -34,13 +34,17 @@ export function TypeAnswer({
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>
+      <Text style={styles.title} maxFontSizeMultiplier={1.3}>
         {isListen ? `Type what you hear (${targetLanguage})` : "Write this in English"}
       </Text>
 
       <View style={styles.promptRow}>
         {exercise.audioTarget ? <SpeakerButton text={exercise.audioTarget} /> : null}
-        {!isListen ? <Text style={styles.prompt}>{exercise.prompt}</Text> : null}
+        {!isListen ? (
+          <Text style={styles.prompt} maxFontSizeMultiplier={1.3}>
+            {exercise.prompt}
+          </Text>
+        ) : null}
       </View>
 
       <TextInput
@@ -49,6 +53,7 @@ export function TypeAnswer({
         editable={status === "none"}
         placeholder={isListen ? `Type in ${targetLanguage}` : "Type in English"}
         placeholderTextColor={colors.neutral400}
+        accessibilityLabel={isListen ? `Type in ${targetLanguage}` : "Type in English"}
         autoCapitalize="none"
         autoCorrect={false}
         keyboardAppearance={scheme}

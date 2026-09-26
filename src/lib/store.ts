@@ -74,14 +74,14 @@ type ProgressState = {
 
 function bumpDailyXp(state: ProgressState, amount: number) {
   const today = dayString(new Date());
-  const dailyXpDay = state.dailyXpDay === today ? state.dailyXpDay : today;
-  const dailyXp = dailyXpDay === today ? state.dailyXp + amount : amount;
-  return { dailyXp, dailyXpDay };
+  const isSameDay = state.dailyXpDay === today;
+  const dailyXp = isSameDay ? state.dailyXp + amount : amount;
+  return { dailyXp, dailyXpDay: today };
 }
 
 function pruneDays(days: Record<string, DayActivity>) {
-  const keys = Object.keys(days).sort();
-  if (keys.length <= DAY_HISTORY_LIMIT) return days;
+  const keys = Object.keys(days ?? {}).sort();
+  if (keys.length <= DAY_HISTORY_LIMIT) return days ?? {};
   const keep = new Set(keys.slice(-DAY_HISTORY_LIMIT));
   return Object.fromEntries(Object.entries(days).filter(([k]) => keep.has(k)));
 }
@@ -91,8 +91,9 @@ function updateCourse(
   courseId: string,
   fn: (c: CourseProgress) => CourseProgress
 ): Partial<ProgressState> {
-  const prev = state.courses[courseId] ?? emptyCourseProgress();
-  return { courses: { ...state.courses, [courseId]: fn(prev) } };
+  const courses = state.courses ?? {};
+  const prev = courses[courseId] ?? emptyCourseProgress();
+  return { courses: { ...courses, [courseId]: fn(prev) } };
 }
 
 export const useProgress = create<ProgressState>()(
@@ -109,7 +110,7 @@ export const useProgress = create<ProgressState>()(
       courses: {},
       activeDays: {},
 
-      course: () => get().courses[get().activeCourseId] ?? emptyCourseProgress(),
+      course: () => (get().courses ?? {})[get().activeCourseId] ?? emptyCourseProgress(),
 
       completeLesson: (lessonId, perfect) =>
         set((state) => {
@@ -123,9 +124,10 @@ export const useProgress = create<ProgressState>()(
                 : 1;
           const earned = XP_PER_LESSON + (perfect ? XP_PERFECT_BONUS : 0);
           const daily = bumpDailyXp(state, earned);
-          const prevDay = state.activeDays[today] ?? { xp: 0, lessons: 0, perfect: 0 };
+          const days = state.activeDays ?? {};
+          const prevDay = days[today] ?? { xp: 0, lessons: 0, perfect: 0 };
           const activeDays = pruneDays({
-            ...state.activeDays,
+            ...days,
             [today]: {
               xp: prevDay.xp + earned,
               lessons: prevDay.lessons + 1,
@@ -211,7 +213,13 @@ export const useProgress = create<ProgressState>()(
       storage: createJSONStorage(() => AsyncStorage),
       migrate: (persisted: unknown) => {
         const old = persisted as Record<string, unknown>;
-        if (old.courses) return persisted as ProgressState;
+        if (old.courses) {
+          return {
+            activeDays: {},
+            themePreference: "system" as ThemePreference,
+            ...old,
+          } as ProgressState;
+        }
         // Migrate v1 flat progress → per-course.
         const legacy = old as {
           xp?: number;
@@ -228,6 +236,8 @@ export const useProgress = create<ProgressState>()(
           dailyXp: old.dailyXp ?? 0,
           dailyXpDay: old.dailyXpDay ?? null,
           onboardingDone: old.onboardingDone ?? false,
+          themePreference: (old.themePreference as ThemePreference) ?? "system",
+          activeDays: (old.activeDays as Record<string, DayActivity>) ?? {},
           courses: {
             [DEFAULT_COURSE]: {
               xp: legacy.xp ?? 0,
@@ -244,8 +254,8 @@ export const useProgress = create<ProgressState>()(
 );
 
 export function currentLessonIndex(
-  completed: Record<string, true>,
-  lessonIds: string[]
+  completed: Record<string, true> = {},
+  lessonIds: string[] = []
 ) {
   const firstIncomplete = lessonIds.findIndex((id) => !completed[id]);
   return firstIncomplete === -1 ? lessonIds.length : firstIncomplete;
@@ -280,7 +290,7 @@ export function todayActivity(
   state: Pick<ProgressState, "activeDays">
 ): DayActivity {
   return (
-    state.activeDays[dayString(new Date())] ?? { xp: 0, lessons: 0, perfect: 0 }
+    (state.activeDays ?? {})[dayString(new Date())] ?? { xp: 0, lessons: 0, perfect: 0 }
   );
 }
 
@@ -315,21 +325,22 @@ export function dailyQuests(
 export function lastSevenDays(state: Pick<ProgressState, "activeDays">) {
   const out: { day: string; weekday: string; active: boolean; isToday: boolean }[] = [];
   const now = new Date();
+  const days = state.activeDays ?? {};
   for (let i = 6; i >= 0; i--) {
     const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
     const day = dayString(date);
     out.push({
       day,
       weekday: ["S", "M", "T", "W", "T", "F", "S"][date.getDay()],
-      active: (state.activeDays[day]?.lessons ?? 0) > 0,
+      active: (days[day]?.lessons ?? 0) > 0,
       isToday: i === 0,
     });
   }
   return out;
 }
 
-export function dueSrsWords(srs: Record<string, SrsEntry>, now = Date.now()) {
-  return Object.entries(srs)
+export function dueSrsWords(srs: Record<string, SrsEntry> = {}, now = Date.now()) {
+  return Object.entries(srs ?? {})
     .filter(([, entry]) => isDue(entry, now))
     .map(([target]) => target);
 }

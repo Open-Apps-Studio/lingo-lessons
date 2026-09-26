@@ -7,11 +7,14 @@ import { Flag } from "@/components/flag";
 import { exitScreen } from "@/lib/navigation";
 import { orderedCourses } from "@/lib/content";
 import { useProgress } from "@/lib/store";
-import { makeThemedStyles, radius } from "@/lib/theme";
+import { makeThemedStyles, radius, useResolvedScheme, useThemeColors } from "@/lib/theme";
 
 export default function CoursesScreen() {
+  const colors = useThemeColors();
+  const scheme = useResolvedScheme();
   const styles = useStyles();
   const { activeCourseId, setActiveCourse, courses } = useProgress();
+  const activeGreen = scheme === "dark" ? colors.green : colors.greenDark;
 
   return (
     <SafeAreaView style={styles.screen} edges={["top", "left", "right"]}>
@@ -56,10 +59,17 @@ export default function CoursesScreen() {
                   {course.targetLanguage}
                 </Text>
                 <Text style={styles.meta} maxFontSizeMultiplier={1.3}>
-                  {lessonsDone}/{course.lessonCount} lessons · {course.unitCount} units
+                  {Math.min(lessonsDone, course.lessonCount)}/{course.lessonCount} lessons · {course.unitCount} units
                 </Text>
               </View>
-              {active ? <Text style={styles.activeBadge}>Active</Text> : null}
+              {active ? (
+                <Text
+                  style={[styles.activeBadge, { color: activeGreen }]}
+                  maxFontSizeMultiplier={1.2}
+                >
+                  Active
+                </Text>
+              ) : null}
             </Pressable>
           );
         })}

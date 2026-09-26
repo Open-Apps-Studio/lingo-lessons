@@ -16,14 +16,17 @@ type FillBlankProps = {
 export function ensureBlank(sentence: string, correctOption?: string): string {
   if (sentence.includes("___")) return sentence;
   if (!correctOption) return sentence;
-  const cleanOption = correctOption.replace(/[.,!?¿¡;:"'、。！？]/g, "").toLowerCase();
+  const cleanOption = correctOption
+    .replace(/[.,!?¿¡;:"'’‘“”`、。！？]/g, "")
+    .toLowerCase();
   const words = sentence.split(/\s+/);
   const idx = words.findIndex(
-    (w) => w.replace(/[.,!?¿¡;:"'、。！？]/g, "").toLowerCase() === cleanOption
+    (w) =>
+      w.replace(/[.,!?¿¡;:"'’‘“”`、。！？]/g, "").toLowerCase() === cleanOption
   );
   if (idx !== -1) {
     const token = words[idx];
-    const trailingPunct = token.match(/[.,!?¿¡;:"'、。！？]+$/)?.[0] ?? "";
+    const trailingPunct = token.match(/[.,!?¿¡;:"'’‘“”`、。！？]+$/)?.[0] ?? "";
     words[idx] = `___${trailingPunct}`;
     return words.join(" ");
   }
@@ -47,9 +50,19 @@ export function FillBlank({ exercise, answer, onAnswer, status }: FillBlankProps
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Complete the sentence</Text>
-      <Text style={styles.sentence}>{filled}</Text>
-      <Text style={styles.translation}>{exercise.translation}</Text>
+      <Text style={styles.title} maxFontSizeMultiplier={1.3}>
+        Complete the sentence
+      </Text>
+      <Text
+        style={styles.sentence}
+        accessibilityLabel={filled.replace("___", "blank")}
+        maxFontSizeMultiplier={1.3}
+      >
+        {filled}
+      </Text>
+      <Text style={styles.translation} maxFontSizeMultiplier={1.3}>
+        {exercise.translation}
+      </Text>
 
       <View style={styles.options}>
         {exercise.options.map((option, index) => (

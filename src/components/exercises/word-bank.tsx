@@ -31,11 +31,15 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Translate this sentence</Text>
+      <Text style={styles.title} maxFontSizeMultiplier={1.3}>
+        Translate this sentence
+      </Text>
 
       <View style={styles.promptRow}>
         {exercise.audioTarget ? <SpeakerButton text={exercise.audioTarget} /> : null}
-        <Text style={styles.prompt}>{exercise.prompt}</Text>
+        <Text style={styles.prompt} maxFontSizeMultiplier={1.3}>
+          {exercise.prompt}
+        </Text>
       </View>
 
       <View
@@ -49,6 +53,7 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
           <Chip
             key={tokenIndex}
             label={exercise.tokens[tokenIndex]}
+            hint="Tap to remove from answer"
             onPress={() => unpick(tokenIndex)}
           />
         ))}
@@ -62,7 +67,12 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
               <Text style={[styles.chipText, { color: "transparent" }]}>{token}</Text>
             </View>
           ) : (
-            <Chip key={index} label={token} onPress={() => pick(index)} />
+            <Chip
+              key={index}
+              label={token}
+              hint="Tap to add to answer"
+              onPress={() => pick(index)}
+            />
           );
         })}
       </View>
@@ -70,7 +80,15 @@ export function WordBank({ exercise, answer, onAnswer, status }: WordBankProps) 
   );
 }
 
-function Chip({ label, onPress }: { label: string; onPress: () => void }) {
+function Chip({
+  label,
+  hint,
+  onPress,
+}: {
+  label: string;
+  hint?: string;
+  onPress: () => void;
+}) {
   const styles = useStyles();
   return (
     <Pressable
@@ -80,6 +98,7 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
       }}
       accessibilityRole="button"
       accessibilityLabel={label}
+      accessibilityHint={hint}
       style={({ pressed }) => [styles.chip, { borderBottomWidth: pressed ? 2 : 4 }]}
     >
       <Text style={styles.chipText} maxFontSizeMultiplier={1.3}>

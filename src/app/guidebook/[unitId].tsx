@@ -12,6 +12,7 @@ import { makeThemedStyles, radius } from "@/lib/theme";
 
 function GuidebookText({ markdown }: { markdown: string }) {
   const styles = useStyles();
+  if (!markdown) return null;
   return (
     <View style={{ gap: 10 }}>
       {markdown.split("\n").map((line, i) => {
@@ -23,7 +24,11 @@ function GuidebookText({ markdown }: { markdown: string }) {
           .replace(/^[*-]\s+/, "•  ")
           .replace(/\*+/g, "");
         return (
-          <Text key={i} style={isHeading ? styles.heading : styles.paragraph}>
+          <Text
+            key={i}
+            style={isHeading ? styles.heading : styles.paragraph}
+            maxFontSizeMultiplier={1.3}
+          >
             {clean}
           </Text>
         );
@@ -72,15 +77,19 @@ export default function GuidebookScreen() {
       </View>
 
       <ScrollView contentContainerStyle={styles.body}>
-        <Text style={styles.description}>{unit.description}</Text>
+        <Text style={styles.description} maxFontSizeMultiplier={1.3}>
+          {unit.description}
+        </Text>
         <GuidebookText markdown={unit.guidebook} />
 
-        <Text style={styles.heading}>Key words</Text>
+        <Text style={styles.heading} maxFontSizeMultiplier={1.3}>
+          Key words
+        </Text>
         <View style={{ gap: 8 }}>
           {unit.words.map((word, i) => (
             <View key={`${word.target}-${i}`} style={styles.wordRow}>
               <SpeakerButton text={word.target} size={36} />
-              <Text style={styles.wordText}>
+              <Text style={styles.wordText} maxFontSizeMultiplier={1.3}>
                 {word.emoji} {word.target} — {word.native}
               </Text>
             </View>

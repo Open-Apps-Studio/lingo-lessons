@@ -20,7 +20,7 @@ export function SpeakerButton({
     <Pressable
       onPress={() => speakTarget(courseId, text)}
       accessibilityRole="button"
-      accessibilityLabel="Play audio"
+      accessibilityLabel={text ? `Play pronunciation for ${text}` : "Play audio"}
       style={({ pressed }) => [
         styles.button,
         { width: size, height: size, opacity: pressed ? 0.7 : 1 },

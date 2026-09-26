@@ -55,7 +55,10 @@ function normalize(text: string) {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/['’‘`]/g, "'")
+    .replace(/["“”]/g, '"')
     .replace(/[.,!?¿¡;:"'、。！？]/g, "")
+    .replace(/[-–—]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -74,7 +77,9 @@ function checkAnswer(exercise: Exercise, answer: Answer): boolean {
       if (typeof answer !== "string") return false;
       const attempt = normalize(answer);
       return [exercise.answer, ...exercise.alternatives].some(
-        (a) => normalize(a) === attempt
+        (a) =>
+          normalize(a) === attempt ||
+          normalize(a.replace(/\s*\([^)]*\)/g, "")) === attempt
       );
     }
     case "match":
@@ -131,15 +136,17 @@ export default function LessonScreen() {
     return dueWords.slice(0, 10).flatMap((target) => {
       const word = getWord(target);
       if (!word) return [];
-      const distractors = pool
-        .filter((w) => w.target !== target && w.native !== word.native)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3)
-        .map((w) => ({ text: w.native }));
-      const unindexedOptions = [{ text: word.native, emoji: word.emoji }, ...distractors].slice(
-        0,
-        4
-      );
+      const seenNatives = new Set<string>([word.native]);
+      const distractors: { text: string }[] = [];
+      const shuffled = [...pool].sort(() => Math.random() - 0.5);
+      for (const w of shuffled) {
+        if (w.target !== target && !seenNatives.has(w.native)) {
+          seenNatives.add(w.native);
+          distractors.push({ text: w.native });
+          if (distractors.length >= 3) break;
+        }
+      }
+      const unindexedOptions = [{ text: word.native, emoji: word.emoji }, ...distractors];
       const options = [...unindexedOptions];
       for (let i = options.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -195,6 +202,7 @@ export default function LessonScreen() {
   // on any other word is its introduction and gets a NEW WORD badge (only the
   // first time it appears in the lesson).
   const newWordIndexes = useMemo(() => {
+    if (isPractice) return new Set<number>();
     const seen = new Set(Object.keys(useProgress.getState().course().wordStats ?? {}));
     const out = new Set<number>();
     exercises.forEach((e, i) => {
@@ -205,7 +213,7 @@ export default function LessonScreen() {
     });
     return out;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [exercises]);
+  }, [exercises, isPractice]);
 
   const [queue, setQueue] = useState<Exercise[]>(exercises);
   const [index, setIndex] = useState(0);
@@ -322,7 +330,7 @@ export default function LessonScreen() {
       haptics.success();
       setStatus("correct");
       setCorrectCount((c) => c + 1);
-      progress.clearMistake(exercise.id);
+      if (isMistakes) progress.clearMistake(exercise.id);
       if (exercise.type === "select" && exercise.audioTarget) {
         if (isSrs) progress.reviewSrsWord(exercise.audioTarget, true);
         else progress.recordWord(exercise.audioTarget, true);
@@ -359,7 +367,12 @@ export default function LessonScreen() {
       >
         <View style={styles.header}>
           <CloseButton />
-          <View style={styles.progressTrack}>
+          <View
+            style={styles.progressTrack}
+            accessibilityRole="progressbar"
+            accessibilityValue={{ min: 0, max: 100, now: Math.round(percentage) }}
+            accessibilityLabel="Lesson progress"
+          >
             <Animated.View style={[styles.progressFill, progressBarStyle]}>
               <View style={styles.progressShine} />
             </Animated.View>
@@ -381,7 +394,7 @@ export default function LessonScreen() {
               <Ionicons name="refresh" size={14} color={colors.orange} />
               <Text style={[styles.badgeText, { color: colors.orange }]}>PREVIOUS MISTAKE</Text>
             </View>
-          ) : newWordIndexes.has(index) && !isSrs ? (
+          ) : newWordIndexes.has(index) && !isPractice ? (
             <View style={[styles.badge, { backgroundColor: colors.indigo + "22" }]}>
               <Ionicons name="sparkles" size={14} color={colors.indigo} />
               <Text style={[styles.badgeText, { color: colors.indigo }]}>NEW WORD</Text>
@@ -418,7 +431,7 @@ export default function LessonScreen() {
                   setQueue((q) => [...q, exercise]);
                 } else {
                   sfx.playCorrect();
-                  progress.clearMistake(exercise.id);
+                  if (isMistakes) progress.clearMistake(exercise.id);
                   setCorrectCount((c) => c + 1);
                 }
                 setStatus("none");
@@ -480,7 +493,7 @@ export default function LessonScreen() {
             <Pressable
               accessibilityRole="link"
               accessibilityLabel="Report a problem with this exercise"
-              hitSlop={8}
+              hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
               onPress={() => Linking.openURL(reportUrl(activeCourseId, exercise)).catch(() => {})}
               style={styles.reportLink}
             >
@@ -552,11 +565,18 @@ function ResultCard({
   return (
     <View style={[styles.resultCard, { borderColor: color }]}>
       <View style={[styles.resultCardHeader, { backgroundColor: color }]}>
-        <Text style={styles.resultCardLabel}>{label}</Text>
+        <Text style={styles.resultCardLabel} maxFontSizeMultiplier={1.3}>
+          {label}
+        </Text>
       </View>
       <View style={styles.resultCardBody}>
         {icon}
-        <Text style={[styles.resultCardValue, { color }]}>{value}</Text>
+        <Text
+          style={[styles.resultCardValue, { color }]}
+          maxFontSizeMultiplier={1.3}
+        >
+          {value}
+        </Text>
       </View>
     </View>
   );

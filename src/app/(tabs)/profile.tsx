@@ -105,10 +105,13 @@ export default function ProfileScreen() {
               {pack.targetLanguage}
             </Text>
             <View style={styles.switchRow}>
-              <Text style={styles.switch} maxFontSizeMultiplier={1.3}>
+              <Text
+                style={[styles.switch, { color: activeGreen }]}
+                maxFontSizeMultiplier={1.3}
+              >
                 Switch
               </Text>
-              <Ionicons name="chevron-down" size={12} color={colors.green} />
+              <Ionicons name="chevron-down" size={12} color={activeGreen} />
             </View>
           </Pressable>
         </View>
@@ -128,7 +131,12 @@ export default function ProfileScreen() {
           </View>
           <View style={styles.weekRow}>
             {week.map((d) => (
-              <View key={d.day} style={styles.weekDay}>
+              <View
+                key={d.day}
+                style={styles.weekDay}
+                accessible={true}
+                accessibilityLabel={`${d.weekday}, ${d.isToday ? "today, " : ""}${d.active ? "completed" : "not completed"}`}
+              >
                 <Text style={styles.weekLabel} maxFontSizeMultiplier={1.2}>
                   {d.weekday}
                 </Text>
@@ -150,7 +158,12 @@ export default function ProfileScreen() {
 
         <View style={styles.grid}>
           {stats.map((stat) => (
-            <View key={stat.label} style={styles.statCard}>
+            <View
+              key={stat.label}
+              style={styles.statCard}
+              accessible={true}
+              accessibilityLabel={`${stat.label}: ${stat.value}`}
+            >
               {stat.icon}
               <Text style={styles.statValue} maxFontSizeMultiplier={1.3}>
                 {stat.value}

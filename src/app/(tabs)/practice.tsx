@@ -53,7 +53,9 @@ export default function PracticeScreen() {
               size={24}
               color={colors.amber}
             />
-            <Text style={styles.cardTitle}>Daily quests</Text>
+            <Text style={styles.cardTitle} maxFontSizeMultiplier={1.3}>
+              Daily quests
+            </Text>
           </View>
           {quests.map((quest) => (
             <QuestRow key={quest.id} quest={quest} />
@@ -63,9 +65,11 @@ export default function PracticeScreen() {
         <View style={styles.card}>
           <View style={styles.cardHeader}>
             <MaterialCommunityIcons name="brain" size={24} color={colors.indigo} />
-            <Text style={styles.cardTitle}>Spaced review</Text>
+            <Text style={styles.cardTitle} maxFontSizeMultiplier={1.3}>
+              Spaced review
+            </Text>
           </View>
-          <Text style={styles.cardSubtitle}>
+          <Text style={styles.cardSubtitle} maxFontSizeMultiplier={1.3}>
             {dueWords.length === 0
               ? "No words due right now. Keep learning!"
               : `${dueWords.length} word${dueWords.length === 1 ? "" : "s"} ready to review.`}
@@ -81,9 +85,11 @@ export default function PracticeScreen() {
         <View style={styles.card}>
           <View style={styles.cardHeader}>
             <Ionicons name="bandage" size={24} color={colors.rose} />
-            <Text style={styles.cardTitle}>Mistakes</Text>
+            <Text style={styles.cardTitle} maxFontSizeMultiplier={1.3}>
+              Mistakes
+            </Text>
           </View>
-          <Text style={styles.cardSubtitle}>
+          <Text style={styles.cardSubtitle} maxFontSizeMultiplier={1.3}>
             {courseProgress.mistakes.length === 0
               ? "No mistakes to review. Nice!"
               : `${courseProgress.mistakes.length} exercise${courseProgress.mistakes.length === 1 ? "" : "s"} to fix.`}
@@ -183,7 +189,13 @@ function QuestRow({ quest }: { quest: Quest }) {
               quest.done && { backgroundColor: colors.green },
             ]}
           />
-          <Text style={styles.questCount} maxFontSizeMultiplier={1.1}>
+          <Text
+            style={[
+              styles.questCount,
+              (pct >= 50 || quest.done) && { color: "#131f24" },
+            ]}
+            maxFontSizeMultiplier={1.1}
+          >
             {quest.value}/{quest.target}
           </Text>
         </View>
